@@ -183,8 +183,12 @@ class Sentiment(object):
         log.info('Shape of dataset{}'.format(df.shape))
 
         counter = 0
+        n_docs = df.shape[0] * len(lexicons)
         for row_index, row in df.iterrows():
-            doc = dp.remove_numbers(row.Document).lower()
+            try:
+                doc = dp.remove_numbers(row.Document).lower()
+            except Exception as ex:
+                log.info('Error in remove numers: {}'.format(str(ex)))
             for lex_name, lexicon in lexicons.iteritems():
                 sent_val = 0
                 for gram, sent_value in lexicon.iteritems():
@@ -197,7 +201,7 @@ class Sentiment(object):
                 pred[lex_name].update({row_index: self.sent_norm(sent_val)})
                 # log for each 5000 reviews calculated
                 if not counter % 5000:
-                    log.info('Documents executed: {}'.format(counter))
+                    log.info('Documents executed: {}/{}'.format(counter, n_docs))
                 counter += 1
 
         for lex_names in lexicons.keys():
@@ -217,8 +221,7 @@ class Sentiment(object):
         # self.results['sentiment-counting-time'] = (temp_t, datetime.now())
         # d.df_save(df=df, f_name=dataset_name, file_type='csv')
         evaluation = Evaluation()
-        res, classes = evaluation.evaluate_lexicons(
-            df=df, classifiers_to_evaluate=lexicons.keys())
+        res, classes = evaluation.evaluate_lexicons(df=df, classifiers_to_evaluate=lexicons.keys())
 
         self.results.update(res)
         self.lexicon_predictions.update(pred)
@@ -506,6 +509,7 @@ class Sentiment(object):
 
         if isinstance(dataset, pd.DataFrame):
             source = 'dataframe'
+            log.info('Data source: {}'.format(source))
             # df = dataset.ix[kfolds_indexes[0][0] + kfolds_indexes[0][1]]
             df = dataset
 
@@ -606,7 +610,7 @@ class Sentiment(object):
             predictions = self.sentiment_classification(
                 X=X_train, y=y_train, X_test=X_test, y_test=y_test,
                 n_folds=n_folds, classifiers=classifiers,
-                kfolds_indexes=kfolds_indexes)
+                kfolds_indexes=kfolds_indexes, cv_normal=False)
         else:
             predictions = self.sentiment_classification(
                 X=X, y=y, n_folds=n_folds, classifiers=classifiers,
@@ -639,7 +643,7 @@ class Sentiment(object):
         :type kfolds_indexes: list or unknown
         :param save_clf: True if you want to save each classifier
         :param cv_normal: boolean if True we do not provide the Cross Validation
-            folds for experimenty and it should be drawn randomly
+            folds for experiment and it should be drawn randomly
         :return: dictionary with predicted values for each classifier
         """
         if n_folds > 1:
@@ -678,7 +682,7 @@ class Sentiment(object):
             # counter for folds in CV
             kf_count = 0
             # log and saving results
-            log.info('Cross Validation for %s' % clf_name)
+            log.info('Cross Validation for %s has been started' % clf_name)
             self.results['CV-time'][clf_name] = {}
 
             # ################## BEGIN OF CV ##################################
@@ -701,13 +705,16 @@ class Sentiment(object):
                 t_temp = datetime.now()
 
                 # ################# MODEL FITTING #############################
-                clf = classifier.fit(X_train, y_train)
+                # try:
+                clf = classifier.fit(X_train.toarray(), y_train)
+                # except TypeError:
+                #     raise TypeError('Feature space should be dense for {}'.format(clf_name))
                 self.results['CV-time'][clf_name][kf_count] = (t_temp,
                                                                datetime.now())
                 log.info('fold %s end time %s'
                          '' % (kf_count, datetime.now()))
 
-                if save_clf or clf_name in ['DecisionTreeClassifier']:
+                if save_clf:
                     f_n = '%s-fold-%s' % (clf_name, kf_count)
                     classifier_to_pickle(dataset=self.dataset_name,
                                          f_name=f_n, obj=clf)
@@ -721,12 +728,13 @@ class Sentiment(object):
                     # graph.write_pdf(path.join(RESULTS_PATH, f_n))
 
                 # prediction for train set
-                predicted_train = clf.predict(X_train)
+                log.debug('X_train: {}'.format(X_train.shape))
+                predicted_train = clf.predict(X_train.toarray())
                 temp_train = dict(itertools.izip(train_index, predicted_train))
                 pred_train_temp.update(temp_train)
 
                 # #################### PREDICTION #############################
-                predicted = clf.predict(X_test)
+                predicted = clf.predict(X_test.toarray())
                 log.info('Predicted for #%s CV and %s' % (kf_count, clf_name))
                 temp = dict(itertools.izip(test_index, predicted))
                 pred_temp.update(temp)
