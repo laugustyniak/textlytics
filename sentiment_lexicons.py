@@ -2,23 +2,18 @@
 __author__ = 'Lukasz Augustyniak'
 
 import multiprocessing
-import memory_profiler
+# import memory_profiler
 import logging
 import pickle
 import sys
 from os.path import join, basename, exists
 from os import makedirs
 from glob import glob
-from datetime import datetime
-import time
-from pprint import pprint
 import pandas as pd
 from textlytics.processing.sentiment.document_preprocessing import \
     DocumentPreprocessor
-from textlytics.processing.sentiment.io_sentiment import results_to_pickle, to_pickle
+from textlytics.processing.sentiment.io_sentiment import to_pickle
 from textlytics.processing.sentiment.sentiment import Sentiment
-from textlytics.processing.sentiment.lexicons import SentimentLexicons
-from textlytics.utils import LEXICONS_PATH
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
@@ -31,126 +26,68 @@ ch.setFormatter(formatter)
 log.addHandler(ch)
 
 
-@memory_profiler.profile
-def lexicons_amazon(base_path='/home/engine/csv/', dataset_filter='',
-                    lexicons=None, n_reviews=2000, train=False,
-                    norm_freq=False):
-    # ############################# LEXICONS ##################################
-    results = {}
-
-    # manually created lexicons
-    lexicons_files = [
-        'AFINN-96.txt',
-        'AFINN-111.txt',
-        'Bing-Liu.txt',
-        'enchantedlearning.com.txt',
-        'past_future_list.txt',
-        'past_future_list_plus.txt',
-        'simple_list.txt',
-        'simple_list_plus.txt',
-        'simplest.txt'
-    ]
-
-    # auto generated lexicons - frequentiment based
-    cat_lex_paths = glob(join(LEXICONS_PATH, '*.csv'))
-    if norm_freq:
-        cat_lex_names = [basename(x) for x in cat_lex_paths]
-    else:
-        cat_lex_names = [basename(x) for x in cat_lex_paths if
-                         'normalized' not in x]
-
-    # get all datasets and cv
-    train_test_path = join(base_path, 'train_test_subsets')
-    datasets = glob(join(base_path, '*%s*.txt.gz.csv' % dataset_filter))
-    print 'Datasets:'
-    pprint(datasets)
-
-    for dataset in datasets:
-        print dataset
-        lexicons_frequentiment = []
-        dataset_file_name = basename(dataset)
-        dataset_name = dataset_file_name.split('.')[0]
-        log.info('Dataset name: %s' % dataset_name)
-        dp = DocumentPreprocessor()
-        df = pd.DataFrame.from_csv(dataset, sep=';', index_col=False)
-        df, _ = dp.star_score_to_sentiment(df,
-                                           score_column='review/score')
-        # extract only Document and Sentiment columns
-        df['Document'] = df['review/text']
-        df = df[['Document', 'Sentiment']]
-
-        # get lexicons only for specific category of chosen dataset
-        # add them to list of all lexicons in experiment
-        for cl in cat_lex_names:
-            if cl.split('-')[1] in dataset_name.lower():
-                lexicons_frequentiment.append(cl)
-
-        try:
-            # load train/test sets folds
-            f_path = join(train_test_path, 'train-test-%s-%s.pkl' % (
-                n_reviews, dataset_file_name))
-            with open(f_path, 'rb') as f:
-                train_test_indexes = pickle.load(f)
-                log.info('Pickle has been loaded, %s' % f_path)
-
-            # results = []
-            results[dataset_name] = []
-            for index, cv in enumerate(train_test_indexes[:1]):
-                print index, datetime.now()
-                lexicons = [x for x in lexicons_frequentiment if
-                            'cv-%s' % index in x]
-                lexicons.extend(lexicons_files)
-                pprint(lexicons)
-                log.info('%s fold from cv has been started!' % index)
-                print '%sth fold %s' % (index, datetime.now())
-                # start computations
-                if train:
-                    ind = cv[0]
-                    f_n = 'train-%s-fold-%s' % (dataset_name, index)
-                else:
-                    ind = cv[1]
-                    f_n = 'test-%s-fold-%s' % (dataset_name, index)
-                s = Sentiment()
-                df_lex, lexicon_prediction, lexicon_result, classes = \
-                    s.lexicon_based_sentiment_simplified(
-                        dataset=df.ix[ind],
-                        lexs_files=lexicons,
-                        words_stem=False,
-                        dataset_name=f_n)
-                results[dataset_name].append(lexicon_result)
-        except IOError as err:
-            log.error('%s not loaded' % dataset_name)
-            raise IOError(str(err))
-    pprint(results)
-    results_to_pickle(dataset='', f_name='all-lex-train', obj=results)
-
-
 def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
                                  lexs_names=None, n_reviews=2000, train=False,
                                  norm_freq=False, lex_path=None, f_name='',
                                  n_cv=10, stars=None,
-                                 frequentiment_lexicons='',
+                                 frequentiment_lexicons_path='',
                                  output_folder=None,
                                  evaluate=True):
     """
-    Counting sentiment analysis tasks for lexicon-based approach.
-    :param datasets_path: path to the datasets directory, it must contain
-        folder /train_test_subsets with cross-validation information - data
+    Counting sentiment analysis tasks with lexicon for Amazon Dataset with
+    predefined Cross-Validation split.
+
+    Parameters
+    ----------
+    frequentiment_lexicons_path : str
+        Path to frequentiment lexicons (csv files with comma as separator).
+
+    datasets_path: str
+        Path to the datasets directory, it must contain
+        folder/train_test_subsets with cross-validation information - data
         frame indexes for each fold. Datasets are in csv files - converted from
         Web Amazon dataset structure.
-    :param dataset_filter: list of substring for choosing datasets
-    :param lexs_names: list of path/file names for lexicons loading
-    :param n_reviews: number of reviews from each star score
-    :param train: if True you are counting sentiment for train subsets,
-        otherwise counting sentiment for testing subsets
-    :param norm_freq: tuple, i.e., (-1, 1) fot threshold cutting, lower than
+
+    dataset_filter : list
+        List of substring for choosing datasets.
+
+    lexs_names : list
+        List of path/file names for lexicons loading.
+
+    n_reviews: int
+        number of reviews from each star score. 2000 by default.
+
+    train : bool
+        If True you are counting sentiment for train subsets,
+        otherwise counting sentiment for testing subsets. Default equal to False.
+
+    norm_freq : tuple with floats
+        Tuple, i.e., (-1, 1) fot threshold cutting, lower than
         first value of tuples will be negative, between -1 and 1 will be neutral
-        more than 1 will be positive
-    :param lex_path: path to the directory with lexicon's files
-    :param f_name: additional part of output files name (results, predictions)
-    :param n_cv: number of Cross-Validation's folds to performed
-    :param stars: star scores that will be used in experiment, as default all
-    :return: nothing, all necessary files will be saved
+        more than 1 will be positive.
+
+    lex_path: str
+        Path to the directory with lexicon's files.
+
+    f_name : str
+        Additional part of output files name (results, predictions).
+
+    n_cv : int
+        Number of Cross-Validation's folds to performed. Default equal to 10.
+
+    stars : list
+        Star scores that will be used in experiment, as default all.
+
+    output_folder : str
+        Path where we want to save our results.
+
+    evaluate : bool
+        If true the metrics for analysis will be counted, otherwise only
+        prediction will be saved. Default is True.
+
+    Returns
+    ----------
+        Nothing, all necessary files will be saved automatically.
     """
     results = {}
     predictions = {}
@@ -176,14 +113,16 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
         datasets = glob(join(datasets_path, '*.txt.gz.csv'))
     log.debug('Datasets to process: {}'.format(datasets))
 
-    if frequentiment_lexicons:
+    if frequentiment_lexicons_path:
         log.debug(
-            'Freq lexs path: {}'.format(join(frequentiment_lexicons, '*.csv')))
-        freq_lexs = glob(join(frequentiment_lexicons, '*.csv'))
+            'Freq lexs path: {}'.format(join(frequentiment_lexicons_path, '*.csv')))
+        freq_lexs = glob(join(frequentiment_lexicons_path, '*.csv'))
     else:
         freq_lexs = []
 
     for dataset in datasets:
+
+        # load Amazon data
         dataset_file_name = basename(dataset)
         dataset_name = dataset_file_name.split('.')[0]
         log.info('Dataset name: %s' % dataset_name)
@@ -207,6 +146,7 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
             results[dataset_name] = []
             predictions[dataset_name] = []
 
+            # iterate over all cross-valiadation subsets
             for cv_idx, cv in enumerate(train_test_indexes[:n_cv]):
                 log.info('Start for {}: CV: {}/{} '.format(dataset_name, cv_idx + 1, n_cv))
                 freq_lexs_ = [basename(x) for x in freq_lexs if '{}-{}'.format(dataset_name, cv_idx) in x]
@@ -247,19 +187,11 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
             log.error('%s not loaded' % dataset_name)
             raise IOError(str(err))
 
-    # saving predictions and results
-    # logging.info(results)
-
     to_pickle(p=output_folder, dataset='', f_name='Results', obj=results)
     to_pickle(p=output_folder, dataset='', f_name='Predictions', obj=predictions)
-    # results_to_pickle(dataset='',
-    #                   f_name='Results-%s' % f_name,
-    #                   obj=results)
-    # results_to_pickle(dataset='',
-    #                   f_name='Predictions-%s' % f_name,
-    #                   obj=predictions)
 
 
+# ############################# exemplary run ##############################
 # manually created lexicons
 lexicons_files = [
     'AFINN-96.txt',
@@ -286,6 +218,14 @@ lexicons_files = [
 
 
 def run_multi(d):
+    """
+    Wrapper for executing the analysis using multiprocessing scheme.
+
+    Parameters
+    ----------
+    d : list
+        list of domain names for analysis
+    """
     sentiment_lexicons_amazon_cv(lexs_names=lexicons_files,
                                  lex_path='/home/engine/cn-data/lexicons/',
                                  # lex_path='C:/GitHub/cn-data/lexicons/',
@@ -301,7 +241,7 @@ def run_multi(d):
                                  n_cv=10,
                                  # stars=[1, 3, 5]
                                  stars=[1, 5],
-                                 frequentiment_lexicons='/datasets/amazon-data/csv/lexicons/',
+                                 frequentiment_lexicons_path='/datasets/amazon-data/csv/lexicons/',
                                  # output_folder='/datasets/amazon-data/csv/acl-train-data-continuous',
                                  output_folder='/datasets/amazon-data/csv/acl-test-data-continuous',
                                  evaluate=False,
