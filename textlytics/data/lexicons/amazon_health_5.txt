@@ -1,0 +1,10 @@
+butter,1
+excellent,1
+perfect,1
+rarely,1
+cleans,1
+refund,-1
+waste,-1
+cherry,-1
+trash,-1
+threw,-1

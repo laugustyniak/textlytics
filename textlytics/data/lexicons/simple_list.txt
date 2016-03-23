@@ -1,0 +1,11 @@
+good,1
+awesome,1
+great,1
+fantastic,1
+wonderful,1
+bad,-1
+terrible,-1
+worst,-1
+sucks,-1
+awful,-1
+dumb,-1

@@ -1,0 +1,10 @@
+nicely,1
+mileage,1
+great,1
+helps,1
+best,1
+waste,-1
+refund,-1
+contacted,-1
+junk,-1
+wasted,-1

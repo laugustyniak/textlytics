@@ -1,0 +1,10 @@
+courage,1
+relevant,1
+outstanding,1
+hooked,1
+economic,1
+waste,-1
+trash,-1
+poorly,-1
+wasted,-1
+worst,-1

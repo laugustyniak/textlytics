@@ -1,0 +1,10 @@
+shines,1
+finest,1
+watches,1
+pleased,1
+tunes,1
+garbage,-1
+waste,-1
+trash,-1
+worst,-1
+redeeming,-1

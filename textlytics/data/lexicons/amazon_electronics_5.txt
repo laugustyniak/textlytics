@@ -1,0 +1,10 @@
+plenty,1
+worried,1
+happier,1
+amazed,1
+ease,1
+junk,-1
+garbage,-1
+waste,-1
+refund,-1
+refused,-1
