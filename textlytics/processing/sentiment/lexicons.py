@@ -2,7 +2,6 @@
 __author__ = 'Lukasz Augustyniak'
 
 import logging
-import sys
 from os import path
 from dircache import listdir
 from stemming import porter2 as stemming
@@ -12,10 +11,10 @@ from ...utils import LEXICONS_PATH
 #                     format='%(asctime)s - lexicons.py - %(levelname)s - %('
 #                            'message)s')
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+# logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
-
+Ś
 class SentimentLexicons(object):
     """Structure of lexicons:
 
@@ -60,17 +59,42 @@ class SentimentLexicons(object):
     def load_lexicons(self, lex_files=None, lex_path=None, sep=',',
                       stemmed=False):
         """
+        Load lexicons by names from provided directory.
+
         Example usage:
             lex_files=['AFINN-111.txt', 'AFINN-96.txt',
             'amazon_automotive_25.txt', 'amazon_automotive_5.txt',
             'amazon_books_25.txt', 'amazon_books_5.txt']
 
         Loading lexicons based on list of their names.
-        :param stemmed: do we want to word stems or word exactly like they were
-        expressed in lexicons.
-        :param lexicon_files: lexicon names list
-        :return: dictionary of lexicons
 
+        Parameters
+        ----------
+        stemmed : bool
+            Do we want to word stems or word exactly like they were expressed
+            in lexicons. False by defaul.
+
+        lex_files : list of strings
+            Lexicon names list, remember that they should be in provided
+            lexicon directory.
+
+        lex_path : str
+            Directory where lexicon's files are stored. If it will not be set,
+            default LEXICON_PATH in package will be used
+            /textlytics/data/lexicons.
+
+        sep : str
+            Separator for splitting the ngrams and sentiment orientation in
+             lexicon files. Comma ',' by default.
+
+        Returns
+        ----------
+        lexicons : dict
+            The dictionary of dictionaries' lexicons. The keys are names of the
+               lexicons and the values are lexicon dicts - nested dict.
+
+        Example usage
+        ----------
         >>> sl.load_lexicons(lex_files=['amazon_automotive_25'])
         {}
         >>> sl.load_lexicons()['amazon_automotive_25']['love']
@@ -102,15 +126,6 @@ class SentimentLexicons(object):
                         else:
                             lexi_word = stemming.stem(word)
                         lexicon[lexi_word] = sent
-                        # lexicon = {str(lexicon_name): dict(
-                        # map(lambda (k, v): (stemming.stem(k.decode('utf-8')),
-                        # int(v)),
-                        # [line.split(
-                        # sep) for
-                        # line in
-                        # open(os.path.join(
-                        # _LEXICONS_PATH,
-                        # lexicon_file))]))}
                 else:
                     lexicon = {str(lexicon_name): dict(
                         map(lambda (k, v): (k.decode('utf-8'), float(v)),
@@ -118,44 +133,49 @@ class SentimentLexicons(object):
                                 lexicon_file=lexicon_file,
                                 sep=sep,
                                 lex_path=lex_path)))}
-                    # df = pd.read_csv(path.join(LEXICONS_PATH, lexicon_file),
-                    # sep=';', names=['Document', 'Sentiment'],
-                    # index_col=False)
-                    # lex = dict(zip(df.Document, df.Sentiment.astype(float)))
-                    # lexicon = {lexicon_file: lex}
                 logging.info(
                     'Lexicon {lexicon_name} has been loaded! Stemming={stem}'
                     ''.format(lexicon_name=lexicon_name, stem=stemmed))
             except IOError as ex:
-                logging.error(str(ex))
                 raise IOError(str(ex))
-
             lexicons.update(lexicon)
-
         return lexicons
 
-    def line_split_with_check(self, lexicon_file, lex_path=None, sep=None):
+    @staticmethod
+    def line_split_with_check(lexicon_file, lex_path=None, sep=None):
         """
         Split lines for file with lexicon and IMPORTANT
         skip lines without any text (common error with last empty line)
-        :param lexicon_file: path to lexicon
-        :param lex_path: path to the lexicon's directory
-        :param sep: separator between sentiment word and value
-        :return: dictionary with sentiment lexicon
-        """
-        return [line.split(sep) for line in
-                open(path.join(lex_path, lexicon_file)) if line != '']
 
-    def get_all_lexicons_from_directory(self, lexicons_path):
+        Parameters
+        ----------
+        lexicon_file : str
+            Path to lexicon.
+
+        lex_path : str
+            Path to the lexicon's directory.
+
+        sep : str
+            Separator between sentiment word and value.
+
+        Returns
+        ----------
+            Dictionary with sentiment lexicon.
+        """
+        return [line.split(sep) for line in open(path.join(lex_path, lexicon_file))
+                if line != '' and ',sentiment' not in line]
+
+    @staticmethod
+    def get_all_lexicons_from_directory(lexicons_path):
         """ Getting list of lexicon file names from chosen directory
-        :param lexicons_path:
-        :return:
+
+        Parameters
+        ----------
+        lexicons_path : str
+            Path to the lexicon's directory.
+
+        Returns
+        ----------
+            List of lexicon files paths.
         """
         return listdir(lexicons_path)
-
-
-        # if __name__ == "__main__":
-        #     import doctest
-        #
-        #     doctest.testmod(
-        #         extraglobs={'sl': SentimentLexicons(lex_path=LEXICONS_PATH)})
