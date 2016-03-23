@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 from numba import jit
 from datetime import datetime
+import time
 from itertools import chain
 from os import path
 from numpy import sum
@@ -27,7 +28,7 @@ from document_preprocessing import DocumentPreprocessor
 from evaluation import Evaluation
 from lexicons import SentimentLexicons
 from io_sentiment import Dataset, classifier_to_pickle, results_to_pickle
-from ...utils import LEXICONS_PATH, AMAZON_PATH, CLASSIFIERS_PATH, RESULTS_PATH
+from ...utils import LEXICONS_PATH, AMAZON_PATH, CLASSIFIERS_PATH, RESULTS_PATH, W2V_MODELS_PATH
 
 try:
     import cPickle as pickle
@@ -162,7 +163,8 @@ class Sentiment(object):
     # @profile
     def lexicon_based_sentiment_simplified(self, dataset=None, lexs_files=None,
                                            lex_path=None, words_stem=True,
-                                           dataset_name=''):
+                                           dataset_name='',
+                                           evaluate=True):
         start = datetime.now()  # starting time
         log.info('Start {start_time}'.format(start_time=start))
         sent_lex = SentimentLexicons(stemmed=words_stem,
@@ -183,12 +185,12 @@ class Sentiment(object):
         log.info('Shape of dataset{}'.format(df.shape))
 
         counter = 0
-        n_docs = df.shape[0] * len(lexicons)
+        n_docs = df.shape[0]
         for row_index, row in df.iterrows():
             try:
                 doc = dp.remove_numbers(row.Document).lower()
             except Exception as ex:
-                log.info('Error in remove numers: {}'.format(str(ex)))
+                log.debug('Error {} in remove numbers for: {}'.format(str(ex), doc))
             for lex_name, lexicon in lexicons.iteritems():
                 sent_val = 0
                 for gram, sent_value in lexicon.iteritems():
@@ -198,11 +200,12 @@ class Sentiment(object):
                 #              'and document text: {}\n  '
                 #              'with sentiment value {}'
                 #              .format(lex_name, counter, doc, sent_val))
+                # TODO: zmienione na ciągłe !!!!
                 pred[lex_name].update({row_index: self.sent_norm(sent_val)})
-                # log for each 5000 reviews calculated
-                if not counter % 5000:
-                    log.info('Documents executed: {}/{}'.format(counter, n_docs))
-                counter += 1
+                # pred[lex_name].update({row_index: sent_val})
+            if not counter % 1000:
+                log.debug('Documents executed: {}/{}'.format(counter, n_docs))
+            counter += 1
 
         for lex_names in lexicons.keys():
             df_ = pd.DataFrame.from_dict(pred[lex_names], orient='index')
@@ -210,20 +213,23 @@ class Sentiment(object):
             df = pd.merge(df, df_, right_index=True, left_index=True,
                           how='left')
 
-        df.to_excel(
-            path.join(RESULTS_PATH, 'predictions-%s.xls' % dataset_name))
-        df.to_pickle(
-            path.join(RESULTS_PATH, 'predictions-%s.pkl' % dataset_name))
+        df.to_excel(path.join(RESULTS_PATH, 'predictions-%s-%s.xls' % (dataset_name, time.strftime("%Y-%m-%d_%H-%M-%S"))))
+        df.to_pickle(path.join(RESULTS_PATH, 'predictions-%s-%s.pkl' % (dataset_name, time.strftime("%Y-%m-%d_%H-%M-%S"))))
 
         # temp_t = datetime.now()
         # df = s.sentiment_lexicon_threading(
         # df=df, lexicons=lexicons, n_jobs=n_jobs)
         # self.results['sentiment-counting-time'] = (temp_t, datetime.now())
         # d.df_save(df=df, f_name=dataset_name, file_type='csv')
-        evaluation = Evaluation()
-        res, classes = evaluation.evaluate_lexicons(df=df, classifiers_to_evaluate=lexicons.keys())
+        if evaluate:
+            evaluation = Evaluation()
+            res, classes = evaluation.evaluate_lexicons(df=df, classifiers_to_evaluate=lexicons.keys())
+            # TODO test nowe zapisu wyników leksykony
+            self.results.update(res)
+            # self.results['measures'].u
+        else:
+            classes = None
 
-        self.results.update(res)
         self.lexicon_predictions.update(pred)
         print self.results
         self.results['flow-time'] = (start, datetime.now())
@@ -335,20 +341,20 @@ class Sentiment(object):
         1
         """
         sentiment_document_value = 0
-        document = ' '.join(document_tokens)
+        # document = ' '.join(document_tokens)
         # for token in document_tokens:
         for key, value in lexicon.iteritems():
             try:
                 # if re.search(r'/\b%s\b/' % key, document, re.IGNORECASE):
-                if key in document:
+                if key in document_tokens:
                     sentiment_document_value += value
             except UnicodeDecodeError as err:
                 log.error(
                     '{err} Token: {token} and lexicon word {key}'
-                    ''.format(ex=str(err), token=document, key=key))
+                    ''.format(ex=str(err), token=document_tokens, key=key))
                 raise UnicodeDecodeError(
                     '{err} Token: {token} and lexicon word {key}'
-                    ''.format(ex=str(err), token=document, key=key))
+                    ''.format(ex=str(err), token=document_tokens, key=key))
                 # except:
                 # log.error('Key: %s\n Value: %s' % (key, value))
         return sentiment_document_value
@@ -468,9 +474,10 @@ class Sentiment(object):
                              max_features=None, tokenizer=None,
                              f_name_results=None, vectorizer=None,
                              kfolds_indexes=None, dataset_name='',
-                             model=None, size=None):
+                             model=None, w2v_size=None):
         """
         Counting the sentiment orientation with supervised learning approach.
+        Please use Data Frame with Document and Sentiment columns.
 
         :type dataset: str file name
         :type worksheet_name: str
@@ -546,6 +553,10 @@ class Sentiment(object):
             df = d.load_semeval_2013_sentiment(dataset)
         elif source in ['semeval2014']:
             df = d.load_semeval_2014_sentiment()
+        # TODO: zrobić ładowanie dla Stanford Dataset
+        elif source in ['stanford-treebank']:
+            # df = d.load_semeval_2014_sentiment()
+            pass
 
         # stats of dataset
         sent_dist = df['Sentiment'].value_counts()
@@ -567,6 +578,8 @@ class Sentiment(object):
                                             min_df=min_df,
                                             max_features=max_features,
                                             tokenizer=tokenizer)
+            X = doc_count_vec.fit_transform(docs)
+            self.results['feature-names'] = doc_count_vec.get_feature_names()
         elif vectorizer in ['CountVectorizer']:
             doc_count_vec = CountVectorizer(ngram_range=n_gram_range,
                                             lowercase=lowercase,
@@ -575,16 +588,17 @@ class Sentiment(object):
                                             min_df=min_df,
                                             max_features=max_features,
                                             tokenizer=tokenizer)
-        elif vectorizer.lower() in ['word-2-vec']:
-            doc_count_vec = self.build_word2vec(docs, model, size)
+            X = doc_count_vec.fit_transform(docs)
+            self.results['feature-names'] = doc_count_vec.get_feature_names()
+        elif vectorizer.lower() in ['word-2-vec', 'doc-2-vec']:
+            # TODO: load model if it's already counted
+            # if path.exists()
+            X = self.build_word2vec(docs, model, w2v_size)
+            self.results['feature-names'] = vectorizer
         else:
             log.error('Unknown vectorizer: %s' % vectorizer)
             raise MyError('Unknown vectorizer: %s' % vectorizer)
 
-        # create train model - fitting
-        X = doc_count_vec.fit_transform(docs)
-        # TODO temporary commented
-        # self.results['feature-names'] = doc_count_vec.get_feature_names()
         self.results['Vectorize'] = (t_temp, datetime.now())
         log.info('Vectorize-END %s ' % vectorizer)
         self.results['feature_space_size'] = X.shape
@@ -706,7 +720,9 @@ class Sentiment(object):
 
                 # ################# MODEL FITTING #############################
                 # try:
-                clf = classifier.fit(X_train.toarray(), y_train)
+                # TODO dense problem...
+                clf = classifier.fit(X_train, y_train)
+                # clf = classifier.fit(X_train.toarray(), y_train)
                 # except TypeError:
                 #     raise TypeError('Feature space should be dense for {}'.format(clf_name))
                 self.results['CV-time'][clf_name][kf_count] = (t_temp,
@@ -729,12 +745,17 @@ class Sentiment(object):
 
                 # prediction for train set
                 log.debug('X_train: {}'.format(X_train.shape))
-                predicted_train = clf.predict(X_train.toarray())
+                # TODO dense
+                predicted_train = clf.predict(X_train)
+                # predicted_train = clf.predict(X_train.toarray())
+
                 temp_train = dict(itertools.izip(train_index, predicted_train))
                 pred_train_temp.update(temp_train)
 
                 # #################### PREDICTION #############################
-                predicted = clf.predict(X_test.toarray())
+                # TODO dense problem
+                predicted = clf.predict(X_test)
+                # predicted = clf.predict(X_test.toarray())
                 log.info('Predicted for #%s CV and %s' % (kf_count, clf_name))
                 temp = dict(itertools.izip(test_index, predicted))
                 pred_temp.update(temp)
@@ -785,32 +806,70 @@ class Sentiment(object):
         return predictions
 
     def build_word2vec(self, docs=None, model=None, size=400):
-        docs = self.labelize_tokenize_docs(docs)
+        """
+        Build Doc2Vec model and return vectors for each document
+
+        Parameters
+        ----------
+        docs : iterable object
+            list of documents to train model
+        model : specific word 2 vec model
+            special case when you provide whole model with parameters
+        size : int
+            size of the word 2 vec vector
+
+        Returns
+        ----------
+        vectors for each document
+
+        """
+        if size is None:
+            size = 400
+
+        docs = self.labelize_tokenize_docs(docs, "elem")
+
         if model is None:
             model = gensim.models.Doc2Vec(min_count=3, window=10, size=400,
                                           sample=1e-3, negative=5, workers=3)
-        if size in None:
-            size = 400
 
         model.build_vocab(docs)
         docs_perm = docs
         for epoch in range(10):
             random.shuffle(docs_perm)
             model.train(docs_perm)
-        return self.get_vecs(model, docs, size)
+        r = self.get_vecs(model, docs)
+        log.debug('Doc2Vec: {}'.format(r))
+        return r
 
-    def get_vecs(self, model, corpus):
+    @staticmethod
+    def get_vecs(model, corpus):
         return np.array([np.array(model.docvecs[z.tags[0]]) for z in corpus])
 
-    def labelize_tokenize_docs(self, docs, label_type):
+    @staticmethod
+    def labelize_tokenize_docs(docs, label_type):
+        """
+        Create TaggedDocument objects (previously LabelledDocument)
+
+        Parameters
+        ----------
+        docs : list
+            list of documents to build model
+        label_type : string
+            each document must have string value, similar to ID
+
+        Return
+        ----------
+        list of TaggedDocument's objects
+
+        """
         labelized = []
         for i, v in enumerate(docs):
             label = '%s_%s' % (label_type, i)
-            labelized.append(gensim.models.doc2vec.TaggedDocument(v.split(' '),
-                                                                  [label]))
+            labelized.append(gensim.models.doc2vec.TaggedDocument(v.split(' '), [label]))
         return labelized
 
-    def save_classifier(self, clf, clf_path=CLASSIFIERS_PATH, f_name='clf'):
+    @staticmethod
+    def save_classifier(clf, clf_path=CLASSIFIERS_PATH, f_name='clf'):
         try:
             f_n = path.join(clf_path, '%s.pkl' % f_name)
             with open(f_n, 'wb') as f_pkl:
@@ -822,6 +881,7 @@ class Sentiment(object):
                       ''.format(clf=clf, err=str(err)))
             raise IOError(str(err))
 
-    def load_classifier(self, clf_path=CLASSIFIERS_PATH, f_name=None):
+    @staticmethod
+    def load_classifier(clf_path=CLASSIFIERS_PATH, f_name=None):
         # TODO load_classifier()
         print 'TODO'
