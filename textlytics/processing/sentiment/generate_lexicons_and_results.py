@@ -8,8 +8,11 @@ import time
 from math import sqrt
 import enchant
 import numpy as np
-import pandas
+import codecs
+import simplejson
 import pandas as pd
+from glob import glob
+
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize
@@ -34,17 +37,19 @@ class GenerateLexicons(object):
     values.
     """
 
-    def __init__(self, method_name='frequentiment', levels=[1.43, 1.54, 0.19],
+    def __init__(self, sentiment_generation_method='frequentiment',
+                 levels=[1.43, 1.54, 0.19], output_name='unknown',
                  rerun=False, n_tries=10, n_domains=10, thresh=0.01,
                  csv_path='/datasets/amazon-data/csv/',
-                 train_test_path='/datasets/amazon-data/csv/train_test_subsets',
-                 start_name='', end_name=''):
+                 train_test_path=None, start_name='', end_name='',
+                 review_score_column='review/score',
+                 review_text_column='review/text'):
         """
         Initialization
 
         Parameters
         ----------
-        method_name : str, from values ['frequentiment', 'potts']
+        output_name : str, from values ['frequentiment', 'potts']
 
         levels : tab of floats
             Threshold's level for ngrams
@@ -74,8 +79,8 @@ class GenerateLexicons(object):
 
 
         """
-        self.method_name = method_name
-        self.sentiment_generation_method = method_name
+        self.output_name = output_name
+        self.sentiment_generation_method = sentiment_generation_method
         # TODO LSA and PMI
 
         self.tries = n_tries
@@ -87,20 +92,26 @@ class GenerateLexicons(object):
 
         # file's path etc.
         self.csv_path = csv_path
-        self.train_test_path = os.path.join(train_test_path)
+        if train_test_path is not None:
+            self.train_test_path = os.path.join(train_test_path)
+        else:
+            self.train_test_path = train_test_path
         self.start_name = start_name
         self.end_name = end_name
 
+        self.review_text_column = review_text_column
+        self.review_score_column = review_score_column
+
         self.lexicons_output = os.path.join(self.csv_path, 'lexicons',
                                             '{}-lexicons.pkl'.format(
-                                                method_name))
+                                                output_name))
         if os.path.isfile(self.lexicons_output) and not self.rerun:
             self.lexicon_exists = True
         else:
             self.lexicon_exists = False
         self.results_output = os.path.join(self.csv_path, 'lexicons',
                                            '{}-results.pkl'.format(
-                                               method_name))
+                                               output_name))
         if os.path.isfile(self.results_output) and not self.rerun:
             self.results_exists = True
         else:
@@ -130,16 +141,43 @@ class GenerateLexicons(object):
                 log.debug('Set item: {}'.format(item))
                 with open(os.path.join(self.train_test_path, fn), 'r') as fp:
                     self.train_test_subsets[item] = pickle.load(fp)
-                    # break
+                # break
 
         for set_name in self.train_test_subsets:
             log.debug('Load reviews domain {}'.format(set_name))
-            self.reviews[set_name] = pandas.read_csv(
+            self.reviews[set_name] = pd.read_csv(
                 self.csv_path + set_name + '.txt.gz.csv',
                 sep=';')
 
-    def handle_ngram(self, ngram, grade, words_occured, sentiment_dict,
-                     count_dict):
+    def get_reviews(self, filter_str=None, file_type='csv', nrows=None, sep=';'):
+        if file_type is None:
+            datasets = glob(os.path.join(self.csv_path, '*'))
+        else:
+            datasets = glob(
+                os.path.join(self.csv_path, '*{}*'.format(filter_str)))
+
+        for dataset in datasets:
+            try:
+                log.debug('Start loading for {}'.format(dataset))
+                dataset_name = os.path.basename(dataset).split('.')[0]
+                log.debug('Load reviews domain {}'.format(dataset_name))
+                if file_type in ['txt', 'csv']:
+                    log.debug('Load txt/csv file: {}'.format(dataset))
+                    self.reviews[dataset_name] = pd.read_csv(dataset, sep=sep, nrows=nrows)
+                elif file_type in ['json']:
+                    log.debug('Load JSON file: {}'.format(dataset))
+                    d = {}
+                    with codecs.open(dataset, 'r') as f:
+                        for idx, line in enumerate(f):
+                            if idx < nrows or nrows is None:
+                                d[idx] = simplejson.loads(line)
+                    self.reviews[dataset_name] = pd.DataFrame.from_dict(d, orient='index')
+                else:
+                    raise Exception('Unknown file type')
+            except IOError:
+                raise IOError('Problem with file: {}'.format(dataset))
+
+    def handle_ngram(self, ngram, grade, words_occured, sentiment_dict, count_dict):
         if ngram in words_occured:
             return
 
@@ -162,16 +200,12 @@ class GenerateLexicons(object):
 
     def make_word_dict_unique_per_review(self, row, sentiment_dict, count_dict,
                                          d1, d2, stop):
-        grade = int(float(row['review/score']))
+        grade = int(float(row[self.review_score_column]))
 
-        sentences = map(
-            lambda x:
-            filter(
-                lambda y: y not in ['!', '?', '.'],
-                word_tokenize(x.lower())
-            ),
-            sent_tokenize(row['review/text'])
-        )
+        sentences = map(lambda x:
+                        filter(lambda y: y not in ['!', '?', '.'], word_tokenize(x.lower())),
+                        sent_tokenize(row[self.review_text_column])
+                        )
 
         words_occured = [[], [], []]
 
@@ -195,12 +229,12 @@ class GenerateLexicons(object):
                                       sentiment_dict[2], count_dict[2])
 
     def get_count_by_rating(self, df):
-        grouped_reviews = df.groupby('review/score')
+        grouped_reviews = df.groupby(self.review_score_column)
         counted = grouped_reviews.count()
         cardinalities = [0, 0, 0, 0, 0]
         for gr in counted.index:
             gr_index = int(float(gr)) - 1
-            cardinalities[gr_index] = counted['review/text'][gr]
+            cardinalities[gr_index] = counted[self.review_text_column][gr]
         return (cardinalities)
 
     @staticmethod
@@ -265,15 +299,13 @@ class GenerateLexicons(object):
         en = enchant.Dict("en_GB")
         s = stopwords.words('english')
         l = len(df)
-        df.apply(
-            lambda x: self.make_word_dict_unique_per_review(x, sentiment_dict,
+        df.apply(lambda x: self.make_word_dict_unique_per_review(x, sentiment_dict,
                                                             count_dict, us, en,
                                                             s), axis=1)
 
         for i in range(len(count_dict)):
             for w in count_dict[i]:
-                if count_dict[i][w] < t * l or len(w) < 4 or (
-                                i == 0 and w in s):
+                if count_dict[i][w] < t * l or len(w) < 4 or (i == 0 and w in s):
                     del sentiment_dict[i][w]
 
         return sentiment_dict, count_dict
@@ -281,19 +313,18 @@ class GenerateLexicons(object):
     def get_frequentidict(self, data_dict, cardinalities):
         sentiment_dict = [None for _ in range(len(data_dict))]
         for i in range(len(data_dict)):
-            sentiments = self.create_single_sentiment(data_dict[i],
-                                                      cardinalities)
+            sentiments = self.create_single_sentiment(data_dict[i], cardinalities)
             if len(sentiments) == 0:
                 sentiment_dict[i] = None
                 continue
 
-            sentiment_dict[i] = pandas.DataFrame.from_dict(sentiments,
-                                                           orient='index')
+            sentiment_dict[i] = pd.DataFrame.from_dict(sentiments, orient='index')
             sentiment_dict[i].columns = ['sentiment']
             sentiment_dict[i].sort('sentiment', inplace=True)
         return sentiment_dict
 
-    def cosine_distance(self, u, v):
+    @staticmethod
+    def cosine_distance(u, v):
         """
         Returns the cosine of the angle between vectors v and u. This is equal
         to u.v / |u||v|.
@@ -351,16 +382,15 @@ class GenerateLexicons(object):
         if not self.lexicon_exists:
             log.info('New lexicons will be generated in {}'.format(
                 self.lexicons_output))
-            for set_name in self.train_test_subsets:
+            for set_name in self.reviews:
                 log.debug('CV folds: {}'.format(self.tries))
-                log.debug([None for i in range(self.tries)])
-                self.final_lexicons[set_name] = [None for _ in
-                                                 range(self.tries)]
+                # log.debug([None for i in range(self.tries)])
+                self.final_lexicons[set_name] = [None for _ in range(self.tries)]
 
             log.info('Distributed code starts here')
             result_queue = multiprocessing.Queue()
             jobs = []
-            for set_name in self.train_test_subsets:
+            for set_name in self.reviews:
                 log.info('Add process for {}'.format(set_name))
                 p = multiprocessing.Process(target=self.generate_lexicon,
                                             args=(set_name, result_queue))
@@ -374,36 +404,62 @@ class GenerateLexicons(object):
             [j.join() for j in jobs]
             log.info('All processes joined')
 
-            log.info(self.final_lexicons)
+            # log.info(self.final_lexicons)
             # retrieve outputs from each Process
             log.info('End of parallel code!')
 
             with open(self.lexicons_output, "w") as fp:
                 pickle.dump(self.final_lexicons, fp)
                 log.info('Lexicon save in {}'.format(self.lexicons_output))
-                # return self.final_lexicons
+            # return self.final_lexicons
         else:
-            log.info('Lexicon has been already generate, it will be loaded from'
-                     '{}'.format(self.lexicons_output))
+            log.info(
+                'Lexicon has been already generate, it will be loaded from {}'.format(
+                    self.lexicons_output))
             self.final_lexicons = pd.read_pickle(self.lexicons_output)
 
     def generate_lexicon(self, set_name, result_queue):
-        """Lexicons generation function for multiprocessing purposes"""
+        """Lexicons generation function for multiprocessing purposes
+
+        Parameters
+        ----------
+        set_name : string
+            Name of the dataset in reviews dictionary.
+
+        result_queue : multiprocessing object
+            Object that stores the results from all processes
+
+        Returns
+        ----------
+        nothing, however returned value from each process is stored in
+        result_queue variable
+
+        """
         log.info('Generate lexicon for {}'.format(set_name))
         lexicon = {set_name: [None for _ in range(self.tries)]}
         for cross_validation in range(self.tries):
             start = time.time()
-            log.info("{}-{}-{}".format(set_name, str(cross_validation),
-                                       self.thresh))
+            log.info('Data set name: {}, CV: {}, Threshold: {}'.format(
+                set_name, str(cross_validation), self.thresh))
             t = float(self.thresh)
-            df = self.reviews[set_name].iloc[
-                self.train_test_subsets[set_name][cross_validation][0]]
+
+            if self.train_test_path is None:
+                log.debug('Columns: {}'.format(self.reviews[set_name].columns))
+                df = self.reviews[set_name][[self.review_text_column,
+                                             self.review_score_column]]
+            else:
+                df = self.reviews[set_name].iloc[
+                    self.train_test_subsets[set_name][cross_validation][0]]
+
+            log.debug('Prepare unique sentiment DF')
             data_dict, count_dict = self.prepare_unique_sentiment_dict(df, t)
+            log.debug('Cardinalities')
             cardinalities = self.get_count_by_rating(df)
+            log.debug('Frequentiment dicts')
             fqdt = self.get_frequentidict(data_dict, cardinalities)
             end = time.time()
-            log.info('Lexicon={}, CV={} generated in: {}s'.
-                     format(set_name, cross_validation + 1, end - start))
+            log.info('Lexicon has been generated={}, CV={} generated in: {'
+                     '}s'.format(set_name, cross_validation + 1, end - start))
             lexicon[set_name][cross_validation] = [fqdt, end - start]
         # use queue to store results of the method
         log.info('Lexicon done: {}'.format(set_name))
@@ -436,7 +492,7 @@ class GenerateLexicons(object):
                 lambda y: y not in ['!', '?', '.'],
                 word_tokenize(x.lower())
             ),
-            sent_tokenize(row['review/text'])
+            sent_tokenize(row[self.review_text_column])
         )
 
         words_occured = [[], [], []]
@@ -457,7 +513,7 @@ class GenerateLexicons(object):
                                                    words_occured[2],
                                                    sentiment_dict[2])
 
-        return pandas.Series([sentiments[0], sentiments[1], sentiments[2]])
+        return pd.Series([sentiments[0], sentiments[1], sentiments[2]])
 
     def to_senti_grade(self, x, level=1):
         """ Grade sentiment based on levels/thresholds. Qualification of the
@@ -502,7 +558,7 @@ class GenerateLexicons(object):
                 lambda y: y not in ['!', '?', '.'],
                 word_tokenize(x.lower())
             ),
-            sent_tokenize(row['review/text'])
+            sent_tokenize(row[self.review_text_column])
         )
 
         words_occured = [[], [], []]
@@ -527,7 +583,7 @@ class GenerateLexicons(object):
                                                            sentiment_dict[2][
                                                                'sentiment'])
 
-        return pandas.Series([sentiments[0], sentiments[1], sentiments[2]])
+        return pd.Series([sentiments[0], sentiments[1], sentiments[2]])
 
     @staticmethod
     def get_sent(row, row_name='review/score',
@@ -674,10 +730,10 @@ class GenerateLexicons(object):
         for cross_validation in range(self.tries):
             log.info('{} CV: {}/{}'.format(set_name, cross_validation + 1,
                                            self.tries))
+
             df = self.reviews[set_name].ix[
                 self.train_test_subsets[set_name][cross_validation][1], [
-                    'review/text',
-                    'review/score']]
+                    self.review_text_column, self.review_score_column]]
             # range for uni, bi and trigrams
             results[cross_validation]['raw_sentiments'] = [
                 self.final_lexicons[set_name][cross_validation][0][i] for i in
@@ -686,11 +742,11 @@ class GenerateLexicons(object):
             results[cross_validation]['predictions'] = df.apply(
                 lambda x: self.grade_sentiment_results(x, results[
                     cross_validation]['raw_sentiments']), axis=1)
-            # TODO: zrobić poprawną wersję kwantyfizacji dla ngramów
-            # results[cross_validation]['predictions_by_level'] = [
-            #     results[cross_validation]['predictions'].apply(
-            #         lambda x: x.apply(lambda z: self.to_senti_grade(z, level)))
-            #     for level in self.levels]
+        # TODO: zrobić poprawną wersję kwantyfizacji dla ngramów
+        results[cross_validation]['predictions_by_level'] = [
+            results[cross_validation]['predictions'].apply(
+                lambda x: x.apply(lambda z: self.to_senti_grade(z, level)))
+            for level in self.levels]
         log.debug('{} CV ended'.format(set_name))
         result_queue.put({set_name: results})
 
@@ -702,3 +758,30 @@ class GenerateLexicons(object):
 # gl.generate_lexicons()
 # print 'Testujemy'
 # gl.evaluate_predictions()
+
+if __name__ == "__main__":
+    g = GenerateLexicons(sentiment_generation_method='frequentiment',
+                         # output_name='automotive-all-',
+                         output_name='automotive-processed-all',
+                         # output_name='automotive-cv-acl-thresh0',
+                         n_domains=1,
+                         n_tries=1,
+                         csv_path='/datasets/amazon-data/new-julian/domains/processed/',
+                         # csv_path='/datasets/amazon-data/new-julian/domains/json/',
+                         # train_test_path='/datasets/amazon-data/csv/train_test_subsets',
+                         # csv_path='/datasets/amazon-data/csv/',
+                         # rerun=True,
+                         # review_score_column='overall',
+                         # review_text_column='reviewText',
+                         review_score_column='score',
+                         review_text_column='document',
+                         # review_score_column='review/score',
+                         # review_text_column='review/text',
+                         # thresh=0.0
+                         )
+    g.get_reviews(filter_str='Automotive-all', file_type='csv', nrows=None, sep=';')
+    # g.get_reviews(filter_str='Automotive', file_type='json', nrows=None)
+    # g.get_reviews_and_train_test_subsets()
+    g.generate_lexicons()
+    # g.evaluate_predictions()
+    # print g.final_lexicons
