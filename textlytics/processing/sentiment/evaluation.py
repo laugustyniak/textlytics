@@ -50,9 +50,7 @@ class Evaluation(object):
             logging.info('Results calculated!')
             return results
         else:
-            # TODO raise error
-            logging.error('Different sizes of class lists!')
-            return 0
+            raise ('Different sizes of class lists!')
 
     def save_result_to_csv(self, results, file_name):
         """
