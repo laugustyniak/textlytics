@@ -21,56 +21,83 @@ log = logging.getLogger(__name__)
 
 
 class DocumentPreprocessor(object):
-    """Preprocessing dla analizy języka natuaralnego. Szczególnie pod analizę wydźwieku.
-    Większość funkcji działa na poziomie pojedynczego dokumentu (rozumiango jako zdanie bądź kilka zdań).
+    """
+    Textual data pre-processing class.
+
+    Several modules usable during text data processing.
+    Especially, useful in cleaning data for sentiment analysis tasks and other
+    text classification purposes.
+
     """
 
     # to remove from each document
-    punctuation = '\'!"#&$%\()*+,-./:;<=>?@[\\]^_`{|}~'
-    punctuation_list = [  # '\'',
-        '!', '"', '#', '&', '$', '%', '(', ')', '*', '+',
-        ',', '-', '.', '/', ':', ';', '<', '=',
-        '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{',
-        '|', '}', '~']
-    numbers = '0123456789'
-    # additional exemplary words to remove
 
-    # TODO: extend list
-    # regex supported
-    words_and_ngrams_exceptions = ['good ?morning',
-                                   'good ?afternoon',
-                                   'good ?evening']
+    def __init__(self, sentiment_level=None, punctuation=None,
+                 punctuation_list=None, numbers=None,
+                 words_and_ngrams_exceptions=None, stop_words=None):
 
-    # TODO: create interactive stop word list and add possibility
-    # to import it from NLTK for chosen language
-    stop_words = ['me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you',
-                  'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his',
-                  'himself', 'she', 'her', 'hers', 'herself', 'it', 'its',
-                  'itself', 'they', 'them', 'their', 'theirs', 'themselves',
-                  'what', 'which', 'who', 'whom', 'this', 'that',
-                  'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be',
-                  'been', 'being', 'have', 'has',
-                  'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an',
-                  'the', 'and', 'but', 'if', 'or',
-                  'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for',
-                  'with', 'about', 'against',
-                  'between', 'into', 'through', 'during', 'before', 'after',
-                  'above', 'below', 'to',
-                  'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over',
-                  'under', 'again', 'further', 'then', 'once', 'here', 'there',
-                  'when', 'where',
-                  'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more',
-                  'most', 'other', 'some', 'such', 'nor', 'only', 'own', 'same',
-                  'so', 'than', 'too',
-                  'very', 'can', 'will', 'just', 'don', 'should', 'now', 're']
-
-    negation_words = ['no', 'not', 'n\'t', ]
-
-    def __init__(self, sentiment_level=None):
+        negation_words = ['no', 'not', 'n\'t', ]
         if sentiment_level is None:
             self.sentiment_level = 'Document'
         else:
             self.sentiment_level = sentiment_level
+
+        if punctuation is None:
+            self.punctuation = '\'!"#&$%\()*+,-./:;<=>?@[\\]^_`{|}~'
+        else:
+            self.punctuation = punctuation
+
+        if punctuation_list is None:
+            self.punctuation_list = ['\'', '!', '"', '#', '&', '$', '%', '(',
+                                     ')', '*', '+', ',', '-', '.', '/', ':',
+                                     ';', '<', '=', '>', '?', '@', '[', '\\',
+                                     ']', '^', '_', '`', '{', '|', '}', '~']
+        else:
+            self.punctuation_list = punctuation_list
+
+        if numbers is None:
+            self.numbers = '0123456789'
+        else:
+            self.numbers = numbers
+
+        if words_and_ngrams_exceptions is None:
+            self.words_and_ngrams_exceptions = ['good ?morning',
+                                                'good ?afternoon',
+                                                'good ?evening']
+        else:
+            self.words_and_ngrams_exceptions = words_and_ngrams_exceptions
+
+        if stop_words is None:
+            self.stop_words = [u'all', u'just', u'over', u'both', u'through',
+                               u'its', u'before', u'herself', u'should', u'to',
+                               u'only', u'under', u'ours', u'then', u'them',
+                               u'his',
+                               u'very', u'they', u'during', u'now', u'him',
+                               u'nor',
+                               u'these', u'she', u'each', u'further', u'where',
+                               u'few', u'because', u'some', u'our',
+                               u'ourselves',
+                               u'out', u'what', u'for', u'while', u'above',
+                               u'between', u'be', u'we', u'who', u'wa', u'here',
+                               u'hers', u'by', u'on', u'about', u'theirs',
+                               u'against', u'or', u'own', u'into', u'yourself',
+                               u'down', u'your', u'from', u'her', u'their',
+                               u'there', u'whom', u'too', u'themselves',
+                               u'until',
+                               u'more', u'himself', u'that', u'but', u'don',
+                               u'with', u'than', u'those', u'he', u'me',
+                               u'myself',
+                               u'this', u'up', u'below', u'can', u'of',
+                               u'my', u'and', u'do', u'it', u'an', u'as',
+                               u'itself',
+                               u'at', u'have', u'in', u'any', u'if', u'again',
+                               u'when', u'same', u'how', u'other', u'which',
+                               u'you',
+                               u'after', u'most', u'such', u'why', u'a', u'off',
+                               u'i', u'so', u'the', u'yours', u'once',
+                               '"\'"', '\'', 'quot']
+        else:
+            self.stop_words = stop_words
 
     def remove_punctuation_and_multi_spaces_document(self, document):
         """
@@ -84,10 +111,18 @@ class DocumentPreprocessor(object):
         return ' '.join(document.split())
 
     def remove_punctuation_tokens(self, sentences):
-        """Delete punctuation chars.
-        :rtype : list of list strings
-        :param sentences: list of list strings
-        :return: list of list token
+        """
+        Delete punctuation chars.
+
+        Parameters
+        ----------
+        sentences: list of list strings
+            Document to remove urls
+
+        Returns
+        ----------
+        sentences_without_punctuation : list of list token
+            List of list tokens without punctuation.
 
         >>> dp = DocumentPreprocessor()
         >>> dp.remove_punctuation_tokens([['This', 'is', ',', 'great', '!']])
@@ -101,11 +136,18 @@ class DocumentPreprocessor(object):
 
     def remove_urls(self, document):
         """
-        Usuwanie z całego dokumentu urli (zaczynających się od http, https, www)
-        :param document: string document
-        :return document: string without deleted urls
+        Remove all urls from document.
+
+        Parameters
+        ----------
+        document: string
+            Document to remove urls
+
+        Returns
+        ----------
+        document: string
+            Document without deleted urls
         """
-        # TODO: deletion of www.wp.pl, urls without http/https
         document = re.sub(
             r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)'
             r'(?:[^\s()<>]+|\(([^\s()<>]+|'
@@ -115,8 +157,7 @@ class DocumentPreprocessor(object):
             document)
         return ' '.join(document.split())
 
-    def remove_words_and_ngrams(self, document,
-                                word_list=words_and_ngrams_exceptions):
+    def remove_words_and_ngrams(self, document):
         """Delete word from document/text which are exceptions -> word and
         ngrams, e.g., good morning (for sentiment analysis).
 
@@ -130,12 +171,11 @@ class DocumentPreprocessor(object):
                 word_list: list of word to remove from document.
         :return document: string without deleted woods and ngrams
         """
-        for w in word_list:
+        for w in self.word_list:
             document = re.sub(w, '', document)
         return document
 
-    def remove_stop_words(self, document_tokens=None, sentences=None,
-                          word_list=stop_words):
+    def remove_stop_words(self, document_tokens=None, sentences=None):
         """
         Delete word's tokens from token list.
         :param document_tokens: all document tokens, list of tokens
@@ -148,10 +188,11 @@ class DocumentPreprocessor(object):
             sentences_ = []
             for sentence in sentences:
                 sentences_.append(
-                    [word for word in sentence if word not in word_list])
+                    [word for word in sentence if word not in self.word_list])
             return sentences_
         elif document_tokens is not None:
-            return [word for word in document_tokens if word not in word_list]
+            return [word for word in document_tokens if
+                    word not in self.word_list]
         else:
             er_msg = 'Wrong parameters for this methods'
             logging.error(er_msg)
@@ -469,14 +510,13 @@ def test():
 
     pprint(D)
 
-
 # if __name__ == "__main__":
 #     import doctest
 #
 #     doctest.testmod()
 
-    # d = DocumentPreprocessor()
-    # d.remove_stop_words(None, word_list=[], sentences=None)
+# d = DocumentPreprocessor()
+# d.remove_stop_words(None, word_list=[], sentences=None)
 
-    # log.info('asdasdasd')
-    # print 'asd'
+# log.info('asdasdasd')
+# print 'asd'
