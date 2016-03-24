@@ -479,25 +479,78 @@ class Sentiment(object):
         Counting the sentiment orientation with supervised learning approach.
         Please use Data Frame with Document and Sentiment columns.
 
-        :type dataset: str file name
-        :type worksheet_name: str
-        :type classifiers: unknown or dict dictionary of classifiers to run
-        :type n_folds: int # of folds in CV
-        :type source: str name of dataset type 'semeval', 'amazon', etc.
-        :type n_gram_range: tuple range of ngrams in preprocessing part
-        :type lowercase: bool lowercase for preprocessing
-        :type stop_words: str
-        :type max_df: float
-        :type min_df: float
-        :type max_features: # of max features in feature space
-        :type tokenizer: __builtin__.instancemethod or __builtin__.NoneType
-        :type f_name_results: str
-        :type vectorizer: unknown or str
-        :return:
-            y - numpy list of class assignment
-            predictions - dictionary of classifer names and list of predictions
-                for each classfier
-            res - dictionary with all measures from machine learning step
+        Parameters
+        ----------
+        dataset : str
+            Dataset's file name.
+
+        worksheet_name : str
+            If you load excel file you may pass worksheet name to load data.
+
+        classifiers : dict
+            Dictionary of classifiers to run. Classifier names as key and values
+            are classifiers objects.
+
+        n_folds : int
+            # of folds in CV.
+
+        source : str
+            Dataset type to be processed, e.g., 'semeval', 'amazon', etc.
+
+        n_gram_range : tuple
+            Range of ngrams in pre-processing part. Parameter of scikit-learn
+            vectorizer.
+
+        lowercase : bool
+            Do you want to lowercase text in vectorization step? True by default.
+
+        stop_words : str
+            Type of stop word to be used in vectorization step. 'english' by
+            default.
+
+        max_df : float
+            max_df parameter for scikit-learn vectorizer.
+
+        min_df : float
+            min_df parameter for scikit-learn vectorizer.
+
+        max_features : int
+            # of max features in feature space, parameter for scikit-learn
+            vectorizer. None as default, hence all features will be used.
+
+        tokenizer : tokenizer
+            Tokenizer for scikit-learn vectorizer.
+
+        f_name_results : str
+            Name of the results file.
+
+        vectorizer : str
+            Type of vectorizer, such as word-2-vec or CountVectorizer.
+
+        kfolds_indexes : list of tuples
+            List of tuples with chosen indices for each Cross-Validation fold.
+
+        dataset_name : str
+            Dataset name.
+
+        model : gensim word-2-vec model
+            Pre-trained 2ord-2-vec/doc-2-vec model.
+
+        w2v_size : int
+            Size of the vector for word-2-vec/doc-2-vec vectorization.
+
+        Returns
+        ----------
+        y : numpy array
+            List of class assignment.
+
+        predictions : dict
+            Dictionary of classifier's names and list of predictions for each
+            classifier.
+
+        res : dict
+            Dictionary with all measures from machine learning step.
+
         """
         # get all parameters and their values from called method
         arg_key = [arg for arg in inspect.getargspec(
@@ -647,18 +700,45 @@ class Sentiment(object):
                                  kfolds_indexes=None, save_clf=False,
                                  cv_normal=True):
         """
-        Counting sentiment with cross validation - supervised method
-        :type X: ndarray feature matrix for classification
-        :type y: list or ndarray of classes
-        :type X_test: ndarray of features set
-        :type y_test: ndarray of label/classes set
-        :type n_folds: int # of folds for CV
-        :type classifiers: dict with all classifiers
-        :type kfolds_indexes: list or unknown
-        :param save_clf: True if you want to save each classifier
-        :param cv_normal: boolean if True we do not provide the Cross Validation
-            folds for experiment and it should be drawn randomly
-        :return: dictionary with predicted values for each classifier
+        Counting sentiment with cross validation - supervised method.
+        Stratified CV is used to draw the indices for each CV fold.
+
+        Parameters
+        ----------
+        X : ndarray
+            Feature matrix for classification.
+
+        y : list or ndarray
+            List of classes.
+
+        X_test: ndarray
+            Array of feature set for testing phase.
+
+        y_test: ndarray
+            Array of label/classes set for testing phase.
+
+        n_folds : int
+            # of folds for CV.
+
+        classifiers : dict
+            Dictionary with names and classifier's objects.
+
+        kfolds_indexes : list
+            List of tuples with chosen indices for each Cross-Validation fold.
+
+        save_clf : bool
+            True if you want to save each classifier, for each CV folds of
+            course. False by default.
+
+        cv_normal : boolean
+            if True we do not provide the Cross-Validation folds for experiment
+            and it should be drawn randomly. True by default.
+
+        Returns
+        ----------
+        predictions : dict
+            Dictionary with predicted values for each classifier.
+
         """
         if n_folds > 1:
             log.debug('Cross validation with n folds has been chosen.')
