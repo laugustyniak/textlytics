@@ -5,7 +5,7 @@ import logging
 import pickle
 import time
 import simplejson
-from os import path
+from os import path, makedirs
 
 import pandas as pd
 
@@ -171,14 +171,12 @@ def to_pickle(p, dataset, f_name, obj):
     :param obj: object for saving
     """
     try:
-        f_path = path.join(p, '%s-%s-%s.pkl' % (
-            f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
+        f_path = path.join(p, '%s-%s-%s.pkl' % (f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
         with open(f_path, 'wb') as f:
             pickle.dump(obj, f)
             logging.info('File %s has been saved. ' % f_path)
     except IOError as err:
-        logging.error('Error during saving file %s. Error: %s'
-                      '' % (f_path, str(err)))
+        logging.error('Error during saving file %s. Error: %s' % (f_path, str(err)))
         raise IOError(str(err))
 
 
