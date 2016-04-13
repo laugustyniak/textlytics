@@ -28,7 +28,6 @@ enable 4.3.0
 enchant
 gensim 0.10.3
 gevent 1.0.1
-graphtool # problematic installation
 greenlet 0.4.4
 httplib2 0.9
 ipython 2.2.0
