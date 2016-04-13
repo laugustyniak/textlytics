@@ -12,3 +12,4 @@
 # Intellij / Pycharm
 *.iml
 .idea
+textlytics/results/
