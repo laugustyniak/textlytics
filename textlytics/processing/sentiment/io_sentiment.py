@@ -9,7 +9,7 @@ import pandas as pd
 
 from os import path, makedirs
 from document_preprocessing import DocumentPreprocessor
-from ...utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH
+from ...utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH, IMDB_MERGED_PATH
 
 log = logging.getLogger(__name__)
 
@@ -160,6 +160,35 @@ class Dataset(object):
         except IOError as err:
             logging.error('Error with loading SemEval2014 dataset')
             raise (str(err))
+
+    @staticmethod
+    def load_several_files(files={'pos.txt': 1, 'neg.txt': -1}):
+        """"
+        Load datasets from various files, each file consists of different class.
+
+        Parameters
+        ----------
+        files : dict, default it will load IMDB dataset with pos/neg classes
+            Dictionary with file names as keys and classes correlated with each
+            class as values, e.g., documents (keys) and sentiment classes
+            (values).
+
+        Returns
+        ----------
+        df : pandas.DataFrame
+            Data frame with Documents and Sentiment classes
+        """
+        documents = []
+        sentiments = []
+        for f_name, sentiment_class in files.iteritems():
+            with open(path.join(IMDB_MERGED_PATH, f_name)) as imdb:
+                for line in imdb:
+                    documents.append(line)
+                    sentiments.append(sentiment_class)
+        df = pd.DataFrame()
+        df['Document'] = documents
+        df['Sentiment'] = sentiments
+        return df
 
 
 def to_pickle(p, dataset, f_name, obj):
