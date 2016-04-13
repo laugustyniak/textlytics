@@ -1,19 +1,22 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Lukasz Augustyniak'
 
 import multiprocessing
 # import memory_profiler
 import logging
 import pickle
 import sys
+
+import pandas as pd
+
 from os.path import join, basename, exists
 from os import makedirs
 from glob import glob
-import pandas as pd
+
 from textlytics.processing.sentiment.document_preprocessing import \
     DocumentPreprocessor
 from textlytics.processing.sentiment.io_sentiment import to_pickle
 from textlytics.processing.sentiment.sentiment import Sentiment
+from textlytics.processing.sentiment.lexicons import SentimentLexicons
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
@@ -54,12 +57,12 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
     lexs_names : list
         List of path/file names for lexicons loading.
 
-    n_reviews: int
-        number of reviews from each star score. 2000 by default.
+    n_reviews: int, 2000 by default.
+        number of reviews from each star score.
 
-    train : bool
+    train : bool, False by default.
         If True you are counting sentiment for train subsets,
-        otherwise counting sentiment for testing subsets. Default equal to False.
+        otherwise counting sentiment for testing subsets.
 
     norm_freq : tuple with floats
         Tuple, i.e., (-1, 1) fot threshold cutting, lower than
@@ -72,8 +75,8 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
     f_name : str
         Additional part of output files name (results, predictions).
 
-    n_cv : int
-        Number of Cross-Validation's folds to performed. Default equal to 10.
+    n_cv : int, 10 by default
+        Number of Cross-Validation's folds to performed.
 
     stars : list
         Star scores that will be used in experiment, as default all.
@@ -81,9 +84,9 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
     output_folder : str
         Path where we want to save our results.
 
-    evaluate : bool
+    evaluate : bool, True by default
         If true the metrics for analysis will be counted, otherwise only
-        prediction will be saved. Default is True.
+        prediction will be saved.
 
     Returns
     ----------
@@ -136,6 +139,9 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
         # df['Document'] = df['review/summary']
         df = df[['Document', 'Sentiment']]
 
+        log.info('Pre-processing phase starts!')
+        df.Document = [dp.remove_numbers(doc) for doc in df.Document]
+
         try:
             # load train/test sets folds
             f_path = join(train_test_path, 'train-test-%s-%s.pkl' % (n_reviews, dataset_file_name))
@@ -146,7 +152,7 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
             results[dataset_name] = []
             predictions[dataset_name] = []
 
-            # iterate over all cross-valiadation subsets
+            # iterate over all cross-validation subsets
             for cv_idx, cv in enumerate(train_test_indexes[:n_cv]):
                 log.info('Start for {}: CV: {}/{} '.format(dataset_name, cv_idx + 1, n_cv))
                 freq_lexs_ = [basename(x) for x in freq_lexs if '{}-{}'.format(dataset_name, cv_idx) in x]
@@ -155,6 +161,12 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
                 if stars is not None:
                     cv = (set(cv[0]).intersection(df.index.values),
                           set(cv[1]).intersection(df.index.values))
+
+                sent_lex = SentimentLexicons(stemmed=False,
+                                             lexs_files=lexs_names,
+                                             lex_path=lex_path)
+                lexicons = sent_lex.load_lexicons(lex_files=lexs_names,
+                                                  lex_path=lex_path)
 
                 if train:
                     ind = cv[0]
@@ -165,12 +177,10 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
 
                 s = Sentiment()
                 df_lex, lexicon_prediction, lexicon_result, classes = \
-                    s.lexicon_based_sentiment_simplified(
-                        dataset=df.ix[ind],
-                        lexs_files=lexs_names,
-                        words_stem=False,
+                    s.lex_sent_batch(
+                        df=df.ix[ind],
                         dataset_name=dataset_name,
-                        lex_path=lex_path,
+                        lexicons=lexicons,
                         evaluate=evaluate)
                 results[dataset_name].append(lexicon_result)
                 predictions[dataset_name].append(lexicon_prediction)
@@ -194,14 +204,14 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
 # ############################# exemplary run ##############################
 # manually created lexicons
 lexicons_files = [
-    'AFINN-96.txt',
-    'AFINN-111.txt',
-    'Bing-Liu.txt',
-    'enchantedlearning.com.txt',
-    'past_future_list.txt',
-    'past_future_list_plus.txt',
-    'simple_list.txt',
-    'simple_list_plus.txt',
+    # 'AFINN-96.txt',
+    # 'AFINN-111.txt',
+    # 'Bing-Liu.txt',
+    # 'enchantedlearning.com.txt',
+    # 'past_future_list.txt',
+    # 'past_future_list_plus.txt',
+    # 'simple_list.txt',
+    # 'simple_list_plus.txt',
     'simplest.txt',
     # 'nrcEmotion.txt',
     # 'mpaa.txt',
@@ -238,31 +248,31 @@ def run_multi(d):
                                  # f_name='all-folds-15stars-summary'),
                                  # f_name='____',
                                  # train=True,
-                                 n_cv=10,
+                                 n_cv=1,
                                  # stars=[1, 3, 5]
-                                 stars=[1, 5],
+                                 # stars=[1, 5],
                                  frequentiment_lexicons_path='/datasets/amazon-data/csv/lexicons/',
                                  # output_folder='/datasets/amazon-data/csv/acl-train-data-continuous',
                                  output_folder='/datasets/amazon-data/csv/acl-test-data-continuous',
                                  evaluate=False,
                                  )
 
-datasets = ['Automotive',
-            'Book',
-            'Clot',
-            'Electro',
-            'Healt',
-            'Movi',
-            'Music',
-            'Video',
-            'Toys',
-            'Sport',
-            ]
+datasets_names = ['Automotive',
+                  # 'Book',
+                  # 'Clot',
+                  # 'Electro',
+                  # 'Healt',
+                  # 'Movi',
+                  # 'Music',
+                  # 'Video',
+                  # 'Toys',
+                  # 'Sport',
+                  ]
 
 jobs = []
-for dataset in datasets:
-    log.info('Add process for {}'.format(dataset))
-    p = multiprocessing.Process(target=run_multi, args=(dataset,))
+for dataset_name in datasets_names:
+    log.info('Add process for {}'.format(dataset_name))
+    p = multiprocessing.Process(target=run_multi, args=(dataset_name,))
     p.start()
     jobs.append(p)
 

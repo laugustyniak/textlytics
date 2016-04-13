@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Łukasz Augustyniak'
 
-import logging
-import pickle
 import time
+import pickle
+import logging
 import simplejson
-from os import path, makedirs
 
 import pandas as pd
 
+from os import path, makedirs
 from document_preprocessing import DocumentPreprocessor
 from ...utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH
 
-# log = logging.getLogger(__name__)
+log = logging.getLogger(__name__)
+
 
 class Dataset(object):
     """
@@ -165,10 +165,20 @@ class Dataset(object):
 def to_pickle(p, dataset, f_name, obj):
     """
     Saving object into pickle file.
-    :param p: path
-    :param dataset: dataset name
-    :param f_name: file name
-    :param obj: object for saving
+
+    Parameters
+    ----------
+    p : string
+        Path where file will be saved.
+
+    dataset : string
+        Analyzed dataset name.
+
+    f_name : string
+        File name.
+
+    obj : object (picklable)
+        Object for saving.
     """
     try:
         f_path = path.join(p, '%s-%s-%s.pkl' % (f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
@@ -180,6 +190,7 @@ def to_pickle(p, dataset, f_name, obj):
         raise IOError(str(err))
 
 
+# TODO documentation update
 def results_to_pickle(dataset, f_name, obj):
     """
     Saving results into pickle file
@@ -190,7 +201,7 @@ def results_to_pickle(dataset, f_name, obj):
     """
     to_pickle(p=RESULTS_PATH, dataset=dataset, f_name=f_name, obj=obj)
 
-
+# TODO documentation update
 def classifier_to_pickle(dataset, f_name, obj):
     """
     Saving classifier into pickle file
@@ -200,11 +211,3 @@ def classifier_to_pickle(dataset, f_name, obj):
     :return:
     """
     to_pickle(p=CLASSIFIERS_PATH, dataset=dataset, f_name=f_name, obj=obj)
-
-def test_log():
-    logging.info('io_sent')
-    logging.debug('io_sent')
-    # print 'Test'
-
-
-test_log()

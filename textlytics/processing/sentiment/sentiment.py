@@ -1,44 +1,34 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Łukasz Augustyniak'
 
-import random
-import memory_profiler
 import inspect
-import logging
 import itertools
+import logging
+import multiprocessing
+import random
 import threading
+import pickle
 import gensim
-import numpy as np
+
 import pandas as pd
-from numba import jit
-from datetime import datetime
-import time
-from itertools import chain
+import numpy as np
+
 from os import path
 from numpy import sum
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB, BernoulliNB
-from sklearn.tree import DecisionTreeClassifier
+from itertools import chain
 from sklearn import metrics, cross_validation
+from datetime import datetime
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.svm import LinearSVC, NuSVC
-# from textlytics.processing.sentiment.my_errors import MyError
-from my_errors import MyError
+from sklearn.tree import DecisionTreeClassifier
+
 from document_preprocessing import DocumentPreprocessor
 from evaluation import Evaluation
-from lexicons import SentimentLexicons
-from io_sentiment import Dataset, classifier_to_pickle, results_to_pickle
-from ...utils import LEXICONS_PATH, AMAZON_PATH, CLASSIFIERS_PATH, RESULTS_PATH, W2V_MODELS_PATH
+from io_sentiment import classifier_to_pickle, to_pickle
+from my_errors import MyError
+from ...utils import CLASSIFIERS_PATH, W2V_MODELS_PATH
 
-try:
-    import cPickle as pickle
-except ImportError as er:
-    logging.warning('Lack of cpickle, pickle will be used %s' % str(er))
-    import pickle
-
-# logging.basicConfig(filename='processing.log', level=logging.DEBUG,
-#                     format='%(asctime)s - sentiment.py - '
-#                            '%(levelname)s - %(message)s')
 log = logging.getLogger(__name__)
 
 ALL_CLASSIFIERS = {
@@ -63,24 +53,14 @@ ALL_CLASSIFIERS = {
 
 class Sentiment(object):
     """
-    Klasa odpowiadająca z moduły obliczające wartości sentymentu dla
-    poszczególnych metod. Zawiera flow dla różnych podejść analizy wydźwieku.
-
-    Przykładowe wywołanie:
-    >>> sent = Sentiment()
-
-    # sent.machine_learning_sentiment(file_name='Amazon-7.xlsx',
-    #                                     worksheet_name='Arkusz1',
-    #                                     n_gram_range=(1, 3),
-    #                                     classifiers={'GaussianNB': GaussianNB()},
-    #                                     # classifiers={},
-    #                                     amazon_dataset=True)
+    Count sentiment orientation based on several different approaches, such as
+    lexicon-based methods, supervised learning with several vectorization
+    methods (Bag-of-Words, Word-2-Vec).
     """
 
     def __init__(self, output_file_name=None, sentiment_level='Document',
                  progress_interval=100, dataset_name='',
                  measures_average='weighted'):
-        # HOW MANY THREADS WILL BE RUN, -1 -> as many as you can :D
         self.output_file_name = output_file_name
         self.progress_interval = progress_interval
         self.results = {'measures': {},
@@ -95,155 +75,104 @@ class Sentiment(object):
         self.dataset_name = dataset_name
         self.measures_average = measures_average
 
-    def lexicon_based_sentiment(self, dataset=None, worksheet_name='Arkusz1',
-                                sentiment_level='Document',
-                                progress_interval=100, lexicons_files=None,
-                                words_stem=True, n_jobs=None,
-                                star_column_name=None, source='',
-                                dataset_name=''):
-        start = datetime.now()  # starting time
-        log.info('Start {start_time}'.format(start_time=start))
-        # self.results['Start'] = start
-        sentiment_lexicons = SentimentLexicons(stemmed=words_stem,
-                                               lexs_files=lexicons_files,
-                                               lex_path=LEXICONS_PATH)
-        lexicons = sentiment_lexicons.load_lexicons(
-            lex_files=lexicons_files)
-
-        d = Dataset()
-        if isinstance(dataset, pd.DataFrame):
-            # source = 'dataframe'
-            df = dataset
-        else:
-            if source.lower() in ['amazon']:
-                df = d.amazon_dataset_load(dataset_path=AMAZON_PATH,
-                                           f_name=dataset,
-                                           worksheet_name=worksheet_name,
-                                           star_column_name=star_column_name)
-            elif dataset in ['semeval2013']:
-                df = d.load_semeval_2013_sentiment()
-        # TODO poprawić tutaj i rozbudować o inne datasety
-        # else:
-        # msg = 'Dataset wasn\'t loaded properly, path: %s and file: %s ' % \
-        # (_DATASETS_PATH_, dataset)
-        # log.error(msg)
-        # raise Exception(msg)
-
-        sent = Sentiment(sentiment_level=sentiment_level)
-        dp = DocumentPreprocessor()
-        # preprocessing
-        temp_t = datetime.now()
-        df, res = dp.preprocess_sentiment(df,
-                                          results=self.results,
-                                          progress_interval=progress_interval,
-                                          words_stem=words_stem)
-        self.results['preprocess-time'] = (temp_t, datetime.now())
-        self.results.update(res)
-        df = df[['Document-Preprocessed', 'Sentiment']]
-        temp_t = datetime.now()
-        df = sent.sentiment_lexicon_threading(
-            df=df, lexicons=lexicons, n_jobs=n_jobs)
-        self.results['sentiment-counting-time'] = (temp_t, datetime.now())
-        d.df_save(df=df, f_name=dataset_name, file_type='csv')
-        evaluation = Evaluation()
-        res, classes = evaluation.evaluate_lexicons(
-            df=df, classifiers_to_evaluate=lexicons.keys())
-
-        self.results.update(res)
-        self.results['flow-time'] = (start, datetime.now())
-
-        # evaluation.save_results_to_pickle(results=results, file_name=file_name)
-        # pprint(self.results)
-
-        return df, sent.lexicon_predictions, self.results, classes
-
-    # @jit
-    # @memory_profiler.profile
     # @memory_profiler
     # @profile
-    def lexicon_based_sentiment_simplified(self, dataset=None, lexs_files=None,
-                                           lex_path=None, words_stem=True,
-                                           dataset_name='',
-                                           evaluate=True):
+    def lex_sent_batch(self, df=None, lexicons=None, dataset_name='',
+                       evaluate=True, lower=True, agg_type='sum',
+                       dicretize_sent=True):
+        """
+        Count sentiment base on lexicons for provided dataset.
+
+        Parameters
+        ----------
+        df : pandas.DataFrame
+            It must be passed as Pandas Data Frame with 'Document'
+            and 'Sentiment' columns. 'Documents'
+
+        lexicons : dict
+            Dictionary with sentiment lexicons.
+
+        dataset_name : str
+            Just dataset name - use for saving predictions.
+
+        evaluate : bool
+            Do you want to evaluate your prediction accuracy? If yes then it must
+            be set as True. Otherwise it will only predict sentiment base on
+            all lexicons and do not count the metrics. True by default.
+
+        agg_type : str
+            Type of the aggregation function for counting the sentiment
+            orientation. 'sum' by default. Other: 'avg', 'max', 'min'.
+
+        dicretize_sent : bool
+            If you want to have continue sentiment values (float) set this
+            parameter to False. True by default.
+
+        Returns
+        -------
+        df : pandas.DataFrame
+            Dataset in Data Frame structure.
+
+        self.lexicon_predictions : dict
+            Dictionary with all predicting over all lexicons and all documents.
+
+        self.results : dict
+            Dictionary with all results-metrics, times of the execution,
+            features, parameters etc. used in the experiment.
+
+        classes : list
+            List of the classes - true value of the sentiment from dataset.
+            It is used to evaluate the lexicons.
+
+        """
         start = datetime.now()  # starting time
         log.info('Start {start_time}'.format(start_time=start))
-        sent_lex = SentimentLexicons(stemmed=words_stem,
-                                     lexs_files=lexs_files,
-                                     lex_path=lex_path)
-        lexicons = sent_lex.load_lexicons(lex_files=lexs_files,
-                                          lex_path=lex_path)
-        if isinstance(dataset, pd.DataFrame):
-            df = dataset
-        else:
-            log.error('Wrong type of dataset, should be Data Frame')
+
+        # initialize the prediction dictionary
+        predictions = {lex_name: {} for lex_name in lexicons.keys()}
+
+        if not isinstance(df, pd.DataFrame):
             raise IOError('Wrong type of dataset, should be Data Frame')
-        pred = {}
-        for lex_name in lexicons.keys():
-            pred[lex_name] = {}
 
-        dp = DocumentPreprocessor()
         log.info('Shape of dataset{}'.format(df.shape))
+        dp = DocumentPreprocessor()
 
-        counter = 0
-        n_docs = df.shape[0]
-        for row_index, row in df.iterrows():
-            try:
-                doc = dp.remove_numbers(row.Document).lower()
-            except Exception as ex:
-                log.debug('Error {} in remove numbers for: {}'.format(str(ex), doc))
+        docs = df.Document
+        n_docs = len(docs)
+        for doc_index, doc in enumerate(docs):
+            doc = dp.tokenizer(doc, stemming=False)
             for lex_name, lexicon in lexicons.iteritems():
-                sent_val = 0
-                for gram, sent_value in lexicon.iteritems():
-                    if gram in doc:
-                        sent_val += sent_value
-                # log.info('Lexicon {} for document number {}\n '
-                #              'and document text: {}\n  '
-                #              'with sentiment value {}'
-                #              .format(lex_name, counter, doc, sent_val))
-                # TODO: zmienione na ciągłe !!!!
-                pred[lex_name].update({row_index: self.sent_norm(sent_val)})
-                # pred[lex_name].update({row_index: sent_val})
-            if not counter % 1000:
-                log.debug('Documents executed: {}/{}'.format(counter, n_docs))
-            counter += 1
+                sent_val = self.count_sentiment_for_list(document_tokens=doc,
+                                                         lexicon=lexicon,
+                                                         agg_type=agg_type)
+                predictions[lex_name].update({doc_index: sent_val})
+            if not doc_index % 1000:
+                log.debug('Documents executed: {}/{}'.format(doc_index, n_docs))
 
-        for lex_names in lexicons.keys():
-            df_ = pd.DataFrame.from_dict(pred[lex_names], orient='index')
-            df_.columns = [lex_names]
-            df = pd.merge(df, df_, right_index=True, left_index=True,
-                          how='left')
+        if dicretize_sent:
+            for lex_name, vals in predictions.iteritems():
+                predictions[lex_name] = {k: self.sent_norm(v) for k, v in vals.iteritems()}
 
-        df.to_excel(path.join(RESULTS_PATH, 'predictions-%s-%s.xls' % (dataset_name, time.strftime("%Y-%m-%d_%H-%M-%S"))))
-        df.to_pickle(path.join(RESULTS_PATH, 'predictions-%s-%s.pkl' % (dataset_name, time.strftime("%Y-%m-%d_%H-%M-%S"))))
+        evaluation = Evaluation()
+        df_evaluation = evaluation.build_df_lex_results(df=df,
+                                                        lex_names=lexicons.keys(),
+                                                        predictions=predictions,
+                                                        f_name=dataset_name)
 
-        # temp_t = datetime.now()
-        # df = s.sentiment_lexicon_threading(
-        # df=df, lexicons=lexicons, n_jobs=n_jobs)
-        # self.results['sentiment-counting-time'] = (temp_t, datetime.now())
-        # d.df_save(df=df, f_name=dataset_name, file_type='csv')
         if evaluate:
-            evaluation = Evaluation()
-            res, classes = evaluation.evaluate_lexicons(df=df, classifiers_to_evaluate=lexicons.keys())
-            # TODO test nowe zapisu wyników leksykony
+            res, classes = evaluation.evaluate_lexicons(df=df_evaluation,
+                                                        classifiers_to_evaluate=lexicons.keys())
             self.results.update(res)
-            # self.results['measures'].u
         else:
             classes = None
 
-        self.lexicon_predictions.update(pred)
+        self.lexicon_predictions.update(predictions)
         print self.results
         self.results['flow-time'] = (start, datetime.now())
 
-        # evaluation.save_results_to_pickle(results=results, file_name=file_name)
-        # pprint(self.results)
-
         return df, self.lexicon_predictions, self.results, classes
 
-    # def check_ngram_in_lex(self, gram, doc, sent_value, sent_val):
-    #     if gram in doc:
-    #         sent_val += sent_value
-    #     return sent_val
-
+    # TODO update to multiprocessing
     def sentiment_lexicon_threading(self, df, lexicons={}, n_jobs=None):
         """ Dodatkowy wrapper potrzebny do zrównoleglenia obliczania 
         wydźwięku wypowiedzi na podstawie leksykonów.
@@ -321,16 +250,30 @@ class Sentiment(object):
         log.info(
             '{lexicon_name} is ended!'.format(lexicon_name=lexicon_name))
 
-    def count_sentiment_for_list(self, document_tokens, lexicon):
-        """Counting sentiment polarisation for chosen documents with sentiment
+    @staticmethod
+    def count_sentiment_for_list(document_tokens, lexicon, agg_type='sum'):
+        """
+        Counting sentiment polarisation for chosen documents with sentiment
         lexicon. Sentiment is counted WITHOUT repetitions of string. See
         third example.
-        :param document_tokens: list of documents (already tokenized)
-        :param lexicon: dictionary with words as keys and sentiment values
-        as sentiment polarity
-        :raise Exception: exception will raise if appear problem with
-         encoding
-        :return: sentiment polarity value
+
+        Parameters
+        ----------
+        document_tokens : list
+            List of documents (docs has been already tokenized).
+
+        lexicon : dict
+            Dictionary with words/ngrams as keys and their sentiment
+            orientation as values values.
+
+        agg_type : str
+            Type of the aggregation function for counting the sentiment
+            orientation. 'sum' by default. Other: 'avg', 'max', 'min'.
+
+        Returns
+        ----------
+        sentiment_document_value : float or int
+            Aggregated sentiment polarity value.
 
         >>> sent = Sentiment()
         >>> sent.count_sentiment_for_list(['this', 'is'], {'this is': 2})
@@ -340,14 +283,12 @@ class Sentiment(object):
         >>> sent.count_sentiment_for_list(['a', 'a', 'b'], {'a': -1, 'a b': 2})
         1
         """
-        sentiment_document_value = 0
-        # document = ' '.join(document_tokens)
-        # for token in document_tokens:
+        sentiment_document_value = []
         for key, value in lexicon.iteritems():
             try:
                 # if re.search(r'/\b%s\b/' % key, document, re.IGNORECASE):
                 if key in document_tokens:
-                    sentiment_document_value += value
+                    sentiment_document_value.append(value)
             except UnicodeDecodeError as err:
                 log.error(
                     '{err} Token: {token} and lexicon word {key}'
@@ -355,9 +296,17 @@ class Sentiment(object):
                 raise UnicodeDecodeError(
                     '{err} Token: {token} and lexicon word {key}'
                     ''.format(ex=str(err), token=document_tokens, key=key))
-                # except:
-                # log.error('Key: %s\n Value: %s' % (key, value))
-        return sentiment_document_value
+        if agg_type in ['sum']:
+            return np.sum(sentiment_document_value)
+        elif agg_type in ['avg']:
+            return np.mean(sentiment_document_value)
+        elif agg_type in ['min']:
+            return np.min(sentiment_document_value)
+        elif agg_type in ['max']:
+            return np.max(sentiment_document_value)
+        else:
+            raise Exception('Wrong type of sentiment aggregation! Passed: '
+                            '{}'.format(agg_type))
 
     def sentiment_lexicon_document_sentence_aspect(self, lexicon,
                                                    document_tokens,
@@ -394,40 +343,14 @@ class Sentiment(object):
             log.error(error_msg)
             raise MyError(error_msg)
 
-    def sent_norm(self, sentiment_value):
+    @staticmethod
+    def sent_norm(sentiment_value):
         if sentiment_value > 0:
             return 1
         elif sentiment_value < 0:
             return -1
         else:
             return 0
-
-    # TODO sprawdzić czy to jest jeszcze potrzebne
-    # def document_sentiment_regex(self, document, lexicon):
-    # """
-    # Counting sentiment polarities for specific document with chosen lexicon.
-    # Regular expressions based search.
-    #     :param document: str
-    #     :param lexicon: dictionary with sentiment values
-    #
-    #     :returns Sentiment value for document and dictionary with words and
-    #     theirs sentiment value.
-    #     """
-    #     sentiment = 0
-    #     sentiment_word_list = {}
-    #
-    #     for key, value in lexicon.items():
-    #         if re.search(key, document):
-    #             sentiment += int(value)
-    #             sentiment_word_list[key] = value
-    #
-    #     if sentiment > 0:
-    #         sentiment_value = 1
-    #     elif sentiment < 0:
-    #         sentiment_value = -1
-    #     else:
-    #         sentiment_value = 0
-    #     return sentiment_value, sentiment_word_list
 
     # TODO: stara wersja, sprawdzić leksykon i przepisać na nową strukturę
     def document_sentiment_without_regex(self, tokens, lexicon):
@@ -466,78 +389,87 @@ class Sentiment(object):
                                              sentiment_word_list=sentiment_word_list)
         return sentiment_value, sentiment_word_list
 
-    # @memory_profiler.profile
-    def supervised_sentiment(self, dataset=None, worksheet_name=None,
-                             classifiers=None, n_folds=None, source=None,
-                             n_gram_range=tuple(), lowercase=True,
+    # TODO całe wyciągnąc jako flow!!
+    def supervised_sentiment(self, docs, y, classifiers, n_folds=None,
+                             n_gram_range=None, lowercase=True,
                              stop_words='english', max_df=1.0, min_df=0.0,
                              max_features=None, tokenizer=None,
                              f_name_results=None, vectorizer=None,
                              kfolds_indexes=None, dataset_name='',
-                             model=None, w2v_size=None):
+                             model=None, w2v_size=None, save_feat_vec='',
+                             unsup_docs=None, save_model=''):
         """
         Counting the sentiment orientation with supervised learning approach.
         Please use Data Frame with Document and Sentiment columns.
 
         Parameters
         ----------
-        dataset : str
-            Dataset's file name.
+        docs : list or np.array
+            List of strings, document that will be processed for sentiment
+            analysis purposes.
 
-        worksheet_name : str
-            If you load excel file you may pass worksheet name to load data.
+        unsup_docs : list
+            List of documents to train additional Doc-2-Vec model. It will not
+            be used to classification, it is only needed to build better
+             vector representation of documents (bigger corpora for training).
+
+        y : list
+            List with classes that we want to train/predict.
 
         classifiers : dict
             Dictionary of classifiers to run. Classifier names as key and values
             are classifiers objects.
 
-        n_folds : int
+        n_folds : int, None by default
             # of folds in CV.
 
-        source : str
-            Dataset type to be processed, e.g., 'semeval', 'amazon', etc.
-
-        n_gram_range : tuple
+        n_gram_range : tuple, None by default
             Range of ngrams in pre-processing part. Parameter of scikit-learn
             vectorizer.
 
-        lowercase : bool
+        lowercase : bool, True by default
             Do you want to lowercase text in vectorization step? True by default.
 
-        stop_words : str
+        stop_words : str, 'english' by default
             Type of stop word to be used in vectorization step. 'english' by
             default.
 
-        max_df : float
+        max_df : float, 1.0 by default
             max_df parameter for scikit-learn vectorizer.
 
-        min_df : float
+        min_df : float, 0.0 by default
             min_df parameter for scikit-learn vectorizer.
 
-        max_features : int
+        max_features : int, None by default
             # of max features in feature space, parameter for scikit-learn
             vectorizer. None as default, hence all features will be used.
 
-        tokenizer : tokenizer
+        tokenizer : tokenizer, None by default
             Tokenizer for scikit-learn vectorizer.
 
-        f_name_results : str
+        f_name_results : str, None by default
             Name of the results file.
 
-        vectorizer : str
+        vectorizer : str, None by default
             Type of vectorizer, such as word-2-vec or CountVectorizer.
 
         kfolds_indexes : list of tuples
             List of tuples with chosen indices for each Cross-Validation fold.
 
-        dataset_name : str
+        dataset_name : str, empty string by default
             Dataset name.
 
-        model : gensim word-2-vec model
+        model : gensim word-2-vec model, None by default
             Pre-trained 2ord-2-vec/doc-2-vec model.
 
-        w2v_size : int
+        w2v_size : int, None by default
             Size of the vector for word-2-vec/doc-2-vec vectorization.
+
+        save_feat_vec : str, empty string by default
+            Save feature vectors to provided path.
+
+        save_model : str, empty string by default
+            Save doc2vec or word2vec model to provided path.
 
         Returns
         ----------
@@ -554,76 +486,28 @@ class Sentiment(object):
         """
         # get all parameters and their values from called method
         arg_key = [arg for arg in inspect.getargspec(
-            self.supervised_sentiment)[0] if
-                   arg not in ['self', 'kfolds_indexes', 'dataset']]
+            self.supervised_sentiment)[0] if arg not in ['self', 'kfolds_indexes', 'dataset']]
         arg_values = [locals()[arg] for arg in inspect.getargspec(
-            self.supervised_sentiment).args if
-                      arg not in ['self', 'kfolds_indexes', 'dataset']]
-        # add all parameters to dictionary with results
+            self.supervised_sentiment).args if arg not in ['self', 'kfolds_indexes', 'dataset']]
         self.results.update(dict(zip(arg_key, arg_values)))
 
-        # checking of None values in function's parameters
-        if dataset is None:
-            log.error('None as dataset!')
-            raise (str('None as dataset'))
-
-        if isinstance(dataset, pd.DataFrame):
-            source = 'dataframe'
-            log.info('Data source: {}'.format(source))
-            # df = dataset.ix[kfolds_indexes[0][0] + kfolds_indexes[0][1]]
-            df = dataset
-
+        # ################# Check parameter's types ###############################
         if f_name_results is None:
             f_name_results = 'temp_file_name'
 
-        if classifiers is None:
-            classifiers = ALL_CLASSIFIERS
-
+        # TODO powinno to być przy wywołaniu, a nie tutaj
         if kfolds_indexes is not None:
             train_set = kfolds_indexes[0][0]
             test_set = kfolds_indexes[0][1]
 
         # ################# Start of main flow ###############################
         start = datetime.now()  # starting time
-        log.info('Start for dataset {d} {start_time}'.format(
-            start_time=start, d=dataset))
-
-        d = Dataset()
-
-        log.info('Loading dataset')  # % dataset)
-        log.info('Start preprocessing part')
-        document_processor = DocumentPreprocessor()
-
-        if source in ['amazon']:
-            df = d.load_dataset(
-                source_file=path.join(AMAZON_PATH, dataset),
-                worksheet_name=worksheet_name)
-            t_temp = datetime.now()
-            log.info('Amazon dataset, mapping stars into sentiment')
-            df, _ = document_processor.star_score_to_sentiment(df)
-            self.results['Stars-2-Sentiment'] = (t_temp, datetime.now())
-        elif source in ['semeval2013']:
-            df = d.load_semeval_2013_sentiment(dataset)
-        elif source in ['semeval2014']:
-            df = d.load_semeval_2014_sentiment()
-        # TODO: zrobić ładowanie dla Stanford Dataset
-        elif source in ['stanford-treebank']:
-            # df = d.load_semeval_2014_sentiment()
-            pass
-
-        # stats of dataset
-        sent_dist = df['Sentiment'].value_counts()
-        self.results['Sentiment-distribution'] = sent_dist
-        log.debug('Sentiment distribution: %s ' % sent_dist)
-        # log.debug('Sentiment distribution: %s ' % sent_dist)
-
-        docs = df['Document']
-        print 'docs len = %s ' % len(docs)
-        log.info('Number of documents extracted from dataset to '
-                 'vectorize = %s' % len(docs))
+        log.info('Start for dataset {d} {start_time}'.format(start_time=start,
+                                                             d=self.dataset_name))
+        log.info('Number of documents extracted from dataset to vectorize = %s' % len(docs))
         t_temp = datetime.now()
         log.info('Vectorize-START %s ' % vectorizer)
-        if vectorizer in ['TfidfVectorizer']:
+        if vectorizer.lower() in ['tfidfvectorizer']:
             doc_count_vec = TfidfVectorizer(ngram_range=n_gram_range,
                                             lowercase=lowercase,
                                             stop_words=stop_words,
@@ -633,7 +517,7 @@ class Sentiment(object):
                                             tokenizer=tokenizer)
             X = doc_count_vec.fit_transform(docs)
             self.results['feature-names'] = doc_count_vec.get_feature_names()
-        elif vectorizer in ['CountVectorizer']:
+        elif vectorizer.lower() in ['countvectorizer']:
             doc_count_vec = CountVectorizer(ngram_range=n_gram_range,
                                             lowercase=lowercase,
                                             stop_words=stop_words,
@@ -643,25 +527,26 @@ class Sentiment(object):
                                             tokenizer=tokenizer)
             X = doc_count_vec.fit_transform(docs)
             self.results['feature-names'] = doc_count_vec.get_feature_names()
-        elif vectorizer.lower() in ['word-2-vec', 'doc-2-vec']:
-            # TODO: load model if it's already counted
-            # if path.exists()
-            X = self.build_word2vec(docs, model, w2v_size)
+        elif vectorizer.lower() in ['doc-2-vec', 'doc2vec']:
+            X, model_d2v = self.build_doc2vec(docs, unsup_docs, model)
+            if save_model:
+                to_pickle(save_model, self.dataset_name, 'doc-2-vec-model', model_d2v)
+            else:
+                to_pickle(W2V_MODELS_PATH, self.dataset_name, 'doc-2-vec-model', model_d2v)
             self.results['feature-names'] = vectorizer
+        elif vectorizer.lower() in ['word-2-vec', 'word2vec']:
+            X = self.word2vec_as_lexicon(docs, model)
         else:
-            log.error('Unknown vectorizer: %s' % vectorizer)
             raise MyError('Unknown vectorizer: %s' % vectorizer)
 
         self.results['Vectorize'] = (t_temp, datetime.now())
         log.info('Vectorize-END %s ' % vectorizer)
         self.results['feature_space_size'] = X.shape
-        # results_to_pickle(dataset=self.dataset_name,
-        #                   f_name='feature-vector-%s' % datetime.now(),
-        #                   obj=doc_count_vec_fitted.toarray())
+        if save_feat_vec:
+            to_pickle(p=save_feat_vec, dataset=self.dataset_name,
+                      f_name='feature-vector', obj=X)
         log.info('feature_space_size %s x %s' % X.shape)
 
-        y = np.asarray(df['Sentiment'])
-        log.info('Len of sentiment labels/classes = %s' % len(y))
         log.info('Chosen classifiers %s' % classifiers)
 
         clf_names = classifiers.keys()
@@ -742,9 +627,7 @@ class Sentiment(object):
         """
         if n_folds > 1:
             log.debug('Cross validation with n folds has been chosen.')
-            # kf = cross_validation.KFold(len(y), n_folds=n_folds, shuffle=True)
-            kf = cross_validation.StratifiedKFold(y, n_folds=n_folds,
-                                                  shuffle=True)
+            kf = cross_validation.StratifiedKFold(y, n_folds=n_folds, shuffle=True)
         elif kfolds_indexes is not None:
             log.debug('Train and test set are provided in parameters')
             kf = kfolds_indexes
@@ -885,61 +768,81 @@ class Sentiment(object):
                      '' % (clf_name, datetime.now()))
         return predictions
 
-    def build_word2vec(self, docs=None, model=None, size=400):
+    def build_doc2vec(self, docs, docs_unsuperv, model=None):
         """
         Build Doc2Vec model and return vectors for each document
 
         Parameters
         ----------
         docs : iterable object
-            list of documents to train model
+            List of documents to train model.
+
+        docs_unsuperv : list
+            List of documents to train additional Doc 2 Vec model. It will not
+            be used to classification, it is only needed to build better
+             vector representation of documents (bigger corpora for training).
+
         model : specific word 2 vec model
-            special case when you provide whole model with parameters
-        size : int
-            size of the word 2 vec vector
+            Special case when you provide whole model with parameters.
 
         Returns
         ----------
-        vectors for each document
+        r : numpy.array
+            Document vectors for each document.
+
+        model : gensim.Doc2Vec
+            Trained model.
 
         """
-        if size is None:
-            size = 400
+        times_epoch = []
+        start = datetime.now()
 
-        docs = self.labelize_tokenize_docs(docs, "elem")
+        docs_all = list(docs) + list(docs_unsuperv)
+
+        docs_all = self.labelize_tokenize_docs(docs_all, 'Elem')
+        docs = self.labelize_tokenize_docs(docs, 'Elem')
 
         if model is None:
-            model = gensim.models.Doc2Vec(min_count=3, window=10, size=400,
-                                          sample=1e-3, negative=5, workers=3)
-
-        model.build_vocab(docs)
-        docs_perm = docs
+            # TODO parametrize it
+            cores = multiprocessing.cpu_count()
+            model = gensim.models.Doc2Vec(min_count=3, window=10, size=300,
+                                          sample=1e-3, negative=5, workers=cores)
+        model.build_vocab(docs_all)
+        docs_perm = docs_all
         for epoch in range(10):
+            log.info('Doc-2-Vec epoch: {}'.format(epoch))
+            start_epoch = datetime.now()
             random.shuffle(docs_perm)
             model.train(docs_perm)
-        r = self.get_vecs(model, docs)
-        log.debug('Doc2Vec: {}'.format(r))
-        return r
+            times_epoch.append((start_epoch, datetime.now()))
+        self.results['d2v-training-times'] = {'start': start,
+                                              'stop': datetime.now(),
+                                              'epochs': times_epoch}
+        r = self.get_doc_2_vec_vectors(model, docs)
+        return r, model
 
     @staticmethod
-    def get_vecs(model, corpus):
+    def get_doc_2_vec_vectors(model, corpus):
         return np.array([np.array(model.docvecs[z.tags[0]]) for z in corpus])
 
     @staticmethod
     def labelize_tokenize_docs(docs, label_type):
         """
-        Create TaggedDocument objects (previously LabelledDocument)
+        Create TaggedDocument objects (previously LabelledDocument) for purposes
+        of gensim library.
 
         Parameters
         ----------
         docs : list
-            list of documents to build model
+            List of documents to build model.
+
         label_type : string
-            each document must have string value, similar to ID
+            Each document must have string value, similar to ID.
 
         Return
         ----------
-        list of TaggedDocument's objects
+        labelized : list
+            list of TaggedDocument's objects.
 
         """
         labelized = []
@@ -954,14 +857,44 @@ class Sentiment(object):
             f_n = path.join(clf_path, '%s.pkl' % f_name)
             with open(f_n, 'wb') as f_pkl:
                 pickle.dump(clf, f_pkl)
-            log.info('Classifier {clf} has been saved.'
-                     ''.format(clf=f_n))
+            log.info('Classifier {clf} has been saved'.format(clf=f_n))
         except IOError as err:
-            log.error('Serialization error for {clf}: {err}'
-                      ''.format(clf=clf, err=str(err)))
             raise IOError(str(err))
 
     @staticmethod
     def load_classifier(clf_path=CLASSIFIERS_PATH, f_name=None):
         # TODO load_classifier()
         print 'TODO'
+
+    def word2vec_as_lexicon(self, docs, model):
+        """
+        Use Word-2-Vec model to count sentiment orientation of documents.
+
+        Parameters
+        ----------
+        docs : list
+            List of documents to aggregate word vectors, each word vector that
+            appear in document will be replaced with Word-2Vec representation
+            and aggregated to one vector. By default the aggregation function is
+            sum.
+
+        model : gensim.Word2Vec model
+            Word-2-Vec model to extracting word vectors.
+
+        Returns
+        ----------
+        X : np.array
+            Feature space for sentiment analysis flow. The size of each word
+            vector is equal to vector size of Word-2-Vec model.
+        """
+        doc_vectors = []
+        dp = DocumentPreprocessor()
+        for doc in docs:
+            doc_vector = np.zeros(len(model.syn0[0]), dtype=np.float)
+            for word in dp.tokenizer_spacy(doc):
+                try:
+                    doc_vector += model[word]
+                except:
+                    log.info('Word: {} doesn\'t appear in model.'.format(word))
+            doc_vectors.append(doc_vector)
+        return np.asarray(doc_vectors)

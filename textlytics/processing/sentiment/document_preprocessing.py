@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Łukasz Augustyniak'
 
 import datetime
-from itertools import chain
 import re
 import logging
 from nltk import sent_tokenize
@@ -11,6 +9,9 @@ from nltk import pos_tag
 from nltk import ne_chunk
 from nltk.tokenize import RegexpTokenizer
 from stemming.porter2 import stem
+from bs4 import BeautifulSoup
+
+from spacy.en import English
 
 log = logging.getLogger(__name__)
 
@@ -157,6 +158,11 @@ class DocumentPreprocessor(object):
             document)
         return ' '.join(document.split())
 
+    @staticmethod
+    def clean_html(document):
+        soup = BeautifulSoup(document)
+        return soup.getText()
+
     def remove_words_and_ngrams(self, document):
         """Delete word from document/text which are exceptions -> word and
         ngrams, e.g., good morning (for sentiment analysis).
@@ -198,34 +204,59 @@ class DocumentPreprocessor(object):
             logging.error(er_msg)
             raise Exception(er_msg)
 
-    def remove_numbers(self, document):
+    def remove_numbers(self, doc):
         """
-        Usuwanie cyfr z dokumentu.
-        :rtype : object
-        :param document:
-        :return:
+        Remove numbers from document.
+
+        Parameters
+        ----------
+        doc : str
+            Document that will be cleaned, all number will be removed.
+
+        Returns
+        ----------
+        doc : str
+            Document without numbers.
         """
         regex = re.compile('[%s]' % re.escape(self.numbers))
-        return regex.sub('', document)
+        return regex.sub('', doc)
 
-    def tokenize_document_simple(self, sentences):
+    def tokenize_sentences(self, sentences):
         """
-        Tokenizacja listy zdań.
-        :param sentences:
-        :return:
+        The simplest version of tokenization for list of sentences.
+
+        Parameters
+        ----------
+        sentences : list
+            List of sentences, eg. [['love heart'], ['big shop]]
+
+        Returns
+        ----------
+        token_sentence_list : list
+            List of token lists, eg. [['love', 'heart'], ['big', 'shop]]
         """
         token_sentence_list = []
         for sentence in sentences:
-            token_sentence_list.append(
-                word_tokenize(
-                    sentence))  # 'don't' will be 'don' ''' 't' -> 3 tokens, better is 'don't'
+            token_sentence_list.append(self.tokenize_sentence(sentence))
         return token_sentence_list
 
-    def tokenize_document_regexp(self, sentences, reg_exp_='\s+'):
+    # TODO lepiej zrobić jeden moduł i kilka atrybutów/parametrów?
+    def tokenize_doc_sents_regexp(self, sentences, reg_exp_='\s+'):
         """
-        Tokenizacja listy zdań za pomocą wyrazenia regularnego.
-        :param sentences:
-        :return:
+        Tokenization based on regex pattern (NLTK based).
+
+        Parameters
+        ----------
+        sentences : list
+            List of sentences.
+
+        reg_exp_ : string
+            Regex pattern for tokenizer.
+
+        Returns
+        ----------
+        sentences_ : list
+            List of token's lists - nested lists.
         """
         sentences_ = []
         tokenizer = RegexpTokenizer(reg_exp_, gaps=True)
@@ -233,26 +264,73 @@ class DocumentPreprocessor(object):
             sentences_.append(tokenizer.tokenize(sentence))
         return sentences_
 
-    def tokenize_sentence(self, document):
+    def tokenize_sentence(self, doc):
         """
-        Najprostsza tokenizacja z nltk.
-        :param document: document string
-        :return:
-        """
-        # return sent_tokenize(unicode(document, 'utf-8'))
-        return sent_tokenize(document)
+        The simplest sentence tokenizer (by default from NLTK).
 
-    def tokenizer_with_stemming(self, document):
+        Parameters
+        ----------
+        doc: str
+            Document string that will be tokenized.
+
+        Returns
+        ----------
+            List of sentences.
         """
-        Prosty tokenizator razem ze stemmingiem.
-        :param document: string
-        :return: list of tokens (stems)
+        return sent_tokenize(doc)
+
+    @staticmethod
+    def tokenizer(doc, stemming=False):
         """
-        return [stem(word) for word in word_tokenize(document)]
+        Simple tokenizer with optional stemming.
+
+        Parameters
+        ----------
+        doc : str
+            Document that will be tokenized.
+
+        stemming : bool
+            Do you want to stem all words? False by defaults.
+
+        Returns
+        ----------
+            list of tokens (stems).
+        """
+        if stemming:
+            return word_tokenize(doc)
+        else:
+            return [stem(word) for word in word_tokenize(doc)]
+
+    @staticmethod
+    def tokenizer_spacy(doc):
+        """
+		Simple tokenizer based on SPACY library.
+
+		Parameters
+		----------
+		doc : str
+			Document that will be tokenized.
+
+		Returns
+		----------
+			list of tokens (stems).
+		"""
+        parser = English(parser=False, entity=False)
+        doc = parser(unicode(doc.lower()))
+        return [word for word in doc]
 
     def parts_of_speech_tokenized_document(self, tokenized_document):
         """
-        Returns named entity chunks in a given text
+        Returns document with Parts of Speech tags in a given text
+
+        Parameters
+        ----------
+        tokenized_document : list of strings
+            Tokenized document.
+
+        Returns
+        ----------
+        List of tuples (token, pos tag)
         """
         return [pos_tag(sentence) for sentence in tokenized_document]
 
@@ -307,9 +385,7 @@ class DocumentPreprocessor(object):
         elif document_tokens is not None:
             return [stem(word_token) for word_token in document_tokens]
         else:
-            er_msg = 'Wrong parameters for this methods'
-            logging.error(er_msg)
-            raise Exception(er_msg)
+            raise Exception('Wrong parameters for this methods')
 
     def lower_case_document(self, document_tokens=None, sentences=None):
         if sentences is not None:
@@ -332,6 +408,7 @@ class DocumentPreprocessor(object):
             stop_words_ = self.stop_words
         return list(set([stem(word) for word in stop_words_]))
 
+    # TODO to remove?
     def tokenize(self, data_frame):
         word_tokens = []
 
@@ -390,7 +467,7 @@ class DocumentPreprocessor(object):
             # sentence = handle_negation(sentence)
             sentences_clean_text.append(sentence)
 
-        sentences = self.tokenize_document_regexp(
+        sentences = self.tokenize_doc_sents_regexp(
             sentences=sentences_clean_text)
 
         sentences = self.lower_case_document(sentences=sentences)
@@ -433,9 +510,6 @@ class DocumentPreprocessor(object):
                     ngram_occurrences[
                         tuple([tuple(document_tokens[i:i + n]), sentiment])] = 1
         return ngram_occurrences
-
-    def list_list_flatten(l=[[]]):
-        return list(chain(*l))
 
     def preprocess_sentiment(self, df, results={}, words_stem=True,
                              progress_interval=1000):
@@ -482,41 +556,3 @@ def preprocessed(data_frame):
             dp.word_length_filter(processed_document, 3))
     data_frame['word_tokens_document'] = word_tokens_document
     return data_frame
-
-
-def test():
-    from pprint import pprint
-
-    dp = DocumentPreprocessor()
-
-    sentence_tokens = [['Good', 'morning', 'Mr.', 'Augustyniak'],
-                       ['Good', 'morning', 'This', 'is', 'something'],
-                       ['This', 'is', 'anything']]
-    D = dp.ngrams_freqdist_sentiment(document_tokens=sentence_tokens,
-                                     sentiment='Pos', n=2,
-                                     sentence_tokenized=True)
-
-    s = word_tokenize('This is really good water')
-    # print s
-    D = dp.ngrams_freqdist_sentiment(document_tokens=s, sentiment='Neg',
-                                     ngram_occurrences=D, n=2,
-                                     sentence_tokenized=False)
-
-    s2 = word_tokenize('Good morning Vietnam')
-    # print s2
-    D = dp.ngrams_freqdist_sentiment(document_tokens=s2, sentiment='Neg',
-                                     ngram_occurrences=D, n=2,
-                                     sentence_tokenized=False)
-
-    pprint(D)
-
-# if __name__ == "__main__":
-#     import doctest
-#
-#     doctest.testmod()
-
-# d = DocumentPreprocessor()
-# d.remove_stop_words(None, word_list=[], sentences=None)
-
-# log.info('asdasdasd')
-# print 'asd'

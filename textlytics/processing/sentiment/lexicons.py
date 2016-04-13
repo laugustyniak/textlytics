@@ -1,20 +1,15 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Lukasz Augustyniak'
 
 import logging
+
 from os import path
 from dircache import listdir
 from stemming import porter2 as stemming
 from ...utils import LEXICONS_PATH
 
-# logging.basicConfig(filename='lexicons.log', level=logging.DEBUG,
-#                     format='%(asctime)s - lexicons.py - %(levelname)s - %('
-#                            'message)s')
-
-# logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
-Ś
+
 class SentimentLexicons(object):
     """Structure of lexicons:
 

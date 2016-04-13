@@ -13,8 +13,8 @@ df, _ = dp.star_score_to_sentiment(df, score_column='Stars', star_mean_score=3)
 s = Sentiment()
 
 df_lex, lexicon_prediction, lexicon_result, classes = \
-    s.lexicon_based_sentiment_simplified(
-        dataset=df,
+    s.lex_sent_batch(
+        df=df,
         lexs_files=['amazon_automotive_25_w2v_all.txt', 'amazon_automotive_25.txt'],
         words_stem=False,
         dataset_name='w2v')

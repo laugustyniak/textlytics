@@ -1,3 +1,5 @@
+spacy
+bs4
 sklearn
 argcomplete 0.8.1
 astroid 1.2.1
