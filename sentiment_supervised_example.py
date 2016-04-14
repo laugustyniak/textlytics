@@ -48,12 +48,12 @@ def imdb_sentiment(n_cv=10, vectorizer_type='CountVectorizer'):
 	}
 
 	clfs = {
-		'BernoulliNB': BernoulliNB(),
-		'DecisionTreeClassifier': DecisionTreeClassifier(),
-		'LogisticRegression': LogisticRegression(),
-		'LinearSVC': LinearSVC(),
-		'SVC': SVC(),
-	}
+'BernoulliNB': BernoulliNB(),
+# 'DecisionTreeClassifier': DecisionTreeClassifier(),
+'LogisticRegression': LogisticRegression(),
+'LinearSVC': LinearSVC(),
+# 'SVC': SVC(),
+}
 
 	predictions = []
 	results = []
