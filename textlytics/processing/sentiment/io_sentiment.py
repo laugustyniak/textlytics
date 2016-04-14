@@ -9,7 +9,7 @@ import pandas as pd
 
 from os import path, makedirs
 from document_preprocessing import DocumentPreprocessor
-from ...utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH, IMDB_MERGED_PATH
+from ...utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH, IMDB_MERGED_PATH, STANFORD_PATH
 
 log = logging.getLogger(__name__)
 
@@ -60,6 +60,21 @@ class Dataset(object):
         """Load from path and convert data from pickle to JSON.
         Pickle -> str -> JSON"""
         return simplejson.loads(pd.read_pickle(p))
+
+    def load_stanford_csv(self):
+        """
+        Loading salon24 data from csv format.
+        :param p: path to the csv file
+        :return: Data Frame of salon24's data
+        """
+        try:
+            return pd.read_csv(path.join(STANFORD_PATH, 'StanfordData.csv'), index_col=None, na_values=['NA'],
+                               sep=';')
+        except IOError as err:
+            logging.error(
+                'Niepoprawnie załadowano plik {path}, {err}'
+                ''.format(path=path, err=str(err)))
+            raise IOError
 
     def load_amazon_sentiment(self, dataset_path, f_name, worksheet_name,
                               star_column_name=None):
