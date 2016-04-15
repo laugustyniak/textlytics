@@ -246,6 +246,7 @@ class Evaluation(object):
 
         """
 		for lex_name in lex_names:
+			log.debug('Building df with predictions for {}'.format(lex_name))
 			df_ = pd.DataFrame.from_dict(predictions[lex_name], orient='index')
 			df_.columns = [lex_name]
 			df = pd.merge(df, df_, right_index=True, left_index=True,
@@ -253,6 +254,7 @@ class Evaluation(object):
 		if save:
 			t_str = time.strftime("%Y-%m-%d_%H-%M-%S")
 			df.to_excel(join(self.results_path,
-			                 'predictions-{}-{}.xls'.format(f_name, t_str)))
+			                 'Lexicons-predictions-{}-{}.xls'.format(f_name, t_str)))
 			df.to_pickle(join(self.results_path,
-			                  'predictions-{}-{}.pkl'.format(f_name, t_str)))
+			                  'Lexicons-predictions-{}-{}.pkl'.format(f_name, t_str)))
+			return df
