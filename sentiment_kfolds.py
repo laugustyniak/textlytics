@@ -1,76 +1,70 @@
 # -*- coding: utf-8 -*-
 
-import memory_profiler
 import glob
-import sys
-import pickle
 import logging
+import multiprocessing
+import pickle
+import sys
+import gensim
 import pandas as pd
 
 from os import path
-from pprint import pprint
-from sklearn.naive_bayes import MultinomialNB, BernoulliNB, GaussianNB
-from sklearn.linear_model import LogisticRegression, Perceptron
-from sklearn.svm import LinearSVC, SVC
-from sklearn.tree import DecisionTreeClassifier, ExtraTreeClassifier
+from gensim.models import Word2Vec
+from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB, BernoulliNB
+from sklearn.svm import LinearSVC
+from sklearn.tree import DecisionTreeClassifier
 
-from textlytics.processing.sentiment.sentiment import Sentiment
-from textlytics.processing.sentiment.io_sentiment import results_to_pickle
 from textlytics.processing.sentiment.document_preprocessing import \
     DocumentPreprocessor
+from textlytics.processing.sentiment.io_sentiment import results_to_pickle
+from textlytics.processing.sentiment.sentiment import Sentiment
 
 logging.basicConfig(filename='generate_lexicons_and_results.log')
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
 
 ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 formatter = logging.Formatter(
     '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 ch.setFormatter(formatter)
 log.addHandler(ch)
 
-ALL_CLASSIFIERS = {
-    'BernoulliNB': BernoulliNB(),
-    # 'GaussianNB': GaussianNB(),
-    'MultinomialNB': MultinomialNB(),
-    'DecisionTreeClassifier': DecisionTreeClassifier(),
-    # 'RandomForestClassifier': RandomForestClassifier(),
-    'LogisticRegression': LogisticRegression(),
-    'LinearSVC': LinearSVC(),
-
-    # 'Perceptron': Perceptron(),
-    # 'SVC': SVC(),
-    # 'AdaBoostClassifier': AdaBoostClassifier(),
-    # 'SVR': SVR(),
-    # 'NuSVC': NuSVC(),
-    # 'NuSVR': NuSVR(),
-    # 'OneClassSVM': OneClassSVM(),
-    # 'ExtraTreeClassifier': ExtraTreeClassifier()
-}
-
 
 # @memory_profiler.profile
-def get_dataset_with_kfolds_indexes(base_path='',
-                                    dataset_filter='', n_reviews=2000,
-                                    source='amazon',
-                                    vectorizer_type='CountVectorizer',
-                                    stars=None, w2v_size=100, n_cv=10):
+def get_dataset_with_kfolds_indexes(base_path, dataset_filter, n_reviews=2000,
+                                    n_cv=10, vectorizer_type='CountVectorizer',
+                                    stars=None, model=None):
     """
     Main function for getting data and all necessary setting to start up
-     supervised learning approach for sentiment analysis based on Amazon data
-     with predefined cross-validation folds.
-    :param base_path: path to all folders and files needed in analysis, e.g,
-        csv files with amazon data
-    :param dataset_filter: string for filtering files nas for dataset
-        that will be used in the experiment
-    :param n_reviews: number of reviews from each dataset to use in analysis,
-        as default 2000
-    :param source: type of source data, 'amazon' as default
-    :param vectorizer_type: type of vectorizer that will be used to build
-        feature vector, as default - CounterVectorizer from Scikit-Learn lib
-    :param stars: list of stars that will be mapped into sentiment
-    :return:
+    supervised learning approach for sentiment analysis based on Amazon data
+    with predefined cross-validation folds.
+
+    Parameters
+    ----------
+    base_path : string
+        Path to all folders and files needed in analysis, e.g, csv files with
+        amazon data.
+
+    dataset_filter : string
+        Filter files nas for dataset that will be used in the experiment.
+
+    n_reviews : int, 2000 by default
+        Number of reviews from each dataset to use in analysis.
+
+    n_cv : int, 10 by default
+        Number of Cross-Validation folds that will be used in experiment.
+
+    vectorizer_type : object, as default - CounterVectorizer (Scikit-Learn).
+        Type of vectorizer that will be used to build feature vector.
+
+    stars : list
+        List of stars that will be mapped into sentiment.
+
+    model : gensim.Doc2Vec
+        Model that will convert list of documents into list of document's
+        vectors.
     """
 
     train_test_path = path.join(base_path, 'train_test_subsets')
@@ -128,26 +122,29 @@ def get_dataset_with_kfolds_indexes(base_path='',
                     log.info('Length train: %s' % len(cv[0]))
                     log.info('Length test: %s' % len(cv[1]))
                     df_ = df.ix[cv[0] + cv[1]]
+                    # W2V specific
+                    unsup_docs = df.loc[~df.index.isin(df_.index)]['Document']
+                    log.debug('Unsup_docs {}'.format(len(unsup_docs)))
+
                     log.info('Chosen dataframe subset is %s x %s' % df_.shape)
                     classes, ml_prediction, results_ml = s.supervised_sentiment(
-                        dataset=df_,
+                        docs=df_['Document'],
+                        y=df_['Sentiment'],
+                        # dataset=df_,
                         n_gram_range=n_grams_range,
                         classifiers=ALL_CLASSIFIERS,
                         lowercase=True,
                         stop_words='english',
                         max_df=1.0,
                         min_df=0.0,
-                        # min_df=0.01,
-                        # max_df=0.8,
-                        # min_df=0.2,
                         max_features=None,
                         f_name_results=f_name,
                         vectorizer=vectorizer_type,
-                        w2v_size=w2v_size,
-                        source=source,
                         kfolds_indexes=[cv],
-                        dataset_name=dataset_name,
-                        n_folds=1
+                        n_folds=n_cv,
+                        model=model,
+                        unsup_docs=unsup_docs,
+                        save_model='/datasets/amazon-data/csv/models/'
                     )
                     # pprint('LinearSVC acc %s '
                     #        '' % results_ml['measures']['LinearSVC']['acc'])
@@ -167,6 +164,7 @@ def get_dataset_with_kfolds_indexes(base_path='',
 
 
 def run_multi(d):
+    cores = multiprocessing.cpu_count()
     get_dataset_with_kfolds_indexes(
         # base_path='/mnt/sdc2/Lukasz/Datasets/amazon-cats/csv/',
         # base_path='C:/unigrams-kfolds/csv/',
@@ -175,26 +173,54 @@ def run_multi(d):
         # dataset_filter='Automotive',
         dataset_filter=d,
         # dataset_filter='Automotive',
-        vectorizer_type='word-2-vec',
-        w2v_size=2,
+        vectorizer_type='doc2vec',
+        # vectorizer_type='word2vec',
+        # w2v_size=2,
         # n_reviews=20
         stars=[1, 5],
-        n_cv=1
+        n_cv=2,
+        model=gensim.models.Doc2Vec(min_count=1, window=10, size=100,
+                                    sample=1e-3, negative=5, workers=cores),
+        # model=w2v_model
 
     )
 
+ALL_CLASSIFIERS = {
+    'BernoulliNB': BernoulliNB(),
+    # 'GaussianNB': GaussianNB(),
+    'MultinomialNB': MultinomialNB(),
+    'DecisionTreeClassifier': DecisionTreeClassifier(),
+    # 'RandomForestClassifier': RandomForestClassifier(),
+    'LogisticRegression': LogisticRegression(),
+    'LinearSVC': LinearSVC(),
+
+    # 'Perceptron': Perceptron(),
+    # 'SVC': SVC(),
+    # 'AdaBoostClassifier': AdaBoostClassifier(),
+    # 'SVR': SVR(),
+    # 'NuSVC': NuSVC(),
+    # 'NuSVR': NuSVR(),
+    # 'OneClassSVM': OneClassSVM(),
+    # 'ExtraTreeClassifier': ExtraTreeClassifier()
+}
+
 datasets = [
-    'Automotive',
+    # 'Automotive',
     # 'Book',
     # 'Clot',
     # 'Electro',
     # 'Healt',
-    # 'Movi',
+    'Movies',
     # 'Music',
     # 'Video',
     # 'Toys',
     # 'Sport',
     ]
+
+
+# cores = multiprocessing.cpu_count()
+# w2v_model_path = '/datasets/w2v/GoogleNews-vectors-negative300.bin.gz'
+# w2v_model = Word2Vec.load_word2vec_format(w2v_model_path, binary=True)
 
 for dataset in datasets:
     run_multi(dataset)

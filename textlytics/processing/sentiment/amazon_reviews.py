@@ -16,14 +16,7 @@ from spacy.en import English
 from bs4 import BeautifulSoup
 from document_preprocessing import DocumentPreprocessor
 
-log = logging.getLogger()
-log.setLevel(logging.DEBUG)
-
-ch = logging.StreamHandler(sys.stdout)
-formatter = logging.Formatter(
-	'%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
+log = logging.getLogger(__name__)
 
 
 class AmazonReviews(object):

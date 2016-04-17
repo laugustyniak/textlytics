@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
 """
-File with all necessary utilities for Complex Networks project.
+File with all necessary utilities for package.
 """
 
-__author__ = 'Łukasz Augustyniak'
-
-from os import path, makedirs
+from os import path
+from itertools import chain
 
 # main paths
 MAIN_DIRECTORY = path.dirname(path.dirname(__file__))
@@ -14,16 +13,17 @@ BASE_PATH = path.dirname(__file__)
 
 # paths to datasets - folders
 DATA_PATH = path.join(BASE_PATH, 'data')
+DATASETS_PATH = path.join(DATA_PATH, 'datasets')
 LOGS_PATH = path.join(BASE_PATH, 'logs')
-AMAZON_PATH = path.join(DATA_PATH, 'amazon')
-CRAWLED_JSON_PATH = path.join(DATA_PATH, 'crawled_json')
-IMBD_PATH = path.join(DATA_PATH, 'imdb')
-SEMEVAL_PATH = path.join(DATA_PATH, 'semeval')
+AMAZON_PATH = path.join(DATASETS_PATH, 'amazon')
+CRAWLED_JSON_PATH = path.join(DATASETS_PATH, 'crawl ed_json')
+IMBD_PATH = path.join(DATASETS_PATH, 'imdb')
+IMDB_MERGED_PATH = path.join(DATASETS_PATH, 'IMDB_merged')
+SEMEVAL_PATH = path.join(DATASETS_PATH, 'semeval')
 LEXICONS_PATH = path.join(DATA_PATH, 'lexicons')
 W2V_MODELS_PATH = path.join(DATA_PATH, 'w2v_models')
 
 # paths to results
-# TODO /home?
 RESULTS_PATH = path.join(BASE_PATH, 'results')
 
 # paths to datasets - files
@@ -49,3 +49,20 @@ def get_main_directory(*p):
     :return: path to main folder of project
     """
     return path.join(MAIN_DIRECTORY, *p)
+
+
+def list_list_flatten(l=[[]]):
+    """
+     Flatten nested lists.
+     [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
+
+     Parameters
+     ----------
+     l : list of lists
+        List of list to be flatten.
+
+    Returns
+    ----------
+    List that was flatten.
+    """
+    return list(chain(*l))
