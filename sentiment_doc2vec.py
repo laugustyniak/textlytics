@@ -115,9 +115,8 @@ def sentiment_doc2vec_amazon_cv(base_path, dataset_filter, n_reviews=2000,
 				                                                     len(cv[1])))
 				df_ = df.ix[cv[0] + cv[1]]
 				# W2V specific
-				# unsup_docs = df.loc[~df.index.isin(df_.index)]['Document']
-				# log.debug('Unsup_docs {}'.format(len(unsup_docs)))
-				unsup_docs = []
+				unsup_docs = df.loc[~df.index.isin(df_.index)]['Document'][:n_max_unsupervised]
+				log.debug('Unsup_docs {}'.format(len(unsup_docs)))
 
 				log.info(
 					'Chosen dataframe subset is {} x {}'.format(df_.shape[0],
