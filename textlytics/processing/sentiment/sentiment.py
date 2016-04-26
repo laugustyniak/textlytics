@@ -8,11 +8,15 @@ import random
 import threading
 import pickle
 import gensim
+import memory_profiler
 
 import pandas as pd
 import numpy as np
 
 from os import path
+
+from joblib import Parallel
+from joblib import delayed
 from numpy import sum
 from itertools import chain
 from sklearn import metrics, cross_validation
@@ -27,7 +31,7 @@ from document_preprocessing import DocumentPreprocessor
 from evaluation import Evaluation
 from io_sentiment import classifier_to_pickle, to_pickle
 from my_errors import MyError
-from ...utils import CLASSIFIERS_PATH, W2V_MODELS_PATH
+from ...utils import CLASSIFIERS_PATH, W2V_MODELS_PATH, RESULTS_PATH
 
 log = logging.getLogger(__name__)
 
@@ -58,22 +62,61 @@ class Sentiment(object):
 	methods (Bag-of-Words, Word-2-Vec).
 	"""
 
-	def __init__(self, output_file_name=None, sentiment_level='Document',
-	             progress_interval=100, dataset_name='',
-	             measures_average='weighted'):
-		self.output_file_name = output_file_name
+	def __init__(self, sentiment_level='Document', progress_interval=1000,
+	             dataset_name='', measures_average='weighted', save_model=None,
+	             save_classifiers=None, n_jobs=1, stemming=False):
+		"""
+		Initialize all necessary variables to count sentiment.
+
+		Parameters
+		----------
+		sentiment_level : string, 'document' by default
+			Level of counting sentiment orientations, could be 'document',
+			'sentence', 'aspect'.
+
+		progress_interval : int
+			By how many elements all logging will be done, especially during
+			lexicon-based approaches for sentiment analysis.
+
+		dataset_name : string
+			Dataset name of processed file.
+
+		measures_average : string, 'weighted' by default
+			Scikit-learn's parameter for all metrics' methods.
+
+		save_model : string, None by default
+			Do you want to save models trained during experiment? You may
+			specify path where to save the files.
+
+		save_classifiers : string, None by default
+			Do you want to save classifiers fitted during experiment? You may
+			specify path where to save the files.
+
+		n_jobs : int, by default 1
+			Number of multiprocesses that will be used in experiment.
+
+		stemming : bool, by default False
+			Do you want to execute experiment with stems or without them?
+
+		"""
 		self.progress_interval = progress_interval
 		self.results = {'measures': {},
 		                'measures-avg': {}}  # saving all results times and other
+		self.n_jobs = n_jobs
+		self.stemming = stemming
 		# information
 		if sentiment_level in ['Document', 'Sentence', 'Aspect']:
 			self.sentiment_level = sentiment_level
 		else:
-			log.error('Sentiment level specified incorrectly!')
-			raise 'Sentiment level specified incorrectly!'
+			raise Exception('Sentiment level specified incorrectly!')
 		self.lexicon_predictions = {}
 		self.dataset_name = dataset_name
 		self.measures_average = measures_average
+
+		if save_model is not None:
+			self.save_model = save_model
+		if save_classifiers is not None:
+			self.save_classifiers = CLASSIFIERS_PATH
 
 	# @memory_profiler
 	# @profile
@@ -135,19 +178,29 @@ class Sentiment(object):
 			raise IOError('Wrong type of dataset, should be Data Frame')
 
 		log.info('Shape of dataset{}, columns: {}'.format(df.shape, df.columns))
-		dp = DocumentPreprocessor()
+		# dp = DocumentPreprocessor()
 
 		docs = df.Document
-		n_docs = len(docs)
-		for doc_index, doc in enumerate(docs):
-			doc = dp.tokenizer(doc, stemming=False)
-			for lex_name, lexicon in lexicons.iteritems():
-				sent_val = self.count_sentiment_for_list(document_tokens=doc,
-				                                         lexicon=lexicon,
-				                                         agg_type=agg_type)
-				predictions[lex_name].update({doc_index: sent_val})
-			if not doc_index % 1000:
-				log.debug('Documents executed: {}/{}'.format(doc_index, n_docs))
+		# n_docs = len(docs)
+
+		# for lex_name, lexicon in lexicons.iteritems()
+		log.info(
+			'Lexicon based method will be counted with {} processes in parallel.'.format(
+				self.n_jobs))
+		preds = Parallel(n_jobs=self.n_jobs)(
+			delayed(sentiment_lexicon)(docs, lex_name, lexicon, agg_type, self.stemming, self.progress_interval)
+			for lex_name, lexicon in lexicons.iteritems())
+		predictions = dict((k, v) for d in preds for (k, v) in d.items())
+
+		# for doc_index, doc in enumerate(docs):
+		# 	doc = dp.tokenizer(doc, stemming=False)
+		# 	for lex_name, lexicon in lexicons.iteritems():
+		# 		sent_val = self.count_sentiment_for_list(document_tokens=doc,
+		# 		                                         lexicon=lexicon,
+		# 		                                         agg_type=agg_type)
+		# 		predictions[lex_name].update({doc_index: sent_val})
+		# 	if not doc_index % 1000:
+		# 		log.debug('Documents executed: {}/{}'.format(doc_index, n_docs))
 
 		if dicretize_sent:
 			for lex_name, vals in predictions.iteritems():
@@ -170,6 +223,30 @@ class Sentiment(object):
 		self.results['flow-time'] = (start, datetime.now())
 
 		return df, self.lexicon_predictions, self.results, classes
+
+	# def sentiment_lexicon(self, doc, doc_index, lex_name, lexicon, agg_type):
+	# 	sent_val = self.count_sentiment_for_list(document_tokens=doc,
+	# 	                                         lexicon=lexicon,
+	# 	                                         agg_type=agg_type)
+	# 	predictions[lex_name].update({doc_index: sent_val})
+
+	# def sentiment_lexicon(self, docs, lex_name, lexicon, agg_type):
+	# 	predictions = {lex_name: {}}
+	# 	n_docs = len(docs)
+	# 	dp = DocumentPreprocessor()
+	# 	for doc_index, doc in enumerate(docs):
+	# 		doc = dp.tokenizer(doc, stemming=self.stemming)
+	# 		sent_val = self.count_sentiment_for_list(document_tokens=doc,
+	# 		                                         lexicon=lexicon,
+	# 		                                         agg_type=agg_type)
+	# 		predictions[lex_name].update({doc_index: sent_val})
+	# 		# log.debug('Predictions for {}: {}'.format(lex_name, predictions))
+	# 		if not doc_index % self.progress_interval:
+	# 			log.debug(
+	# 				'Documents executed: {}/{} for lex: {}'.format(doc_index,
+	# 				                                               n_docs,
+	# 				                                               lex_name))
+	# 	return predictions
 
 	# TODO update to multiprocessing
 	def sentiment_lexicon_threading(self, df, lexicons={}, n_jobs=None):
@@ -389,6 +466,7 @@ class Sentiment(object):
 		return sentiment_value, sentiment_word_list
 
 	# TODO całe wyciągnąc jako flow!!
+	# @memory_profiler.profile
 	def supervised_sentiment(self, docs, y, classifiers, n_folds=None,
 	                         n_gram_range=None, lowercase=True,
 	                         stop_words='english', max_df=1.0, min_df=0.0,
@@ -396,7 +474,7 @@ class Sentiment(object):
 	                         f_name_results=None, vectorizer=None,
 	                         kfolds_indexes=None, dataset_name='',
 	                         model=None, w2v_size=None, save_feat_vec='',
-	                         unsup_docs=None, save_model=''):
+	                         unsup_docs=None):
 		"""
 		Counting the sentiment orientation with supervised learning approach.
 		Please use Data Frame with Document and Sentiment columns.
@@ -467,9 +545,6 @@ class Sentiment(object):
 		save_feat_vec : str, empty string by default
 			Save feature vectors to provided path.
 
-		save_model : str, empty string by default
-			Save doc2vec or word2vec model to provided path.
-
 		Returns
 		----------
 		y : numpy array
@@ -506,10 +581,10 @@ class Sentiment(object):
 		log.info('Start for dataset {d} {start_time}'.format(start_time=start,
 		                                                     d=self.dataset_name))
 		log.info(
-			'Number of documents extracted from dataset to vectorize = %s' % len(
-				docs))
+			'Number of documents extracted from dataset to vectorize = {}'.format(
+				len(docs)))
 		t_temp = datetime.now()
-		log.info('Vectorize-START %s ' % vectorizer)
+		log.info('Vectorize-START {}'.format(vectorizer))
 		if vectorizer.lower() in ['tfidfvectorizer']:
 			doc_count_vec = TfidfVectorizer(ngram_range=n_gram_range,
 			                                lowercase=lowercase,
@@ -531,32 +606,31 @@ class Sentiment(object):
 			X = doc_count_vec.fit_transform(docs)
 			self.results['feature-names'] = doc_count_vec.get_feature_names()
 		elif vectorizer.lower() in ['doc-2-vec', 'doc2vec']:
-			X, model_d2v = self.build_doc2vec(docs, unsup_docs, model)
-			if save_model:
-				to_pickle(save_model, self.dataset_name, 'doc-2-vec-model',
-				          model_d2v)
-			else:
-				to_pickle(W2V_MODELS_PATH, self.dataset_name, 'doc-2-vec-model',
-				          model_d2v)
+			X, model = self.build_doc2vec(docs, unsup_docs, model)
+			if self.save_model:
+				to_pickle(self.save_model, self.dataset_name, 'doc-2-vec.model',
+				          model)
 			self.results['feature-names'] = vectorizer
 		elif vectorizer.lower() in ['word-2-vec', 'word2vec']:
-			X = self.word2vec_as_lexicon(docs, model)
+			X, model = self.word2vec_as_lexicon(docs, model)
+			if self.save_model:
+				to_pickle(self.save_model, self.dataset_name,
+				          'word-2-vec.model', model)
 		else:
-			raise MyError('Unknown vectorizer: %s' % vectorizer)
+			raise Exception('Unknown vectorizer: {}'.format(vectorizer))
 
 		self.results['Vectorize'] = (t_temp, datetime.now())
-		log.info('Vectorize-END %s ' % vectorizer)
+		log.info('Vectorize-END {} '.format(vectorizer))
 		self.results['feature_space_size'] = X.shape
 		if save_feat_vec:
 			to_pickle(p=save_feat_vec, dataset=self.dataset_name,
 			          f_name='feature-vector', obj=X)
 		log.info('feature_space_size %s x %s' % X.shape)
-
-		log.info('Chosen classifiers %s' % classifiers)
+		log.info('Chosen classifiers {}'.format(classifiers))
 
 		clf_names = classifiers.keys()
 		self.results['Clf-names'] = clf_names
-		log.info('Clfs names %s' % clf_names)
+		log.info('Clfs names {}'.format(clf_names))
 
 		# exception for one fold and this fold has been provided by user
 		if n_folds == 1 and kfolds_indexes is not None:
@@ -572,16 +646,8 @@ class Sentiment(object):
 			predictions = self.sentiment_classification(
 				X=X, y=y, n_folds=n_folds, classifiers=classifiers,
 				kfolds_indexes=kfolds_indexes)
-
 		# end of flow
 		self.results['flow-time'] = (start, datetime.now())
-
-		# classifier_to_pickle(dataset=dataset_name, f_name=f_name_results,
-		# obj=self.results)
-
-		# results_to_pickle(f_name=f_name_results, dataset=dataset_name,
-		# obj=self.results)
-
 		return y, predictions, self.results
 
 	# @memory_profiler.profile
@@ -598,8 +664,8 @@ class Sentiment(object):
 		X : ndarray
 			Feature matrix for classification.
 
-		y : list or ndarray
-			List of classes.
+		y : numpy.ndarray
+			Array of classes for sentiment analysis.
 
 		X_test: ndarray
 			Array of feature set for testing phase.
@@ -642,6 +708,8 @@ class Sentiment(object):
 			log.error('Unrecognizable set of parameters. You should provide'
 			          '# of folds or your own division for train and test '
 			          'sets.')
+		# if isinstance(type(y), np.ndarray):
+		# 	raise Exception('Classes must be in ndarray format! It is {} now'.format(type(y)))
 
 		predictions = {}
 		self.results['CV-time'] = {}
@@ -680,6 +748,9 @@ class Sentiment(object):
 					# doing CV according to drawn subset
 					cv_normal = True
 					X_train, X_test = X[train_index], X[test_index]
+					log.debug('train index {}'.format(type(train_index)))
+					log.debug('test index {}'.format(type(test_index)))
+					log.debug('y {}'.format(type(y)))
 					y_train, y_test = y[train_index], y[test_index]
 
 				log.info('Fold: {} for {}'.format(kf_count, clf_name))
@@ -693,19 +764,19 @@ class Sentiment(object):
 				# except TypeError:
 				#     raise TypeError('Feature space should be dense for {}'.format(clf_name))
 				self.results['CV-time'][clf_name][kf_count] = (
-				t_temp, datetime.now())
+					t_temp, datetime.now())
 				if save_clf:
 					f_n = '%s-fold-%s' % (clf_name, kf_count)
 					classifier_to_pickle(dataset=self.dataset_name,
 					                     f_name=f_n, obj=clf)
-					# saving decision tree image
-					# if clf_name in ['DecisionTreeClassifier']:
-					# dot_data = StringIO()
-					# tree.export_graphviz(clf, out_file=dot_data)
-					# graph = pydot.graph_from_dot_data(dot_data.getvalue())
-					# f_n = '%s-%s-cv-%s.pdf' \
-					# '' % (self.dataset_name, clf_name, kf_count)
-					# graph.write_pdf(path.join(RESULTS_PATH, f_n))
+				# saving decision tree image
+				# if clf_name in ['DecisionTreeClassifier']:
+				# dot_data = StringIO()
+				# tree.export_graphviz(clf, out_file=dot_data)
+				# graph = pydot.graph_from_dot_data(dot_data.getvalue())
+				# f_n = '%s-%s-cv-%s.pdf' \
+				# '' % (self.dataset_name, clf_name, kf_count)
+				# graph.write_pdf(path.join(RESULTS_PATH, f_n))
 
 				# prediction for train set
 				log.debug('X_train: {}'.format(X_train.shape))
@@ -753,10 +824,13 @@ class Sentiment(object):
 			predictions[clf_name] = pred_temp
 			predictions['%s-train' % clf_name] = pred_train_temp
 
-			log.info('Accuracy for {}: {}'.format(clf_name, np.mean(res_accuracy)))
-			log.info('Precision: for {}: {}'.format(clf_name, np.mean(res_precision)))
+			log.info(
+				'Accuracy for {}: {}'.format(clf_name, np.mean(res_accuracy)))
+			log.info('Precision: for {}: {}'.format(clf_name,
+			                                        np.mean(res_precision)))
 			log.info('Recall: for {}: {}'.format(clf_name, np.mean(res_recall)))
-			log.info('F1 Score for {}: {}'.format(clf_name, np.mean(res_f1_score)))
+			log.info(
+				'F1 Score for {}: {}'.format(clf_name, np.mean(res_f1_score)))
 
 			# #################### EVALUATION PART ############################
 			evaluation = Evaluation()
@@ -765,7 +839,8 @@ class Sentiment(object):
 				rec=res_recall, f1=res_f1_score)
 			self.results['measures'][clf_name] = res_classifier
 
-			log.info('Cross Validation for {}, end time: {}'.format(clf_name, datetime.now()))
+			log.info('Cross Validation for {}, end time: {}'.format(clf_name,
+			                                                        datetime.now()))
 		return predictions
 
 	def build_doc2vec(self, docs, docs_unsuperv, model=None):
@@ -867,6 +942,7 @@ class Sentiment(object):
 		# TODO load_classifier()
 		print 'TODO'
 
+	@memory_profiler.profile
 	def word2vec_as_lexicon(self, docs, model):
 		"""
 		Use Word-2-Vec model to count sentiment orientation of documents.
@@ -887,15 +963,43 @@ class Sentiment(object):
 		X : np.array
 			Feature space for sentiment analysis flow. The size of each word
 			vector is equal to vector size of Word-2-Vec model.
+
+		model : gensim.Word2Vec
+			Word 2 Vec model - trained.
 		"""
 		doc_vectors = []
-		dp = DocumentPreprocessor()
+		# dp = DocumentPreprocessor()
 		for doc in docs:
 			doc_vector = np.zeros(len(model.syn0[0]), dtype=np.float)
-			for word in dp.tokenizer_spacy(doc):
+			# for word in dp.tokenizer_spacy(doc):
+			for word in doc.split(' '):
 				try:
 					doc_vector += model[word]
 				except:
 					log.info('Word: {} doesn\'t appear in model.'.format(word))
 			doc_vectors.append(doc_vector)
-		return np.asarray(doc_vectors)
+		return np.asarray(doc_vectors), model
+
+
+# TODO documentation
+def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming, progress_interval):
+	"""
+
+	"""
+	predictions = {lex_name: {}}
+	n_docs = len(docs)
+	dp = DocumentPreprocessor()
+	sent = Sentiment()
+	for doc_index, doc in enumerate(docs):
+		doc = dp.tokenizer(doc, stemming=stemming)
+		sent_val = sent.count_sentiment_for_list(document_tokens=doc,
+		                                         lexicon=lexicon,
+		                                         agg_type=agg_type)
+		predictions[lex_name].update({doc_index: sent_val})
+		# log.debug('Predictions for {}: {}'.format(lex_name, predictions))
+		if not doc_index % progress_interval:
+			log.debug(
+				'Documents executed: {}/{} for lex: {}'.format(doc_index,
+				                                               n_docs,
+				                                               lex_name))
+	return predictions
