@@ -19,7 +19,7 @@ log.setLevel(logging.DEBUG)
 ch = logging.StreamHandler(sys.stdout)
 ch.setLevel(logging.INFO)
 formatter = logging.Formatter(
-	'%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+	'%(asctime)s - %(levelname)s - %(message)s')
 ch.setFormatter(formatter)
 log.addHandler(ch)
 
@@ -47,13 +47,13 @@ def imdb_sentiment(n_cv=10, vectorizer_type='CountVectorizer'):
 		# 'n_grams_1_3': (1, 3),
 	}
 
+	max_features = 3000
+
 	clfs = {
-'BernoulliNB': BernoulliNB(),
-# 'DecisionTreeClassifier': DecisionTreeClassifier(),
-'LogisticRegression': LogisticRegression(),
-'LinearSVC': LinearSVC(),
-# 'SVC': SVC(),
-}
+		'BernoulliNB': BernoulliNB(),
+		'LogisticRegression': LogisticRegression(),
+		'LinearSVC': LinearSVC(),
+	}
 
 	predictions = []
 	results = []
@@ -62,9 +62,10 @@ def imdb_sentiment(n_cv=10, vectorizer_type='CountVectorizer'):
 		log.info('Ngram type processed: {}'.format(n_gram_name))
 		log.info('Vectorizer type processed: {}'.format(vectorizer_type))
 
-		f_name = 'Supervised-learning-{}-{}-{}'.format(n_gram_name,
-		                                               vectorizer_type,
-		                                               dataset_name)
+		f_name = 'Supervised-learning-{}-{}-{}-{}'.format(n_gram_name,
+		                                                  max_features,
+		                                                  vectorizer_type,
+		                                                  dataset_name)
 		s = Sentiment(dataset_name=dataset_name)
 		classes, ml_prediction, results_ml = s.supervised_sentiment(
 			docs=df['Document'],
@@ -75,7 +76,7 @@ def imdb_sentiment(n_cv=10, vectorizer_type='CountVectorizer'):
 			stop_words='english',
 			max_df=1.0,
 			min_df=0.0,
-			max_features=3000,
+			max_features=max_features,
 			f_name_results=f_name,
 			vectorizer=vectorizer_type,
 			n_folds=n_cv,
@@ -91,4 +92,4 @@ def imdb_sentiment(n_cv=10, vectorizer_type='CountVectorizer'):
 	                  f_name='predictions-%s' % f_name, obj=predictions)
 
 
-imdb_sentiment(n_cv=2)
+imdb_sentiment(n_cv=10)
