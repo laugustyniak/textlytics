@@ -191,7 +191,7 @@ class Dataset(object):
         return df
 
 
-def to_pickle(p, dataset, f_name, obj):
+def to_pickle(p, dataset, f_name, obj, set_time=True):
     """
     Saving object into pickle file.
 
@@ -208,9 +208,15 @@ def to_pickle(p, dataset, f_name, obj):
 
     obj : object (picklable)
         Object for saving.
+
+    set_time : bool, True by default
+        Do you want to add time to file name?
     """
     try:
-        f_path = path.join(p, '%s-%s-%s.pkl' % (f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
+        if set_time:
+            f_path = path.join(p, '{}-{}-{}.pkl'.format(f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
+        else:
+            f_path = path.join(p, '{}-{}.pkl'.format(f_name, dataset))
         with open(f_path, 'wb') as f:
             pickle.dump(obj, f)
             logging.info('File %s has been saved. ' % f_path)

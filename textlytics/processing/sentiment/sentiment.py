@@ -14,6 +14,7 @@ import pandas as pd
 import numpy as np
 
 from os import path
+from os.path import exists, join
 
 from joblib import Parallel
 from joblib import delayed
@@ -64,7 +65,8 @@ class Sentiment(object):
 
 	def __init__(self, sentiment_level='Document', progress_interval=1000,
 	             dataset_name='', measures_average='weighted', save_model=None,
-	             save_classifiers=None, n_jobs=1, stemming=False):
+	             save_classifiers=None, n_jobs=1, stemming=False,
+	             w2v_label='Elem'):
 		"""
 		Initialize all necessary variables to count sentiment.
 
@@ -98,6 +100,9 @@ class Sentiment(object):
 		stemming : bool, by default False
 			Do you want to execute experiment with stems or without them?
 
+		w2v_label : string
+			Each TaggedDocument must consists of label for document.
+
 		"""
 		self.progress_interval = progress_interval
 		self.results = {'measures': {},
@@ -115,8 +120,13 @@ class Sentiment(object):
 
 		if save_model is not None:
 			self.save_model = save_model
+		else:
+			self.save_model = save_model
 		if save_classifiers is not None:
 			self.save_classifiers = CLASSIFIERS_PATH
+		else:
+			self.save_classifiers = save_classifiers
+		self.w2v_label = w2v_label
 
 	# @memory_profiler
 	# @profile
@@ -188,7 +198,8 @@ class Sentiment(object):
 			'Lexicon based method will be counted with {} processes in parallel.'.format(
 				self.n_jobs))
 		preds = Parallel(n_jobs=self.n_jobs)(
-			delayed(sentiment_lexicon)(docs, lex_name, lexicon, agg_type, self.stemming, self.progress_interval)
+			delayed(sentiment_lexicon)(docs, lex_name, lexicon, agg_type,
+			                           self.stemming, self.progress_interval)
 			for lex_name, lexicon in lexicons.iteritems())
 		predictions = dict((k, v) for d in preds for (k, v) in d.items())
 
@@ -520,7 +531,7 @@ class Sentiment(object):
 		max_features : int, None by default
 			# of max features in feature space, parameter for scikit-learn
 			vectorizer. None as default, hence all features will be used.
-
+=
 		tokenizer : tokenizer, None by default
 			Tokenizer for scikit-learn vectorizer.
 
@@ -606,16 +617,28 @@ class Sentiment(object):
 			X = doc_count_vec.fit_transform(docs)
 			self.results['feature-names'] = doc_count_vec.get_feature_names()
 		elif vectorizer.lower() in ['doc-2-vec', 'doc2vec']:
-			X, model = self.build_doc2vec(docs, unsup_docs, model)
-			if self.save_model:
-				to_pickle(self.save_model, self.dataset_name, 'doc-2-vec.model',
-				          model)
-			self.results['feature-names'] = vectorizer
-		elif vectorizer.lower() in ['word-2-vec', 'word2vec']:
-			X, model = self.word2vec_as_lexicon(docs, model)
+			model_path = join(self.save_model,
+			                  '{}-doc-2-vec.model-{}.pkl'.format(f_name_results,
+			                                                     self.dataset_name))
+			if exists(model_path):
+				log.info('Doc-2-Vec will be loaded: {}'.format(model_path))
+				model = pd.read_pickle(model_path)
+				docs = self.labelize_tokenize_docs(docs=docs,
+				                                   label_type=self.w2v_label)
+				X = self.get_doc_2_vec_vectors(model=model, corpus=docs)
+			else:
+				log.info('Doc-2-Vec will be trained!')
+				X, model = self.build_doc2vec(docs, unsup_docs, model)
 			if self.save_model:
 				to_pickle(self.save_model, self.dataset_name,
-				          'word-2-vec.model', model)
+				          '{}-doc-2-vec.model'.format(f_name_results),
+				          model, set_time=False)
+			self.results['feature-names'] = vectorizer
+		elif vectorizer.lower() in ['word-2-vec', 'word2vec']:
+			X, model = self.word2vec_as_lexicon(docs=docs, model=model)
+			if self.save_model:
+				to_pickle(self.save_model, self.dataset_name,
+				          '{}-word-2-vec.model'.format(f_name_results), model)
 		else:
 			raise Exception('Unknown vectorizer: {}'.format(vectorizer))
 
@@ -785,7 +808,10 @@ class Sentiment(object):
 				#     predicted_train = clf.predict(X_train)
 				# except:
 				#     raise 'Classifier: {} need dense representation!'.format(clf_name)
-				predicted_train = clf.predict(X_train.toarray())
+				try:
+					predicted_train = clf.predict(X_train.toarray())
+				except AttributeError:
+					predicted_train = clf.predict(X_train)
 
 				temp_train = dict(itertools.izip(train_index, predicted_train))
 				pred_train_temp.update(temp_train)
@@ -793,7 +819,10 @@ class Sentiment(object):
 				# #################### PREDICTION #############################
 				# TODO dense problem
 				# predicted = clf.predict(X_test)
-				predicted = clf.predict(X_test.toarray())
+				try:
+					predicted = clf.predict(X_test.toarray())
+				except AttributeError:
+					predicted = clf.predict(X_test)
 				log.info(
 					'Predicted for #{} CV and {}'.format(kf_count, clf_name))
 				temp = dict(itertools.izip(test_index, predicted))
@@ -857,7 +886,7 @@ class Sentiment(object):
 			be used to classification, it is only needed to build better
 			vector representation of documents (bigger corpora for training).
 
-		model : specific word 2 vec model
+		model : specific word 2 vec model, by default vector size = 100
 			Special case when you provide whole model with parameters.
 
 		Returns
@@ -874,12 +903,12 @@ class Sentiment(object):
 
 		docs_all = list(docs) + list(docs_unsuperv)
 
-		docs_all = self.labelize_tokenize_docs(docs_all, 'Elem')
-		docs = self.labelize_tokenize_docs(docs, 'Elem')
+		docs_all = self.labelize_tokenize_docs(docs_all, self.w2v_label)
+		docs = self.labelize_tokenize_docs(docs, self.w2v_label)
 
 		if model is None:
 			cores = multiprocessing.cpu_count()
-			model = gensim.models.Doc2Vec(min_count=3, window=10, size=300,
+			model = gensim.models.Doc2Vec(min_count=3, window=10, size=100,
 			                              sample=1e-3, negative=5,
 			                              workers=cores)
 		model.build_vocab(docs_all)
@@ -898,6 +927,19 @@ class Sentiment(object):
 
 	@staticmethod
 	def get_doc_2_vec_vectors(model, corpus):
+		"""
+		Build the feature space matrix, for each document in corpora
+		corresponding feature vector will be derived from model.
+
+		model : gensim.doc2vec model
+			Doc-2-Vec model
+
+		corpus : iterable list of strings
+			List of document that will be transform to feauters.
+
+		return : numpy.ndarray
+			Feature space where each row is a document vector.
+		"""
 		return np.array([np.array(model.docvecs[z.tags[0]]) for z in corpus])
 
 	@staticmethod
@@ -942,7 +984,7 @@ class Sentiment(object):
 		# TODO load_classifier()
 		print 'TODO'
 
-	@memory_profiler.profile
+	# @memory_profiler.profile
 	def word2vec_as_lexicon(self, docs, model):
 		"""
 		Use Word-2-Vec model to count sentiment orientation of documents.
@@ -968,21 +1010,26 @@ class Sentiment(object):
 			Word 2 Vec model - trained.
 		"""
 		doc_vectors = []
-		# dp = DocumentPreprocessor()
+		dp = DocumentPreprocessor()
 		for doc in docs:
 			doc_vector = np.zeros(len(model.syn0[0]), dtype=np.float)
 			# for word in dp.tokenizer_spacy(doc):
-			for word in doc.split(' '):
-				try:
-					doc_vector += model[word]
-				except:
-					log.info('Word: {} doesn\'t appear in model.'.format(word))
+			if len(doc):
+				for word in dp.tokenizer_spacy(doc):
+					try:
+						doc_vector += model[word]
+					except:
+						log.debug(
+							'Word: {} doesn\'t appear in model.'.format(word))
+			else:
+				log.debug('Empty document in data')
 			doc_vectors.append(doc_vector)
 		return np.asarray(doc_vectors), model
 
 
 # TODO documentation
-def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming, progress_interval):
+def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming,
+                      progress_interval):
 	"""
 
 	"""
@@ -991,7 +1038,9 @@ def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming, progress_inte
 	dp = DocumentPreprocessor()
 	sent = Sentiment()
 	for doc_index, doc in enumerate(docs):
-		doc = dp.tokenizer(doc, stemming=stemming)
+		#  TODO add stemming
+		# doc = dp.tokenize_sentence(doc, stemming=stemming)
+		doc = dp.tokenize_sentence(doc)
 		sent_val = sent.count_sentiment_for_list(document_tokens=doc,
 		                                         lexicon=lexicon,
 		                                         agg_type=agg_type)
