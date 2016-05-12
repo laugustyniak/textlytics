@@ -99,6 +99,7 @@ class DocumentPreprocessor(object):
                                '"\'"', '\'', 'quot']
         else:
             self.stop_words = stop_words
+        self.parser = English(parser=False, entity=False)
 
     def remove_punctuation_and_multi_spaces_document(self, document):
         """
@@ -301,8 +302,7 @@ class DocumentPreprocessor(object):
         else:
             return [stem(word) for word in word_tokenize(doc)]
 
-    @staticmethod
-    def tokenizer_spacy(doc):
+    def tokenizer_spacy(self, doc):
         """
 		Simple tokenizer based on SPACY library.
 
@@ -315,8 +315,7 @@ class DocumentPreprocessor(object):
 		----------
 			list of tokens (stems).
 		"""
-        parser = English(parser=False, entity=False)
-        doc = parser(unicode(doc.lower()))
+        doc = self.parser(unicode(doc.lower()))
         return [word for word in doc]
 
     def parts_of_speech_tokenized_document(self, tokenized_document):

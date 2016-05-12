@@ -35,21 +35,21 @@ CLASSIFIERS_PATH = path.join(BASE_PATH, 'classifiers')
 
 
 def get_project_path(*p):
-    """
-    Returns path to projects.
-    :param p:
-    :return: path to project
-    """
-    return path.join(BASE_PATH, *p)
+	"""
+	Returns path to projects.
+	:param p:
+	:return: path to project
+	"""
+	return path.join(BASE_PATH, *p)
 
 
 def get_main_directory(*p):
-    """
-    Returns path to main folder of project.
-    :param p:
-    :return: path to main folder of project
-    """
-    return path.join(MAIN_DIRECTORY, *p)
+	"""
+	Returns path to main folder of project.
+	:param p:
+	:return: path to main folder of project
+	"""
+	return path.join(MAIN_DIRECTORY, *p)
 
 
 def list_list_flatten(l=[[]]):
@@ -67,3 +67,21 @@ def list_list_flatten(l=[[]]):
     List that was flatten.
     """
     return list(chain(*l))
+	"""
+	 Flatten nested lists.
+	 [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
+
+	 Parameters
+	 ----------
+	 l : list of lists
+		List of list to be flatten.
+
+	Returns
+	----------
+	List that was flatten.
+	"""
+#	return list(chain(*l))
+
+
+#def list_to_str(l, sep='-'):
+#	'{}'.format(sep).join([str(s) for s in l])
