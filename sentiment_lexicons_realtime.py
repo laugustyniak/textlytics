@@ -69,7 +69,8 @@ def sentiment_lexicons_Stanford(lexs_names=None, lex_path=None, output_folder=No
         log.info('Directory for predictions has been created: {}'.format(predictions_directory))
 
     dataset = Dataset()
-    df = dataset.load_several_files()
+    #df = dataset.load_several_files()
+    df = dataset.load_stanford_csv()
 
     log.info('Pre-processing phase starts!')
     dp = DocumentPreprocessor()
