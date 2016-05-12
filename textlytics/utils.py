@@ -66,7 +66,7 @@ def list_list_flatten(l=[[]]):
     ----------
     List that was flatten.
     """
-    return list(chain(*l))
+    #return list(chain(*l))
 	"""
 	 Flatten nested lists.
 	 [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
@@ -80,8 +80,8 @@ def list_list_flatten(l=[[]]):
 	----------
 	List that was flatten.
 	"""
-#	return list(chain(*l))
+	return list(chain(*l))
 
 
-#def list_to_str(l, sep='-'):
-#	'{}'.format(sep).join([str(s) for s in l])
+def list_to_str(l, sep='-'):
+	'{}'.format(sep).join([str(s) for s in l])
