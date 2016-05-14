@@ -53,20 +53,6 @@ def get_main_directory(*p):
 
 
 def list_list_flatten(l=[[]]):
-    """
-     Flatten nested lists.
-     [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
-
-     Parameters
-     ----------
-     l : list of lists
-        List of list to be flatten.
-
-    Returns
-    ----------
-    List that was flatten.
-    """
-    #return list(chain(*l))
 	"""
 	 Flatten nested lists.
 	 [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
