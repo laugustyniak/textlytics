@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import io
 import time
 import pickle
 import logging
@@ -181,7 +182,7 @@ class Dataset(object):
         documents = []
         sentiments = []
         for f_name, sentiment_class in files.iteritems():
-            with open(path.join(IMDB_MERGED_PATH, f_name)) as imdb:
+            with io.open(path.join(IMDB_MERGED_PATH, f_name), encoding='utf-8') as imdb:
                 for line in imdb:
                     documents.append(line)
                     sentiments.append(sentiment_class)
