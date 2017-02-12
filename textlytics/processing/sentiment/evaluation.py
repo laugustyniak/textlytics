@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 
 
 class Evaluation(object):
-	"""
+    """
     Evaluation of a results. Especially useful for summarizing classification
     problems, counting metrics such as accuracy, precision, recall, f-measure.
     In addition, some custom types of saving file was implemented such as
@@ -23,8 +23,8 @@ class Evaluation(object):
     All results by default will be stored in projects /results folder.
     """
 
-	def __init__(self, results_path=None):
-		"""
+    def __init__(self, results_path=None):
+        """
         Initialization of the path for saving results.
         By default it will be stored in results folder in this project.
 
@@ -33,15 +33,15 @@ class Evaluation(object):
         results_path : str
             Path to the results directory.
         """
-		if results_path is not None:
-			self.results_path = results_path
-		else:
-			self.results_path = RESULTS_PATH
+        if results_path is not None:
+            self.results_path = results_path
+        else:
+            self.results_path = RESULTS_PATH
 
-	@staticmethod
-	def results_acc_prec_rec_f1(prediction_list, class_list,
-	                            average='weighted'):
-		"""
+    @staticmethod
+    def results_acc_prec_rec_f1(prediction_list, class_list,
+                                average='weighted'):
+        """
         Calculating the basic measures for classification
         (accuracy, precision, recall, F1-measure)
 
@@ -62,21 +62,21 @@ class Evaluation(object):
             Dictionary with counted measures.
         """
 
-		if len(class_list) == len(prediction_list):
-			results = {
-				'acc': metrics.accuracy_score(class_list, prediction_list),
-				'prec': metrics.precision_score(class_list, prediction_list,
-				                                average=average),
-				'rec': metrics.recall_score(class_list, prediction_list,
-				                            average=average),
-				'f1': metrics.f1_score(class_list, prediction_list,
-				                        average=average)}
-			return results
-		else:
-			raise 'Different sizes of class lists!'
+        if len(class_list) == len(prediction_list):
+            results = {
+                'acc': metrics.accuracy_score(class_list, prediction_list),
+                'prec': metrics.precision_score(class_list, prediction_list,
+                                                average=average),
+                'rec': metrics.recall_score(class_list, prediction_list,
+                                            average=average),
+                'f1': metrics.f1_score(class_list, prediction_list,
+                                       average=average)}
+            return results
+        else:
+            raise 'Different sizes of class lists!'
 
-	def save_result_to_csv(self, results, f_name):
-		"""
+    def save_result_to_csv(self, results, f_name):
+        """
         Just writing dictionary with results to .csv file
 
         Parameters
@@ -87,46 +87,46 @@ class Evaluation(object):
         f_name : str
             File name to be saved.
         """
-		with open(join(self.results_path, str(f_name + '.csv')), 'w') as myFile:
-			myFile.write(str(results))
+        with open(join(self.results_path, str(f_name + '.csv')), 'w') as myFile:
+            myFile.write(str(results))
 
-	# TODO czy w ogóle tego używam gdzieś?
-	def evaluation_measure_to_excel(self, f_name='Results-Table', results={}):
-		"""
+    # TODO czy w ogóle tego używam gdzieś?
+    def evaluation_measure_to_excel(self, f_name='Results-Table', results={}):
+        """
         Evaluation and save to XLSX file.
         """
 
-		if len(results.items()) > 0:
-			# Create a workbook and add a worksheet.
-			file_to_save = join(self.results_path, str(f_name + '.xlsx'))
-			workbook = xlsxwriter.Workbook(file_to_save)
-			worksheet = workbook.add_worksheet()
+        if len(results.items()) > 0:
+            # Create a workbook and add a worksheet.
+            file_to_save = join(self.results_path, str(f_name + '.xlsx'))
+            workbook = xlsxwriter.Workbook(file_to_save)
+            worksheet = workbook.add_worksheet()
 
-			# Some data we want to write to the worksheet.
-			measures_results = (['Accuracy', results['Measures']['acc']],
-			                    ['Precision', results['Measures']['prec']],
-			                    ['Recall', results['Measures']['rec']],
-			                    ['F1', results['Measures']['f1']])
+            # Some data we want to write to the worksheet.
+            measures_results = (['Accuracy', results['Measures']['acc']],
+                                ['Precision', results['Measures']['prec']],
+                                ['Recall', results['Measures']['rec']],
+                                ['F1', results['Measures']['f1']])
 
-			# Start from the first cell. Rows and columns are zero indexed.
-			row = 1
-			col = 0
+            # Start from the first cell. Rows and columns are zero indexed.
+            row = 1
+            col = 0
 
-			worksheet.write(0, 0, 'Measure')
-			worksheet.write(0, 1, 'Value')
+            worksheet.write(0, 0, 'Measure')
+            worksheet.write(0, 1, 'Value')
 
-			# Iterate over the data and write it out row by row.
-			for item, cost in measures_results:
-				worksheet.write(row, col, item)
-				worksheet.write(row, col + 1, cost)
-				row += 1
-			workbook.close()
-			log.debug('Saved at {file_to_save}'.format(file_to_save=file_to_save))
-		else:
-			log.debug("""Results are empty dictionary! I can't save it!""")
+            # Iterate over the data and write it out row by row.
+            for item, cost in measures_results:
+                worksheet.write(row, col, item)
+                worksheet.write(row, col + 1, cost)
+                row += 1
+            workbook.close()
+            log.debug('Saved at {file_to_save}'.format(file_to_save=file_to_save))
+        else:
+            log.debug("""Results are empty dictionary! I can't save it!""")
 
-	def save_dict_df_to_excel(self, df, path, f_name):
-		"""
+    def save_dict_df_to_excel(self, df, path, f_name):
+        """
         Saving dictionary of key as data frame name and value dataframe
         to the excel .xlsx file.
 
@@ -141,33 +141,33 @@ class Evaluation(object):
         f_name : str
             File name.
         """
-		if not path:
-			path = self.results_path
-		try:
-			df.to_excel(join(path, str(f_name, '.xlsx')))
-			log.debug('Dataframe has been saved!')
-		except IOError:
-			raise 'Problem with saving file!'
+        if not path:
+            path = self.results_path
+        try:
+            df.to_excel(join(path, str(f_name, '.xlsx')))
+            log.debug('Dataframe has been saved!')
+        except IOError:
+            raise 'Problem with saving file!'
 
-	# TODO: poprawić dokumentację, ang + struktura
-	def evaluate_lexicons(self, df, classifiers_to_evaluate):
-		"""
+    # TODO: poprawić dokumentację, ang + struktura
+    def evaluate_lexicons(self, df, classifiers_to_evaluate):
+        """
         Evaluate sentiment assignment, measures: accuracy, precision, recall, f-measure.
         :param df: data frame with Documents, Sentiment and all classifiers (also lexicons) scores
         :param classifiers_to_evaluate: list of all classifier's names
         :return: dictionary with result of evaluation (accuracy, precision, recall, f-measure)
         """
-		results = {}
-		classes = list(df['Sentiment'])
-		for position, lexicon_name in enumerate(classifiers_to_evaluate):
-			predictions = list(df[lexicon_name])
-			results[lexicon_name] = self.results_acc_prec_rec_f1(
-				prediction_list=predictions,
-				class_list=classes)
-		return results, classes
+        results = {}
+        classes = list(df['Sentiment'])
+        for position, lexicon_name in enumerate(classifiers_to_evaluate):
+            predictions = list(df[lexicon_name])
+            results[lexicon_name] = self.results_acc_prec_rec_f1(
+                prediction_list=predictions,
+                class_list=classes)
+        return results, classes
 
-	def save_results_to_pickle(self, results, f_name='output'):
-		"""
+    def save_results_to_pickle(self, results, f_name='output'):
+        """
         Save object to pickle.
 
         Parameters
@@ -178,11 +178,11 @@ class Evaluation(object):
         f_name : str
             File name.
         """
-		pickle.dump(results, open((self.results_path, f_name) + '.pkl', "wb"))
+        pickle.dump(results, open((self.results_path, f_name) + '.pkl', "wb"))
 
-	@staticmethod
-	def results_acc_prec_rec_f1_lists(acc, prec, rec, f1):
-		"""
+    @staticmethod
+    def results_acc_prec_rec_f1_lists(acc, prec, rec, f1):
+        """
         Count and save metrics into dictionary structure.
 
         Parameters
@@ -204,20 +204,20 @@ class Evaluation(object):
         res : dict
             Dictionary with metrics.t
         """
-		res = {'acc-avg': np.mean(acc),
-		       'acc': acc,
-		       'prec-avg': np.mean(prec),
-		       'prec': prec,
-		       'rec-avg': np.mean(rec),
-		       'rec': rec,
-		       'f1-avg': np.mean(f1),
-		       'f1': f1}
+        res = {'acc-avg': np.mean(acc),
+               'acc': acc,
+               'prec-avg': np.mean(prec),
+               'prec': prec,
+               'rec-avg': np.mean(rec),
+               'rec': rec,
+               'f1-avg': np.mean(f1),
+               'f1': f1}
 
-		return res
+        return res
 
-	def build_df_lex_results(self, df, lex_names, predictions, save=True,
-	                         f_name=''):
-		"""
+    def build_df_lex_results(self, df, lex_names, predictions, save=True,
+                             f_name=''):
+        """
         Build data frame based on lexicons in dictionary.
 
 
@@ -245,16 +245,16 @@ class Evaluation(object):
             Data frame with predictions.
 
         """
-		for lex_name in lex_names:
-			log.debug('Building df with predictions for {}'.format(lex_name))
-			df_ = pd.DataFrame.from_dict(predictions[lex_name], orient='index')
-			df_.columns = [lex_name]
-			df = pd.merge(df, df_, right_index=True, left_index=True,
-			              how='left')
-		if save:
-			t_str = time.strftime("%Y-%m-%d_%H-%M-%S")
-			df.to_excel(join(self.results_path,
-			                 'Lexicons-predictions-{}-{}.xls'.format(f_name, t_str)))
-			df.to_pickle(join(self.results_path,
-			                  'Lexicons-predictions-{}-{}.pkl'.format(f_name, t_str)))
-			return df
+        for lex_name in lex_names:
+            log.debug('Building df with predictions for {}'.format(lex_name))
+            df_ = pd.DataFrame.from_dict(predictions[lex_name], orient='index')
+            df_.columns = [lex_name]
+            df = pd.merge(df, df_, right_index=True, left_index=True,
+                          how='left')
+        if save:
+            t_str = time.strftime("%Y-%m-%d_%H-%M-%S")
+            df.to_excel(join(self.results_path,
+                             'Lexicons-predictions-{}-{}.xls'.format(f_name, t_str)))
+            df.to_pickle(join(self.results_path,
+                              'Lexicons-predictions-{}-{}.pkl'.format(f_name, t_str)))
+            return df
