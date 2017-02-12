@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import datetime
+import random
 import re
 import logging
 from nltk import sent_tokenize
@@ -12,6 +13,7 @@ from stemming.porter2 import stem
 from bs4 import BeautifulSoup
 
 from spacy.en import English
+from unidecode import unidecode
 
 log = logging.getLogger(__name__)
 
@@ -35,9 +37,12 @@ class DocumentPreprocessor(object):
 
     def __init__(self, sentiment_level=None, punctuation=None,
                  punctuation_list=None, numbers=None,
-                 words_and_ngrams_exceptions=None, stop_words=None):
+                 words_and_ngrams_exceptions=None, stop_words=None,
+                 negation_words=None):
 
-        negation_words = ['no', 'not', 'n\'t', ]
+        if negation_words is None:
+            negation_words = ['no', 'not', 'n\'t']
+        self.negation_words = negation_words
         if sentiment_level is None:
             self.sentiment_level = 'Document'
         else:
@@ -72,29 +77,22 @@ class DocumentPreprocessor(object):
             self.stop_words = [u'all', u'just', u'over', u'both', u'through',
                                u'its', u'before', u'herself', u'should', u'to',
                                u'only', u'under', u'ours', u'then', u'them',
-                               u'his',
-                               u'very', u'they', u'during', u'now', u'him',
-                               u'nor',
-                               u'these', u'she', u'each', u'further', u'where',
-                               u'few', u'because', u'some', u'our',
-                               u'ourselves',
+                               u'his', u'very', u'they', u'during', u'now', u'him',
+                               u'nor', u'these', u'she', u'each', u'further', u'where',
+                               u'few', u'because', u'some', u'our', u'ourselves',
                                u'out', u'what', u'for', u'while', u'above',
                                u'between', u'be', u'we', u'who', u'wa', u'here',
                                u'hers', u'by', u'on', u'about', u'theirs',
                                u'against', u'or', u'own', u'into', u'yourself',
                                u'down', u'your', u'from', u'her', u'their',
                                u'there', u'whom', u'too', u'themselves',
-                               u'until',
-                               u'more', u'himself', u'that', u'but', u'don',
+                               u'until', u'more', u'himself', u'that', u'but', u'don',
                                u'with', u'than', u'those', u'he', u'me',
-                               u'myself',
-                               u'this', u'up', u'below', u'can', u'of',
+                               u'myself', u'this', u'up', u'below', u'can', u'of',
                                u'my', u'and', u'do', u'it', u'an', u'as',
-                               u'itself',
-                               u'at', u'have', u'in', u'any', u'if', u'again',
+                               u'itself', u'at', u'have', u'in', u'any', u'if', u'again',
                                u'when', u'same', u'how', u'other', u'which',
-                               u'you',
-                               u'after', u'most', u'such', u'why', u'a', u'off',
+                               u'you', u'after', u'most', u'such', u'why', u'a', u'off',
                                u'i', u'so', u'the', u'yours', u'once',
                                '"\'"', '\'', 'quot']
         else:
@@ -221,6 +219,28 @@ class DocumentPreprocessor(object):
         """
         regex = re.compile('[%s]' % re.escape(self.numbers))
         return regex.sub('', doc)
+
+    def remove_non_ascii_chars(self, doc):
+        """
+        Remove non-ASCII characters.
+
+        Parameters
+        ----------
+        doc : str
+            Document that will be cleaned, all non unicode will be removed.
+
+        Returns
+        ----------
+        doc : str
+            Document without ascii chars.
+        """
+        for i in range(0, len(doc)):
+            try:
+                doc[i].encode("ascii")
+            except:
+                # means it's non-ASCII
+                doc[i] = ""
+        return doc
 
     def tokenize_sentences(self, sentences):
         """
@@ -434,16 +454,19 @@ class DocumentPreprocessor(object):
         if df is not None:
             new_column = []
             for score in df[score_column]:
-                if score > star_mean_score:
-                    new_column.append(1)
-                elif score < star_mean_score:
-                    new_column.append(-1)
-                else:
-                    new_column.append(0)
+                new_column.append(self.star_score_mapping(score, star_mean_score))
             df['Sentiment'] = new_column
             stars_ = list(df[score_column])
             df = df.drop(score_column, 1)
             return df, stars_
+
+    def star_score_mapping(self, score, star_mean_score):
+        if score > star_mean_score:
+            return 1
+        elif score < star_mean_score:
+            return -1
+        else:
+            return 0
 
     def lexicon_data_frame(self, df, lexicons):
         for lexicon in lexicons:
@@ -538,6 +561,25 @@ class DocumentPreprocessor(object):
             # df.at[row_index, 'Document-Preprocessed'] = document_tokens
         df['Document-Preprocessed'] = docs_tokens
         return df, results
+
+    @staticmethod
+    def get_reviews(df, col, stars):
+        """
+        Get specified number of elements from each class, Amazon Dataset.
+
+        Parameters
+        ----------
+        df : pandas.DataFrame
+            Data to get random elements.
+        """
+        log.info('Number of reviews to extract: {}'.format(stars))
+        log.info('Number of available reviews: {}'.format(df[col].value_counts()))
+        if [x for x in df[col].value_counts() if x < min(stars.values())]:
+            raise Exception("To many review chosen from dataset")
+        idxs = []
+        for star, n_rev in stars.iteritems():
+            idxs += random.sample(df[df[col] == star].index, n_rev)
+        return idxs
 
 
 def preprocessed(data_frame):
