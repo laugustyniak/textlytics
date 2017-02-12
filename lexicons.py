@@ -17,6 +17,6 @@ df_lex, lexicon_prediction, lexicon_result, classes = \
         df=df,
         lexs_files=['amazon_automotive_25_w2v_all.txt', 'amazon_automotive_25.txt'],
         words_stem=False,
-        dataset_name='w2v')
+        dataset_name='word_vectorization')
 
 print lexicon_result
