@@ -13,3 +13,4 @@
 *.iml
 .idea
 textlytics/results/
+repindex_sentiment.py
