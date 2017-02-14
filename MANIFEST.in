@@ -1,0 +1,11 @@
+include README.rst
+include docs/*.txt
+
+include textlytics/data/datasets/IMDB_merged/*
+include textlytics/data/datasets/amazon/*
+include textlytics/data/datasets/imdb/review-polarity/*
+include textlytics/data/datasets/imdb/review-polarity/txt-token/neg/*
+include textlytics/data/datasets/imdb/review-polarity/txt-token/pos/*
+include textlytics/data/datasets/semeval/*
+include textlytics/data/lexicons/*
+include textlytics/data/w2v_models/*

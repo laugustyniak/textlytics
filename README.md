@@ -1,1 +1,1 @@
-# Text Analytics Tools with additional Complex Networks analytics
+# Text Analytics Tools especially for sentiment analysis purposes

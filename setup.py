@@ -25,4 +25,5 @@ setup(
         'Topic :: Scientific/Engineering :: Information Analysis',
         'Topic :: Scientific/Engineering :: Natural Language Processing',
     ],
+    include_package_data=True,
 )
