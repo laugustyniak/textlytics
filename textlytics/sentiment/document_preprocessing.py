@@ -94,7 +94,7 @@ class DocumentPreprocessor(object):
                                '"\'"', '\'', 'quot']
         else:
             self.stop_words = stop_words
-        self.parser = spacy.load(parser=False, entity=False)
+        self.parser = spacy.load('en', parser=False, entity=False)
 
     def remove_punctuation_and_multi_spaces_document(self, document):
         """
