@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
-from pprint import pprint
 
 
 __author__ = 'Łukasz Augustyniak'
 
-from unittest import TestCase
 import unittest
+from unittest import TestCase
 
 import numpy as np
 
-from textlytics.processing.sentiment.text_features import \
+from textlytics.sentiment.text_features import \
     TextBasicFeatures
-
 
 if __name__ == '__main__':
     unittest.main()

@@ -3,8 +3,6 @@
 import unittest
 
 from unittest import TestCase
-from textlytics.processing.sentiment.lexicons import SentimentLexicons
-
 
 if __name__ == '__main__':
     unittest.main()

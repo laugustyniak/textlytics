@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import gensim
-import multiprocessing
-
 import unittest2 as unittest
 
-from textlytics.processing.sentiment.sentiment import Sentiment
+from textlytics.sentiment.sentiment import Sentiment
 
 
 class SentimentMethodsCase(unittest.TestCase):
