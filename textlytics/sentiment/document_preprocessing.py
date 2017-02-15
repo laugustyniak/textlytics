@@ -173,7 +173,7 @@ class DocumentPreprocessor(object):
                 word_list: list of word to remove from document.
         :return document: string without deleted woods and ngrams
         """
-        for w in self.word_list:
+        for w in self.words_and_ngrams_exceptions:
             document = re.sub(w, '', document)
         return document
 
@@ -182,7 +182,6 @@ class DocumentPreprocessor(object):
         Delete word's tokens from token list.
         :param document_tokens: all document tokens, list of tokens
         :param sentences: list of list of tokens
-        :param word_list: list of word that will be removed
         :return :
         """
         if sentences is not None or (
@@ -190,11 +189,11 @@ class DocumentPreprocessor(object):
             sentences_ = []
             for sentence in sentences:
                 sentences_.append(
-                    [word for word in sentence if word not in self.word_list])
+                    [word for word in sentence if word not in self.stop_words])
             return sentences_
         elif document_tokens is not None:
             return [word for word in document_tokens if
-                    word not in self.word_list]
+                    word not in self.stop_words]
         else:
             er_msg = 'Wrong parameters for this methods'
             logging.error(er_msg)
@@ -492,8 +491,8 @@ class DocumentPreprocessor(object):
         if words_stem:
             sentences = self.stem_documents(sentences=sentences)
             stop_words_stem = self.stop_words_stem()
-            sentences = self.remove_stop_words(sentences=sentences,
-                                               word_list=stop_words_stem)
+            # sentences = self.remove_stop_words(sentences=sentences,
+            #                                    word_list=stop_words_stem)
         # else:
         # sentences = self.remove_stop_words(sentences=sentences)
         # sentences = self.word_length_filter(sentences=sentences, n=3)
@@ -544,7 +543,6 @@ class DocumentPreprocessor(object):
                                     'All {counter}' \
                     .format(progress_number=progress_interval, delta=delta,
                             counter=counter)
-                print print_string_last
                 logging.info(print_string_last)
                 t = datetime.datetime.now()
                 summary_time += delta
