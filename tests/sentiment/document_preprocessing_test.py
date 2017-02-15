@@ -90,24 +90,24 @@ class TestDocumentPreprocessor(TestCase):
 
         self.assertEquals(dp.remove_urls(document_with_url), document_without_url)
 
-    # def test_bigrams_freqdist_sentiment_only_sentence_tokenized(self):
-    #     dp = DocumentPreprocessor()
-    #     sentence_tokens = [['Good', 'morning', 'Mr.', 'Augustyniak'],
-    #                        ['Good', 'morning', 'second', 'time'],
-    #                        ['This', 'is', 'good']]
-    #     ngram_occurrences_before = dp.ngrams_freqdist_sentiment(sentiment='POS',
-    #                                                             document_tokens=sentence_tokens,
-    #                                                             n=2,
-    #                                                             sentence_tokenized=True)
-    #     ngram_occurrences_after = {(('This', 'is'), 'POS'): 1,
-    #                                (('morning', 'second'), 'POS'): 1,
-    #                                (('morning', 'Mr.'), 'POS'): 1,
-    #                                (('Good', 'morning'), 'POS'): 2,
-    #                                (('second', 'time'), 'POS'): 1,
-    #                                (('Mr.', 'Augustyniak'), 'POS'): 1,
-    #                                (('is', 'good'), 'POS'): 1}
-    #     self.assertEquals(ngram_occurrences_before, ngram_occurrences_after)
-    #
+    def test_bigrams_freqdist_sentiment_only_sentence_tokenized(self):
+        dp = DocumentPreprocessor()
+        sentence_tokens = [['Good', 'morning', 'Mr.', 'Augustyniak'],
+                           ['Good', 'morning', 'second', 'time'],
+                           ['This', 'is', 'good']]
+        ngram_occurrences_before = dp.ngrams_freqdist_sentiment(sentiment='POS',
+                                                                document_tokens=sentence_tokens,
+                                                                n=2,
+                                                                sentence_tokenized=True)
+        ngram_occurrences_after = {(('This', 'is'), 'POS'): 1,
+                                   (('morning', 'second'), 'POS'): 1,
+                                   (('morning', 'Mr.'), 'POS'): 1,
+                                   (('Good', 'morning'), 'POS'): 2,
+                                   (('second', 'time'), 'POS'): 1,
+                                   (('Mr.', 'Augustyniak'), 'POS'): 1,
+                                   (('is', 'good'), 'POS'): 1}
+        self.assertEquals(ngram_occurrences_before, ngram_occurrences_after)
+
     # def test_bigrams_freqdist_sentiment_two_sentence_tokenized(self):
     #
     #     dp = DocumentPreprocessor()
@@ -143,7 +143,7 @@ class TestDocumentPreprocessor(TestCase):
     #                                (('Mr.', 'Kajdanowicz'), 'NEG'): 1}
     #
     #     self.assertEquals(ngram_occurrences_before, ngram_occurrences_after)
-    #
+
     # def test_bigrams_freqdist_sentiment_two_sentence_tokenized_and_one_word_tokenized(self):
     #
     #     dp = DocumentPreprocessor()
@@ -187,19 +187,3 @@ class TestDocumentPreprocessor(TestCase):
     #                                (('Mr.', 'Kajdanowicz'), 'NEG'): 1}
     #
     #     self.assertEquals(ngram_occurrences_before, ngram_occurrences_after)
-    #
-    # # dp = DocumentPreprocessor()
-    # #
-    # # sentence_tokens = [['Good', 'morning', 'Mr.', 'Augustyniak'], ['Good', 'morning', 'This', 'is', 'something'],
-    # #                    ['This', 'is', 'anything']]
-    # # D = dp.ngrams_freqdist_sentiment(document_tokens=sentence_tokens, sentiment='Pos', n=2, sentence_tokenized=True)
-    # #
-    # # s = word_tokenize('This is really good water')
-    # # # print s
-    # # D = dp.ngrams_freqdist_sentiment(document_tokens=s, sentiment='Neg', ngram_occurrences=D, n=2,
-    # #                                  sentence_tokenized=False)
-    # #
-    # # s2 = word_tokenize('Good morning Vietnam')
-    # # # print s2
-    # # D = dp.ngrams_freqdist_sentiment(document_tokens=s2, sentiment='Neg', ngram_occurrences=D, n=2,
-    # #                                  sentence_tokenized=False)

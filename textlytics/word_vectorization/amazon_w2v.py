@@ -9,11 +9,11 @@ from datetime import datetime
 from os.path import basename, join
 
 import gensim
-from spacy.en import English
 
 from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
 
-parser = English(parser=False, entity=False)
+import spacy
+parser = spacy.load('en', parser=False, entity=False)
 
 log = logging.getLogger()
 log.setLevel(logging.INFO)

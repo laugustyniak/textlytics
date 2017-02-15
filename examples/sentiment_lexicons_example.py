@@ -18,13 +18,6 @@ from textlytics.utils import LEXICONS_PATH
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
 
-ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter(
-    '%(asctime)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
-
 
 def sentiment_lexicons_imdb(lexs_names=None, lex_path=None, output_folder=None, evaluate=True):
     """
@@ -70,32 +63,19 @@ def sentiment_lexicons_imdb(lexs_names=None, lex_path=None, output_folder=None, 
     dp = DocumentPreprocessor()
     df.Document = [dp.remove_numbers(doc) for doc in df.Document]
     sent_lex = SentimentLexicons(stemmed=False,
-                                 lexs_files=lexs_names,
-                                 lex_path=lex_path)
-    lexicons = sent_lex.load_lexicons(lex_files=lexs_names,
-                                      lex_path=lex_path)
+                                 lexicons_path=lex_path)
+    lexicons = sent_lex.load_lexicons(lexicons_file_names=lexs_names)
 
-    s = Sentiment(n_jobs=len(lexs_names))
+    s = Sentiment(n_jobs=len(lexs_names), output_results=output_folder)
     df_lex, lexicon_prediction, lexicon_result, classes = \
         s.lex_sent_batch(
             df=df,
             dataset_name=dataset_name,
-            lexicons=lexicons,
-            evaluate=evaluate)
+            lexicons=lexicons)
     results.append(lexicon_result)
     predictions.append(lexicon_prediction)
 
-    # to_pickle(p=output_folder, dataset=dataset_name, f_name=f_name, obj=lexicon_prediction)
-    # df_lex.to_excel(join(output_folder, 'predictions', 'predictions-%s.xls' % f_name))
-    # df_lex.to_pickle(join(output_folder, 'predictions', 'predictions-%s.pkl' % f_name))
-
-    # save predictions
-    # results_to_pickle(dataset=dataset_name,
-    #                   f_name='Part-predictions-%s' % f_name,
-    #                   obj=lexicon_prediction)
-
-    to_pickle(p=output_folder, dataset=dataset_name, f_name='Results', obj=results)
-    # to_pickle(p=output_folder, dataset=dataset_name, f_name='Predictions', obj=predictions)
+    to_pickle(f_path=join(output_folder, '{}-{}.pkl'.format(dataset_name, 'results')), obj=results)
 
 
 # ############################# exemplary run ##############################
@@ -124,9 +104,7 @@ lexicons_files = [
 
 
 sentiment_lexicons_imdb(lexs_names=lexicons_files,
-                        lex_path=LEXICONS_PATH,
-                        output_folder='/datasets/amazon-data/csv/lex-test',
-                        )
+                        output_folder='/datasets/amazon-data/csv/lex-test')
 
 
 def sentiment_lexicons_opineo(lexs_names=None, lex_path=None, output_folder=None, evaluate=True):
@@ -167,38 +145,26 @@ def sentiment_lexicons_opineo(lexs_names=None, lex_path=None, output_folder=None
         log.info('Directory for predictions has been created: {}'.format(predictions_directory))
 
     dataset = Dataset()
+    # TODO load opineo dataset
     df = dataset.load
 
     log.info('Pre-processing phase starts!')
     dp = DocumentPreprocessor()
     df.Document = [dp.remove_numbers(doc) for doc in df.Document]
     sent_lex = SentimentLexicons(stemmed=False,
-                                 lexs_files=lexs_names,
-                                 lex_path=lex_path)
-    lexicons = sent_lex.load_lexicons(lex_files=lexs_names,
-                                      lex_path=lex_path)
+                                 lexicons_path=lex_path)
+    lexicons = sent_lex.load_lexicons(lexicons_file_names=lexs_names)
 
-    s = Sentiment()
+    s = Sentiment(output_results=output_folder)
     df_lex, lexicon_prediction, lexicon_result, classes = \
         s.lex_sent_batch(
             df=df,
             dataset_name=dataset_name,
-            lexicons=lexicons,
-            evaluate=evaluate)
+            lexicons=lexicons)
     results.append(lexicon_result)
     predictions.append(lexicon_prediction)
 
-    # to_pickle(p=output_folder, dataset='', f_name=f_name, obj=lexicon_prediction)
-    # df_lex.to_excel(join(output_folder, 'predictions', 'predictions-%s.xls' % f_name))
-    # df_lex.to_pickle(join(output_folder, 'predictions', 'predictions-%s.pkl' % f_name))
-
-    # save predictions
-    # results_to_pickle(dataset=dataset_name,
-    #                   f_name='Part-predictions-%s' % f_name,
-    #                   obj=lexicon_prediction)
-
-    to_pickle(p=output_folder, dataset='', f_name='Results', obj=results)
-    # to_pickle(p=output_folder, dataset='', f_name='Predictions', obj=predictions)
+    to_pickle(f_path=join(output_folder, '{}-{}.pkl'.format(dataset, 'results')), obj=results)
 
 
 # ############################# exemplary run ##############################

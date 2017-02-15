@@ -10,7 +10,7 @@ import pandas as pd
 
 from os import path, makedirs
 from document_preprocessing import DocumentPreprocessor
-from textlytics.utils import RESULTS_PATH, SEMEVAL_PATH, CLASSIFIERS_PATH, IMDB_MERGED_PATH
+from textlytics.utils import SEMEVAL_PATH, IMDB_MERGED_PATH
 
 log = logging.getLogger(__name__)
 
@@ -89,27 +89,22 @@ class Dataset(object):
         logging.info('Amazon dataset has been loaded!' + dataset_path)
         return df
 
-    def df_save(self, df, f_name, file_type='csv', spreadsheet='Sheet1'):
+    def df_save(self, df, f_path, spreadsheet='Sheet1'):
         """
         Saving Data frame into Excel or csv file. Saving based on file_type
         arument.
         :param df: Data Frame to save
-        :param f_name: file name
-        :param file_type: extension ['xls', 'xlsx', 'csv']
+        :param f_path: file name
         :param spreadsheet: if excel, you can specify the spreadsheet name
         """
+        extension = f_path.split('.')[-1]
         try:
-            if file_type in ['xls', 'xlsx']:
-                df.to_excel(path.join(RESULTS_PATH, '%s-%s.xlsx' % (
-                    f_name, time.strftime("%Y-%m-%d_%H-%M-%S"))),
-                            sheet_name=spreadsheet)
-                logging.info('Data frame saved! {p} {f_name} '
-                             ''.format(p=RESULTS_PATH, f_name=f_name))
-            elif file_type in ['csv']:
-                f_n = path.join(RESULTS_PATH, f_name)
-                df.to_csv(f_n)
-                logging.info('Data frame saved! {p} {f_name} '
-                             ''.format(p=RESULTS_PATH, f_name=f_name))
+            if extension in ['xls', 'xlsx']:
+                df.to_excel(f_path, sheet_name=spreadsheet)
+                logging.info('Data frame saved! {}'.format(f_path))
+            elif extension in ['csv']:
+                df.to_csv(f_path)
+                logging.info('Data frame saved! {}'.format(f_path))
             else:
                 logging.error('Unknown file type')
                 raise Exception('Unknown file type')
@@ -124,12 +119,9 @@ class Dataset(object):
         :return: Data Frame of salon24's data
         """
         try:
-            return pd.read_csv(path=p, index_col=None, na_values=['NA'],
-                               sep='|')
+            return pd.read_csv(path=p, index_col=None, na_values=['NA'], sep='|')
         except IOError as err:
-            logging.error(
-                'Niepoprawnie załadowano plik {path}, {err}'
-                ''.format(path=path, err=str(err)))
+            logging.error('Niepoprawnie załadowano plik {path}, {err}'.format(path=path, err=str(err)))
             raise IOError
 
     def load_dataframe_preprocessed(self, p):
@@ -163,7 +155,7 @@ class Dataset(object):
             raise (str(err))
 
     @staticmethod
-    def load_several_files(files={'pos.txt': 1, 'neg.txt': -1}):
+    def load_several_files(files=None):
         """"
         Load datasets from various files, each file consists of different class.
 
@@ -179,6 +171,8 @@ class Dataset(object):
         df : pandas.DataFrame
             Data frame with Documents and Sentiment classes
         """
+        if files is None:
+            files = {'pos.txt': 1, 'neg.txt': -1}
         documents = []
         sentiments = []
         for f_name, sentiment_class in files.iteritems():
@@ -192,59 +186,23 @@ class Dataset(object):
         return df
 
 
-def to_pickle(p, dataset, f_name, obj, set_time=True):
+def to_pickle(f_path, obj):
     """
     Saving object into pickle file.
 
     Parameters
     ----------
-    p : string
+    f_path : string
         Path where file will be saved.
-
-    dataset : string
-        Analyzed dataset name.
-
-    f_name : string
-        File name.
 
     obj : object (picklable)
         Object for saving.
 
-    set_time : bool, True by default
-        Do you want to add time to file name?
     """
     try:
-        if set_time:
-            f_path = path.join(p, '{}-{}-{}.pkl'.format(f_name, dataset, time.strftime("%Y-%m-%d_%H-%M-%S")))
-        else:
-            f_path = path.join(p, '{}-{}.pkl'.format(f_name, dataset))
         with open(f_path, 'wb') as f:
             pickle.dump(obj, f)
             logging.info('File %s has been saved. ' % f_path)
     except IOError as err:
         logging.error('Error during saving file %s. Error: %s' % (f_path, str(err)))
         raise IOError(str(err))
-
-
-# TODO documentation update
-def results_to_pickle(dataset, f_name, obj):
-    """
-    Saving results into pickle file
-    :param dataset: dataset name
-    :param f_name: file name
-    :param obj: results' object
-    :return:
-    """
-    to_pickle(p=RESULTS_PATH, dataset=dataset, f_name=f_name, obj=obj)
-
-
-# TODO documentation update
-def classifier_to_pickle(dataset, f_name, obj):
-    """
-    Saving classifier into pickle file
-    :param dataset: dataset name
-    :param f_name: file name
-    :param obj: classifier's object
-    :return:
-    """
-    to_pickle(p=CLASSIFIERS_PATH, dataset=dataset, f_name=f_name, obj=obj)

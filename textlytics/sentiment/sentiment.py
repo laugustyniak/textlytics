@@ -4,20 +4,16 @@ import inspect
 import itertools
 import logging
 import multiprocessing
-import pickle
 import random
 import threading
-
 from datetime import datetime
 from itertools import chain
-from os import path
 from os.path import exists, join
 
 import gensim
 import glove
 import numpy as np
 import pandas as pd
-
 from joblib import Parallel
 from joblib import delayed
 from numpy import sum
@@ -31,9 +27,8 @@ from sklearn.tree import DecisionTreeClassifier
 
 from document_preprocessing import DocumentPreprocessor
 from evaluation import Evaluation
-from io_sentiment import classifier_to_pickle, to_pickle
+from io_sentiment import to_pickle
 from my_errors import MyError
-from textlytics.utils import CLASSIFIERS_PATH
 
 log = logging.getLogger(__name__)
 
@@ -67,7 +62,7 @@ class Sentiment(object):
     def __init__(self, sentiment_level='Document', progress_interval=1000,
                  dataset_name='', measures_average='weighted', save_model=None,
                  save_classifiers=None, n_jobs=1, stemming=False,
-                 w2v_label='Elem', model=None):
+                 w2v_label='Elem', model=None, output_results=None):
         """
         Initialize all necessary variables to count sentiment.
 
@@ -107,6 +102,10 @@ class Sentiment(object):
         model : sklearn pipeline
             Model of sklearn pipeline model with trained sentiment analysis.
 
+        output_results : str
+            Do you want to evaluate your prediction accuracy? If yes then it must
+            provide path where results will be saved. False by default.
+
         """
         self.progress_interval = progress_interval
         self.results = {'measures': {},
@@ -127,11 +126,15 @@ class Sentiment(object):
         else:
             self.save_model = save_model
         if save_classifiers is not None:
-            self.save_classifiers = CLASSIFIERS_PATH
+            self.save_classifiers = save_classifiers
         else:
             self.save_classifiers = save_classifiers
         self.w2v_label = w2v_label
         self.model = model
+        if output_results is not None:
+            self.output_results = output_results
+        else:
+            raise Exception('You must provide path where evaluation files will be saved!')
 
     def load_sentiment_model(self, sent_model_path):
         """
@@ -170,7 +173,7 @@ class Sentiment(object):
     # @memory_profiler
     # @profile
     def lex_sent_batch(self, df=None, lexicons=None, dataset_name='',
-                       evaluate=True, lower=True, agg_type='sum',
+                       lower=True, agg_type='sum',
                        discretize_sent=True):
         """
         Count sentiment base on lexicons for provided dataset.
@@ -187,10 +190,9 @@ class Sentiment(object):
         dataset_name : str
             Just dataset name - use for saving predictions.
 
-        evaluate : bool
+        evaluate : str
             Do you want to evaluate your prediction accuracy? If yes then it must
-            be set as True. Otherwise it will only predict sentiment base on
-            all lexicons and do not count the metrics. True by default.
+            provide path where results will be saved. False by default.
 
         agg_type : str
             Type of the aggregation function for counting the sentiment
@@ -238,9 +240,12 @@ class Sentiment(object):
                 self.n_jobs))
         preds = Parallel(n_jobs=self.n_jobs)(
             delayed(sentiment_lexicon)(docs, lex_name, lexicon, agg_type,
-                                       self.stemming, self.progress_interval)
+                                       self.stemming, self.progress_interval, self.output_results)
             for lex_name, lexicon in lexicons.iteritems())
+
+        log.info('PREDS: {}'.format(preds))
         predictions = dict((k, v) for d in preds for (k, v) in d.items())
+        # log.info('Predictions: {}'.format(predictions))
 
         # for doc_index, doc in enumerate(docs):
         # 	doc = dp.tokenizer(doc, stemming=False)
@@ -256,12 +261,12 @@ class Sentiment(object):
             for lex_name, vals in predictions.iteritems():
                 predictions[lex_name] = {k: self.sent_norm(v) for k, v in
                                          vals.iteritems()}
-        evaluation = Evaluation()
+        evaluation = Evaluation(f_path=self.output_results)
         df_evaluation = evaluation.build_df_lex_results(df=df,
                                                         lex_names=lexicons.keys(),
                                                         predictions=predictions,
                                                         f_name=dataset_name)
-        if evaluate:
+        if self.output_results:
             res, classes = evaluation.evaluate_lexicons(df=df_evaluation,
                                                         classifiers_to_evaluate=lexicons.keys())
             self.results.update(res)
@@ -269,7 +274,7 @@ class Sentiment(object):
             classes = None
 
         self.lexicon_predictions.update(predictions)
-        print self.results
+        log.info('Results: {}'.format(self.results))
         self.results['flow-time'] = (start, datetime.now())
 
         return df, self.lexicon_predictions, self.results, classes
@@ -401,12 +406,12 @@ class Sentiment(object):
         sentiment_document_value : float or int
             Aggregated sentiment polarity value.
 
-        >>> sent = Sentiment()
-        >>> sent.count_sentiment_for_list(['this', 'is'], {'this is': 2})
+        >>> sent = Sentiment(output_results='')
+        >>> sent.count_sentiment_for_list(['this is', 'good example'], {'this is': 2}, agg_type='sum')
         2
-        >>> sent.count_sentiment_for_list(['this', 'is'], {'this': -1, 'is': 2})
+        >>> sent.count_sentiment_for_list(['this', 'is'], {'this': -1, 'is': 2}, agg_type='sum')
         1
-        >>> sent.count_sentiment_for_list(['a', 'a', 'b'], {'a': -1, 'a b': 2})
+        >>> sent.count_sentiment_for_list(['a', 'a', 'b', 'a b'], {'a': -1, 'a b': 2}, agg_type='sum')
         1
         """
         sentiment_document_value = []
@@ -458,10 +463,10 @@ class Sentiment(object):
                 sentiment_sentence_values.append(sent_val)
                 sentiment_normalized = self.sent_norm(
                     sentiment_value=sum(sentiment_sentence_values))
-                print self.sent_norm(sentiment_normalized)
+                print(self.sent_norm(sentiment_normalized))
             return self.sent_norm(sentiment_normalized)
         elif sentiment_level == 'Aspect':
-            raise 'Aspekty -> Nie są jeszcze zaimplementowane!'
+            raise Exception('Aspekty -> Nie są jeszcze zaimplementowane!')
         else:
             error_msg = 'Unknown level of sentiment analysis task ' \
                         'sentiment_level: {sentiment_level}' \
@@ -835,8 +840,7 @@ class Sentiment(object):
                     t_temp, datetime.now())
                 if save_clf:
                     f_n = '%s-fold-%s' % (clf_name, kf_count)
-                    classifier_to_pickle(dataset=self.dataset_name,
-                                         f_name=f_n, obj=clf)
+                    to_pickle(f_path=self.save_classifiers, obj=clf)
                 # saving decision tree image
                 # if clf_name in ['DecisionTreeClassifier']:
                 # dot_data = StringIO()
@@ -887,7 +891,7 @@ class Sentiment(object):
                                                            average=self.measures_average))
                     res_f1_score.append(metrics.f1_score(y_test, predicted,
                                                          average=self.measures_average))
-                    res_roc_auc_score.append(metrics.roc_auc_score(y_test, predicted))
+                    # res_roc_auc_score.append(metrics.roc_auc_score(y_test, predicted))
                 else:
                     raise 'Wrong vectors length for counting metrics! Test labels={} and predicted={}'.format(
                         y_test.shape[0], predicted.shape[0])
@@ -908,7 +912,7 @@ class Sentiment(object):
                 'F1 Score for {}: {}'.format(clf_name, np.mean(res_f1_score)))
 
             # #################### EVALUATION PART ############################
-            evaluation = Evaluation()
+            evaluation = Evaluation(f_path=self.output_results)
             res_classifier = evaluation.results_acc_prec_rec_f1_lists(
                 acc=res_accuracy, prec=res_precision,
                 rec=res_recall, f1=res_f1_score)
@@ -1016,17 +1020,7 @@ class Sentiment(object):
         return labelized
 
     @staticmethod
-    def save_classifier(clf, clf_path=CLASSIFIERS_PATH, f_name='clf'):
-        try:
-            f_n = path.join(clf_path, '%s.pkl' % f_name)
-            with open(f_n, 'wb') as f_pkl:
-                pickle.dump(clf, f_pkl)
-            log.info('Classifier {clf} has been saved'.format(clf=f_n))
-        except IOError as err:
-            raise IOError(str(err))
-
-    @staticmethod
-    def load_classifier(clf_path=CLASSIFIERS_PATH, f_name=None):
+    def load_classifier(clf_path, f_name=None):
         # TODO load_classifier()
         print 'TODO'
 
@@ -1107,18 +1101,18 @@ class Sentiment(object):
 
 # TODO documentation
 def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming,
-                      progress_interval):
+                      progress_interval, output_results):
     """
 
     """
     predictions = {lex_name: {}}
     n_docs = len(docs)
     dp = DocumentPreprocessor()
-    sent = Sentiment()
+    sent = Sentiment(output_results=output_results)
     for doc_index, doc in enumerate(docs):
         #  TODO add stemming
         # doc = dp.tokenize_sentence(doc, stemming=stemming)
-        doc = dp.tokenize_sentence(doc)
+        doc = dp.tokenizer_spacy(doc)
         sent_val = sent.count_sentiment_for_list(document_tokens=doc,
                                                  lexicon=lexicon,
                                                  agg_type=agg_type)

@@ -8,10 +8,19 @@ import time
 import matplotlib.pyplot as plt
 import numpy as np
 
-from textlytics.utils import RESULTS_PATH
-
 
 class Visualisation(object):
+
+    def __init__(self, results_path):
+        """
+        Initialization of the path for saving visualisations.
+
+        Parameters
+        ----------
+        results_path : str
+            Path to the results directory.
+        """
+        self.results_path = results_path
 
     def draw_confusion_matrix(self, conf_arr, f_name):
         """
@@ -50,7 +59,7 @@ class Visualisation(object):
         alphabet = '123456789'
         plt.xticks(range(width), alphabet[:width])
         plt.yticks(range(height), alphabet[:height])
-        f_n = path.join(RESULTS_PATH, '%s-%s.png' % (f_name, time.strftime(
+        f_n = path.join(self.results_path, '%s-%s.png' % (f_name, time.strftime(
             "%Y-%m-%d_%H-%M-%S")))
         print f_n
         plt.savefig(f_n, format='png')

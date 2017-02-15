@@ -35,24 +35,16 @@ class SentimentLexicons(object):
     lexicons['Bing Liu']['impecc'] - [lexicon][word/word stem]
     """
 
-    def __init__(self, lex_path=None, stemmed=False, lexs_files=None):
-        if lexs_files is None:
-            if lex_path is None:
-                lexs_files = listdir(LEXICONS_PATH)
-            else:
-                lexs_files = listdir(lex_path)
-            logging.info('Lexicons path: {lex_path}'.
-                         format(lex_path=lex_path))
+    def __init__(self, lexicons_path=None, stemmed=False):
+        if lexicons_path is None:
+            self.lexicons_path = LEXICONS_PATH
+            log.info("Lexicons path isn't specified, default will be used: {}".format(LEXICONS_PATH))
         else:
-            logging.info('Lexicons to load, from {lex_path}: '
-                         '{lexs_files}'.format(lex_path=lex_path,
-                                               lexs_files=lexs_files))
-        self.lexicons = lexs_files
-        self.lexicons_path = lex_path
+            self.lexicons_path = lexicons_path
+            log.info("Lexicons path: {}".format(self.lexicons_path))
         self.stemmed = stemmed
 
-    def load_lexicons(self, lex_files=None, lex_path=None, sep=',',
-                      stemmed=False):
+    def load_lexicons(self, lexicons_file_names, sep=',', stemmed=False):
         """
         Load lexicons by names from provided directory.
 
@@ -69,11 +61,11 @@ class SentimentLexicons(object):
             Do we want to word stems or word exactly like they were expressed
             in lexicons. False by defaul.
 
-        lex_files : list of strings
-            Lexicon names list, remember that they should be in provided
+        lexicons_file_names : list of strings
+            Lexicon names list (with extensions), remember that they should be in provided
             lexicon directory.
 
-        lex_path : str
+        lexicons_path : str
             Directory where lexicon's files are stored. If it will not be set,
             default LEXICON_PATH in package will be used
             /textlytics/data/lexicons.
@@ -90,28 +82,22 @@ class SentimentLexicons(object):
 
         Example usage
         ----------
-        >>> sl.load_lexicons(lex_files=['amazon_automotive_25'])
-        {}
-        >>> sl.load_lexicons()['amazon_automotive_25']['love']
-        1
+        >>> sl = SentimentLexicons()
+        >>> amaz = sl.load_lexicons(lexicons_file_names=['amazon_automotive_25.txt'])
+        >>> amaz['amazon_automotive_25']['love']
+        1.0
         """
-        if lex_files is None:
-            lex_files = self.get_all_lexicons_from_directory(
-                lexicons_path=LEXICONS_PATH)
-
         lexicons = {}
 
-        for lexicon_file in lex_files:
+        for lexicon_file in lexicons_file_names:
             try:
                 lexicon = {}
                 lexicon_name = lexicon_file.split('.')[0]
-                # print lexicon_file
 
                 if self.stemmed:
                     lines = self.line_split_with_check(
                         lexicon_file=lexicon_file,
-                        sep=sep,
-                        lex_path=lex_path)
+                        sep=sep)
                     for word, sent in lines:
                         words_splitted = word.split(' ')
                         if len(words_splitted) > 1:
@@ -126,8 +112,7 @@ class SentimentLexicons(object):
                         map(lambda (k, v): (k.decode('utf-8'), float(v)),
                             self.line_split_with_check(
                                 lexicon_file=lexicon_file,
-                                sep=sep,
-                                lex_path=lex_path)))}
+                                sep=sep)))}
                 logging.info(
                     'Lexicon {lexicon_name} has been loaded! Stemming={stem}'
                     ''.format(lexicon_name=lexicon_name, stem=stemmed))
@@ -136,8 +121,7 @@ class SentimentLexicons(object):
             lexicons.update(lexicon)
         return lexicons
 
-    @staticmethod
-    def line_split_with_check(lexicon_file, lex_path=None, sep=None):
+    def line_split_with_check(self, lexicon_file, sep=','):
         """
         Split lines for file with lexicon and IMPORTANT
         skip lines without any text (common error with last empty line)
@@ -147,30 +131,26 @@ class SentimentLexicons(object):
         lexicon_file : str
             Path to lexicon.
 
-        lex_path : str
-            Path to the lexicon's directory.
-
         sep : str
             Separator between sentiment word and value.
 
         Returns
         ----------
-            Dictionary with sentiment lexicon.
+        l : list
+            List with sentiment lexicon words and their orientation.
         """
-        return [line.split(sep) for line in open(path.join(lex_path, lexicon_file))
-                if line != '' and ',sentiment' not in line]
+        l = []
+        with open(path.join(self.lexicons_path, lexicon_file), 'r') as f:
+            for line in f:
+                if line != '' and ',sentiment' not in line:
+                    l.append(line.split(sep))
+        return l
 
-    @staticmethod
-    def get_all_lexicons_from_directory(lexicons_path):
-        """ Getting list of lexicon file names from chosen directory
-
-        Parameters
-        ----------
-        lexicons_path : str
-            Path to the lexicon's directory.
+    def get_all_lexicons_from_directory(self):
+        """ Getting list of lexicon file names from chosen directory, directory can be set up in init.
 
         Returns
         ----------
             List of lexicon files paths.
         """
-        return listdir(lexicons_path)
+        return listdir(self.lexicons_path)

@@ -8,8 +8,6 @@ import xlsxwriter
 from os.path import join, dirname
 from sklearn import metrics
 
-from textlytics.utils import RESULTS_PATH
-
 log = logging.getLogger(__name__)
 
 
@@ -23,20 +21,16 @@ class Evaluation(object):
     All results by default will be stored in projects /results folder.
     """
 
-    def __init__(self, results_path=None):
+    def __init__(self, f_path):
         """
         Initialization of the path for saving results.
-        By default it will be stored in results folder in this project.
 
         Parameters
         ----------
-        results_path : str
+        f_path : str
             Path to the results directory.
         """
-        if results_path is not None:
-            self.results_path = results_path
-        else:
-            self.results_path = RESULTS_PATH
+        self.results_path = f_path
 
     @staticmethod
     def results_acc_prec_rec_f1(prediction_list, class_list,
@@ -73,7 +67,7 @@ class Evaluation(object):
                                        average=average)}
             return results
         else:
-            raise 'Different sizes of class lists!'
+            raise Exception('Different sizes of class lists!')
 
     def save_result_to_csv(self, results, f_name):
         """
@@ -165,20 +159,6 @@ class Evaluation(object):
                 prediction_list=predictions,
                 class_list=classes)
         return results, classes
-
-    def save_results_to_pickle(self, results, f_name='output'):
-        """
-        Save object to pickle.
-
-        Parameters
-        ----------
-        results : python object (picklable)
-            Object that will be saved.
-
-        f_name : str
-            File name.
-        """
-        pickle.dump(results, open((self.results_path, f_name) + '.pkl', "wb"))
 
     @staticmethod
     def results_acc_prec_rec_f1_lists(acc, prec, rec, f1):

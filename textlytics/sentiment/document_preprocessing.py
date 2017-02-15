@@ -123,7 +123,7 @@ class DocumentPreprocessor(object):
 
         >>> dp = DocumentPreprocessor()
         >>> dp.remove_punctuation_tokens([['This', 'is', ',', 'great', '!']])
-        ['This', 'is', 'great']
+        [['This', 'is', 'great']]
         """
         sentences_without_punctuation = []
         for sent in sentences:
@@ -320,20 +320,19 @@ class DocumentPreprocessor(object):
             return [stem(word) for word in word_tokenize(doc)]
 
     def tokenizer_spacy(self, doc):
+        """Simple tokenizer based on SPACY library.
+
+        Parameters
+        ----------
+        doc : str
+            Document that will be tokenized.
+
+        Returns
+        ----------
+            list of tokens (stems).
         """
-		Simple tokenizer based on SPACY library.
-
-		Parameters
-		----------
-		doc : str
-			Document that will be tokenized.
-
-		Returns
-		----------
-			list of tokens (stems).
-		"""
         doc = self.parser(unicode(doc.lower()))
-        return [word for word in doc]
+        return [word.lemma_ for word in doc]
 
     def parts_of_speech_tokenized_document(self, tokenized_document):
         """

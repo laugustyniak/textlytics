@@ -2,36 +2,29 @@
 
 import glob
 import logging
-import sys
-from os import path, makedirs
-from os.path import exists
-
-import numpy as np
 import pandas as pd
+import numpy as np
+
+from os.path import exists, join
+from os import path, makedirs
 from joblib import Parallel, delayed
+from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+from sklearn.tree import DecisionTreeClassifier
+
 from textlytics.sentiment.document_preprocessing import \
     DocumentPreprocessor
 from textlytics.sentiment.sentiment import Sentiment
-
 from textlytics.sentiment.io_sentiment import to_pickle
 
-logging.basicConfig(filename='generate_lexicons_and_results.log')
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
 
-ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.INFO)
-formatter = logging.Formatter(
-    '%(asctime)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
 
-
-# @memory_profiler.profile
 def amazon_supervised(base_path, output_folder, dataset_filter,
-                      n_reviews=2000, n_cv=10,
-                      vectorizer_type='CountVectorizer',
+                      n_cv=10, vectorizer_type='CountVectorizer',
                       stars=None, stars_dist=None):
     """
     Main function for getting data and all necessary setting to start up
@@ -100,7 +93,6 @@ def amazon_supervised(base_path, output_folder, dataset_filter,
                 # 'n_grams_1_3': (1, 3),
             }
             log.info('Feature ngrams: {}'.format(features_ngrams))
-            predictions = []
             results = []
 
             for n_gram_name, n_grams_range in features_ngrams.iteritems():
@@ -108,10 +100,10 @@ def amazon_supervised(base_path, output_folder, dataset_filter,
                 log.info(
                     'Vectorizer type processed: {}'.format(vectorizer_type))
 
-                f_name = 'Supervised-learning-{}-{}-{}=n_reviews-{}'.format(
+                f_name = 'Supervised-learning-{}-{}-{}-n_reviews-{}'.format(
                     vectorizer_type, n_gram_name,
                     '-'.join([str(s) for s in stars]), min(stars_dist.values()))
-                s = Sentiment(dataset_name=dataset_name)
+                s = Sentiment(dataset_name=dataset_name, output_results=output_folder)
 
                 log.info('Chosen dataframe subset is %s x %s' % df.shape)
                 classes, ml_prediction, results_ml = s.supervised_sentiment(
@@ -129,62 +121,49 @@ def amazon_supervised(base_path, output_folder, dataset_filter,
                     n_folds=n_cv,
                 )
                 results.append(results_ml)
-            # predictions.append(ml_prediction)
-            # to_pickle(p=output_folder, dataset=dataset_name,
-            #           f_name='predictions-%s' % f_name,
-            #           obj=ml_prediction)
-
         except IOError as err:
             log.error('%s not loaded' % dataset_name)
             raise IOError(str(err))
 
-        to_pickle(p=output_folder, dataset=dataset_name, f_name=f_name,
-                  obj=results)
-    # to_pickle(p=output_folder, dataset=dataset_name,
-    #           f_name='predictions-%s' % f_name, obj=predictions)
+        to_pickle(f_path=join(output_folder, 'resutls-super-example.pkl'), obj=results)
 
 
 def run_multi(d):
     amazon_supervised(
         base_path='/datasets/amazon-data/csv/nan-removed',
-        # output_folder='/datasets/amazon-data/csv/bow-all-domains-equal-distrib-auc',
         output_folder='/datasets/amazon-data/csv/bow-all-domains-auc',
         dataset_filter=d,
         stars=[1, 2, 3, 4, 5],
         n_cv=10,
-        # stars_dist=stars
+        stars_dist=stars
     )
 
-
 ALL_CLASSIFIERS = {
-    # 'DecisionTreeClassifier': DecisionTreeClassifier(),
-    # 'RandomForestClassifier': RandomForestClassifier(),
+    'DecisionTreeClassifier': DecisionTreeClassifier(),
+    'RandomForestClassifier': RandomForestClassifier(),
     'LogisticRegression': LogisticRegression(),
-    # 'LinearSVC': LinearSVC(),
+    'LinearSVC': LinearSVC(),
     # 'SVC-linear': SVC(kernel='linear'),
     # 'SVC-default': SVC(),
 }
 
 domains = [
     'Automotive',
-    # 'Book',
-    # 'Clot',
-    # 'Electro',
-    # 'Healt',
-    # 'Movies',
-    # 'Music',
-    # 'Video',
-    # 'Toys',
-    # 'Sport',
+    'Book',
+    'Clot',
+    'Electro',
+    'Healt',
+    'Movies',
+    'Music',
+    'Video',
+    'Toys',
+    'Sport',
 ]
-n_reviews = 4000
+n_reviews = 40
 stars = {1: n_reviews,
          2: n_reviews,
          3: 2 * n_reviews,
          4: n_reviews,
          5: n_reviews}
-
-# for domain in domains:
-# 	run_multi(domain)
 
 Parallel(n_jobs=2)(delayed(run_multi)(d) for d in domains)

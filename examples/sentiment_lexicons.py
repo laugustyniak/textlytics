@@ -161,10 +161,10 @@ def sentiment_lexicons_amazon_cv(datasets_path='', dataset_filter=None,
                           set(cv[1]).intersection(df.index.values))
 
                 sent_lex = SentimentLexicons(stemmed=False,
-                                             lexs_files=lexs_names,
-                                             lex_path=lex_path)
-                lexicons = sent_lex.load_lexicons(lex_files=lexs_names,
-                                                  lex_path=lex_path)
+                                             lexicons_file_names=lexs_names,
+                                             lexicons_path=lex_path)
+                lexicons = sent_lex.load_lexicons(lexicons_file_names=lexs_names,
+                                                  lexicons_path=lex_path)
 
                 if train:
                     ind = cv[0]
