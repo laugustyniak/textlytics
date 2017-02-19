@@ -10,7 +10,7 @@ from nltk import pos_tag
 from nltk import ne_chunk
 from nltk.tokenize import RegexpTokenizer
 from stemming.porter2 import stem
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 import spacy
 
@@ -154,10 +154,10 @@ class DocumentPreprocessor(object):
             document)
         return ' '.join(document.split())
 
-    @staticmethod
-    def clean_html(document):
-        soup = BeautifulSoup(document)
-        return soup.getText()
+    # @staticmethod
+    # def clean_html(document):
+    #     soup = BeautifulSoup(document)
+    #     return soup.getText()
 
     def remove_words_and_ngrams(self, document):
         """Delete word from document/text which are exceptions -> word and
