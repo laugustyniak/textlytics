@@ -97,19 +97,28 @@ class DocumentPreprocessor(object):
         self.parser = spacy.load('en', parser=False, entity=False)
 
     def remove_punctuation_and_multi_spaces_document(self, document):
-        """
-        Metoda usuwa zbędna znaki interpuncyjne oraz na dmiarowe spacje.
-        :rtype : string
-        :param document: text type string
-        :return: text
+        """ Remove all multi spaces and all punctuations from document.
+
+        Parameters
+        ----------
+        document: str
+            Document to remove spaces and punctuation
+
+        Returns
+        ----------
+        document : str
+            Cleaned document string.
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.remove_punctuation_and_multi_spaces_document('  This is test.!@$%     !   %!@%!@  %!@#!@#@!#')
+        'This is test'
         """
         regex = re.compile('[%s]' % re.escape(self.punctuation))
         document = regex.sub(' ', document)
         return ' '.join(document.split())
 
     def remove_punctuation_tokens(self, sentences):
-        """
-        Delete punctuation chars.
+        """ Delete punctuation chars.
 
         Parameters
         ----------
