@@ -2,6 +2,7 @@ beautifulsoup4 == 4.4.1
 dill == 0.2.5
 gensim == 0.12.4
 graph_tool == 2.11
+html5lib==1.0b8
 joblib == 0.9.4
 line_profiler == 1.0
 matplotlib == 1.5.1
