@@ -24,7 +24,7 @@ class TestDocumentPreprocessor(TestCase):
         document_with_punctuations = u'Punctuations such as \'!"#&$%\()*+,-./:;<=>?@[\\]^_`{|}~'
         document_without_punctuations = u'Punctuations such as'
 
-        self.assertEquals(dp.remove_punctuation_and_multi_spaces_document(document=document_with_punctuations),
+        self.assertEquals(dp.remove_punctuation_and_multi_spaces_document(doc=document_with_punctuations),
                           document_without_punctuations)
 
     def test_remove_urls_http(self):
@@ -33,7 +33,7 @@ class TestDocumentPreprocessor(TestCase):
         document_with_url = u'Test text http://wp.pl'
         document_without_url = u'Test text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     def test_remove_urls_https(self):
 
@@ -41,7 +41,7 @@ class TestDocumentPreprocessor(TestCase):
         document_with_url = u'Test text https://wp.pl'
         document_without_url = u'Test text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     def test_remove_urls_with_www(self):
 
@@ -49,28 +49,28 @@ class TestDocumentPreprocessor(TestCase):
         document_with_url = u'Test text http://www.wp.pl'
         document_without_url = u'Test text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     def test_remove_urls_with_www_without_http(self):
         dp = DocumentPreprocessor()
         document_with_url = u'Test text www.wp.pl'
         document_without_url = u'Test text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     def test_remove_urls_example_from_twitter(self):
         dp = DocumentPreprocessor()
         document_with_url = u'Test http text http://t.co/7R4QioA0rh'
         document_without_url = u'Test http text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     def test_remove_urls_example_from_twitter_bitly(self):
         dp = DocumentPreprocessor()
         document_with_url = u'Test text bit.ly/1uCBN4p'
         document_without_url = u'Test text'
 
-        self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
+        self.assertEquals(dp.remove_urls(doc=document_with_url), document_without_url)
 
     # def test_tokenize_document(self):
     #     dp = DocumentPreprocessor()
@@ -96,7 +96,7 @@ class TestDocumentPreprocessor(TestCase):
                            ['Good', 'morning', 'second', 'time'],
                            ['This', 'is', 'good']]
         ngram_occurrences_before = dp.ngrams_freqdist_sentiment(sentiment='POS',
-                                                                document_tokens=sentence_tokens,
+                                                                doc_tokens=sentence_tokens,
                                                                 n=2,
                                                                 sentence_tokenized=True)
         ngram_occurrences_after = {(('This', 'is'), 'POS'): 1,

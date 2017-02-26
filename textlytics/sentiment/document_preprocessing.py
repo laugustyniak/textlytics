@@ -10,7 +10,7 @@ from nltk import pos_tag
 from nltk import ne_chunk
 from nltk.tokenize import RegexpTokenizer
 from stemming.porter2 import stem
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 import spacy
 
@@ -99,12 +99,12 @@ class DocumentPreprocessor(object):
         else:
             self.parser = parser
 
-    def remove_punctuation_and_multi_spaces_document(self, document):
+    def remove_punctuation_and_multi_spaces_document(self, doc):
         """ Remove all multi spaces and all punctuations from document.
 
         Parameters
         ----------
-        document: str
+        doc: str
             Document to remove spaces and punctuation
 
         Returns
@@ -117,15 +117,15 @@ class DocumentPreprocessor(object):
         'This is test'
         """
         regex = re.compile('[%s]' % re.escape(self.punctuation))
-        document = regex.sub(' ', document)
-        return ' '.join(document.split())
+        doc = regex.sub(' ', doc)
+        return ' '.join(doc.split())
 
-    def remove_punctuation_tokens(self, sentences):
+    def remove_punctuation_tokens(self, sents):
         """ Delete punctuation chars.
 
         Parameters
         ----------
-        sentences: list of list strings
+        sents: list of list strings
             Document to remove urls
 
         Returns
@@ -138,18 +138,18 @@ class DocumentPreprocessor(object):
         [['This', 'is', 'great']]
         """
         sentences_without_punctuation = []
-        for sent in sentences:
+        for sent in sents:
             sentences_without_punctuation.append(
                 [token for token in sent if token not in self.punctuation_list])
         return sentences_without_punctuation
 
-    def remove_urls(self, document):
+    def remove_urls(self, doc):
         """
         Remove all urls from document.
 
         Parameters
         ----------
-        document: string
+        doc: string
             Document to remove urls
 
         Returns
@@ -169,19 +169,19 @@ class DocumentPreprocessor(object):
         >>> dp.remove_urls('This is test www.google.com/s=123123123123213123fewwefo[iu4352352135#@%@#%')
         'This is test'
         """
-        document = re.sub(
+        doc = re.sub(
             r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)'
             r'(?:[^\s()<>]+|\(([^\s()<>]+|'
             r'(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|'
             r'[^\s`!()\[\]{};:\'".,<>]))',
             '',
-            document)
-        return ' '.join(document.split())
+            doc)
+        return ' '.join(doc.split())
 
-    # @staticmethod
-    # def clean_html(document):
-    #     soup = BeautifulSoup(document)
-    #     return soup.getText()
+    @staticmethod
+    def clean_html(document):
+        soup = BeautifulSoup(document)
+        return soup.getText()
 
     def remove_words_and_ngrams(self, document):
         """
@@ -284,13 +284,13 @@ class DocumentPreprocessor(object):
                 doc[i] = ""
         return doc
 
-    def tokenize_sentences(self, sentences):
+    def tokenize_sentences(self, sents):
         """
         The simplest version of tokenization for list of sentences.
 
         Parameters
         ----------
-        sentences : list
+        sents : list
             List of sentences, eg. [['love heart'], ['big shop']]
 
         Returns
@@ -303,7 +303,7 @@ class DocumentPreprocessor(object):
         [[u'love', u'heart'], [u'big', u'shop']]
         """
         token_sentence_list = []
-        for sentence in sentences:
+        for sentence in sents:
             token_sentence_list.append(self.tokenizer(sentence))
         return token_sentence_list
 
@@ -336,49 +336,49 @@ class DocumentPreprocessor(object):
         return [word.text for word in self.parser(doc.decode('utf8'))]
 
     # TODO spacy
-    def parts_of_speech_tokenized_document(self, tokenized_document):
+    def parts_of_speech_tokenized_document(self, tokenized_doc):
         """
         Returns document with Parts of Speech tags in a given text
 
         Parameters
         ----------
-        tokenized_document : list of strings
+        tokenized_doc : list of strings
             Tokenized document.
 
         Returns
         ----------
         List of tuples (token, pos tag)
         """
-        return [pos_tag(sentence) for sentence in tokenized_document]
+        return [pos_tag(sentence) for sentence in tokenized_doc]
 
     # TODO spacy
-    def extract_entities(self, text):
+    def extract_entities(self, doc):
         sentence_list = []
-        for sent in sent_tokenize(text):
+        for sent in sent_tokenize(doc):
             sentence_list.append(
                 [chunk for chunk in ne_chunk(pos_tag(word_tokenize(sent)))])
         return sentence_list
 
     # TODO spacy
-    def parts_of_speech_flow(self, document):
-        sentences = sent_tokenize(document)
+    def parts_of_speech_flow(self, doc):
+        sentences = sent_tokenize(doc)
         tokenized = [word_tokenize(sentence) for sentence in sentences]
         pos_tags = [pos_tag(sentence) for sentence in tokenized]
         return ne_chunk(pos_tags, binary=True)
 
-    def word_length_filter(self, document_tokens=None, sentences=None, n=3):
+    def word_length_filter(self, doc_tokens=None, sents=None, n=3):
         """
         Filtrowanie listy tokenów, tylko tokeny dłuższe lub równe niż n znaków
         pozostają do dalszej analizy.
-        :param document_tokens: lista tokenów dokumentu
+        :param doc_tokens: lista tokenów dokumentu
         :param n: minimalna liczba znaków tokenu, default n=3
         :return:
         """
-        if document_tokens is not None:
-            return self.get_longer_than(sentence=document_tokens, n=n)
-        elif sentences is not None:
+        if doc_tokens is not None:
+            return self.get_longer_than(sentence=doc_tokens, n=n)
+        elif sents is not None:
             sentences_ = []
-            for sentence in sentences:
+            for sentence in sents:
                 sentences_.update(self.get_longer_than(sentence=sentence, n=n))
             return sentences_
 
@@ -389,32 +389,32 @@ class DocumentPreprocessor(object):
             else:
                 return [x for x in sentence if len(x) > n - 1]
 
-    def stem_documents(self, document_tokens=None, sentences=None):
+    def stem_documents(self, doc_tokens=None, sents=None):
         """
         Sprowadzanie wyrazów do form podstawowych (ang. stemming). Szczególnie przydatny dla języka angielskiego, dla
         języka polskiego powinno korzystać się z lematyzacji zamiast stemmingu.
-        :param document_tokens: lista tokenów dokumentu
+        :param doc_tokens: lista tokenów dokumentu
         :return:
         """
-        if sentences is not None:
+        if sents is not None:
             sentences_ = []
-            for sentence in sentences:
+            for sentence in sents:
                 sentences_.append([stem(word_token) for word_token in sentence])
             return sentences_
-        elif document_tokens is not None:
-            return [stem(word_token) for word_token in document_tokens]
+        elif doc_tokens is not None:
+            return [stem(word_token) for word_token in doc_tokens]
         else:
             raise Exception('Wrong parameters for this methods')
 
-    def lower_case_document(self, document_tokens=None, sentences=None):
-        if sentences is not None:
+    def lower_case_document(self, doc_tokens=None, sents=None):
+        if sents is not None:
             sentences_ = []
-            for sentence in sentences:
+            for sentence in sents:
                 sentences_.append(
                     [word_token.lower() for word_token in sentence])
             return sentences_
-        elif document_tokens is not None:
-            return [word_token.lower() for word_token in document_tokens]
+        elif doc_tokens is not None:
+            return [word_token.lower() for word_token in doc_tokens]
         else:
             er_msg = 'Wrong parameters for this methods'
             logging.error(er_msg)
@@ -480,9 +480,9 @@ class DocumentPreprocessor(object):
         sentences = self.tokenize_doc_sents_regexp(
             sentences=sentences_clean_text)
 
-        sentences = self.lower_case_document(sentences=sentences)
+        sentences = self.lower_case_document(sents=sentences)
         if words_stem:
-            sentences = self.stem_documents(sentences=sentences)
+            sentences = self.stem_documents(sents=sentences)
             stop_words_stem = self.stop_words_stem()
             # sentences = self.remove_stop_words(sentences=sentences,
             #                                    word_list=stop_words_stem)
@@ -495,13 +495,13 @@ class DocumentPreprocessor(object):
         return sentences
 
     def ngrams_freqdist_sentiment(self,
-                                  document_tokens,
+                                  doc_tokens,
                                   sentiment,
                                   n=2,
                                   ngram_occurrences={},
                                   sentence_tokenized=False):
         if sentence_tokenized:
-            for sentence in document_tokens:
+            for sentence in doc_tokens:
                 # collec = collections.Counter(tuple([tuple(document_tokens[i:i+n]), label])
                 # for i in xrange(len(document_tokens)-n))
                 for i in xrange(len(sentence) - n + 1):  # N-grams
@@ -512,13 +512,13 @@ class DocumentPreprocessor(object):
                         ngram_occurrences[
                             tuple([tuple(sentence[i:i + n]), sentiment])] = 1
         else:
-            for i in xrange(len(document_tokens) - n + 1):  # N-grams
+            for i in xrange(len(doc_tokens) - n + 1):  # N-grams
                 try:
                     ngram_occurrences[tuple(
-                        [tuple(document_tokens[i:i + n]), sentiment])] += 1
+                        [tuple(doc_tokens[i:i + n]), sentiment])] += 1
                 except:
                     ngram_occurrences[
-                        tuple([tuple(document_tokens[i:i + n]), sentiment])] = 1
+                        tuple([tuple(doc_tokens[i:i + n]), sentiment])] = 1
         return ngram_occurrences
 
     def preprocess_sentiment(self, df, results={}, words_stem=True,
