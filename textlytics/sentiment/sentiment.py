@@ -1054,7 +1054,7 @@ class Sentiment(object):
         for idx, doc in enumerate(docs):
             doc_vector = np.zeros(len(model.syn0[0]), dtype=np.float)
             if len(doc):
-                for word in dp.tokenizer_spacy(doc):
+                for word in dp.tokenizer(doc):
                     try:
                         doc_vector += model[word]
                     except:
@@ -1067,7 +1067,7 @@ class Sentiment(object):
 
     def build_gensim(self, docs, model=None):
         dp = DocumentPreprocessor()
-        docs_tokenized = (dp.tokenizer_spacy(doc) for doc in docs)
+        docs_tokenized = (dp.tokenizer(doc) for doc in docs)
 
         # Get the word co-occurrence matrix -- needs lots of RAM!!
         cooccur = glove.Corpus()
@@ -1082,7 +1082,7 @@ class Sentiment(object):
         model.fit(cooccur.matrix, epochs=10)
 
         doc_vectors = []
-        docs_tokenized = (dp.tokenizer_spacy(doc) for doc in docs)
+        docs_tokenized = (dp.tokenizer(doc) for doc in docs)
         for doc in docs_tokenized:
             doc_vector = np.zeros(len(model.word_vectors[0]), dtype=np.float)
             if len(doc):
@@ -1112,7 +1112,7 @@ def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming,
     for doc_index, doc in enumerate(docs):
         #  TODO add stemming
         # doc = dp.tokenize_sentence(doc, stemming=stemming)
-        doc = dp.tokenizer_spacy(doc)
+        doc = dp.tokenizer(doc)
         sent_val = sent.count_sentiment_for_list(document_tokens=doc,
                                                  lexicon=lexicon,
                                                  agg_type=agg_type)

@@ -72,16 +72,16 @@ class TestDocumentPreprocessor(TestCase):
 
         self.assertEquals(dp.remove_urls(document=document_with_url), document_without_url)
 
-    def test_tokenize_document(self):
-        dp = DocumentPreprocessor()
-        document = u"""This is first sentence. This is second. This is number 5.3 and 5.4. Do you like them?"""
-
-        document_after_sentence_tokenization = [u'This is first sentence.',
-                                                u'This is second.',
-                                                u'This is number 5.3 and 5.4.',
-                                                u'Do you like them?']
-
-        self.assertEquals(dp.tokenize_sentence(doc=document), document_after_sentence_tokenization)
+    # def test_tokenize_document(self):
+    #     dp = DocumentPreprocessor()
+    #     document = u"""This is first sentence. This is second. This is number 5.3 and 5.4. Do you like them?"""
+    #
+    #     document_after_sentence_tokenization = [u'This is first sentence.',
+    #                                             u'This is second.',
+    #                                             u'This is number 5.3 and 5.4.',
+    #                                             u'Do you like them?']
+    #
+    #     self.assertEquals(dp.tokenize_sentence(doc=document), document_after_sentence_tokenization)
 
     def test_removing_urls_bitly(self):
         dp = DocumentPreprocessor()

@@ -35,7 +35,7 @@ class DocumentPreprocessor(object):
     def __init__(self, sentiment_level=None, punctuation=None,
                  punctuation_list=None, numbers=None,
                  words_and_ngrams_exceptions=None, stop_words=None,
-                 negation_words=None):
+                 negation_words=None, parser=None):
 
         if negation_words is None:
             negation_words = ['no', 'not', 'n\'t']
@@ -74,7 +74,7 @@ class DocumentPreprocessor(object):
             self.stop_words = [u'all', u'just', u'over', u'both', u'through',
                                u'its', u'before', u'herself', u'should', u'to',
                                u'only', u'under', u'ours', u'then', u'them',
-                               u'his', u'very', u'they', u'during', u'now', u'him',
+                               u'his', u'they', u'during', u'now', u'him',
                                u'nor', u'these', u'she', u'each', u'further', u'where',
                                u'few', u'because', u'some', u'our', u'ourselves',
                                u'out', u'what', u'for', u'while', u'above',
@@ -94,7 +94,10 @@ class DocumentPreprocessor(object):
                                '"\'"', '\'', 'quot']
         else:
             self.stop_words = stop_words
-        self.parser = spacy.load('en', parser=False, entity=False)
+        if parser is None:
+            self.parser = spacy.load('en')
+        else:
+            self.parser = parser
 
     def remove_punctuation_and_multi_spaces_document(self, document):
         """ Remove all multi spaces and all punctuations from document.
@@ -153,6 +156,18 @@ class DocumentPreprocessor(object):
         ----------
         document: string
             Document without deleted urls
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.remove_urls('This is test http://google.com')
+        'This is test'
+        >>> dp.remove_urls('This is test http://www.google.com')
+        'This is test'
+        >>> dp.remove_urls('This is test http://www.google.com/s=123123123123213123fewwefo[iu4352352135#@%@#%')
+        'This is test'
+        >>> dp.remove_urls('This is test https://www.google.com/s=123123123123213123fewwefo[iu4352352135#@%@#%')
+        'This is test'
+        >>> dp.remove_urls('This is test www.google.com/s=123123123123213123fewwefo[iu4352352135#@%@#%')
+        'This is test'
         """
         document = re.sub(
             r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)'
@@ -169,29 +184,47 @@ class DocumentPreprocessor(object):
     #     return soup.getText()
 
     def remove_words_and_ngrams(self, document):
-        """Delete word from document/text which are exceptions -> word and
+        """
+        Delete word from document/text which are exceptions -> word and
         ngrams, e.g., good morning (for sentiment analysis).
 
-        :param document: input document
-        :param word_list: list of words and ngrams, which will be deleted
-            Note:
-                Regular expression are used.
+        Parameters
+        ----------
+        document: input document
+            String with input document.
 
-            Args:
-                document: Document text.
-                word_list: list of word to remove from document.
-        :return document: string without deleted woods and ngrams
+        Return
+        ----------
+        document: str
+            Document without words and ngrams chosen as not necessary, they are set in constructor as
+            words_and_ngrams_exceptions.
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.remove_words_and_ngrams('good morning Mr Bean')
+        ' Mr Bean'
         """
         for w in self.words_and_ngrams_exceptions:
             document = re.sub(w, '', document)
         return document
 
     def remove_stop_words(self, document_tokens=None, sentences=None):
-        """
-        Delete word's tokens from token list.
-        :param document_tokens: all document tokens, list of tokens
-        :param sentences: list of list of tokens
-        :return :
+        """ Delete word tokens from token list.
+        Parameters
+        ----------
+        document_tokens: list
+            All document tokens, list of tokens.
+
+        sentences: list of list
+            List of list of tokens.
+
+        Parameters
+        ----------
+        list
+            List of tokens without stop words.
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.remove_stop_words(['he', 'likes', 'it', 'very', 'much'])
+        ['likes', 'very', 'much']
         """
         if sentences is not None or (
                         sentences is not None and document_tokens is not None):
@@ -221,6 +254,10 @@ class DocumentPreprocessor(object):
         ----------
         doc : str
             Document without numbers.
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.remove_numbers('This 1945 is #222 test: 1234567890')
+        'This  is # test: '
         """
         regex = re.compile('[%s]' % re.escape(self.numbers))
         return regex.sub('', doc)
@@ -242,7 +279,7 @@ class DocumentPreprocessor(object):
         for i in range(0, len(doc)):
             try:
                 doc[i].encode("ascii")
-            except:
+            except UnicodeError, UnicodeDecodeError:
                 # means it's non-ASCII
                 doc[i] = ""
         return doc
@@ -254,94 +291,51 @@ class DocumentPreprocessor(object):
         Parameters
         ----------
         sentences : list
-            List of sentences, eg. [['love heart'], ['big shop]]
+            List of sentences, eg. [['love heart'], ['big shop']]
 
         Returns
         ----------
         token_sentence_list : list
             List of token lists, eg. [['love', 'heart'], ['big', 'shop]]
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.tokenize_sentences([u'love heart', u'big shop'])
+        [[u'love', u'heart'], [u'big', u'shop']]
         """
         token_sentence_list = []
         for sentence in sentences:
-            token_sentence_list.append(self.tokenize_sentence(sentence))
+            token_sentence_list.append(self.tokenizer(sentence))
         return token_sentence_list
 
-    # TODO lepiej zrobić jeden moduł i kilka atrybutów/parametrów?
-    def tokenize_doc_sents_regexp(self, sentences, reg_exp_='\s+'):
-        """
-        Tokenization based on regex pattern (NLTK based).
-
-        Parameters
-        ----------
-        sentences : list
-            List of sentences.
-
-        reg_exp_ : string
-            Regex pattern for tokenizer.
-
-        Returns
-        ----------
-        sentences_ : list
-            List of token's lists - nested lists.
-        """
-        sentences_ = []
-        tokenizer = RegexpTokenizer(reg_exp_, gaps=True)
-        for sentence in sentences:
-            sentences_.append(tokenizer.tokenize(sentence))
-        return sentences_
-
-    def tokenize_sentence(self, doc):
-        """
-        The simplest sentence tokenizer (by default from NLTK).
-
-        Parameters
-        ----------
-        doc: str
-            Document string that will be tokenized.
-
-        Returns
-        ----------
-            List of sentences.
-        """
-        return sent_tokenize(doc)
-
-    @staticmethod
-    def tokenizer(doc, stemming=False):
-        """
-        Simple tokenizer with optional stemming.
+    # def tokenizer(self, doc, lemmatize=False):
+    def tokenizer(self, doc):
+        """Simple tokenizer based on SPACY library, return lemmas.
 
         Parameters
         ----------
         doc : str
             Document that will be tokenized.
 
-        stemming : bool
-            Do you want to stem all words? False by defaults.
+        lemmatize : boolean
+            Do you want to get lemmas? Default false.
 
         Returns
         ----------
-            list of tokens (stems).
+            List of tokens.
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.tokenizer('love heart big shop')
+        [u'love', u'heart', u'big', u'shop']
+
+        # >>> dp.tokenizer('loved heart bigger shoping', lemmatize=True)
+        # [u'love', u'heart', u'big', u'shop']
         """
-        if stemming:
-            return word_tokenize(doc)
-        else:
-            return [stem(word) for word in word_tokenize(doc)]
+        # if lemmatize:
+        #     return [w.lemma_ for w in self.parser(doc.decode('utf8'))]
+        # else:
+        return [word.text for word in self.parser(doc.decode('utf8'))]
 
-    def tokenizer_spacy(self, doc):
-        """Simple tokenizer based on SPACY library.
-
-        Parameters
-        ----------
-        doc : str
-            Document that will be tokenized.
-
-        Returns
-        ----------
-            list of tokens (stems).
-        """
-        doc = self.parser(unicode(doc.lower()))
-        return [word.lemma_ for word in doc]
-
+    # TODO spacy
     def parts_of_speech_tokenized_document(self, tokenized_document):
         """
         Returns document with Parts of Speech tags in a given text
@@ -357,6 +351,7 @@ class DocumentPreprocessor(object):
         """
         return [pos_tag(sentence) for sentence in tokenized_document]
 
+    # TODO spacy
     def extract_entities(self, text):
         sentence_list = []
         for sent in sent_tokenize(text):
@@ -364,6 +359,7 @@ class DocumentPreprocessor(object):
                 [chunk for chunk in ne_chunk(pos_tag(word_tokenize(sent)))])
         return sentence_list
 
+    # TODO spacy
     def parts_of_speech_flow(self, document):
         sentences = sent_tokenize(document)
         tokenized = [word_tokenize(sentence) for sentence in sentences]
@@ -431,17 +427,6 @@ class DocumentPreprocessor(object):
             stop_words_ = self.stop_words
         return list(set([stem(word) for word in stop_words_]))
 
-    # TODO to remove?
-    def tokenize(self, data_frame):
-        word_tokens = []
-
-        for row_index, row in data_frame.iterrows():
-            word_tokens.append(self.word_length_filter(row[1],
-                                                       3))  # only words with 3 and more letters
-
-        data_frame['tokenized_document'] = word_tokens
-        return data_frame
-
     def star_score_to_sentiment(self, df=None, score_column='Stars',
                                 star_mean_score=3):
         """
@@ -476,8 +461,7 @@ class DocumentPreprocessor(object):
         for lexicon in lexicons:
             sentiment_column = []
             for document in df['tokenized_document']:
-                sentiment_column.append(self, self.sentiment_document_lexicon(
-                    document, lexicon))
+                sentiment_column.append(self, self.sentiment_document_lexicon(document, lexicon))
             df[lexicon['name']] = sentiment_column
         return df
 
@@ -567,8 +551,7 @@ class DocumentPreprocessor(object):
 
     @staticmethod
     def get_reviews(df, col, stars):
-        """
-        Get specified number of elements from each class, Amazon Dataset.
+        """ Get specified number of elements from each class, Amazon Dataset.
 
         Parameters
         ----------
@@ -584,19 +567,18 @@ class DocumentPreprocessor(object):
             idxs += random.sample(df[df[col] == star].index, n_rev)
         return idxs
 
+    def preprocessed(self, data_frame):
+        """ Exemplary flow based on data frame from pandas
+        :param data_frame:
+        """
+        dp = DocumentPreprocessor()
+        word_tokens_document = []
 
-def preprocessed(data_frame):
-    """Exemplary flow based on data frame from pandas
-    :param data_frame:
-    """
-    dp = DocumentPreprocessor()
-    word_tokens_document = []
-
-    for row_index, row in data_frame.iterrows():
-        processed_document = dp.remove_punctuation_and_multi_spaces_document(
-            row[1])
-        processed_document = dp.remove_numbers(processed_document)
-        word_tokens_document.append(
-            dp.word_length_filter(processed_document, 3))
-    data_frame['word_tokens_document'] = word_tokens_document
-    return data_frame
+        for row_index, row in data_frame.iterrows():
+            processed_document = dp.remove_punctuation_and_multi_spaces_document(
+                row[1])
+            processed_document = dp.remove_numbers(processed_document)
+            word_tokens_document.append(
+                dp.word_length_filter(processed_document, 3))
+        data_frame['word_tokens_document'] = word_tokens_document
+        return data_frame
