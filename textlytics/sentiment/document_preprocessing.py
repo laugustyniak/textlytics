@@ -8,7 +8,6 @@ from nltk import sent_tokenize
 from nltk import word_tokenize
 from nltk import pos_tag
 from nltk import ne_chunk
-from nltk.tokenize import RegexpTokenizer
 from stemming.porter2 import stem
 from bs4 import BeautifulSoup
 
@@ -75,27 +74,34 @@ class DocumentPreprocessor(object):
                                u'its', u'before', u'herself', u'should', u'to',
                                u'only', u'under', u'ours', u'then', u'them',
                                u'his', u'they', u'during', u'now', u'him',
-                               u'nor', u'these', u'she', u'each', u'further', u'where',
-                               u'few', u'because', u'some', u'our', u'ourselves',
+                               u'nor', u'these', u'she', u'each', u'further',
+                               u'where',
+                               u'few', u'because', u'some', u'our',
+                               u'ourselves',
                                u'out', u'what', u'for', u'while', u'above',
                                u'between', u'be', u'we', u'who', u'wa', u'here',
                                u'hers', u'by', u'on', u'about', u'theirs',
                                u'against', u'or', u'own', u'into', u'yourself',
                                u'down', u'your', u'from', u'her', u'their',
                                u'there', u'whom', u'too', u'themselves',
-                               u'until', u'more', u'himself', u'that', u'but', u'don',
+                               u'until', u'more', u'himself', u'that', u'but',
+                               u'don',
                                u'with', u'than', u'those', u'he', u'me',
-                               u'myself', u'this', u'up', u'below', u'can', u'of',
+                               u'myself', u'this', u'up', u'below', u'can',
+                               u'of',
                                u'my', u'and', u'do', u'it', u'an', u'as',
-                               u'itself', u'at', u'have', u'in', u'any', u'if', u'again',
+                               u'itself', u'at', u'have', u'in', u'any', u'if',
+                               u'again',
                                u'when', u'same', u'how', u'other', u'which',
-                               u'you', u'after', u'most', u'such', u'why', u'a', u'off',
+                               u'you', u'after', u'most', u'such', u'why', u'a',
+                               u'off',
                                u'i', u'so', u'the', u'yours', u'once',
                                '"\'"', '\'', 'quot']
         else:
             self.stop_words = stop_words
+
         if parser is None:
-            self.parser = spacy.load('en')
+            self.parser = spacy.load('en', tagger=True, parser=True)
         else:
             self.parser = parser
 
@@ -307,13 +313,12 @@ class DocumentPreprocessor(object):
             token_sentence_list.append(self.tokenizer(sentence))
         return token_sentence_list
 
-    # def tokenizer(self, doc, lemmatize=False):
-    def tokenizer(self, doc):
+    def tokenizer(self, doc, lemmatize=False):
         """Simple tokenizer based on SPACY library, return lemmas.
 
         Parameters
         ----------
-        doc : str
+        doc : unicode string
             Document that will be tokenized.
 
         lemmatize : boolean
@@ -324,19 +329,19 @@ class DocumentPreprocessor(object):
             List of tokens.
 
         >>> dp = DocumentPreprocessor()
-        >>> dp.tokenizer('love heart big shop')
+        >>> dp.tokenizer(u'love heart big shop', False)
         [u'love', u'heart', u'big', u'shop']
 
-        # >>> dp.tokenizer('loved heart bigger shoping', lemmatize=True)
-        # [u'love', u'heart', u'big', u'shop']
+        >>> dp.tokenizer(u'loved heart bigger shoping', True)
+        [u'love', u'heart', u'big', u'shop']
         """
-        # if lemmatize:
-        #     return [w.lemma_ for w in self.parser(doc.decode('utf8'))]
-        # else:
-        return [word.text for word in self.parser(doc.decode('utf8'))]
+        if lemmatize:
+            return [w.lemma_ for w in self.parser(doc)]
+        else:
+            return [w.text for w in self.parser(doc)]
 
     # TODO spacy
-    def parts_of_speech_tokenized_document(self, tokenized_doc):
+    def parts_of_speech_tags(self, tokenized_doc):
         """
         Returns document with Parts of Speech tags in a given text
 
@@ -348,8 +353,13 @@ class DocumentPreprocessor(object):
         Returns
         ----------
         List of tuples (token, pos tag)
+
+        >>> dp = DocumentPreprocessor()
+        >>> dp.parts_of_speech_tags(u'love heart big')
+        [(u'love', u'VERB'), (u'heart', u'NOUN'), (u'big', u'ADJ')]
         """
-        return [pos_tag(sentence) for sentence in tokenized_doc]
+        return [(token.text, token.pos_) for token in self.parser(
+            tokenized_doc)]
 
     # TODO spacy
     def extract_entities(self, doc):
@@ -443,7 +453,8 @@ class DocumentPreprocessor(object):
         if df is not None:
             new_column = []
             for score in df[score_column]:
-                new_column.append(self.star_score_mapping(score, star_mean_score))
+                new_column.append(
+                    self.star_score_mapping(score, star_mean_score))
             df['Sentiment'] = new_column
             stars_ = list(df[score_column])
             df = df.drop(score_column, 1)
@@ -461,7 +472,8 @@ class DocumentPreprocessor(object):
         for lexicon in lexicons:
             sentiment_column = []
             for document in df['tokenized_document']:
-                sentiment_column.append(self, self.sentiment_document_lexicon(document, lexicon))
+                sentiment_column.append(self, self.sentiment_document_lexicon(
+                    document, lexicon))
             df[lexicon['name']] = sentiment_column
         return df
 
@@ -559,7 +571,8 @@ class DocumentPreprocessor(object):
             Data to get random elements.
         """
         log.info('Number of reviews to extract: {}'.format(stars))
-        log.info('Number of available reviews: {}'.format(df[col].value_counts()))
+        log.info(
+            'Number of available reviews: {}'.format(df[col].value_counts()))
         if [x for x in df[col].value_counts() if x < min(stars.values())]:
             raise Exception("To many review chosen from dataset")
         idxs = []
