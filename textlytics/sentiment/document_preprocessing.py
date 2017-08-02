@@ -101,7 +101,7 @@ class DocumentPreprocessor(object):
             self.stop_words = stop_words
 
         if parser is None:
-            self.parser = spacy.load('en', tagger=True, parser=True)
+            self.parser = spacy.load('en')
         else:
             self.parser = parser
 
@@ -329,11 +329,11 @@ class DocumentPreprocessor(object):
             List of tokens.
 
         >>> dp = DocumentPreprocessor()
-        >>> dp.tokenizer(u'love heart big shop', False)
-        [u'love', u'heart', u'big', u'shop']
+        >>> dp.tokenizer(u'love heart big shoping', False)
+        [u'love', u'heart', u'big', u'shoping']
 
-        >>> dp.tokenizer(u'loved heart bigger shoping', True)
-        [u'love', u'heart', u'big', u'shop']
+        >>> dp.tokenizer(u'loved heart bigger shoping shops', True)
+        [u'love', u'heart', u'big', u'shoping', u'shop']
         """
         if lemmatize:
             return [w.lemma_ for w in self.parser(doc)]
