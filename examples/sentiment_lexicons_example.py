@@ -1,19 +1,15 @@
 # -*- coding: utf-8 -*-
 
-# import memory_profiler
 import logging
-import sys
 from os import makedirs
 from os.path import join, exists
 
 from textlytics.sentiment.document_preprocessing import \
     DocumentPreprocessor
-from textlytics.sentiment.lexicons import SentimentLexicons
-from textlytics.sentiment.sentiment import Sentiment
-
 from textlytics.sentiment.io_sentiment import Dataset
 from textlytics.sentiment.io_sentiment import to_pickle
-from textlytics.utils import LEXICONS_PATH
+from textlytics.sentiment.lexicons import SentimentLexicons
+from textlytics.sentiment.sentiment import Sentiment
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
@@ -102,9 +98,8 @@ lexicons_files = [
     # 'Yelp-restaurant-reviews-bigrams.txt',
 ]
 
-
 sentiment_lexicons_imdb(lexs_names=lexicons_files,
-                        output_folder='/datasets/amazon-data/csv/lex-test')
+                        output_folder='results/amazon-data/csv/lex-test')
 
 
 def sentiment_lexicons_opineo(lexs_names=None, lex_path=None, output_folder=None, evaluate=True):
@@ -177,6 +172,3 @@ lexicons_polish = [
 #                           lex_path=LEXICONS_PATH,
 #                           output_folder='/datasets/polish/opineo/lex-results',
 #                           )
-
-
-
