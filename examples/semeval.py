@@ -66,7 +66,7 @@ def sentiment_lexicons_run(lexs_names=None, lex_path=None, output_folder=None,
     lexicons = sent_lex.load_lexicons(lexicons_file_names=lexs_names)
 
     s = Sentiment(n_jobs=len(lexs_names), output_results=output_folder)
-    df_lex, lexicon_prediction, lexicon_result, classes = \
+    _, lexicon_prediction, lexicon_result, classes = \
         s.lex_sent_batch(
             df=df,
             dataset_name=dataset_name,

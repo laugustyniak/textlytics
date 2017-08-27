@@ -143,7 +143,8 @@ class Dataset(object):
             logging.error('Error with loading SemEval2013 dataset' % str(err))
             raise IOError
 
-    def load_semeval_2014_sentiment(self):
+    @classmethod
+    def load_semeval_2014_sentiment(cls):
         """
         Load dataset from SemEval contents - 2014 edition.
         :return: Data Frame
