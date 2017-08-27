@@ -595,3 +595,14 @@ class DocumentPreprocessor(object):
                 dp.word_length_filter(processed_document, 3))
         data_frame['word_tokens_document'] = word_tokens_document
         return data_frame
+
+    def clean_text(self, document):
+        dp = DocumentPreprocessor(self.stop_words)
+        document = dp.clean_html(document)
+        document = dp.remove_urls(document)
+        document = document.strip()
+        document = dp.remove_numbers(document)
+        document = dp.remove_punctuation_and_multi_spaces_document(document)
+        document = self.parser(unicode(document.lower()))
+        document = [w for w in document if w not in self.stop_words]
+        return document

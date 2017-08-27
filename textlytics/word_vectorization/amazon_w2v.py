@@ -4,7 +4,6 @@ import gzip
 import json
 import logging
 import multiprocessing
-import sys
 from datetime import datetime
 from os.path import basename, join
 
@@ -12,18 +11,7 @@ import gensim
 
 from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
 
-import spacy
-parser = spacy.load('en', parser=False, entity=False)
-
-log = logging.getLogger()
-log.setLevel(logging.INFO)
-
-ch = logging.StreamHandler(sys.stdout)
-# ch.setLevel(logging.INFO)
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
+log = logging.getLogger(__name__)
 
 
 class Word2VecAmazonReviews(object):
@@ -54,30 +42,13 @@ class Word2VecAmazonReviews(object):
                            u'you', u'after', u'most', u'such', u'why', u'a',
                            u'off', u'i', u'so', u'the',
                            u'yours', u'once', '"\'"', '\'', 'quot']
-
-    # TODO move to preprocessing module!!
-    def clean_text(self, document):
-        dp = DocumentPreprocessor(self.stop_words)
-        document = dp.clean_html(document)
-        document = dp.remove_urls(document)
-        document = document.strip()
-        # document = dp.remove_numbers(document)
-        # document = dp.remove_punctuation_and_multi_spaces_document(document)
-        document = parser(unicode(document.lower()))
-        # document = [t.lemma_.encode('utf-8') for t in document]
-        document = [w for w in document if w not in self.stop_words]
-        return document
+        self.dp = DocumentPreprocessor()
 
     def __iter__(self):
         for n_line, line in enumerate(gzip.open(self.path, 'r'), start=1):
-            # for n_line, line in enumerate(open(self.path, 'r'), start=1):
             j = json.loads(line)
-            toks = self.clean_text(j['reviewText'])
+            toks = self.dp.clean_text(j['reviewText'])
             yield toks
-        # break
-
-        # toks = self.clean_text(j['summary'])
-        # yield toks
 
 
 def w2v_train(amazon_domain_paths, output_path):
@@ -105,9 +76,12 @@ def w2v_train(amazon_domain_paths, output_path):
         results['{}-start'.format(f_name)] = datetime.now()
 
         # FIXME na sztywno size dla Word2Vec
-        model = gensim.models.Word2Vec(min_count=3, window=10, size=size, workers=cores)
+        model = gensim.models.Word2Vec(min_count=3, window=10, size=size,
+                                       workers=cores)
         model.build_vocab(Word2VecAmazonReviews(amazon_domain_path))
         model.train(Word2VecAmazonReviews(amazon_domain_path))
-        model.save_word2vec_format(join(output_path, '{}-size-{}.model'.format(f_name, size)), binary=True)
+        model.save_word2vec_format(
+            join(output_path, '{}-size-{}.model'.format(f_name, size)),
+            binary=True)
         results['{}-stop'.format(f_name)] = datetime.now()
     results['stop'] = datetime.now()
