@@ -335,6 +335,7 @@ class DocumentPreprocessor(object):
         >>> dp.tokenizer(u'loved heart bigger shoping shops', True)
         [u'love', u'heart', u'big', u'shoping', u'shop']
         """
+        doc = unicode(doc, "utf-8")
         if lemmatize:
             return [w.lemma_ for w in self.parser(doc)]
         else:
@@ -520,6 +521,7 @@ class DocumentPreprocessor(object):
                     try:
                         ngram_occurrences[
                             tuple([tuple(sentence[i:i + n]), sentiment])] += 1
+                    # fixme type of expected
                     except:
                         ngram_occurrences[
                             tuple([tuple(sentence[i:i + n]), sentiment])] = 1
@@ -528,6 +530,7 @@ class DocumentPreprocessor(object):
                 try:
                     ngram_occurrences[tuple(
                         [tuple(doc_tokens[i:i + n]), sentiment])] += 1
+                # fixme type of expected
                 except:
                     ngram_occurrences[
                         tuple([tuple(doc_tokens[i:i + n]), sentiment])] = 1
