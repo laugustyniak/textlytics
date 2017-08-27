@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-import sys
 import logging
+import time
+from os.path import join
+
 import numpy as np
 import pandas as pd
-import time
 import xlsxwriter
-
-from os.path import join, dirname
 from sklearn import metrics
 
 log = logging.getLogger(__name__)
