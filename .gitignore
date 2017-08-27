@@ -17,3 +17,4 @@ examples/repindex_sentiment.py
 
 # logs
 *.log
+examples/results/
