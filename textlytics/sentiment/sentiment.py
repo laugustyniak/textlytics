@@ -240,22 +240,13 @@ class Sentiment(object):
                 self.n_jobs))
         preds = Parallel(n_jobs=self.n_jobs)(
             delayed(sentiment_lexicon)(docs, lex_name, lexicon, agg_type,
-                                       self.stemming, self.progress_interval, self.output_results)
+                                       self.stemming, self.progress_interval,
+                                       self.output_results)
             for lex_name, lexicon in lexicons.iteritems())
 
         log.info('PREDS: {}'.format(preds))
         predictions = dict((k, v) for d in preds for (k, v) in d.items())
         # log.info('Predictions: {}'.format(predictions))
-
-        # for doc_index, doc in enumerate(docs):
-        # 	doc = dp.tokenizer(doc, stemming=False)
-        # 	for lex_name, lexicon in lexicons.iteritems():
-        # 		sent_val = self.count_sentiment_for_list(document_tokens=doc,
-        # 		                                         lexicon=lexicon,
-        # 		                                         agg_type=agg_type)
-        # 		predictions[lex_name].update({doc_index: sent_val})
-        # 	if not doc_index % 1000:
-        # 		log.debug('Documents executed: {}/{}'.format(doc_index, n_docs))
 
         if discretize_sent:
             for lex_name, vals in predictions.iteritems():
@@ -421,9 +412,6 @@ class Sentiment(object):
                 if key in document_tokens:
                     sentiment_document_value.append(value)
             except UnicodeDecodeError as err:
-                log.error(
-                    '{err} Token: {token} and lexicon word {key}'
-                    ''.format(ex=str(err), token=document_tokens, key=key))
                 raise UnicodeDecodeError(
                     '{err} Token: {token} and lexicon word {key}'
                     ''.format(ex=str(err), token=document_tokens, key=key))
@@ -1123,4 +1111,5 @@ def sentiment_lexicon(docs, lex_name, lexicon, agg_type, stemming,
                 'Documents executed: {}/{} for lex: {}'.format(doc_index,
                                                                n_docs,
                                                                lex_name))
+    log.info('Lexicon {} end'.format(lex_name))
     return predictions

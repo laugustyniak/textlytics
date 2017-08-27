@@ -5,6 +5,9 @@ setup(
     name='textlytics',
     version='0.0.1',
     packages=find_packages(exclude=['docs', 'tests', '*.tests']),
+    package_data={
+        'textlytics': ['data/*'],
+    },
     author=u'Lukasz Augustyniak',
     author_email='luk.augustyniak@gmail.com',
     license='BSD',

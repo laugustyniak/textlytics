@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import sys
 import logging
 import numpy as np
 import pandas as pd
@@ -233,8 +234,10 @@ class Evaluation(object):
                           how='left')
         if save:
             t_str = time.strftime("%Y-%m-%d_%H-%M-%S")
-            df.to_excel(join(self.results_path,
-                             'Lexicons-predictions-{}-{}.xls'.format(f_name, t_str)))
+            df.to_csv(join(self.results_path,
+                           'Lexicons-predictions-{}-{}.csv'.format(f_name,
+                                                                t_str)))
             df.to_pickle(join(self.results_path,
-                              'Lexicons-predictions-{}-{}.pkl'.format(f_name, t_str)))
+                              'Lexicons-predictions-{}-{}.pkl'.format(f_name,
+                                                                      t_str)))
             return df
