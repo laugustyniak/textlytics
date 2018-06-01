@@ -1,43 +1,19 @@
-# -*- coding: utf-8
-
 import datetime
 import logging
-import sys
 from collections import OrderedDict
 
 import networkx as nx
 
-log = logging.getLogger()
-log.setLevel(logging.DEBUG)
-
-ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
-
 # graphtool is really hard to install lib
 # it's highly recommend to install it on linux OS
 # TODO add docker image with graphtool installed
-try:
-    from graph_tool.all import *
-
-    log.info('Graph-Tool based network will be created!')
-    _graph_tool = True
-except ImportError:
-    log.info('There lack of Graph Tool library')
-    _graph_tool = False
+log = logging.getLogger()
+from graph_tool.all import *
 
 from textlytics.data.parsing.amazon_reviews import parser_amazon as pa
 
 
-# from memory_profiler import profile
-# import cProfile
-
-
 class AmazonReviewNetwork(object):
-    # @profile
     def create_amazon_graph(self, line_limit=-1, review_limit=-1,
                             is_graph_with_unknown_nodes=False,
                             category_file=None, amazon_file=None,

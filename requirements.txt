@@ -1,7 +1,6 @@
 beautifulsoup4
 dill
 gensim
-graph_tool
 html5lib
 joblib
 line_profiler
