@@ -1,0 +1,461 @@
+,aspect,document,sentiment,dataset
+1442,LAPTOP#GENERAL,Probbly the worst decision we ever made!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2143,LAPTOP#GENERAL,I am very happy with this computer.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1727,LAPTOP#GENERAL,My MacBook is probably the best investment I have ever made.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1801,LAPTOP#GENERAL,glad I bought it.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+224,LAPTOP#GENERAL,but other then that I would give this product a 4 in hafe stars.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1090,LAPTOP#GENERAL,Its hard to encounter a problem on a mac that would require such abrupt action.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2326,LAPTOP#GENERAL,"If they can fix this, I think it would be a very nice, cost-effective laptop.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+261,LAPTOP#GENERAL,"Out of all the laptops I have owned, this is by far the best!",,EN_LAPT_SB1_TEST_.B.csv
+684,LAPTOP#GENERAL,this is starting off good.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1666,LAPTOP#GENERAL,But I am glad to have gotten mine right before they stopped making it.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1656,FOOD#QUALITY,Bison was quite excellent however.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1321,FOOD#QUALITY,The food here was mediocre at best.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+128,FOOD#QUALITY,The food was bland oily.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1409,FOOD#QUALITY,"Red Dragon Roll - my favorite thing to eat, of any food group - hands down",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1115,FOOD#QUALITY,I thought I had died and gone to heaven.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1941,FOOD#QUALITY,"My father had the flank steak which was very good, and my mother had the swordfish.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1778,FOOD#QUALITY,My wife had barely touched that mess of a dish.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+476,FOOD#QUALITY,"We ordered the special, grilled branzino, that was so infused with bone, it was difficult to eat.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1874,FOOD#QUALITY,"I took one bite from the $24 salmon, and I have never, in the 17 years I have been going to restaurants tasted salmon as fishy, as dry, and as bland as the one in Flatbush Farms.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1139,FOOD#QUALITY,It just wasn't Thai.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+222,RESTAURANT#GENERAL,This was a repeat visit and we'll definitely be back again.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+817,RESTAURANT#GENERAL,"However, it is jus too good to not praise it.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1544,RESTAURANT#GENERAL,I never write on these sites but this restaurant is def worth commending!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+371,RESTAURANT#GENERAL,And where does Patis go wrong; no where.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+881,RESTAURANT#GENERAL,"It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+99,RESTAURANT#GENERAL,"A big disappointment, all around.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+564,RESTAURANT#GENERAL,Thank You Emilio.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+37,RESTAURANT#GENERAL,THe perfect spot.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1136,RESTAURANT#GENERAL,Thanks Bloom's for a lovely trip.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+610,RESTAURANT#GENERAL,Will never be back.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1930,SERVICE#GENERAL,"Maitre-D-""Eat and get out""",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1197,SERVICE#GENERAL,Staff is very accomodating.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1992,SERVICE#GENERAL,But the service is HORRID!,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1080,SERVICE#GENERAL,Service was very prompt but slightly rushed.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+505,SERVICE#GENERAL,Service was quick.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+896,SERVICE#GENERAL,But who says Murray's is anything about service.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+243,SERVICE#GENERAL,The staff is no nonsense.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+80,SERVICE#GENERAL,"The kitchen however, is almost always slow.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+439,SERVICE#GENERAL,The place is so cool and the service is prompt and curtious.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1387,SERVICE#GENERAL,Everyone was smiling so that made me feel welcome.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+894,LAPTOP#OPERATION_PERFORMANCE,The only time I have restarted is during system updates.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+688,LAPTOP#OPERATION_PERFORMANCE,I dual boot with Linux and that other security-prone OS and it performs flawlessly.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1594,LAPTOP#OPERATION_PERFORMANCE,At 16 months it started shutting off after only 5 or 10 minutes.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2194,LAPTOP#OPERATION_PERFORMANCE,Very good performer for the price.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+535,LAPTOP#OPERATION_PERFORMANCE,"Mine has been though hundreds of parties, weddings, quinces, anything involving performances, it can take it!",,EN_LAPT_SB1_TEST_.B.csv
+849,LAPTOP#OPERATION_PERFORMANCE,"The one down side to it is that when I play a certin game on here, it tends to freeze up sometimes, but thats the only bad thing about this computer.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+134,LAPTOP#OPERATION_PERFORMANCE,"We don't have to de-frag, deliete cookies, run security programs, or any of the common PC problems that have to be delt with in order to keep you running and up to speed.",,EN_LAPT_SB1_TEST_.B.csv
+2317,LAPTOP#OPERATION_PERFORMANCE,"In all my life i have never come across a computer as slow as this one, it cant perform basic operations and is practically useless.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1424,LAPTOP#OPERATION_PERFORMANCE,"It pretty much does everything we could ever need, and looks great to boot.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1924,LAPTOP#OPERATION_PERFORMANCE,I find that it often gets very slow and I have to restart more than usual.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+279,LAPTOP#DESIGN_FEATURES,"I also love the small, convenient size of my laptop, making it a perfect tool for my academic studies.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+535,LAPTOP#DESIGN_FEATURES,My favorite part of this computer is that it has a vga port so I can connect it to a bigger screen.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+83,LAPTOP#DESIGN_FEATURES,"However, a few things are immediately occurring to me  I had read the other reviews here on amazon, but decided the specs and appearance looked good enough to go ahead.",,EN_LAPT_SB1_TEST_.B.csv
+1011,LAPTOP#DESIGN_FEATURES,Not to mention the fact that your mac comes fully loaded with all necessary basic programs.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1262,LAPTOP#DESIGN_FEATURES,"what an elegant, wonderful machine.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2427,LAPTOP#DESIGN_FEATURES,"Firstly, it has no leds to let you know what is going on, no cap lock, no hard drive indicator, nothing.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1919,LAPTOP#DESIGN_FEATURES,Perfect size for me.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+376,LAPTOP#DESIGN_FEATURES,"Other installed features, such as certain printer software, are also most attractive.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2115,LAPTOP#DESIGN_FEATURES,"My favorite colors black and red, the matte material and the red backlight of the keyboard.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1237,LAPTOP#DESIGN_FEATURES,when i first got it i thought the size of it was a joke.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+661,LAPTOP#QUALITY,I received a dud and have had nothing but problems since right after I purchased this horrible machine.,,EN_LAPT_SB1_TEST_.B.csv
+529,LAPTOP#QUALITY,4. build solid and durable,,EN_LAPT_SB1_TEST_.B.csv
+1872,LAPTOP#QUALITY,I should have waited to find a higher quality computer.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+127,LAPTOP#QUALITY,It rarely works and when it does it's incredibly slow.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+378,LAPTOP#QUALITY,I constantly had to send my laptop in for services every 3 months and it always seems to be the same problem that they said they had already fixed.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+633,LAPTOP#QUALITY,"One year of trying to fix the computer by myself, with help of friends, and even help from computer experts I have given up on trying to fix it.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+126,LAPTOP#QUALITY,"this one, in my opinion, might be a lemon!",negative,ABSA16_Laptops_Train_SB1_v2.csv
+625,LAPTOP#QUALITY,"If you are looking for something reliable, this is the laptop for you.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+247,LAPTOP#QUALITY,It's very sturdy.,,EN_LAPT_SB1_TEST_.B.csv
+1751,LAPTOP#QUALITY,But if you buy this i would highly recommend that you buy a case and screen protector for this machine as they are known to be quite fragile.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+446,AMBIENCE#GENERAL,The dining room is quietly elegant with no music to shout over -- how refreshing!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1797,AMBIENCE#GENERAL,"If you’re planning to come here, make sure that your date is someone whom you really like since you’ll be ushered to private booths where there will be no people or food watching (choose the ones on the ground level that have glass ceilings so you may see the stars in the sky!).",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+282,AMBIENCE#GENERAL,The place's decor and hidden bathrooms made for a good laugh.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1908,AMBIENCE#GENERAL,The decor however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold eggplant that took 2 FRICKIN HOURS TO COME!!!!,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+1681,AMBIENCE#GENERAL,The place is beautiful!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1630,AMBIENCE#GENERAL,"The DJ is awesome, I have been there for my birthday and a bunch of other times with friends and I keep going back.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1586,AMBIENCE#GENERAL,Not a very fancy place but very good Chinese style Indian food.,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+1180,AMBIENCE#GENERAL,"Went here last night - nice decor, good service, but the food was surprisingly excellent.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+415,AMBIENCE#GENERAL,It is one the nicest outdoor restaurants I have ever seen in NY--I am from Italy and this place rivals the ones in my country.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1030,AMBIENCE#GENERAL,"also it's great to have dinner in a very romantic and confortable place, the service it's just perfect...they're so frendly that we never want to live the place!",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1283,SUPPORT#QUALITY,3 weeks went by and the computer keeps crashing and will not open any applications.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+728,SUPPORT#QUALITY,So I'm going back to Genius Bar for visit #6.,,EN_LAPT_SB1_TEST_.B.csv
+29,SUPPORT#QUALITY,"But, at the same time they (the company) would not and could not do anything about my problem.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+270,SUPPORT#QUALITY,It took 3 days to make an appointment at the local Apple store.,,EN_LAPT_SB1_TEST_.B.csv
+1052,SUPPORT#QUALITY,"In those three years, I've had a couple of minor problems and both were resolved by Apple quickly and easily.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+110,SUPPORT#QUALITY,Acer won't replace the laptop.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+698,SUPPORT#QUALITY,I have had to send in my laptop three times to get it fixed.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+670,SUPPORT#QUALITY,I've been to the &amp;#34;genius&amp;#34; bar several times (they have been very nice).,,EN_LAPT_SB1_TEST_.B.csv
+85,SUPPORT#QUALITY,They sent me a replacement part and without informing me are requiring that I return it within 15 days or contact them and let them know the broken part will be returned later.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1342,SUPPORT#QUALITY,HP didn't fix it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1009,LAPTOP#MISCELLANEOUS,If you are a PC user looking to convert I would HIGHLY recommend it!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1991,LAPTOP#MISCELLANEOUS,My daughter uses it for college too and it works great for both of us.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+462,LAPTOP#MISCELLANEOUS,"I will NEVER buy (Refurbished) again, I don't cae how cheap it is.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1891,LAPTOP#MISCELLANEOUS,i can run somewhat modern games like Skyrim and Fallout New Vegas with no issues.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2417,LAPTOP#MISCELLANEOUS,"But, if you are just an average user, it works really great.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+356,LAPTOP#MISCELLANEOUS,"The Macbook arrived in a nice twin packing and sealed in the box, all the functions works great.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2386,LAPTOP#MISCELLANEOUS,"I have no idea what's taking up all the room, it doesn't make sense.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1157,LAPTOP#MISCELLANEOUS,"Great laptop for school, easy to use for beginners in the household.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+185,LAPTOP#MISCELLANEOUS,- It can run games really well.,,EN_LAPT_SB1_TEST_.B.csv
+1077,LAPTOP#MISCELLANEOUS,No tutorials on the display.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+879,LAPTOP#USABILITY,"I had my IWORKS, Itunes, Email, MS Office, network and printers set up and completely working perfectly within an hour.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+375,LAPTOP#USABILITY,both upgrades were quickly accomplished after purchasing the necessary Product Key.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+268,LAPTOP#USABILITY,"Simple to use, and great graphics.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1456,LAPTOP#USABILITY,Using this machine is like a mild form of torture.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+78,LAPTOP#USABILITY,"It is easy to use, good quality and good price.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+554,LAPTOP#USABILITY,"Its simplicity is one of the things that makes it so great, aside from its quality design and sexy looks.",,EN_LAPT_SB1_TEST_.B.csv
+6,LAPTOP#USABILITY,I've only had mine a day but I'm already used to it...,positive,ABSA16_Laptops_Train_SB1_v2.csv
+571,LAPTOP#USABILITY,The ease of set up was terrific.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1629,LAPTOP#USABILITY,I can't even install one of the 3 printers I have in my house so I am unable to print.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1939,LAPTOP#USABILITY,"The New Macbook pro working, good user experience, fast speed, faster start up time.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+62,RESTAURANT#MISCELLANEOUS,Surprisingly nothing could be further from the truth.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+678,RESTAURANT#MISCELLANEOUS,"Of course, it is crowded but who cares.",neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+533,RESTAURANT#MISCELLANEOUS,The owner and staff are all Japanese as well and that adds to the entire ambiance.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1986,RESTAURANT#MISCELLANEOUS,We didn't look like the other patrons in there so unfortunately I think that may have been part of the problem.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1019,RESTAURANT#MISCELLANEOUS,"If celebrities make you sweat, then your in for a ride, but if your like most around these parts then you'll just yawn and wonder whats with all the hype.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1480,RESTAURANT#MISCELLANEOUS,Got a date? Go here!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+63,RESTAURANT#MISCELLANEOUS,"In the evening, this place attracted a well dressed, with it, NY crowd.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1083,RESTAURANT#MISCELLANEOUS,My friend from Milan and myself were pleasantly surprised when we arrived and everyone spoke italian.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1392,RESTAURANT#MISCELLANEOUS,The only downside... they only take cash which is OK if you know about it ahead of time.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1784,RESTAURANT#MISCELLANEOUS,We've tried before but it always packed and doesn't take reservations.,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+940,COMPANY#GENERAL,I just hope the reputation that Toshiba has is true and I won't have to worry about a crash.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+1192,COMPANY#GENERAL,That was my first Apple product and since then I have been incredibly happy with every product of theirs I have bought.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+469,COMPANY#GENERAL,I thought we were paying for quality in our decision to buy an Apple product.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+697,COMPANY#GENERAL,But Apple does not pretend it has any of these.,,EN_LAPT_SB1_TEST_.B.csv
+1259,COMPANY#GENERAL,"this company truely does make horrible products and doesnt seem to because they are certain things like this ""never"" happen...",negative,ABSA16_Laptops_Train_SB1_v2.csv
+551,COMPANY#GENERAL,They really know what they are doing.,,EN_LAPT_SB1_TEST_.B.csv
+2201,COMPANY#GENERAL,I will be considering Lenovo for all future laptop purchases.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1146,COMPANY#GENERAL,My next laptop will also be a Mac!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1618,COMPANY#GENERAL,You will regret it if you buy any dell.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+31,COMPANY#GENERAL,"And, if you are going to deal with HP be careful.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+622,BATTERY#OPERATION_PERFORMANCE,I get about 5 or so hours playing the sims.,,EN_LAPT_SB1_TEST_.B.csv
+2157,BATTERY#OPERATION_PERFORMANCE,The battery seems adequate for most uses ~ 4.5 hour use/charge.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+776,BATTERY#OPERATION_PERFORMANCE,The statement of 7 hour battery life is not just mere exaggeration -- it's a lie.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+777,BATTERY#OPERATION_PERFORMANCE,I challenge anyone to show proof that through anywhere near normal use can get more than 2.5 hrs out of it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1540,BATTERY#OPERATION_PERFORMANCE,"They gave me a hard time yet again, but their was a malfunction in the battery itself, it didn't die.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1936,BATTERY#OPERATION_PERFORMANCE,"The battery life is good, even with using high profile software like Sibelius 7 for a good half of the day.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+106,BATTERY#OPERATION_PERFORMANCE,Even the battery life is like WOW!,,EN_LAPT_SB1_TEST_.B.csv
+578,BATTERY#OPERATION_PERFORMANCE,"The battery life has increased from the last version from 4 hours to 7 hours, making it easy for college students to study for extended periods of time without needing a charger.",,EN_LAPT_SB1_TEST_.B.csv
+1710,BATTERY#OPERATION_PERFORMANCE,"The battery never held a charge longer than one hour and within two months, stopped holding a charge for more than ten minutes.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+969,BATTERY#OPERATION_PERFORMANCE,"Laptops are usually used on the go, so why not give you a better battery?",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1404,FOOD#STYLE_OPTIONS,I was looking for banana tempura for dessert and they dont have.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1536,FOOD#STYLE_OPTIONS,"peppers, onions, relish, chilli, cheeses, you NAME it.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1659,FOOD#STYLE_OPTIONS,Some Pineapple covered in a glaze of some kind and some pear tart thing Not impressive at all.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+753,FOOD#STYLE_OPTIONS,My son and his girlfriend both wanted cheeseburgers and they were huge!,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+58,FOOD#STYLE_OPTIONS,The rice to fish ration was also good--they didn't try to overpack the rice.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+372,FOOD#STYLE_OPTIONS,"You are not eating haut cuisine with subtle hints of whatever but: Cassuolet, Steake Fritte, Tripe Stew, etc; simple stuff.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+546,FOOD#STYLE_OPTIONS,"The quantity is also very good, you will come out satisfied.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1837,FOOD#STYLE_OPTIONS,The concept of japanese tapas is newly created and clearly doesn't work.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+107,FOOD#STYLE_OPTIONS,My wife had the fried shrimp which are huge and loved it.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+875,FOOD#STYLE_OPTIONS,"The dosas are skimpy, unattractive and drip with grease, and personally I'd drink popcorn topping before I'd eat another one of these.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+731,LAPTOP#PRICE,"You get what you pay for, right?",,EN_LAPT_SB1_TEST_.B.csv
+2370,LAPTOP#PRICE,Expensive but worth it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1855,LAPTOP#PRICE,Great price and computer!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+253,LAPTOP#PRICE,"The price was very good, and the product is top quality.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2451,LAPTOP#PRICE,"The price is great and it does everything I want to do,  Thanks.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1903,LAPTOP#PRICE,for the price this is a super product out of the box.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+760,LAPTOP#PRICE,"Other than that, I would recommend this to someone in need of a cheap laptop with semi-decent gaming capabilities.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+13,LAPTOP#PRICE,Everything at a very great price.,,EN_LAPT_SB1_TEST_.B.csv
+69,LAPTOP#PRICE,It's more expensive but well worth it in the long run.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+330,LAPTOP#PRICE,It's priced very reasonable and works very well right out of the box.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+62,DISPLAY#QUALITY,Great color on screen.,,EN_LAPT_SB1_TEST_.B.csv
+253,DISPLAY#QUALITY,The screen definition is superb and it fires up super quick and same to close down.,,EN_LAPT_SB1_TEST_.B.csv
+774,DISPLAY#QUALITY,The reflectiveness of the display is only a minor inconvenience if you work in a controlled-lighting environment like me (I prefer it dark) or if you can crank up the brightness.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+30,DISPLAY#QUALITY,"I love the new high retina display, and because this computer lacks a disc player it makes it significantly lighter.",,EN_LAPT_SB1_TEST_.B.csv
+1795,DISPLAY#QUALITY,The glare of the glossy-retina display is unbearable.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1504,DISPLAY#QUALITY,"The only drawback for me is how dirty the screen gets, and rather quickly too.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+153,DISPLAY#QUALITY,The resolution is excellent.,,EN_LAPT_SB1_TEST_.B.csv
+877,DISPLAY#QUALITY,"The screen is bright and clear, the operating system is solid and friendly to a novice.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+611,DISPLAY#QUALITY,"The screen is bright and vivid and the keyboard is very easy to use, very important for use quick typers.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+438,DISPLAY#QUALITY,The screen is bright and the keyboard is nice;,positive,ABSA16_Laptops_Train_SB1_v2.csv
+138,LAPTOP#CONNECTIVITY,I can barely use any usb devices because they will not stay connected properly.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+437,LAPTOP#CONNECTIVITY,The wireless adapter is strong and the SSD is fast.,,EN_LAPT_SB1_TEST_.B.csv
+630,LAPTOP#CONNECTIVITY,The wifi works great.,,EN_LAPT_SB1_TEST_.B.csv
+1403,LAPTOP#CONNECTIVITY,Needless to say a PC that can't support a cell phone is less than useless!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1400,LAPTOP#CONNECTIVITY,The Aspire wont even boot past the Acer screen with a Droid (I have tried both Motorola and HTC) plugged into the USB port.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1354,LAPTOP#CONNECTIVITY,Now the machine won't connect and Toshiba says that they did replace the connection card in May but they only warranty the repair for 30 days and now I'm out of warranty even though this has been a constant 5 month occurance since I bought the netbook.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+607,LAPTOP#CONNECTIVITY,The internet capabilities are also very strong and picks up signals very easily.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2167,LAPTOP#CONNECTIVITY,Wifi card not working right out of the box.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2078,LAPTOP#CONNECTIVITY,"Internet is fast and reliable, battery life lasts a long time.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2421,LAPTOP#CONNECTIVITY,It has no way of connecting to the internet save wifi but that's all I use anyway!,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+1958,OS#GENERAL,"One of the very few laptops still available with Win 7 Pro, multiple USB ports, and a DVD read/write drive.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+718,OS#GENERAL,"I wiped nearly everything off of it, installed OpenOffice and Firefox, and I am operating an incredibly efficient and useful machine for a great price.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+111,OS#GENERAL,"Upgrading from a toshiba laptop, I am fully impressed with all of the benefits that the mac operating system provides.",,EN_LAPT_SB1_TEST_.B.csv
+547,OS#GENERAL,"I was pretty skeptical about upgrading to windows 10, but it is pretty awesome.",,EN_LAPT_SB1_TEST_.B.csv
+2048,OS#GENERAL,"W7 Pro with W8 pro upgrade is nice, but it frequently freezes for a few seconds here and there.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2103,OS#GENERAL,The only major negative to me is Windows 8.1 (though YMMV) and the Dell crapware installed.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1825,OS#GENERAL,Hate Windows 8.1!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1628,OS#GENERAL,"I have Vista, so I am unable to install and uninstall  some programs.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1783,OS#GENERAL,The big deal with this was Windows 7.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+727,OS#GENERAL,"I love windows 7 but i can't give Toshiba any credit for that, unless y'all get serious about ergonomics and making required connections less obtrusive i will be looking to different manufacturer next time.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+570,RESTAURANT#PRICES,The prices are wonderfully low.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1523,RESTAURANT#PRICES,So what you really end up paying for is the restaurant not the food.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1969,RESTAURANT#PRICES,Expensive,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+888,RESTAURANT#PRICES,Nice value.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+540,RESTAURANT#PRICES,The prices were CHEAP compared to the quality of service and food.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1660,RESTAURANT#PRICES,"I read reviews that called the restaurant too expensive and I thought to myself, but may be it is worth it.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+149,RESTAURANT#PRICES,Slightly on the pricey side but worth it!,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+551,RESTAURANT#PRICES,Moderate prices.,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+583,RESTAURANT#PRICES,"This place is pricey, and yes, the food is worth it; but the service makes you feel like you should be paying a quater of the price.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+364,RESTAURANT#PRICES,"Yes, the prices are high, but I felt it was worth it.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+513,FOOD#PRICES,A little overpriced but worth it once you take a bite.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1399,FOOD#PRICES,overpriced japanese food with mediocre service,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1353,FOOD#PRICES,Not cheap but very yummy.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+353,FOOD#PRICES,"And it all comes at a very reasonable price (congee, noodles, and rice dishes are no more than $3-6 each).",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+758,FOOD#PRICES,It was $14 not really bad for a pound of Pastrami-but it didn't have much taste-I've had better for less elsewhere!,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+677,FOOD#PRICES,The food is so cheap and the waiters are nice.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1645,FOOD#PRICES,"Can't argue about that, but they are clearly over priced.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+852,FOOD#PRICES,I expected quite a bit more from such an expensive menu.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+471,FOOD#PRICES,The food can get pricey but the prixe fixe tasting menu is the greatest food for a good price and they cater the food to any food allergies or food you don't like.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+990,FOOD#PRICES,These are overpriced and you can get better just around the corner:,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1428,DRINKS#QUALITY,Mine tasted like the bartender had forgotten to add the tequila.,negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1292,DRINKS#QUALITY,"Interesting selection, good wines, service fine, fun decor.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1427,DRINKS#QUALITY,"Don't get me started on the margaritas, either.",negative,ABSA16_Restaurants_Train_SB1_v2.csv
+1231,DRINKS#QUALITY,Always good drinks and service is pretty good;,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+772,DRINKS#QUALITY,We waited at the bar and had martinis that were just right.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1062,DRINKS#QUALITY,Guaranteed to be a tasty experience!),positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1805,DRINKS#QUALITY,The sake’s complimented the courses very well and is successfully easing me into the sake world.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1167,DRINKS#QUALITY,go here for the drinks!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1061,DRINKS#QUALITY,(Always ask the bartender for the SEASONAL beer!!!,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1170,DRINKS#QUALITY,the drinks are amazing and half off till 8pm.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+447,KEYBOARD#DESIGN_FEATURES,"The keys on the keyboard are evenly spaced and are back-lit, which make it easy to use at night and for speed writing (Typing?).",,EN_LAPT_SB1_TEST_.B.csv
+2479,KEYBOARD#DESIGN_FEATURES,The keyboard is backlit but you have to press the F5 key to turn it on.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2124,KEYBOARD#DESIGN_FEATURES,I like the number pad for work so that's nice,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1905,KEYBOARD#DESIGN_FEATURES,plus this computer comes with a full size keyboard.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1889,KEYBOARD#DESIGN_FEATURES,The keyboard is a little wonky with having to use the Function button to get the F-keys but with how infrequently i use those it is a non-issue.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1448,KEYBOARD#DESIGN_FEATURES,i also love having the extra calculator number set up on the keyboard which most laptops do not have.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+539,KEYBOARD#DESIGN_FEATURES,There is no number pad to the right of the keyboard which is a bummer.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1449,KEYBOARD#DESIGN_FEATURES,also the keyboard does not liht up so unless your sitting in a room with some light you cant see anything and thats bad for me because my boyfriend tends to watch tv in the dark at night which leaves me with no way of seeing the keyboard.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+830,KEYBOARD#DESIGN_FEATURES,I was disappointed when I realized that the keyboard doesn't light up on this model.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+219,KEYBOARD#DESIGN_FEATURES,Keyboard is reasonable size.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+178,DISPLAY#DESIGN_FEATURES,- It's not touchscreen!,,EN_LAPT_SB1_TEST_.B.csv
+345,DISPLAY#DESIGN_FEATURES,I wanted a simple Full HD display and this one does its job,,EN_LAPT_SB1_TEST_.B.csv
+656,DISPLAY#DESIGN_FEATURES,"For example, when my husband turns the light out while I'm on the computer. the screen brightness automatically adjusts.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1957,DISPLAY#DESIGN_FEATURES,"Bigger screen than expected, laptop with a desktop design that is really nice to use for all types of usage, including programming/editing",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1732,DISPLAY#DESIGN_FEATURES,"Its small enough where I can take it pretty much anywhere, but still has a big enough screen to get everything done.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+312,DISPLAY#DESIGN_FEATURES,The touchscreen and 2-in-1 capability is a huge bonus and it is really easy to carry around to your classes.,,EN_LAPT_SB1_TEST_.B.csv
+2064,DISPLAY#DESIGN_FEATURES,Doesn't have touch screen but I have a tablet so that wasn't so important.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+959,DISPLAY#DESIGN_FEATURES,The screen is very large and crystal clear with amazing colors and resolution.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+140,DISPLAY#DESIGN_FEATURES,because it is a touch screen you don't even need a mouse.,,EN_LAPT_SB1_TEST_.B.csv
+1565,DISPLAY#DESIGN_FEATURES,"The screen is framed by half- to a full-inch margin that is obviously unnecessary, reduces the screen size and increases the bulk.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+429,MULTIMEDIA_DEVICES#QUALITY,The quality of the sound is nice but the lack of volume really kills it for me.,,EN_LAPT_SB1_TEST_.B.csv
+1519,MULTIMEDIA_DEVICES#QUALITY,"Again, the same problem, the right speaker did not work.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+346,MULTIMEDIA_DEVICES#QUALITY,4. Sound is great,,EN_LAPT_SB1_TEST_.B.csv
+2230,MULTIMEDIA_DEVICES#QUALITY,Even the sound is fantastic,positive,ABSA16_Laptops_Train_SB1_v2.csv
+200,MULTIMEDIA_DEVICES#QUALITY,I dislike the quality and the placement of the speakers.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1757,MULTIMEDIA_DEVICES#QUALITY,"Also, the sound quality from the speakers is crystal clear, and everything is just sleek and smooth.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2008,MULTIMEDIA_DEVICES#QUALITY,No bass sound at all.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+512,MULTIMEDIA_DEVICES#QUALITY,I am using the external speaker- sound is good.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2007,MULTIMEDIA_DEVICES#QUALITY,The sound is disappointing.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+679,MULTIMEDIA_DEVICES#QUALITY,"The only thing that isn't perfect about this netbook is the speakers, they are not loud at all but I expected that.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+873,OS#USABILITY,"The OS is also very user friendly, even for those that switch from a PC, with a little practice you can take full advantage of this OS!",positive,ABSA16_Laptops_Train_SB1_v2.csv
+324,OS#USABILITY,I have only had PCs with Windows before so this takes a little getting use to.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+61,OS#USABILITY,"Being a PC user my whole life, it's taking a bit of time to adapt to the OS of a Mac but I'm finding my way around.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+2439,OS#USABILITY,Operating a non touch screen on this system is a royal pain!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+736,OS#USABILITY,I watched tutorials and that helped somewhat but not enough.,,EN_LAPT_SB1_TEST_.B.csv
+226,OS#USABILITY,"The OS is easy, and offers all kinds of surprises.",,EN_LAPT_SB1_TEST_.B.csv
+1609,OS#USABILITY,The OS takes some getting used to especially after being a Windows user for so long but the learning curve is so worth it!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1435,OS#USABILITY,"The operating system and user interface is very intuitive, and the large multi-touch track pad is amazing.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2126,OS#USABILITY,"It took some getting used to on the Widows 8.1, after being an XP user for many years.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+70,OS#USABILITY,I have to admit that the operating system is different and does take time to learn but I like it.,,EN_LAPT_SB1_TEST_.B.csv
+552,MOUSE#OPERATION_PERFORMANCE,I also had a problem with the touchpad that caused the mouse pointer to jump all over the screen.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+315,MOUSE#OPERATION_PERFORMANCE,"The touchpad is extremely sensitive, which is the only drawback.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+2381,MOUSE#OPERATION_PERFORMANCE,"Today, it hasn't worked at all more than it has.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+913,MOUSE#OPERATION_PERFORMANCE,the mouse jumps around all the time and it clicks stuff i dont want it too.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2323,MOUSE#OPERATION_PERFORMANCE,It was not responsive at all to touch.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+266,MOUSE#OPERATION_PERFORMANCE,Sometimes you really have to tap the pad to get it to work,negative,ABSA16_Laptops_Train_SB1_v2.csv
+911,MOUSE#OPERATION_PERFORMANCE,the mouse is way way way to sensitve.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+667,MOUSE#OPERATION_PERFORMANCE,"I play a lot of casual games online, and the touchpad is very responsive.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+573,MOUSE#OPERATION_PERFORMANCE,"I had to adjust my mousepad sensitivity, because it is very sensitive.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+2379,MOUSE#OPERATION_PERFORMANCE,"The touchpad hasn't worked correctly since delivery though in the beginning, I thought perhaps it was just a bit of a quirk since most touchpads I've worked with have some inherent oddities.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+169,LAPTOP#PORTABILITY,Took the netbook on a vacation trip and I was able to do whatever I wanted to do without lugging a much heavier laptop.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+13,LAPTOP#PORTABILITY,"As a computer science student in college, I find that the portability, longevity, and ease of use of this computer make me (shockingly) want to do homework more;",positive,ABSA16_Laptops_Train_SB1_v2.csv
+494,LAPTOP#PORTABILITY,Has met or exceeded my needs for a compact travel device.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+8,LAPTOP#PORTABILITY,GET THIS COMPUTER FOR PORTABILITY AND FAST PROCESSING!!!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+669,LAPTOP#PORTABILITY,"I wouldn't play a first-person shooter with this, mind, but if you wanted to run MS Office, email, chat, download a video, listen to music from a certain fruit-named music store, and were looking for a highly portable yet powerful netbook to do that all in, I'd highly recommend checking this out.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+205,LAPTOP#PORTABILITY,"If you're not wanting to be mobile, this is a good laptop to sit on a desk.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+636,LAPTOP#PORTABILITY,The 15.6&amp;#34; screen is not good for carrying around in your bare hands.,,EN_LAPT_SB1_TEST_.B.csv
+245,LAPTOP#PORTABILITY,"It's portable, reliable, and great for what I use it for.",,EN_LAPT_SB1_TEST_.B.csv
+1663,LAPTOP#PORTABILITY,I also travel with it and it never gives me any problems.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+199,LAPTOP#PORTABILITY,"I dislike the weight and size, cubersome.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+81,SOFTWARE#GENERAL,The salesman talked us into this computer away from another we were looking at and we have had nothing but problems with software problems and just not happy with it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2128,SOFTWARE#GENERAL,Only downfall is the preloaded McAfee and other software.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+516,SOFTWARE#GENERAL,The games included are very good games.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1198,SOFTWARE#GENERAL,"The computer runs very fast with no problems and the iLife software that comes with it (iPhoto, iMovie, iWeb, iTunes, GarageBand) is all very helpful as well.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1953,SOFTWARE#GENERAL,The Lenovo software that comes preinstalled may qualify as bloatware but is easily removed if you're not interested in it.,neutral,ABSA16_Laptops_Train_SB1_v2.csv
+470,SOFTWARE#GENERAL,"The Mac app store is your one-stop shop for Mac software, though you can also download software online at your own risk.",,EN_LAPT_SB1_TEST_.B.csv
+469,SOFTWARE#GENERAL,The Mac app store and iTunes store are phenomenal.,,EN_LAPT_SB1_TEST_.B.csv
+1013,SOFTWARE#GENERAL,It is SO much fun to play with.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1588,SOFTWARE#GENERAL,"I use iphoto all the time, which is a great program for anyone who is into photography - amateurs and experts alike.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1388,SOFTWARE#GENERAL,"I bought it from HSN because it was ""bundled"" with extra software, but as it turns out, that software just crashes it more often.....",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1117,SOFTWARE#USABILITY,"iTunes is a handy music-management program, and it is essential for anyone with an iPod.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+785,SOFTWARE#USABILITY,The only thing I have had trouble with so far is transferring music to iTunes which I would have liked to do though &amp;#34;Home Sharing&amp;#34; (I used iTunes on a computer separate from my Linux computer) but I could not figure that out.,,EN_LAPT_SB1_TEST_.B.csv
+152,SOFTWARE#USABILITY,The apps are very easy to use.,,EN_LAPT_SB1_TEST_.B.csv
+621,SOFTWARE#USABILITY,This comes in very handy for me as an educator.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1734,SOFTWARE#USABILITY,The only thing that I don't like about my mac is that sometimes there are programs that I want to be able to run and I am not able to.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+786,SOFTWARE#USABILITY,I just ended up using my iPod to transfer my iTunes music and I re-downloaded my Amazon music (losing my ratings).,,EN_LAPT_SB1_TEST_.B.csv
+857,SOFTWARE#USABILITY,It seems to be incompatible with everything else.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+619,SOFTWARE#USABILITY,iLife is easily compatible with Microsoft Office so you can send and receive files from a PC.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+241,SOFTWARE#USABILITY,"If you want to use the Internet, then you can make your icons jump out from the bottom of the screen, like a magnifying glass is projecting onto the selected icon.",,EN_LAPT_SB1_TEST_.B.csv
+407,SOFTWARE#USABILITY,"The only reason I returned it was because I bought it to use the touchscreen with photoshop and because of the program, it could not utilize the touchscreen within the work space except to zoom and rotate.",,EN_LAPT_SB1_TEST_.B.csv
+150,DISPLAY#GENERAL,"The display on this computer is the best I've seen in a very long time, the battery life is very long and very convienent.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+178,DISPLAY#GENERAL,Also the display is exceptional!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+592,DISPLAY#GENERAL,"The screen is nice and the images comes very clear, the keyboard and the fit just feels right.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1611,DISPLAY#GENERAL,Lightweight and the screen is beautiful!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1702,DISPLAY#GENERAL,"The Macbook starts fast, doesn't crash, has a fantastic display, is small and light (I have the 13.3"" model), and isn't always complaining about updates, lost connections, errors, blue screens, etc.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1964,DISPLAY#GENERAL,The retina screen is absolutely beautiful and the touchpad is the best touchpad to date.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+249,DISPLAY#GENERAL,- Touchscreen is great.,,EN_LAPT_SB1_TEST_.B.csv
+1706,DISPLAY#GENERAL,I hate the display screen and I have done everything I could do the change it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1164,DISPLAY#GENERAL,"Screen is awesome, battery life is good.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1030,DISPLAY#GENERAL,The display is beyond horrible.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1499,LOCATION#GENERAL,The high prices you're going to pay is for the view not for the food.,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+883,LOCATION#GENERAL,The restaurant looks out over beautiful green lawns to the Hudson River and the Statue of Liberty.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1273,LOCATION#GENERAL,I would highly recommand requesting a table by the window.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1228,LOCATION#GENERAL,"its a little out of the way if you don't live in the neighborhood, but definitely worth the trip from wherever you are.",neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+543,LOCATION#GENERAL,The location and ambience is Ok but the food is what makes up for it.,neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+152,LOCATION#GENERAL,Located at the end of a magnificent block.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+884,LOCATION#GENERAL,"It is set far from the small street it's on, and there is no traffic noise.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+929,LOCATION#GENERAL,The location is perfect.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1796,LOCATION#GENERAL,"Not only is it an adventure getting to this somewhat hidden spot, once you enter the unmarked wooden doors, the zen and intimate décor will make you feel like you’re no longer in the city.",neutral,ABSA16_Restaurants_Train_SB1_v2.csv
+185,LOCATION#GENERAL,"Not sure where the previous reviewer, lonk, dined, but Saul is in a great neighborhood and has great food!",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+205,DRINKS#STYLE_OPTIONS,The bar is very well stocked with interesting beers and well priced wines.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+684,DRINKS#STYLE_OPTIONS,Wine list is extensive without being over-priced.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+259,DRINKS#STYLE_OPTIONS,Wine list selection is good and wine-by-the-glass was generously filled to the top.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1049,DRINKS#STYLE_OPTIONS,The wine list is extensive and can easily hike up an otherwise reasonably priced meal.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+9,DRINKS#STYLE_OPTIONS,The wine list is interesting and has many good values.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1301,DRINKS#STYLE_OPTIONS,The wine list is extensive and impressive.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+467,DRINKS#STYLE_OPTIONS,The wine list is excellent.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+33,DRINKS#STYLE_OPTIONS,"Their sake list was extensive, but we were looking for Purple Haze, which wasn't listed but made for us upon request!",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+1509,DRINKS#STYLE_OPTIONS,The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.,positive,ABSA16_Restaurants_Train_SB1_v2.csv
+178,DRINKS#STYLE_OPTIONS,"Great wine selection, Gigondas is worth the price, and the house champagne is a great value.",positive,ABSA16_Restaurants_Train_SB1_v2.csv
+163,DISPLAY#OPERATION_PERFORMANCE,There is a blank lighted screen when I start and that is all.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2490,DISPLAY#OPERATION_PERFORMANCE,used 6 times black screen returned for refund,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1724,DISPLAY#OPERATION_PERFORMANCE,Eventually the screen went blank and the computer would not turn on.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+755,DISPLAY#OPERATION_PERFORMANCE,It tried to boot up and the screen just flashed over and over and over again.,,EN_LAPT_SB1_TEST_.B.csv
+1061,DISPLAY#OPERATION_PERFORMANCE,First the screen goes completely out.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2119,DISPLAY#OPERATION_PERFORMANCE,The touch screen response is fast and it picks up bluetooth and wifi FAST.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1063,DISPLAY#OPERATION_PERFORMANCE,"Now the screen is going darker, darker, darker.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1554,DISPLAY#OPERATION_PERFORMANCE,After 20-30 min the screen of the notebook switched off.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1555,DISPLAY#OPERATION_PERFORMANCE,"It was still working, but there was nothing on the screen.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+640,DISPLAY#OPERATION_PERFORMANCE,I can hear the noise of the computer turning on and the lights also turn on but the screen in completely dead.,,EN_LAPT_SB1_TEST_.B.csv
+509,KEYBOARD#QUALITY,My Laptop's one of the Key from keyboard came out and it was mechanical failure.,,EN_LAPT_SB1_TEST_.B.csv
+2328,KEYBOARD#QUALITY,The 'A' key became jammed so that sometimes it wouldn't press in.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+325,KEYBOARD#QUALITY,The real stand out on this computer is the feel of the keyboard and it's speed.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1270,KEYBOARD#QUALITY,The letter A stopped working after the first week.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+603,KEYBOARD#QUALITY,Keyboard is flimsy and mediocre at best.,,EN_LAPT_SB1_TEST_.B.csv
+1443,KEYBOARD#QUALITY,It has bein into the shop to get a new hardrive 2 times and to fix the touch control buttons on the keyboard!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+703,KEYBOARD#QUALITY,This computer that I have has had issues with the keyboard where it lost half the keyboard functions.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+215,KEYBOARD#QUALITY,The keyboard has a wonderful nature feel.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1645,KEYBOARD#QUALITY,The keyboard is top notch.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2199,KEYBOARD#QUALITY,Keyboard is sturdy.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1036,HARD_DISC#DESIGN_FEATURES,I could not even put my entire music collection on this garabage.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1035,HARD_DISC#DESIGN_FEATURES,Not to mention it has shit gigs.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1037,HARD_DISC#DESIGN_FEATURES,Do yourself a favor and invest in a few external harddrives if you are planning on purchasing this laptop.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+585,HARD_DISC#DESIGN_FEATURES,"Bigger HD, better graphics card, and a bid HD.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+526,HARD_DISC#DESIGN_FEATURES,Pros  1. Amazing storage (both 500gig and 750gig),,EN_LAPT_SB1_TEST_.B.csv
+297,HARD_DISC#DESIGN_FEATURES,"That is plenty of space for your laptop, which really comes in handy for college students and computer gamers.",,EN_LAPT_SB1_TEST_.B.csv
+4,HARD_DISC#DESIGN_FEATURES,and plenty of storage with 250 gb(though I will upgrade this and the ram..),positive,ABSA16_Laptops_Train_SB1_v2.csv
+524,HARD_DISC#DESIGN_FEATURES,"I myself had purchased the 750 gig drive laptop and as a DJ with thousands of songs, pictures, and other things...and after 3 years I have managed to fill around 9% of my gigs.",,EN_LAPT_SB1_TEST_.B.csv
+525,HARD_DISC#DESIGN_FEATURES,There is SO MUCH ROOM!,,EN_LAPT_SB1_TEST_.B.csv
+18,HARD_DISC#DESIGN_FEATURES,Plus you get 500GB which is also a great feature.,,EN_LAPT_SB1_TEST_.B.csv
+176,MOUSE#DESIGN_FEATURES,I love the glass touchpad.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+455,MOUSE#DESIGN_FEATURES,"The glass track pad is large enough for Apple's highly acclaimed multi-touch gestures for scrolling through web pages with two fingers, zooming in on certain parts of certain apps by double tapping with two fingers, accessing launchpad by pinching with five fingers and using mission control by swiping up with four fingers.",,EN_LAPT_SB1_TEST_.B.csv
+871,MOUSE#DESIGN_FEATURES,"The track pad to me is what really stands out though, you can do several different things with it just depending on how many fingers you use on the track pad, awesome thinking Apple!",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1096,MOUSE#DESIGN_FEATURES,It had the full sized touch pad with 2 buttons instead of just one.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+64,MOUSE#DESIGN_FEATURES,I'm learning the finger options for the mousepad that allow for quicker browsing of web pages.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+457,MOUSE#DESIGN_FEATURES,"For Windows users switching to a Mac, you can also enable right clicking (known to apple as secondary click) in the system preferences&gt; Mouse and enabling right clicking.",,EN_LAPT_SB1_TEST_.B.csv
+2200,MOUSE#DESIGN_FEATURES,"The touch pad takes a little getting used to as the ""click"" buttons are on top instead of the bottom.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+1437,MOUSE#DESIGN_FEATURES,"However, the multi-touch gestures and large tracking area make having an external mouse unnecessary (unless you're gaming).",positive,ABSA16_Laptops_Train_SB1_v2.csv
+75,MOUSE#DESIGN_FEATURES,The touchpad is a little &quot;clunky&quot; for my taste; I use a small external mouse with laptops  in any event.,,EN_LAPT_SB1_TEST_.B.csv
+2354,MOUSE#DESIGN_FEATURES,"But the  touchpad is soooooooooo big that whenever I am typing, my palm touches some part of it and then the cursor goes somewhere else and it's really annoying.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+604,MOUSE#QUALITY,The touch pad feel is a 4 on scale  1 - 10.,,EN_LAPT_SB1_TEST_.B.csv
+2179,MOUSE#QUALITY,The mouse pad however is very loud which is why i gave it four stars.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1071,MOUSE#QUALITY,The only thing I would change about it is the mouse keys.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+613,MOUSE#QUALITY,The trackpad is pretty crappy - but aren't they all?,,EN_LAPT_SB1_TEST_.B.csv
+1073,MOUSE#QUALITY,"sounds like a typewriter, but if you can get past that, this is a great laptop for a little money!",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1072,MOUSE#QUALITY,They click.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+364,MOUSE#QUALITY,"I've owned this labtop for less then two months, already the mouse button has broke.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+2380,MOUSE#QUALITY,"This one however, is now very loose and I have to either tap hard or repeatedly push to click in order for it to work, Then suddenly, I can barely touch it at all and it clicks on its own.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+2310,MOUSE#QUALITY,They are loud and clunky but I figured I'd get used to it.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+123,MOUSE#QUALITY,"Then just the other day, my left ""mouse"" button snapped!",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1151,SOFTWARE#OPERATION_PERFORMANCE,"The Final Cut Pro on this laptop is so fast and easy, and I can use this to seemlessly transfer all my work to my home computer, which is also a mac.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2283,SOFTWARE#OPERATION_PERFORMANCE,"In addition, no matter what I do to change the settings, add/delete Flash, etc., Firefox hangs on start-up.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1589,SOFTWARE#OPERATION_PERFORMANCE,The program came with the computer and works beautifully.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1729,SOFTWARE#OPERATION_PERFORMANCE,"The most recent being that my Safari internet browser is freaking out on me, but I have just been using firefox instead.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+752,SOFTWARE#OPERATION_PERFORMANCE,"Opening photoshop takes FOooooooRRREVER, as do all programs that do not begin with an 'i'.",,EN_LAPT_SB1_TEST_.B.csv
+946,SOFTWARE#OPERATION_PERFORMANCE,I tried to upgrade it to a newer version a couple of months ago and I still have the same problem.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+443,SOFTWARE#OPERATION_PERFORMANCE,"Apps launch super fast, and the 500GB HDD is more than sufficient.",,EN_LAPT_SB1_TEST_.B.csv
+944,SOFTWARE#OPERATION_PERFORMANCE,The Internet Explorer was very slow from the very beginning.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1187,SOFTWARE#OPERATION_PERFORMANCE,I have not had a problem with the applications quitting or freezing.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+855,SOFTWARE#OPERATION_PERFORMANCE,Love the stability of the Mac software and operating system.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+206,KEYBOARD#OPERATION_PERFORMANCE,The space bar sticks.,,EN_LAPT_SB1_TEST_.B.csv
+1316,KEYBOARD#OPERATION_PERFORMANCE,"Also, I have had alot of trouble with the shift key to go to other lines.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+374,KEYBOARD#OPERATION_PERFORMANCE,I still can't pair it.,,EN_LAPT_SB1_TEST_.B.csv
+372,KEYBOARD#OPERATION_PERFORMANCE,It flickers briefly to green before the light goes out.,,EN_LAPT_SB1_TEST_.B.csv
+390,KEYBOARD#OPERATION_PERFORMANCE,I bought a protector for my key pad and it works great :),positive,ABSA16_Laptops_Train_SB1_v2.csv
+369,KEYBOARD#OPERATION_PERFORMANCE,I even ran it as Administrator -- still no effect.,,EN_LAPT_SB1_TEST_.B.csv
+375,KEYBOARD#OPERATION_PERFORMANCE,I don't want to carry around a bluetooth keyboard for a computer whose keyboard is nonfunctional.,,EN_LAPT_SB1_TEST_.B.csv
+1317,KEYBOARD#OPERATION_PERFORMANCE,"It gets stuck all of the time you use it, and you have to keep tapping on it to get it to work.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+365,KEYBOARD#OPERATION_PERFORMANCE,"The wireless keyboard (not bluetooth, but RF) did not pair up with the device.",,EN_LAPT_SB1_TEST_.B.csv
+1315,KEYBOARD#OPERATION_PERFORMANCE,"Also, I have had alot of trouble with the keys sticking and will not type correctly.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+804,MOUSE#USABILITY,I went through the settings and there isn't a way to fix it.,,EN_LAPT_SB1_TEST_.B.csv
+1500,MOUSE#USABILITY,"The touchpad is very intuitive, so much so that I never want to use buttons to click again!",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1195,MOUSE#USABILITY,Since I've had this computer I've only used the trackpad because it is so nice and smooth.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1523,MOUSE#USABILITY,the mouse buttons are hard to push.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+612,MOUSE#USABILITY,This one doesn't do that.,,EN_LAPT_SB1_TEST_.B.csv
+1948,MOUSE#USABILITY,"I can't use the Trackpad very well, it's too sensitive, so I hooked up a mouse.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+86,MOUSE#USABILITY,"Also I have found the touch pad to be awkward to use (could be I am pressing too hard perhaps), and the screen is    well   underwhelming.",,EN_LAPT_SB1_TEST_.B.csv
+656,MOUSE#USABILITY,It's just a matter of getting used to the touch-pad commands.,,EN_LAPT_SB1_TEST_.B.csv
+803,MOUSE#USABILITY,When I attach a mouse it's fine but the touchpad is really annoying.,,EN_LAPT_SB1_TEST_.B.csv
+77,MOUSE#USABILITY,I also found the track pad irritating until I disabled &quot;pinch zoom.&quot;,,EN_LAPT_SB1_TEST_.B.csv
+323,MEMORY#DESIGN_FEATURES,I know once I upgrade the ram to 8GB it will pick up a lot.,,EN_LAPT_SB1_TEST_.B.csv
+603,MEMORY#DESIGN_FEATURES,It has a lot of memory and a great battery life.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+682,MEMORY#DESIGN_FEATURES,"the only problem is that i had to add 1 gb RAM, the computer was kinda slow.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+2483,MEMORY#DESIGN_FEATURES,"Also, I have no regrets about going with the 8GB RAM because its super fast.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+105,MEMORY#DESIGN_FEATURES,This has much more memory and ram memory.,,EN_LAPT_SB1_TEST_.B.csv
+296,MEMORY#DESIGN_FEATURES,The Pros:  A Ton of Storage Space- This laptop comes with 8GB of memory and a 1 TB (1000GB) hard drive.,,EN_LAPT_SB1_TEST_.B.csv
+965,MEMORY#DESIGN_FEATURES,"It has plenty of memory, lots of hard drive, and great graphics.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1670,MEMORY#DESIGN_FEATURES,The difference is the Toshiba had a lot more memory and hard drive space.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+756,MEMORY#DESIGN_FEATURES,"The 2 GB of RAM is plenty, able to run Windows 7 and at least 2 or 3 other programs with next to no slowdown.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+527,MEMORY#DESIGN_FEATURES,"2. 8 gig ram needed if you are as productive as I am (DJ, photography, movie making, etc) its quick!",,EN_LAPT_SB1_TEST_.B.csv
+154,HARD_DISC#QUALITY,In the first moth of owning this computer its hardrive failed which had to be replaced.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1371,HARD_DISC#QUALITY,Anyways I bought this two months ago and when I first brought it home it kept giving me a message about a vibration in the hard drive and it is putting it temporaly in save zone.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2216,HARD_DISC#QUALITY,Says it is failing hard drive.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2068,HARD_DISC#QUALITY,The hdd has a scratching noise.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+791,HARD_DISC#QUALITY,"I actually had the hard drive replaced twice, the mother board once, the dvd drive twice, then they FINALLY agreed to replace it, (ALL OF THIS IN LESS THAN 1 1/2 YEARS!)only to get another ""HP/Compaq"" piece of crap.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+662,HARD_DISC#QUALITY,"Within the first few months that I bought it, there was clearly a problem with the hard drive.",,EN_LAPT_SB1_TEST_.B.csv
+1321,HARD_DISC#QUALITY,After the warrenty expired the hard drive went bad and it would have cost more to fix then to replace.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1512,HARD_DISC#QUALITY,"The hard drive crashed as well, and I had to buy a new  power cord.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+109,HARD_DISC#QUALITY,This just keeps having it's hard drive replaced!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1687,HARD_DISC#QUALITY,Then the hard drive failed;,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1529,GRAPHICS#GENERAL,the graphics are awful and the wireless switch it at the top rather than the side which I am used to it being on the side.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1556,GRAPHICS#GENERAL,I was said it's videocard.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1295,GRAPHICS#GENERAL,The graphics are great.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1571,GRAPHICS#GENERAL,Awesome graphics!,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1134,GRAPHICS#GENERAL,"With awesome graphics and assuring security, it's perfect!",positive,ABSA16_Laptops_Train_SB1_v2.csv
+582,GRAPHICS#GENERAL,"Love the graphics, awesome programs (including Garageband), and really cool default background.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+2391,GRAPHICS#GENERAL,"Don't expect great graphics, though.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+1433,GRAPHICS#GENERAL,"It's graphics aren't bad at all, for the lower end of the MacBook Pro spectrum, easily capable of running StarCraft II and other games with comparable graphics.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+614,GRAPHICS#GENERAL,The graphics are stunning.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+1549,GRAPHICS#GENERAL,Weaknesses:A bad videocard!,negative,ABSA16_Laptops_Train_SB1_v2.csv
+20,BATTERY#QUALITY,The battery has never worked well.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+428,BATTERY#QUALITY,"I did have to replace the battery once, but that was only a couple months ago and it's been working perfect ever since.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+155,BATTERY#QUALITY,After replacing the hard drive the battery stopped working  (3 months of use) which was frustrating.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+767,BATTERY#QUALITY,"The battery lasted 12 months, then pffft.....gone.",,EN_LAPT_SB1_TEST_.B.csv
+749,BATTERY#QUALITY,"Other than that battery issue and the battery life does not last too long, I'm pretty happy with the computer.",,EN_LAPT_SB1_TEST_.B.csv
+269,BATTERY#QUALITY,My daughter's MacBook Air battery bulged deforming the keyboard several days ago.,,EN_LAPT_SB1_TEST_.B.csv
+21,BATTERY#QUALITY,The battery gets so HOT it is scary.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+1539,BATTERY#QUALITY,"2 months later, the battery went.",negative,ABSA16_Laptops_Train_SB1_v2.csv
+283,BATTERY#QUALITY,Please Google 'MacBook battery bulge explode' before you buy your next Apple toy.,,EN_LAPT_SB1_TEST_.B.csv
+1711,BATTERY#QUALITY,Later it held zero charge and its replacement worked for less than three months.,negative,ABSA16_Laptops_Train_SB1_v2.csv
+2392,KEYBOARD#GENERAL,"The keyboard and sound are great, and the matte screen works well.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1158,KEYBOARD#GENERAL,Keyboard is great but primary and secondary control buttons could be more durable.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+343,KEYBOARD#GENERAL,2. Keyboard is great,,EN_LAPT_SB1_TEST_.B.csv
+212,KEYBOARD#GENERAL,"Good keyboard, long battery life, largest hard drive and windows 7.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+1568,KEYBOARD#GENERAL,"Did I mention everything about it, from size to weight to keyboard screams BULK?",negative,ABSA16_Laptops_Train_SB1_v2.csv
+1778,KEYBOARD#GENERAL,Excellent keyboard and crisp screen.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+574,KEYBOARD#GENERAL,"Keyboard is great, very quiet for all the typing that I do.",positive,ABSA16_Laptops_Train_SB1_v2.csv
+541,KEYBOARD#GENERAL,"while the keyboard itself is alright, the plate around it is cheap plastic and makes a hollow sound when using the mouse command buttons.",neutral,ABSA16_Laptops_Train_SB1_v2.csv
+1098,KEYBOARD#GENERAL,Keyboard was also very nice and had a solid feel.,positive,ABSA16_Laptops_Train_SB1_v2.csv
+2407,KEYBOARD#GENERAL,"Keyboard is nice and windows 8.1 is great, worried about that coming from xp.",positive,ABSA16_Laptops_Train_SB1_v2.csv

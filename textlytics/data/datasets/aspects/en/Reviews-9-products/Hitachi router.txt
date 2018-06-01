@@ -1,0 +1,312 @@
+performed[+2]##I purchased this router at a woodworking show after watching the CMT people using it to demo their bits and was impressed how it performed.
+##Well, when I got it home and mounted it in my router table, the shortcomings started showing up.
+adjustment[-1]##The adjustment knob seemed ok, but when lowering the router, I have to practically pull it down while turning the knob.
+##I tried it with the springs in and with them out and did not notice any difference.
+collet[-1]##The collet for the 1/4 inch bits is a pain to get in and even harder to get out.
+use[-2]##Then the most disappointing was trying to use Viper raised panel bits that just barely fit, and I mean just barely.
+##I never could get the panel bit to fit right.
+##I did my homework before buying my larger 3+hp router for my router table.
+price[+2]##From the Internet, woodworking books, local stores and personal opinions the Hitachi M12V 3-1/4 HP router time and time again came up to be the router of choice or best for its price.
+##I have a mid-size plunge router already, (the DeWalt 621-a fantastic router, read the MANY reviews) and needed a heavy duty machine for my table.
+##I have a small fixed base, single speed router that I use freehand.
+power[+1],speed[+1]##But I wanted to do some raised panel work and needed more power and variable speed to run the large-diameter bits.
+##At first, I kicked myself for not buying one in the first place instead of my smaller router, but in retrospect I think this is the best compromise.
+power[+1],runs[+1],cuts[+1]##The Hitachi has plenty of power, runs smooth, and cuts effortlessly through maple (with Freud bits!)
+bigger[-1][u][cc],heavier[-1][u][cc],use[-1]##However, it is much bigger, bulkier, and heavier than my other router and I would not like to use it freehand (I keep it mounted in a table).
+plunge[+1]##Since I use it in a table, I don't use the plunge feature, but if I ever need it I've got it.
+price[+2],power[+1],speed[+1],use[-1]##The Hitachi is a great router for a great price, but only get it if you need the maximum power, variable speed and use it in a table.
+use[-1][s]##Otherwise, get a smaller single speed router, which will be much easier to use freehand and is all you need for smaller diameter bits.
+##I looked at this router and bought a Makita.
+looked[+1][u][cc]##The Hitachi is made in Malasyia, and looked cheap compared with the Makita, which is made in the USA.
+##I have hade such poor luck with other tools (a Bosch drill) made in Malasyia, that I could not see getting it.
+worth[-1][cc][s]##If you think you are saving $40 getting the Hitachi, you are right, and you are also getting a router worth $40 less than a Makita.
+pretty[-1][u]##It ain't cutting edge (no pun intended) state of the art with all the latest bells & whistles & it definitely ain't pretty.
+smooth[+1][u],powerful[+1][u],affordable[+1][u],track record[+1]##But it is smooth, it is powerful, it is affordable & it has a proven track record.
+adjustment[-1][s]##I built my own router table with a tilt up top & made a hand crank to replace the height adjustment knob & these two things make it easy to change out & raise or lower the bits.
+##Also stuck a couple of o-rings in the collet like a previous reviewer suggested & have never had a stuck bit.
+##Have to clean, buff & lube the plunge rods once in a while but I see that as a non issue because any router should be periodically cleaned anyway.
+costs[+1][u],router[+1]##So for the money it costs for one of those top-of-the-line models I've got a good router & a nice table to put it in & I like that.
+##Happy woodworking!!
+router[+2]##Hitachi's M12V is a big beast of a router.
+weight[-1][u][cc],power[-1],precise[-1]##It's not the heaviest around (I think Porter-Cable has that distinction), but I found its combination of weight and power really too much to allow precise handheld operation.
+##Luckily, the only significant handheld use I had to put it to was to plunge cut the melamine board that I dropped my Woodpeckers PlungeLIFT table insert into.
+##Hitachi includes a 1/2" straight cutting bit in the package, and I used this to cut out my table.
+##I bobbled a bit at the end of a couple of the cuts because the momentum of the charging M12V was a bit more than I was prepared for.
+##And changing bits requires one hand on the wrench, one hand on the spindle lock, and two knees to hold the router -- another reason why the M12V is best used in a table.
+M12V[+2][u]##In my table the M12V has been a real champ.
+##I've cut dadoes, flush trim to duplicate a complex form, and done roundovers and Roman ogees.
+heavy[+1][u],speed[+1]##The heavy motor and continuously variable speed control let this router churn through everything I threw at it.
+controls[-1]##With the PlungeLIFT all my bit changing has been done above the table, although I still have to reach below the table to operate the spindle lock (and, of course, the speed and ON/OFF controls).
+##Accessories included in the package are: - 1/2" shank, 1/2" diameter, 1" cutting length, 2 carbide flute straight bit - parallel guide - template guide - template adapter for 3rd-party guides - 1/4" chuck sleeve - cutting depth fine adjustment knob (which takes a "13 mm" wrench to install, but a crescent wrench works OK too)
+##Not included are: - 3/8" chuck sleeve (the least common bit size) - depth scale in mm (the included one is in inches) - dust collector set - trimmer guide for chamfering
+##The M12V is really set up for right hand operation.
+##Lefties can switch the angle of the handles by loosening the screws, repositioning, then retightening.
+##This will allow operation of the power switch with the left index finger and the plunge lock with the left thumb (instead of the standard right thumb and right index finger, respectively), but then the depth scale is on the back face of the router, as is the straight edge of the base plate.
+motor[+2],start[+2],speed[+1],price[+1]##Nice things about the M12V: - in a table, the powerful 3 1/4 HP motor is great - soft start helps a lot to control the beast when you turn the router on - continuously variable speed control - Amazon's price
+weight[-1],power[-1],spindle[-1],chuck[-2]##Not so nice things: - a bit too much weight and power for easy handheld use - spindle lock makes for awkward bit changing (outside of a table) - the 1/4" chuck sleeve requires MUCH tightening to keep bits from slipping
+##Bottom line: Highly recommended, but best when used in a table.
+router[+1][u]##This is truly a Clydesdale among the industry 3HP+ router workhorses.
+solidity[+2][u],nimble[+1],used[+1]##Built like a tank, yet nimble enough to be comfortably used with the Leigh dovetail jig.
+start[+2]##The soft start is a tremendous help for this type of operation.
+heavy[-1][u],machine[+1][u],stability[+1]##It is a heavy but well-balanced machine, which is an asset when maximum stability is desired.
+guide[+3]##The edge guide is top quality, easy to install and accurate.
+##I used this router to plow out 3" raised panels in oak without phasing the beast.
+speed[+1]##This was possible due to the variable speed settings for any sized bit.
+##The router is also equipped with an adapter that accepts PC guide bushings.
+adjustment[+1]##The height adjustment knob is a bit flimsy, but it works well and provides good accuracy.
+collet[-1]##The only complaint I have is that the 1/4" collet will not sufficiently hold any of my 1/4" bits.
+##I purchased an aftermarket slotted collet that does the job.
+collet[-1]##The Hitachi collet simply was not ground accurately.
+##However, now that the kit comes with the height adjustment knob, I'd say jump all over it.
+machine[+2][u]##This is a great deal, and I'm elated with my decision to go with Hitachi's green machine.
+router[+3][u]##Wish I could give it 4 1/2 stars.
+##I bought this router a couple of months ago from Amazon and have used it a fair amount in that time.
+##The deal Amazon has going can't be beat and if you're considering buying this machine, do so from this site.
+adjustment[+1],collet[+1]##I noticed that the micro adjustment knob and collet are well made and work well too.
+speed[+2]##The speed control is well designed and it works perfectly.
+guide[+1]##The included fence guide is easy to set up and quite accurate as well.
+accessible[+1][u]##The plunge lock and power switch are very easily accessible which is a must when doing free hand routing.
+heavy[+1],stable[+1][u]##It is heavy enough to make it stable, but not too heavy to preclude hand use.
+##Those are the good points.
+##There are a few points of contention which I have.
+##The depth scale is a joke and I wouldn't use it for anything but a "ball park" measure.
+plunge[-1]##The plunge action isn't smooth unless you make it so.
+##This entails wiping the rods, blowing compressed air into the housings, and lightly lubricating the rods with silicone lubricant.
+instructions[-1]##The instructions would benefit from some improvement and it would help if the RPMs of the speed settings were mentioned.
+fit[-1],finish[-1]##Also, the fit and finish could be better although this doesn't detract from performance.
+##I plan to get a Porter-Cable for table mounted use but will be using this machine for most if not all of my hand held use.
+price[+2]##Overall this tool is very well worth the price and I have no regrets about my purchase.
+money[+3]##This is an excellent router for the money.
+##I use it primarily in a router table and have been making my own moldings and trim.
+plunge[-1]##The only problem i find with it is that the plunge mechanism will eventually stick due to wood dust.
+springs[-1]##I find that if you remove the springs it is much easier to adjust and will not stick much.
+money[+3]##Other than that, i think it is the best router for the money.
+router[+2][u]##I must have gotten a good one.
+adjustment[+1],control[+1],collet[+1]##I don't have problems with the depth adjustment, the speed control, the collet ( I haven't tried the 1/4" sleeve yet) .
+##Before buying this I read others reviews and of the complaints I read about....well I have not experienced any.
+##I have 3 Bosch routers, 1 Porter Cable, and the large Freud.
+##I have many others in the past.
+Hitachi[+3][u][cc]##I would put the Hitachi up with the best!
+vibration[+2]##No vibration!
+plunging[+2]##Smooth plunging! ( it did stick a bit so I sprayed it w/ lubricant.
+router[+2],adjustment[+1]##It is a great router for a table and with the depth adjustment knob it is easy to adjust depth prescisely.
+##Why do people spend all that money on accessories to "raise and lower " the router in a table??? A waste of money.
+shaft[+2]##It is very easy to change bits without removing the router from the table and the shaft lock works great.
+balance[+2],lighter[+2][u][cs]##Very good balance in the hands and lighter than most 3 1/4 hp models.
+start[+1]##The soft start is nice.
+price[+3]##The price is incredible with the bonus pack and Hitachi's $25 incentive ( you need the code ---go to Toolseeker.com and it tells you)
+price[+3]##The total price with delivery (free shipping ) was $135 !
+cheap[+3][u]##Less than a cheap cordless drill or a laminate trimmer.
+##I can't complain and Amazons' service was perfect!
+##I think I'll go rout something...
+##Bought an expensive Dewalt router some three years ago and never became comfortable with it.
+##I use routers solely for hand work and relegate all table usage (including panels) to my Grizzly shaper.
+##Gave the Dewalt to a woodworking friend in gratitude for his help in moving tools to a new shop.
+price[+2][u]##Saw the Hitachi on Amazon.com with their $25.00 coupon (at the time) and could not resist trying it out.
+operate[+1]##UNLIKE other reviewers, I like the tool because it is easy to operate outside of the router table.
+switch[+1],lock[+1]##Both the on/off switch (soft start) and the depth lock are within easy reach of the right hand.
+heavy[+1][u][cc],router[+1][u][cc]##It is no more heavy than any other powerful router and not as bad as some Porter Cable models I tried.
+##I use custom side clamps set up for 1/4 and 1/2 inch bits in order to plough mortises easily (and with great accuracy).
+##Unlike my experience with the Dewalt, I now enjoy reaching for the Hitachi (and allow me to stress I am a fan of many other Dewalt tools -- especially their large table saw and famous miter saws).
+##LIKE other reviewers I can attest to the following:
+spring[-1]##1. Your Hitachi might come to you with a stiff spring mechanism.
+spring[-2][p]##Mine was so bad I had to to use a hammer to free it (and this is why I'm giving it 4, not 5 stars).
+sawdust[-1]##I have noted that as you use the tool, sawdust builds in the channel and it requires attention.
+sawdust[-1][p]##Not a killer problem, but not well done, either.
+##2. Half-inch router bits provide more operating security and finish quality than do their 1/4 inch counterparts.
+##Have read this on the web and can second the comparative preference.
+##I do woodworking as a serious hobby.
+use[+1],result[+1]##For me, it is as important that the tool be comfortable to use as it is that it produce a high-quality result.
+price[+2]##Can recommend the Hitachi in this ergonomic arena -- at the price quoted on Amazon it is a bargain.
+##My first experience with this router was when I was working in a professional window and door shop.
+##The owner had three routers - all M12's.
+##This was my first real introduction to serious routing and I thought that the M12 was just a router.
+##In the last 8 years since then I have done a ton of routing and have messed around with a bunch of different machines.
+M12[+3][u][cc]##After getting used to the M12 all the rest seemed lacking.
+router[+1][u],plunge[+2]##On top of being a workhorse and ultra reliable, it is just a plunge router that works really well.
+use[+2] ##I use it in the table (never take the springs out - just attach the fine adjustment knob), in my woodrat and freehand and it works great in all circumstances.
+slop[-1]##The only beef that I have with it is that there is a little too much slop in the columns when the lock is not engaged.
+##Unless you routinely use it like this (which I do to cut mortises on the woodrat) then you will never notice.
+big[-1][u]##If it weren't so big I would probably by another since no shop is complete without a handful of routers..
+##This router appeared in my wife's gold box a few weeks ago, and she knew I was looking to upgrade my Craftsman 1/4" fixed base router.
+##She told me to take a look at it, and after reading reviews here and at other sites, I told her to get it.
+router[+2][u]##What an upgrade!!!
+starts[+2],runs[+2]##I have only used it with the 1/4" collet and a 1/2" round over bit, but I love how it starts up with little torque and runs very quietly.
+adjustment[+2][cc]##The depth adjustment and bit changing is much easier on the M12V than it was on my old router.
+use[+2], vibration[+1]##The handles make it very comfortable to use and I experience little vibration.
+price[+3]##Combine this with the excellent price we got in the Gold Box, and I'm really happy.
+router[+2][u]##I'm sure I don't use it to the degree of some of the other purchasers, but I really like it!
+##Now I need to get some 1/2" bits...
+router[+2]##I first used the router in the free hand mode and liked it a lot.
+stable[+2][u],use[+2],visibility[+2]##I find it very stable and comfortable to use, it doesn't jump around or make me feel like I need to use a lot of arm strength to keep it under control, and  it has very good visibility to see your cut.
+fence[+1]##It came with a good fence that  is simple yet precise and thats well made and won't break.
+controls[+1]##Also I like the  position of all the controls and the fact that it doesn't have any extra  knobs or gizmos.
+simple[+1][u]##I prefer things that are simple.
+##I prefer to use my mind  to figure out how I'm going to build something not how my tools work.
+##I now  have it as a permenant fixture  in my router table.
+power[+2],control[+1]##The router has plenty  of power for any type of bit or wood I need to cut, and the speed control  knob is easy to get to.
+guide[-1]##I did have to cut off the ears  that hold the  template guide in place so I could get those big panel raising bits in it.
+##It will take 31/2 inchers now.
+springs[-1]##I also removed the springs in the plunge  tubes to make it easier to raise.
+adjustments[-1]##I added a crank for those times when I  need to make fine adjustments, but I seldom use it.
+wrench[-1]##I also put a bend in  the wrench so I can remove and install bits from the top of the table.
+system[+2]##Its  not a perfect system but its a very good one.
+##I need it back as a hand held so I'm going to buy another one.
+router[+1]##I've owned this router for over 8 years and am somewhat satisfied with it.
+quiet[+1][u],power[+2]##It is quiet and has plenty of power.
+stability[+1][u],weight[+1]##I find that it is stable in my hands and its' weight actually contributes to that stability.
+plunging[-1]##That said, I am disappointed in the plunging mechanism.
+shafts[-1]##Shortly after I brought it, the plunging shafts started sticking.
+shafts[-1][p]##After repeatly cleaning and recleaning, it still stuck after using it for a little while.
+plunge[-1]##I no longer use it as a plunge router, only as a stationary or table mounted router.
+plunging[-1],router[+2][s]##If the plunging action isn't that important, then this is a great router.
+plunging[-2]##If the plunging action is critical to your work, look elsewhere.
+performance[+2],features[+2]##I love the performance and features of this router.
+money[+3]##For the money, I'm not sure you can do better.
+quiet[+2][u],adjustment[+2],speed[+2]##It's very quiet for a universal motor-driven tool, and the height adjustment stick and variable speed control are great.
+##I bought this specifically for a router table I built, and it has performed flawlessly in that capacity.
+##I've done some hand-held routing with it and it works good for that as well.
+plunging[+1]##Smooth plunging mechanism.
+fence[+1]##The guide fence for freehand routing is well made and solid.
+##The only thing I hate (and this pretty much goes for any router I've used) is changing the bits.
+grip[-1],chuck[-1],collet[-1]##It's oftentimes hard to get a good grip on the router, activate the chuck lock, and get enough muscle behind the wrench to get the collet loosened up.
+router[+2],performer[+2]##Even with that, I highly recommend this router - outstanding performer.
+router[+1][u]##I purchased two of these beauties.
+##For exclusive use in a double router table I have been building.
+router[+2]##I have a tendency to do quite a bit of research before I drop money on a tool and everyone I talked to loved this router.
+router[+3]##One cabinet shop has been using one regularly in a router table for 11 years without a problem.
+##My routers arrived promptly and I actually used one of them in the construction of the router table.
+collets[+3]##The design of the collets is excellent and far exceeds any of the craftman (toy/junk) routers I have previously purchased.
+##I have since used them to cut all the stiles and rails for my first kitchen.
+collets[+1][p],power[+2]##They were easy to setup with plenty of power to hog through anything I have encountered.
+money[+2]##I have less money invested in the router table and dual routers than I would have if I had purchased a single cheap reliant shaper.
+setup[+2]##The setup works awesome, as with any tool I look closely at the individual tool for it's merits, and not just the company as a whole.
+##I say this because I am not particulary fond of the hitachi compound miter saw.
+##As I find it inheritly inaccurate by design.
+router[+2]##I would however highly recommend the m12v router !
+Hitachi M12V[+2][u]##I'm not overly fond of GREEN but when I used this Hitachi M12V it turns out that now I'm very fond of it.
+##This router does GREAT in hand held jobs and Router Tables.
+##I mounted mine in a home brew table and used a router lift.
+operation[+1],speed[+1]##The smooth operation variable speed and a set of good Jasada Bits will provide just the right combination for great predictable results.
+router[+1][u]##Its well made and user friendly.
+router[+2][u]##You'll love it!
+##This router is 1 of 4 in my shop.
+router[+3][u]##It is currently permanently mounted (3 years now) in my router table and will most likely stay there until its shot.
+##I have added the router raizer kit(simple installation) to it and cannot live without this setup!
+start[+1],runs[+1]##This router has soft start and runs smooth and true.
+router[+1]##I use the router with a 3 1/2in raised panel bit with no problems.
+power[+1]##It has enough power to hog out all the material in one pass, but I usually take multiple to prevent blowout and a smoother finish.
+price[+3]##For the price, I am considering purchasing a spare just to have as a backup.
+router[+2][u]##You just can't go wrong with this one!
+router[+1][u]##Enjoy.
+price[+3]##This is an excellent router for the price.
+##This is my second one.
+router[+3][u]##The first one lasted about 6 years of heavy use.
+tool[+1][u],powerful[+1][u]##This is a well-made and powerful tool.
+##At the last Anahiem WW Show I decided to get the M12V.
+price[-1][cc]##I was some what sceptical when I seen the price deference between the other makers of comparible HP.
+##I bought it!
+##I have 5 routers, I use them all!
+##I make furniture and cabinetry.
+##I cut 30-50 raised panel doors a month using every specie of wood imaginable.
+##Maple, Koa and Cherry giving us the hardest time with burning and splintering.
+M12V[+2][u]##The M12V has been great.
+adjustment[+1]##The height adjustment works well- not perfect.
+bog[+1]##The wood can be pushed thru fast or slow with little bog.
+##The true test is its ability to be forgiving when coping a rail.
+quite[+1][u],workload[+1],cheap[+3][u]##What I really like about- its quite, it can handle my workload and it was so cheap that I can throw it away and buy another one without blinking.
+##Good luck and cut wood!!!!
+router[-3]##This router was a huge disapointment.
+adjustment[-1]##The depth adjustment was sloppy.
+control[-1]##The speed control is recessed too far in the housing and required a tool (screwdriver or dowel rod) to effect any speed change.
+control[-1][u]##It was impossible to change the speed with just my fingers.
+control[-1][u]##My son tried it and he too couldn't change the speed without an assist.
+heft[+1]##I did like the heft of the machine.
+stable[+1][u],heavy[-1][u]##It felt rather stable in my hands (heavy though.)
+router[-2][u],control[-1]##I sent it back, as I think that the speed control is either poorly designed or defective.
+router[-1][u]##All in all, not very good.
+price[-1],router[+3][u]##I was skeptical about this router due to low price but have been totally impressed using it.
+##I also have the very popular Bosch 1617EVSPK kit and had planned to use it on my cabinets, routing dados for shelves.
+##Unfortunately, the Bosch fixed base has no flat edge to ride against a guide, and both bases have a sub-base that extends past the metal base to prevent using against any kind of guide.
+##The Hitachi, on the other hand has a beautiful large flat edge to run against a guide, and the sub-base is recessed so as not to interfere.
+power[+3]##The power is incredible, it cut through MDF and plywood like butter.
+adjust[+1]##The edge guide has a nice micro adjust feature that works well.
+adjustment[-1]##The only not-so-positive comment I have is about the depth adjustment, it is not easy to micro-adjust accurately.
+price[+2],router[+2][u]##I do not count this as a negative, however, because it is not that much of a nuisance and at the price for what you get this router is way too good to pass up!!!
+##I have 6 routers, but have owned about 10 over the years.
+##If one fails or simply doesn't perform I know I'll let it sit on the shelf so I either sell it or give it away.
+router[+2]##The ones I've kept (Porter Cables, Dewalts, Bosch, and this Hitachi) have proven their worth over the years, however, when I need a real workhorse, I grab this router.
+machine[+2][u]##I recently had to run a 3/4" straight bit through hard maple to make a deep dado and was amazed that this machine didn't even slow down.
+router[+2][u]##I could take 1/2" passes and it still didn't skip a beat.
+##As much as I like my other routers, I know their limitations because I've pushed them all to them.
+Hitachi[+1][u]##I've yet to find the limitation for this Hitachi (my only Hitachi tool, by the way) and quite frankly, I don't know that I have the muscle to push this machine any harder.
+price[+3][u]##Bottom line is that at $160, this is an absolute steal.
+router[+3]##I've got a buddy who's trying to offload his almost new $300 Speedmatic because he saw what this router can do.
+router[+3][u]##It is without even a slight doubt, my new favorite.
+##I reciently purchased this when a 1 1/2hp plunge router (different name brand) couldn't hack it.
+starts[+2],speeds[+2],depth[+2],power[+2]##The Hitachi M12V is a dream to work with, smooth starts, adjustable speeds, micro-adjustable depth, and plenty of power to spare.
+router[+3][u]##I couldn't believe what I had been missing.
+router[+3]##If you're looking for a 3hp plunge router, the Hitachi M12V is your best bet to stretch your equipment budget.
+router[+3][u]##I'll be getting a second one for my router table!
+power[+2]##I have been impressed with the power of the Hitachi M12V.
+bog[+1]##It doesn't bog down under load.
+Cuts[+1]##Cuts are easy and smooth.
+works[+1]##I use it on a router table, and it is works well.
+adjustment[-1]##The major reasons I didn't give it a five are:  One, I didn't think the fine adjustment worked well.
+adjustment[-2][p][cc]##I replaced it with a Router Raizer and it works much better.
+wrench[-1]##Two, the single wrench just doesn't work well.
+latch[-1]##The sliding latch is does not stay in place.
+##It is almost all you can do to change bits with two hands (you need three).
+##I am trying to purchase a second wrench, and I think it will improve the function greatly.
+router[+2]##Other than this, I am very pleased with the router and would buy it again.
+price[+2]##I really liked the price...
+##I use the Hitachi M12V in a router table.
+##It is a little large for my table (Rockler), but that isn't the fault of the router.
+##Because of this I have removed the handles.
+control[+1]##I like the speed control.
+##It works well with the larger bits.
+##(I prefer 1/2 inch bits).
+power[+2]##It has plenty of power.
+adustment knob[-1]##The fine adustment knob which came with the router was very difficult to use on a router table.
+Router Razier[-1]##Finally, I gave up and I purchased a Router Razier.
+##After getting it installed (which wasn't an easy task), it makes fine adjustments easy.
+##The one wrench systems makes changing bits somewhat difficult.
+wrench[-1]##I am seriously considering purchasing another wrench and just not using the "sliding wrench" which comes on the router.
+router[+1]##All in all I am pleased with the router.
+power[+1],noise[+1],control[+1]##The power, low noise operation, and speed control makes up for the problems I have experienced.
+##I have owned this router for nearly five years.
+##Until recently it was my only router.
+##Most of the time I use it mounted in a table, but obviously I also used it for hand held work.
+heavy[-1][u]##It it is a bit heavy for hand held work, but any router this size will be.
+control[-1]##Recenly the variable speed control went out.
+control[-1][p]##It would work fine for a while then as the motor warmed up it would die.
+##The authorized Hitachi service center said they didn't know what was wrong as they hardly ever get these things in for service.
+##I bypassed the speed control, which was easy to do, now it works again, but with no speed control.
+##I didn't use the speed control that often so that is not a big deal.
+plunge[-1]##The only other problem with this router that I have encountered is the plunge action will start to stick, then it needs to be cleaned and lubricated.
+router[+2][u]##Overall it is a great value.
+price[+3]##For the price I don't think you can beat it.
+tool[+3][u]##This is a fantastic tool to use.
+heavy[-1][u]##Only problem is that is a bit heavy.
+product[+1]##This is a quality product, not to be confused with teh cheap junk that Hitachi gets manufactured in China.
+##I have purchased & used 2 of these routers in the past 3 years.
+last[-1][u]##They last about 1 1/2 years until the problems start.
+safety[-2]##My first router is a safety hazard if you do not pay attention and are not very careful.
+##First, I must say that I am a professional woodworker, so, this router was used every day.
+##Mainly using core box bits & bull nose bits as well as round over bits.
+##I use it on woods from the hardest of maples & osage to cedars.
+router[+2],money[+2]##When the router is working it is a very nice machine for the money.
+##But, the first one just stopped working while pushing through the workpiece.
+##Then, without warning, it took off again.
+safety[-1][u]##Luckily the soft start helped before it took the wood and tossed it or worse case, a finger.
+##I use these routers under a table.
+##Outside of needing an extension for half inch bits, which is a problem for most machines of this type.
+depth[-1]##Once a depth is locked, it will jump off a little while working.
+depths[-1]##You must keep double checking depths.
+machine[+1][u],money[+1]##But, for the money it is a good machine.
+duration[-1][u]##Well, my second one is now beginning to hicup a bit after about 1 1/2 years.
+control[-1]##The electronic speed control is not doing it's job and the router begins to speed up and slow down at will.
+##I am now waiting for this one to stop.
+router[+1][u][s]##For the hobbiest, it's probably a nice buy.
+equipment[+1][u][s]##For the person that uses the equipment every day, pay the extra and get a reliable & safer unit.
+safety[-1][u][s]##If this machine just stops on you, unplug it quickly and get out of the way!

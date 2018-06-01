@@ -1,0 +1,56 @@
+,aspect,document,sentiment
+0,LAPTOP#GENERAL,"Most everything is fine with this machine: speed, capacity, build.",positive
+1,DISPLAY#QUALITY,"The only thing I don't understand is that the resolution of the screen isn't high enough for some pages, such as Yahoo!Mail.",negative
+2,,"Yes, I have it on the highest available setting.",
+3,LAPTOP#DESIGN_FEATURES,"I love the size, keyboard, the functions.",positive
+4,LAPTOP#GENERAL,I don't really have a complaint.,positive
+5,LAPTOP#USABILITY,"It is easy to use, good quality and good price.",positive
+6,LAPTOP#GENERAL,Perfect trifecta!,positive
+7,LAPTOP#GENERAL,I would recommend this product.,positive
+8,LAPTOP#GENERAL,"I love this product because it is Toshiba and its 15.6"".",positive
+9,LAPTOP#DESIGN_FEATURES,"It has no camera but, I can always buy and install one easy.",neutral
+10,LAPTOP#USABILITY,"I had a USB connect but, i can't use it because it is not compatible.",negative
+11,LAPTOP#USABILITY,That's the downside for me.,negative
+12,LAPTOP#GENERAL,"But, I would recommend this product.",positive
+13,LAPTOP#GENERAL,I bought this laptop Was the worst Laptop I've ever bought.,negative
+14,LAPTOP#PRICE,I spent alot of money on this product and its been a nightmare.,negative
+15,SUPPORT#QUALITY,And having to deal with the company has been a even worse nightmare.,negative
+16,,I sent it to them to fix in perfect condition but for what was wrong with it.,
+17,SUPPORT#QUALITY,They sent it back with a huge crack in it and it still didn't work.,negative
+18,SUPPORT#QUALITY,And that was the fourth time ive sent it to them to get fixed.,negative
+19,SUPPORT#QUALITY,Its been a year and am still waiting to see what there going to do about my laptop.,negative
+20,COMPANY#GENERAL,So if anyones looking to buy a computer or laptop you should stay far far away from any that have the name TOSHIBA on it...,negative
+21,LAPTOP#GENERAL,"So far, a great product.",positive
+22,LAPTOP#PRICE,"High price tag, however.",negative
+23,LAPTOP#USABILITY,Still trying to learn how to use it.,neutral
+24,,"Okay, let's just start out by saying I am in no way a computer techy.",
+25,,"I am a wife, mom and a school teacher and a college student.",
+26,,"Trying to balance all of my roles leaves very little time for me to do anything, so I want to manage my time I do have to be the most efficient.",
+27,,I work on a PC at home and have used Pc all through college.,
+28,,"I use the computer to basically check emails, surf the web, print coupons and for my college papers.",
+29,,I was getting extrememly frustrated when I would want to do these simple taks that I would have to wait and wait and wait for things to download or virus that would clog up my PC.,
+30,,It would take up too much time to do reaearch for my papers and I would be up hours-just because the computer was too slow.,
+31,,My brother is a computer wiz and would laugh at me because he used an Apple.,
+32,,"Finally, I couldn't take it anymore and ordered my Apple.",
+33,LAPTOP#PRICE,"Yes, I thought the expese was a little much, but I now realize you get what you pay for.",negative
+34,LAPTOP#GENERAL,"I love my Apple, it is quick and easy to use.",positive
+35,SUPPORT#QUALITY,"I've had to call Apple support to set up my new printer and have had wonderful experiences with helpful, english speaking (from Vancouver) techs that walked me through the processes to help me.",positive
+36,LAPTOP#GENERAL,I can't say enough of how satisfied I am with their product and help aftermarket.,positive
+37,LAPTOP#GENERAL,Money and time well spent!,positive
+38,LAPTOP#GENERAL,Highly recommended!,positive
+39,LAPTOP#PRICE,This laptop is a great price and has a sleek look.,positive
+40,LAPTOP#OPERATION_PERFORMANCE,Runs smooth and quick.,positive
+41,LAPTOP#DESIGN_FEATURES,"I wish it had a webcam though, then it would be perfect!",negative
+42,LAPTOP#GENERAL,"HP Pavilion DV9000 Notebook PC      When I first got this computer, it really rocked.",positive
+43,LAPTOP#CONNECTIVITY,But as time went on I found it almost impossible to keep the thing on-line through wi-fi.,negative
+44,DISPLAY#OPERATION_PERFORMANCE,Eventually the screen went blank and the computer would not turn on.,negative
+45,,HP said it was out of warranty.,
+46,COMPANY#GENERAL,Guess I'll stay away from HP.,negative
+47,LAPTOP#PRICE,Great price and computer!,positive
+48,,"I bought this laptop computer for my parents, they only access their facebook and e-mail accounts, see family pictures, etc.",
+49,LAPTOP#GENERAL,They loved it.,positive
+50,LAPTOP#USABILITY,"It's easy to operate and it's very light (my parents are almost 60 yo, they can't carry a heavy computer while traveling).",positive
+51,LAPTOP#DESIGN_FEATURES,"But here's something I hadn't realized before buying it: there isn't an optical drive, which means NO CDs or DVDs!",negative
+52,LAPTOP#GENERAL,I have loved this since i took it out of the box.,positive
+53,BATTERY#OPERATION_PERFORMANCE,The battery is really long.,positive
+54,LAPTOP#DESIGN_FEATURES,"the features are great, the only thing it needs is better speakers.",positive
