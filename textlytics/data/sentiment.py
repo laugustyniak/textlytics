@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import io
-import time
 import pickle
 import logging
 import simplejson
 
 import pandas as pd
 
-from os import path, makedirs
-from document_preprocessing import DocumentPreprocessor
+from os import path
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 from textlytics.utils import SEMEVAL_PATH, IMDB_MERGED_PATH
 
 log = logging.getLogger(__name__)

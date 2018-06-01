@@ -18,7 +18,7 @@ from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 from textlytics.processing.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 from textlytics.utils import list_to_str
 
 logging.basicConfig(filename='gensim_vectorization.log')

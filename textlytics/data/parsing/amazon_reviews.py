@@ -2,11 +2,8 @@ import gzip
 import json
 import logging
 
-from bs4 import BeautifulSoup
 # FIXME spacy update and use methods from preprocessing module
 # from spacy.en import English
-
-from document_preprocessing import DocumentPreprocessor
 
 log = logging.getLogger(__name__)
 

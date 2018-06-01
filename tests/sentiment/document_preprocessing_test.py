@@ -2,7 +2,7 @@
 import unittest
 from unittest import TestCase
 
-from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 
 if __name__ == '__main__':
     unittest.main()

@@ -11,11 +11,11 @@ import numpy as np
 import pandas as pd
 from gensim.models import Word2Vec
 from sklearn.linear_model import LogisticRegression
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 from textlytics.utils import list_to_str
 
 logging.basicConfig(filename='generate_lexicons_and_results.log')

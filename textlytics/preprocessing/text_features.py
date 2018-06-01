@@ -1,12 +1,8 @@
-# -*- coding: utf-8 -*-
-__author__ = 'Łukasz Augustyniak'
-
 import numpy as np
 from scipy import sparse
 from sklearn.base import BaseEstimator
 
 
-###############################################################################
 class FeatureStacker(BaseEstimator):
     """Stacks several transformer objects to yield concatenated features.
     Similar to pipeline, a list of tuples ``(name, estimator)`` is passed
@@ -46,7 +42,6 @@ class FeatureStacker(BaseEstimator):
             return out
 
 
-###############################################################################
 class TextBasicFeatures(BaseEstimator):
     def get_feature_names(self):
         return np.array(['n_words', 'n_chars', 'allcaps', 'max_word_len',
@@ -71,12 +66,11 @@ class TextBasicFeatures(BaseEstimator):
         question_mark = [d.count("?") for d in documents]
         spaces = [d.count(" ") for d in documents]
 
-        return np.array([n_words, n_chars, all_caps, max_word_len,
-                         mean_word_len, addressing, exclamation, question_mark,
-                         spaces]).T
+        return np.array(
+            [n_words, n_chars, all_caps, max_word_len, mean_word_len,
+             addressing, exclamation, question_mark, spaces]).T
 
 
-###############################################################################
 class NegationBasicFeatures(BaseEstimator):
     def get_feature_names(self):
         return np.array(['not', 'no', 'n\'t'])
@@ -93,7 +87,6 @@ class NegationBasicFeatures(BaseEstimator):
         return np.array([n_no, n_none, n_not, n_nt]).T
 
 
-###############################################################################
 class _TemplateBasicFeatures(BaseEstimator):
     def get_feature_names(self):
         return np.array(['xxx'])
@@ -106,7 +99,6 @@ class _TemplateBasicFeatures(BaseEstimator):
         return np.array([xxx]).T
 
 
-###############################################################################
 class BadWordCounter(BaseEstimator):
     def __init__(self):
         with open("my_badlist.txt") as f:
@@ -114,15 +106,25 @@ class BadWordCounter(BaseEstimator):
         self.badwords_ = badwords
 
     def get_feature_names(self):
-        return np.array(['n_words', 'n_chars', 'allcaps', 'max_len',
-                         'mean_len', '@', '!', 'spaces', 'bad_ratio', 'n_bad',
-                         'capsratio'])
+        return np.array([
+            'n_words',
+            'n_chars',
+            'allcaps',
+            'max_len',
+            'mean_len',
+            '@',
+            '!',
+            'spaces',
+            'bad_ratio',
+            'n_bad',
+            'capsratio'
+        ])
 
     def fit(self, documents, y=None):
         return self
 
     def transform(self, documents):
-        ## some handcrafted features!
+        # some handcrafted features!
         n_words = [len(c.split()) for c in documents]
         n_chars = [len(c) for c in documents]
         # number of uppercase words

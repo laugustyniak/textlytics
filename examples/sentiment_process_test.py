@@ -2,7 +2,7 @@
 from pprint import pprint
 
 from sklearn.linear_model import LogisticRegression
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
 
 __author__ = 'Lukasz Augustyniak'
@@ -17,7 +17,7 @@ from os import path
 from datetime import datetime
 
 from textlytics.sentiment.sentiment import Sentiment
-from textlytics.sentiment.io_sentiment import results_to_pickle
+from textlytics.data.sentiment import results_to_pickle
 
 logging.basicConfig(filename='processing.log',
                     level=logging.DEBUG,

@@ -2,18 +2,16 @@
 
 # import memory_profiler
 import logging
-import sys
 from os import makedirs
 from os.path import join, exists
 
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
-from textlytics.sentiment.lexicons import SentimentLexicons
+from textlytics.data.lexicons import SentimentLexicons
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import Dataset
-from textlytics.sentiment.io_sentiment import to_pickle
-from textlytics.utils import LEXICONS_PATH
+from textlytics.data.sentiment import Dataset
+from textlytics.data.sentiment import to_pickle
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)

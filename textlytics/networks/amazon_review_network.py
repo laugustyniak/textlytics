@@ -29,7 +29,7 @@ except ImportError:
     log.info('There lack of Graph Tool library')
     _graph_tool = False
 
-from textlytics.parsers import parser_amazon as pa
+from textlytics.data.parsing.amazon_reviews import parser_amazon as pa
 
 
 # from memory_profiler import profile

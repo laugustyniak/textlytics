@@ -10,7 +10,7 @@ from os.path import basename, join
 
 import gensim
 
-from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 
 import spacy
 parser = spacy.load('en', parser=False, entity=False)
