@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import io
 import pickle
 import logging
@@ -120,7 +118,7 @@ class Dataset(object):
         try:
             return pd.read_csv(path=p, index_col=None, na_values=['NA'], sep='|')
         except IOError as err:
-            logging.error('Niepoprawnie załadowano plik {path}, {err}'.format(path=path, err=str(err)))
+            logging.error('Error with file loading {path}, {err}'.format(path=path, err=str(err)))
             raise IOError
 
     def load_dataframe_preprocessed(self, p):
