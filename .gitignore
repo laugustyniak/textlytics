@@ -18,3 +18,15 @@ examples/repindex_sentiment.py
 # logs
 *.log
 examples/results/
+
+textlytics/data/w2v_models/word2vec_lexical_dico\.txt
+
+textlytics/data/w2v_models/word2vec_lexical\.txt
+
+textlytics/data/w2v_models/word2vec_pos_dico\.txt
+
+textlytics/data/w2v_models/word2vec_pos\.txt
+
+textlytics/data/w2v_models/word2vec_smiley_dico\.txt
+
+textlytics/data/w2v_models/word2vec_smiley\.txt
