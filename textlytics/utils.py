@@ -19,6 +19,7 @@ IMDB_MERGED_PATH = path.join(DATASETS_PATH, 'IMDB_merged')
 SEMEVAL_PATH = path.join(DATASETS_PATH, 'semeval')
 LEXICONS_PATH = path.join(DATA_PATH, 'lexicons')
 W2V_MODELS_PATH = path.join(DATA_PATH, 'w2v_models')
+STANFORD_PATH = path.join(DATASETS_PATH, 'stanford')
 
 # paths to datasets - files
 AMAZON_CATEGORY_FILE = path.join(AMAZON_PATH, 'categories.txt')
