@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# import memory_profiler
 import logging
 from os import makedirs
 from os.path import join, exists
@@ -100,9 +99,8 @@ lexicons_files = [
     # 'Yelp-restaurant-reviews-bigrams.txt',
 ]
 
-
 sentiment_lexicons_imdb(lexs_names=lexicons_files,
-                        output_folder='/datasets/amazon-data/csv/lex-test')
+                        output_folder='results/amazon-data/csv/lex-test')
 
 
 def sentiment_lexicons_opineo(lexs_names=None, lex_path=None, output_folder=None, evaluate=True):
@@ -175,6 +173,3 @@ lexicons_polish = [
 #                           lex_path=LEXICONS_PATH,
 #                           output_folder='/datasets/polish/opineo/lex-results',
 #                           )
-
-
-

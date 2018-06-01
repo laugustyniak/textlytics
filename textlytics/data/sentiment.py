@@ -140,7 +140,8 @@ class Dataset(object):
             logging.error('Error with loading SemEval2013 dataset' % str(err))
             raise IOError
 
-    def load_semeval_2014_sentiment(self):
+    @classmethod
+    def load_semeval_2014_sentiment(cls):
         """
         Load dataset from SemEval contents - 2014 edition.
         :return: Data Frame
@@ -150,6 +151,20 @@ class Dataset(object):
         except IOError as err:
             logging.error('Error with loading SemEval2014 dataset')
             raise (str(err))
+
+    def load_semeval_sentiment(self):
+        """
+        Load dataset from SemEval all.
+        :return: Data Frame
+        """
+        try:
+            df = pd.read_csv(path.join(SEMEVAL_PATH, 'semeval_aspects.csv'))
+            mapping = {'negative': -1, 'neutral': 0, 'positive': 1}
+            df.Sentiment.dropna(inplace=True)
+            df.Sentiment = df.Sentiment.apply(lambda x: mapping[x])
+            return df[['Sentiment', 'Document']]
+        except IOError as err:
+            raise IOError('Error with loading dataset {}'.format(err))
 
     @staticmethod
     def load_several_files(files=None):
