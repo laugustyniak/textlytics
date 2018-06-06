@@ -1,23 +1,16 @@
-# -*- coding: utf-8
-
-import gzip
-import datetime
 import csv
+import datetime
+import gzip
 import logging
 from os import path
-from bs4 import BeautifulSoup
-from unidecode import unidecode
-from numpy import sum
 
-try:
-    import cPickle as pickle
-except ImportError as ex:
-    import pickle
+from bs4 import BeautifulSoup
+from numpy import sum
+from unidecode import unidecode
 
 log = logging.getLogger(__name__)
 
 
-################################################################################
 class AmazonDatasetParser(object):
     """
     Class for loading SNAP Amazon Dataset.
@@ -25,50 +18,23 @@ class AmazonDatasetParser(object):
     url: http://jmcauley.ucsd.edu/data/amazon
     """
 
-    def __init__(self,
-                 category_level=1,
-                 category_file=None,
-                 amazon_file=None):
+    def __init__(self, category_level=1, amazon_file=None):
         """
         Initialization of categories
         :type category_level: int, how deep is chosen category in categories
         tree
-        :type category_file: unknown or str, where can we find category file
         :type amazon_file: str, file with amazon reviews
         :return:
         """
-        # if category_file is None:
-        #     raise IOError('Amazon category file isn\'t specified')
-        if amazon_file is None:
-            raise IOError('Amazon file is not specified.')
-        else:
-            self.amazon_file = amazon_file
-            # self.category_file = category_file
-
+        self.amazon_file = amazon_file
         self.category_level = category_level
         self.product_ids, self.categories_dictionary_ = self._get_categories()
-        # self.product_ids_ = self.product_ids  # there are the same
-        # unique values of categories (main category)
-        self.categories_first_level_ = list(set([c[0][0] for c in
-                                                 self.categories_dictionary_.itervalues()]))
-        # all
-        self.categories_first_level = [c[0][0] for c in
-                                       self.categories_dictionary_.itervalues()]
+        self.categories_first_level_ = list(set([c[0][0] for c in self.categories_dictionary_.itervalues()]))
+        self.categories_first_level = [c[0][0] for c in self.categories_dictionary_.itervalues()]
+        self.products_categories_first_level = dict(zip(self.product_ids, self.categories_first_level))
 
-        self.products_categories_first_level = dict(zip(self.product_ids,
-                                                        self.categories_first_level))
-
-    def amazon_snap_initial_parser(self,
-                                   source_file=None,
-                                   threshold_lines=-1,
-                                   threshold_reviews=-1,
-                                   is_graph_with_unknown_nodes=False):
-
-        if source_file is None:
-            source_file = self.amazon_file
-            # source_file = self.category_file
-
-        # variables for attributes of review
+    def amazon_snap_initial_parser(
+            self, source_file=None, threshold_lines=-1, threshold_reviews=-1, is_graph_with_unknown_nodes=False):
         product_id = None
         title = None
         price = None
@@ -85,9 +51,6 @@ class AmazonDatasetParser(object):
         reviews_count = 1
         n_unknown_users_and_products = 0
 
-        # open big flat file (*.txt) for parsing and network building
-        # with codecs.open(source_file, 'r', 'utf-8', 'ignore')
-        # as reviews_source:
         with gzip.open(source_file, 'r') as reviews_source:
 
             logging.info('Source file: %s is loaded.' % source_file)
@@ -96,8 +59,7 @@ class AmazonDatasetParser(object):
             for line in reviews_source:
 
                 # STOP before iterating for each LINE
-                if line_number == threshold_lines \
-                        or reviews_count == threshold_reviews:  # or threshold:
+                if line_number == threshold_lines or reviews_count == threshold_reviews:  # or threshold:
                     break
 
                 # skip empty lines
@@ -105,15 +67,15 @@ class AmazonDatasetParser(object):
                     pass
 
                 if (product_id is not None and title is not None
-                    and price is not None and user_id is not None
-                    and profile_name is not None and helpfulness is not None
-                    and score is not None and time is not None
-                    and summary is not None and text is not None):
+                        and price is not None and user_id is not None
+                        and profile_name is not None and helpfulness is not None
+                        and score is not None and time is not None
+                        and summary is not None and text is not None):
 
                     if (user_id != 'unknown' and product_id != 'unknown') \
                             or is_graph_with_unknown_nodes:
                         try:
-                            # return next review
+                            # return ng ext review
                             attribs = [product_id, user_id, profile_name, text,
                                        score, summary, price, helpfulness,
                                        title, time, reviews_count]
@@ -137,7 +99,6 @@ class AmazonDatasetParser(object):
                     else:
                         n_unknown_users_and_products += 1
 
-                # for key, value in attributes_objects.iteritems():
                 if line.startswith('product/productId'):
                     product_id = line.split(':')[1]
                     soup = BeautifulSoup(product_id)
@@ -188,15 +149,12 @@ class AmazonDatasetParser(object):
                     soup = BeautifulSoup(text)
                     text = unidecode(soup.text.replace('\n', ' ').
                                      replace('\"', '\''))
-                    # else:
-                    # logging.error('Unknown attibute %s' % line)
                 line_number += 1
 
-        print 'Number of unknown user or product: %s' % n_unknown_users_and_products
-        print 'Number of line from input file: %s' % line_number
-        logging.info(
-            'Number of unknown user or product: %s' % n_unknown_users_and_products)
-        logging.info('Number of line from input file: %s' % line_number)
+        log.info('Number of unknown user or product: {}'.format(n_unknown_users_and_products))
+        log.info('Number of line from input file: {}'.format(line_number))
+        log.info('Number of unknown user or product: {}'.format(n_unknown_users_and_products))
+        logging.info('Number of line from input file: {}'.format(line_number))
 
     def amazon_chunker(self, line_limit=-1, review_limit=-1, file_path=None,
                        file_name=None, is_graph_with_unknown_nodes=False,
@@ -236,18 +194,15 @@ class AmazonDatasetParser(object):
 
             for product_id, user_id, profile_name, text, score, summary, price, \
                 helpfulness, title, time, n_reviews \
-                    in self.amazon_snap_initial_parser(
-                threshold_lines=line_limit,
-                threshold_reviews=review_limit,
-                is_graph_with_unknown_nodes=is_graph_with_unknown_nodes):
-                writer.writerow(
-                    [product_id, title, price, user_id, profile_name,
-                     helpfulness, score, time, summary, text])
+                    in self.amazon_snap_initial_parser(threshold_lines=line_limit,
+                                                       threshold_reviews=review_limit,
+                                                       is_graph_with_unknown_nodes=is_graph_with_unknown_nodes):
+                writer.writerow([
+                    product_id, title, price, user_id, profile_name, helpfulness, score, time, summary, text])
 
-                if n_reviews % progress_count == 0:
-                    logging.info('Another %s reviews have been done. All '
-                                 'processed: %s' % (progress_count, n_reviews))
-                    logging.info('%s from %s' % (n_reviews, self.amazon_file))
+                if not n_reviews % progress_count:
+                    log.info('Another {} reviews have been done. All processed: {}'.format(progress_count, n_reviews))
+                    log.info('{} from {}'.format(n_reviews, self.amazon_file))
 
     def _get_categories(self, threshold_lines=-1, threshold_products=-1):
         """
@@ -286,8 +241,7 @@ class AmazonDatasetParser(object):
             raise IOError('Error {}, at line {}'.format(str(e), line_number))
         return product_ids, categories
 
-    def create_amazon_subset(self, line_limit=-1, review_limit=-1,
-                             categories={}, output_path=''):
+    def create_amazon_subset(self, line_limit=-1, review_limit=-1, categories={}, output_path=''):
         """
         Create subset from Amazon Dataset for chosen category and # reviews.
         :param line_limit: max # of lines to process from source file
@@ -347,31 +301,3 @@ class AmazonDatasetParser(object):
         print n_reviews
         delta = datetime.datetime.now() - start
         print delta.seconds
-
-        # gzip file load
-        # cat = AmazonDatasetParser(amazon_file='G:\\Datasets\\Sentiment\\Amazon\\all'
-        # '.txt.gz')
-        # cat = AmazonDatasetParser(
-        # amazon_file='/home/sentyment/datasets/amazon/all.txt.gz')
-        # amazon_file='C:/Datasets/Automotive.txt.gz')
-
-        # cat.amazon_chunker()
-
-        # cat.create_amazon_subset(
-        # categories={'Automotive': [1600, 1600, 3200, 1600, 1600],
-        # 'Books': [1600, 1600, 3200, 1600, 1600],
-        # 'Health & Personal Care': [1600, 1600, 3200, 1600, 1600],
-        # 'Movies & TV': [1600, 1600, 3200, 1600, 1600],
-        # 'Music': [1600, 1600, 3200, 1600, 1600]},
-        # categories={'Automotive': [1, 1, 1, 1, 1],
-        # 'Books': [1, 1, 1, 1, 1],
-        # 'Health & Personal Care': [1, 1, 1, 1, 1],
-        # 'Movies & TV': [1, 1, 1, 1, 1],
-        # 'Music': [1, 1, 1, 1, 1]},
-        # review_limit=-1,
-        # output_path=os.path.join(get_main_directory()))
-        # output_path='/home/sentyment/textlytics')
-        # pprint(cat.categories_dictionary_)
-        # pprint(cat.categories_first_level_)
-
-        # print list(set([c[0][0] for c in cat.categories_dictionary_.itervalues()]))
