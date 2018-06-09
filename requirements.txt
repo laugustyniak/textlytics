@@ -3,6 +3,7 @@ dill
 gensim
 html5lib
 joblib
+keras
 line_profiler
 matplotlib
 memory_profiler
@@ -16,4 +17,5 @@ scipy
 simplejson
 spacy
 stemming
+wordfreq
 xlsxwriter
