@@ -33,8 +33,7 @@ class AmazonReviewNetwork(object):
         :return: Graph Tool or NetworkX graph object - default Graph Tool,
             if you do not have graph tool installed NetworkX, will be used
         """
-        adp = pa.AmazonDatasetParser(category_file=category_file,
-                                     amazon_file=amazon_file)
+        adp = pa.AmazonDatasetParser(amazon_file=amazon_file)
         log.debug('AmazonDatasetParser done!')
         n_reviews = 0
         start = datetime.datetime.now()
