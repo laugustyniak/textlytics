@@ -268,28 +268,6 @@ class DocumentPreprocessor(object):
         regex = re.compile('[%s]' % re.escape(self.numbers))
         return regex.sub('', doc)
 
-    def remove_non_ascii_chars(self, doc):
-        """
-        Remove non-ASCII characters.
-
-        Parameters
-        ----------
-        doc : str
-            Document that will be cleaned, all non unicode will be removed.
-
-        Returns
-        ----------
-        doc : str
-            Document without ascii chars.
-        """
-        for i in range(0, len(doc)):
-            try:
-                doc[i].encode("ascii")
-            except UnicodeError, UnicodeDecodeError:
-                # means it's non-ASCII
-                doc[i] = ""
-        return doc
-
     def tokenize_sentences(self, sents):
         """
         The simplest version of tokenization for list of sentences.
