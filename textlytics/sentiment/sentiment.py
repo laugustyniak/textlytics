@@ -25,9 +25,9 @@ from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.svm import LinearSVC, NuSVC
 from sklearn.tree import DecisionTreeClassifier
 
-from document_preprocessing import DocumentPreprocessor
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 from evaluation import Evaluation
-from io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 from my_errors import MyError
 
 log = logging.getLogger(__name__)

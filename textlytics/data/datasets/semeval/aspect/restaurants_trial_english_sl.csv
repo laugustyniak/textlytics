@@ -1,0 +1,49 @@
+,aspect,document,sentiment
+0,,Just went here for my girlfriends 23rd bday.,
+1,LOCATION#GENERAL,If you've ever been along the river in Weehawken you have an idea of the top of view the chart house has to offer.,positive
+2,SERVICE#GENERAL,Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening.,positive
+3,FOOD#QUALITY,The lava cake dessert was incredible and I recommend it.,positive
+4,FOOD#QUALITY,Pizza here is consistently good.,positive
+5,FOOD#QUALITY,Salads are a delicious way to begin the meal.,positive
+6,FOOD#QUALITY,You should pass on the calamari.,negative
+7,FOOD#QUALITY,It is thick and slightly soggy.,negative
+8,AMBIENCE#GENERAL,Decor is charming.,positive
+9,SERVICE#GENERAL,Service is average.,neutral
+10,FOOD#QUALITY,sometimes i get good food and ok service.,positive
+11,FOOD#QUALITY,"sometimes i get bad food and bad service, sometimes i get good good and bad service.",negative
+12,RESTAURANT#GENERAL,it is not consistent.,negative
+13,,really depends on your luck!,
+14,DRINKS#STYLE_OPTIONS,I started out with a Bombay beer which was big enough for two.,positive
+15,,For dinner I had the chicken tikka-masala and some garlic naan.,
+16,FOOD#QUALITY,MMmmm... it was delicious.,positive
+17,SERVICE#GENERAL,"Service was slow, but the people were friendly.",negative
+18,AMBIENCE#GENERAL,It's a nice place to relax and have conversation.,positive
+19,RESTAURANT#GENERAL,I can't wait to go back.,positive
+20,,"I went here with a friend on a whim, we went someplace else first and couldn't get a table.",
+21,SERVICE#GENERAL,"Service here was great, food was fantastic.",positive
+22,FOOD#QUALITY,"Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",positive
+23,RESTAURANT#GENERAL,Will absolutely visit again.,positive
+24,,Maybe tomorrow ;-),
+25,,Molto bene!,
+26,AMBIENCE#GENERAL,This quaint and romantic trattoria is at the top of my Manhattan restaurant list.,positive
+27,FOOD#QUALITY,"The food is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment.",positive
+28,FOOD#QUALITY,"Whether it's the parmesean porcini souffle or the lamb glazed with balsamic vinegar, you will surely be transported to Northern Italy with one bite.",positive
+29,AMBIENCE#GENERAL,"Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",positive
+30,RESTAURANT#GENERAL,A guaranteeed delight!,positive
+31,AMBIENCE#GENERAL,this little place has a cute interior decor and affordable city prices.,positive
+32,FOOD#QUALITY,"the pad se ew chicken was delicious, however the pad thai was far too oily.",positive
+33,,i would just ask for no oil next time.,
+34,RESTAURANT#GENERAL,I was very disappointed with this restaurant.,negative
+35,SERVICE#GENERAL,Ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away.,negative
+36,SERVICE#GENERAL,I had to ask her three times before she finally came back with the dish Ive requested.,negative
+37,FOOD#QUALITY,"Food was okay, nothing great.",neutral
+38,FOOD#QUALITY,Chow fun was dry; pork shu mai was more than usually greasy and had to share a table with loud and rude family.,negative
+39,RESTAURANT#GENERAL,I/we will never go back to this place again.,negative
+40,FOOD#QUALITY,"Excellent food, although the interior could use some help.",positive
+41,AMBIENCE#GENERAL,"The space kind of feels like an Alice in Wonderland setting, without it trying to be that.",negative
+42,FOOD#QUALITY,"I paid just about $60 for a good meal, though :)",positive
+43,DRINKS#QUALITY,Great sake!,positive
+44,RESTAURANT#GENERAL,Way below average,negative
+45,FOOD#QUALITY,I think the pizza is so overrated and was under cooked.,negative
+46,SERVICE#GENERAL,Had no flavor and the staff is rude and not attentive.,negative
+47,RESTAURANT#GENERAL,Would NEVER go back,negative

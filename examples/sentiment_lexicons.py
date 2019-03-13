@@ -9,12 +9,12 @@ from os import makedirs
 from os.path import join, basename, exists
 
 import pandas as pd
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
-from textlytics.sentiment.lexicons import SentimentLexicons
+from textlytics.data.lexicons import SentimentLexicons
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)

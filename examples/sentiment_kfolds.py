@@ -15,7 +15,7 @@ from textlytics.processing.sentiment.document_preprocessing import \
 	DocumentPreprocessor
 from textlytics.processing.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 
 logging.basicConfig(filename='generate_lexicons_and_results.log')
 log = logging.getLogger()

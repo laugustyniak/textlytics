@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-
 """
 Utilities for directories and paths.
 """
 
 from os import path
-from itertools import chain
 
 # main paths
 MAIN_DIRECTORY = path.dirname(path.dirname(__file__))
@@ -22,15 +19,13 @@ IMDB_MERGED_PATH = path.join(DATASETS_PATH, 'IMDB_merged')
 SEMEVAL_PATH = path.join(DATASETS_PATH, 'semeval')
 LEXICONS_PATH = path.join(DATA_PATH, 'lexicons')
 W2V_MODELS_PATH = path.join(DATA_PATH, 'w2v_models')
-
-# paths to results
-# RESULTS_PATH = path.join(BASE_PATH, 'results')
+STANFORD_PATH = path.join(DATASETS_PATH, 'stanford')
 
 # paths to datasets - files
 AMAZON_CATEGORY_FILE = path.join(AMAZON_PATH, 'categories.txt')
 
 # paths to classifiers files
-# CLASSIFIERS_PATH = path.join(BASE_PATH, 'classifiers')
+CLASSIFIERS_PATH = path.join(BASE_PATH, 'classifiers')
 
 
 def get_project_path(*p):
@@ -49,23 +44,6 @@ def get_main_directory(*p):
     :return: path to main folder of project
     """
     return path.join(MAIN_DIRECTORY, *p)
-
-
-def list_list_flatten(l=[[]]):
-    """
-     Flatten nested lists.
-     [[1, 2, 3], [3, 4, 5]] -> [1, 2, 3, 3, 4, 5]
-
-     Parameters
-     ----------
-     l : list of lists
-        List of list to be flatten.
-
-    Returns
-    ----------
-    List that was flatten.
-    """
-    return list(chain(*l))
 
 
 def list_to_str(l, sep='-'):

@@ -8,8 +8,8 @@ from sklearn.naive_bayes import BernoulliNB
 from sklearn.svm import LinearSVC
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import Dataset
-from textlytics.sentiment.io_sentiment import results_to_pickle
+from textlytics.data.sentiment import Dataset
+from textlytics.data.sentiment import results_to_pickle
 
 logging.basicConfig(filename='sentiment-supervised-example.log')
 log = logging.getLogger()

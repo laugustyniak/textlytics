@@ -1,0 +1,380 @@
+software[-3]##I have read the installation instructions for both NIS 2004 and NAV 2004 prior to installation, but still ended up with the same result...junk software.
+##Why is it that I can install any other type of software and it installs and works properly?
+Norton products[-3]##But if I installed either one of these Norton products, neither works after installation?
+McAfee Anti-Virus 8[+2]]##It can not be the computer or the owner, since I purchased McAfee Anti-Virus 8 and it installs and works fine with no problems.
+Norton[-2]##I have used Norton for the past 5 years and for the last 2 years, the software has gotten more and more disgraceful.
+Norton[-2]##I am glad that I do not work for Norton.
+##I have used Norton products in the past and I am familiar with them.
+##I bought NIS 2004 recently to try it out.
+Installation[-2]##After 4 attempted installs, I have finally given up.
+##I am thankful that I have Roxio GOBACK, I had to use it 3 of the 4 times.
+NIS[-2]##During install, NIS would either freeze or not reboot properly when asked to do so.
+Manual shutdown[-2]##The MS scandisk would appear due to manual shutdown and would only scan to the 2nd bar, over and over(up to 1 hr, I then shut it down and used GOBACK).
+product[-3],uninstall[+2]##The 1 time it did install, it did not work and had errors, I used the unistall NIS icon and it properly removed itself.
+Norton[-3] ##I have never had this problem with any other software on my computer.
+NIS 2003[+2]##NIS 2003 worked like a charm last year.
+Norton[-3]##Being a past Norton customer, I consider this to be a slap to my face.
+installed[-2]##Buying software that can not be installed normally and being put into the position of having a non-working computer.
+Norton[-3]##Norton has been on a downhill slid recently with their products, but with this one, they have fallen off the cliff.
+product[-3] ##As a loyal customer of Norton/Symantec products, I purchased Internet Security 2004 as a software firewall and could not be any more dissatisfied with the product (and hence the one star rating).
+##Here's why:
+program[-3]##Yeah - this program protects your computer all right - by locking you off the internet.
+Anti-Spam##Anti-Spam is Good
+antispam function[2]##The latest of Internet Security has antispam function that is helpful because I has received a mountain of those these days.
+updates[-2]##Other than that it is all the same except the new updates.
+Symantec softwares [+2] ##But that is good for me because Symantec softwares are a bit hard to master for me who are not savvy on computers.
+scandisk[-1]##So far I haven't had so much complaints except that I still haven't mastered how to scandisk when using Internet Security.
+product[-2]##Too bad the product is cumbersome and intertwined trying to do so much at one time.
+suite[-2]##Sometimes a suite is not a good deal and all you get is a bundle of headaches.
+speed[+1]##I'm not sure why all the bad reviews, my computer isn't especially slowed down and I have Win'98.
+speed[+1]##Sure, it slows it down a little, but that's expected.
+Semantic[+1]##Perhaps Semantic could work out the efficiency a little, but these reviews are highly exagerated... I would ask what else these people are running on their computers(?)
+##I would ask what else these people are running on their computers(?)
+##So, if you have a fairly fast computer (1 gig or better) with plenty of ram (512) and your not gaming online or running streaming video continually, you should be fine.
+##This is pretty standard for an up to date computer anymore, so what's the fuss?
+##I've been using Norton Anti-Virus in its many incarnations for over 5 years.
+NIS2004[-2]##Norton Internet Security 2004 is one of the more buggy implementations.
+##Even for computer super-heros it's a pain to maintain when there is a problem.
+##I also reviewed Norton System Works 2004/Professional.
+installation[-2]##This product has virtually all the same installation problems.
+product[-1]##For purposes of clarity, here is my review from that product,edited to be appropriate for this product, since, for the most part, they share many of the same problems.
+##Something happened with this release for Norton System Works (2004) and for "Internet Security 2004".
+SystemWorks[+3], Internet Security[+3]##This is the fourth version of SystemWorks and the second version of Internet Security that I have used and it has always been a favorite.
+##It has saved my system on more than one occasion, and makes disc clean up a snap.
+antivirus[2]##The antivirus feature is phenomenal, and is regularly updated.
+antivirus[2]##I think their antivirus software was one of, if not the best, on the
+##Well, no more.
+Internet Security 2004[-3]##This version of Internet Security 2004, is beyond hope.
+install[-3], function[-2]##They are a royal pain to install, and don't function properly once finally installed -- if you can install them at all.
+installation[-3]##The biggest problem is the installation.
+installed[-2],LiveUpdate[-1], System Works[-1], Internet Security[-1]##Also if you do manage to get it installed, any problems with LiveUpdate or with System Works will also affect the functionality and/or the process of updating Internet Security.
+product[-3]##I've had to install and uninstall them four or five times so far, and I've not to get either product working properly.
+##Why they brought this to market is beyond me.
+installation[-3]##First, it serious, serious installation problems.
+install[-3]##Back in May 2004, when I first reviewed this, it had taken me over 16 hours to install and run.
+##Since then, I have had one problem after another.
+##To say that it is "buggy" would be the world's most profound understatement.
+LiveUpdate[-2]##Almost from the beginning, LiveUpdate would not function.
+updates[-2]##First, it failed whenever connecting to get updates.
+LiveUpdate[-2]##When I finally got it working, it only worked properly for many a month.
+components[-2]##The next problem was that it didn't recognize all the installed components, so it would not update them, most notably and importantly, virus definitions.
+##Without this important feature, both SystemWorks and Internet Security are all but useless.
+##Without updated virus definiations, your PC is also at serious risk!
+functions[+1] ##Once installed, however, some of the functions do work OK (Disk Doctor, One Button Checkup, and WinDoctor).
+faster[+1], menu[+2]##These tasks are faster and easier than in prior versions, and I found the menu to be much more navigable.
+LiveUpdate[-2]##But this doesn't make up for it's innumerable other short-comings, the biggest of which is the inability to download any updates due to problems with LiveUpdate.
+installs[-2]##The other annoyance with this that you have to remove every single remnant of previous version of Norton SystemWorks before you installs this.
+removal program[-2]##Warning! The Windows "remove program" feature does not do a good job of this, and neither does Norton's own removal program.
+fragments[-2] ##A lot of "fragments" were left in the Registry, and it the Norton system folders.
+remove[+1]##Their website had a download that helped remove those, although I had to manually remove a good number of files from the "Programs" directory.
+install[-3]##If you have an older version of "Internet Security" installed, you may also need to remove it as well before proceeding with SystemWorks install.
+remove[-2]##You also need to go in and MANUALLY remove many Symantec files from the REGISTRY.
+##(Intructions for doing so are on Symantecs website.)
+##Even this, however, did not solve my problems.
+products[-3]##As of October, 2004, these products are NOT working and I'm ready to demand a refund from Symantec.
+functionality[-3]##I just uninstalled SystemWorks and Internet Security for at least the fifth time due to funtionality issues.
+reinstall[-3]##Once again it won't reinstall, even with online and email assistance from Symantect Technicians.
+version 2004[-3]##The best thing to do with this version, is to leave it on the store shelf. It doesn't work, and will cost you an enormous amount of your time, not to mention your hard earned dollars.
+Symantect products[-3]##Personally, I may never buy Symantect products again.
+##And that's a shame.
+##They use to be so useful and neceesary.
+##No longer.
+product[-3]##Avoid this product at all costs.
+##Antagonising
+2004 edition[-1]##There are some highs to the 2004 edition, but mostly lows.
+program[-2], cost[-1]##The program brings more problems than a virus, albeit not as major problems, just not what you expect for 70 bucks.
+support[-2]##I had a question about the pros and cons of turning off the Norton firewall vs. the windows firewall, and waited 45 minutes to speak with a tech support representative because I did not have a "customer priority ID number."
+priority ID[-1]##Then when I went to Norton's website to obtain a priority ID number per the instructions I had been given, I couldn't find a way to get one.
+support[-1]##So I e-mailed the online tech support with that simple question, and got a reply which was totally unresponsive (it looked as though they didn't actually read the e-mail and just sent back a few boilerplate paragraphs).
+Norton[-3]##And, when you think about it, it's insulting that Norton requires its customers to jump through these hoops -- anyone who can provide proof of purchase, whether on the phone or online (what if your computer is down?), should have equal priority.
+##I may not be a computer expert but I am perfectly capable of following detailed instructions, and Norton just makes life way too hard.
+##Plus, when Norton provided online updates, there were so many unexplained categories (about 15 over and above virus definitions)
+##I was totally baffled.
+##I originally had bought Norton Internet Security for my laptop after the preinstalled Norton Antivirus trial had finished.
+##The hardest part was the run around with what software suite to buy.
+##This package contains BOTH Norton Antivirus and Firewall.
+##The only reason I'd buy them separately in the combo package is for two liecenses.
+##If you want integrated Antivirus and Firewall this is what I'd suggest.
+memory usage[+2]##Norton's memory usage on systems with 512 MB is very low.
+##It usually only takes 5-10 MB's of system memory.
+memory usage[+2]##I just got an older 866 Mhz system with 512 PC 133 RAM and it also runs fine on that.
+update[+1]##Both the antivirus and firewall are integrated into one piece of software and they update together.
+update[+2]##You won't need to update your firewall and antivirus separately or install two disks.
+visual backtracking[+3]##The best part of the firewall is the visual backtracking.
+##An infected computer tried to launch an attack on mine and I was able to get a map and address of the server.
+##I had the best intentions when I bought this, I really did.
+##I followed the instructions to the letter.
+##But it caused more headaches than I could imagine.
+product[-3]##Stay away from this product!
+2004[-3]##I don't know what's happened to Norton, but 2004 is absolute garbage.
+##Apparently, they can't even fix the bugs that have overrun their own site.
+support[-3]##The customer support is pathetic.
+Norton internet security[-2]##I have found too many bugs in Norton Internet Security Professional to recommend it to any one without extreme patience and experience.
+##Okay, how can I say this nicely?
+product[-3]##This product is absolutely not ready for release.
+slow[-3]##It is buggy, slow and basically frustrates the heck out of the user.
+product[-3]##I am an IT professional and have used Norton for years, but this product is a complete and utter dud.
+##Norton has a name in the market but I think it's only the name.
+Internet Security[-2], antivirus[-2]##It's a rip off if one buys Norton Internet Security and antivirus.
+##The former hogs memory and it takes ages for the computer to start.
+internet security[-2], antivirus software[-2]##Nothing spectacular is done by internet security or by antivirus software.
+parental controls[-2]##Even though I have the parental controls off it constantly starts updating them then freezes my computer.
+##Had to uninstall it.
+##Maybe it's me, but this isn't my program.
+##I have had Norton Internet Security for 3 yrs and up graded to 2004 versionin August 2004.
+firewall[-3]##Now in October,2004, the firewall said I couldn't OK anymore software to use the internet because its full.
+capacity[-3], Support[-3]##Im at full capacity!!!! I called Symantic and they said they don't know why but I should get Tech's Support at $35/hr to help!! I did call them and was on hold for 55 minutes untill I hung up!
+##I am going to buy PC-cillium ASAP.
+product[-2], upgrade[-2]##So, DON'T buy this or upgrade.
+2004 version[-2]##If you currently own the 2003 version, and are looking to upgrade to the 2004 version, don't.
+activation process[-1], product[-2]##There is little meaningful difference between the two versions aside from the tedius activation process, and the product is currently rather buggy and has problems running unless cleanly installed on a formatted drive.
+product[-2]##If you are new to the market and looking to buy a symantec software product, save yourself some money and buy the 2003 version.
+##It included popup and ad blockers, referrer blockers, firewall,  intrusion detection, and all the same things that the 2004 version includes that are really needed.
+##This came PRELOADED on our new, 2.8Mz Pentium 4 256RAM computer.
+Norton program[-3]##From day one, we've had hangups, crashes, glitches, continual reboots, LONG shutdowns due to "ccApp.exe" program running which is a Norton program.
+Norton[-3]##Long reboots due to Norton taking FOREVER  to boot.
+memory usage[-3]##We constantly got "Windows Virtual Memory Low" error messages popping up follwed by ridiculous slowdowns and/or crashes.
+##I don't have one good thing to say.
+##I agree with the other reviewer that it doesn't even deserve 1 star.
+support[-2]##Norton online support does not even acknowledge this problem nor does the computer company that preloaded it on our new computer.
+##It's a well-known company that I expected more from and spent 2 hours with tech support running all kinds of tests on the computer which of course came back reporting no trouble with the computer.
+##The tests were right.
+##It wasn't the computer - it was Norton Internet Security 2004 which is the culprit!!
+support[-3] ##Norton support is completely pathetic.
+##We were so fed up that we uninstalled ALL of Norton Internet/AV 2004 and were going to try McAffee, but a techie friend recommended trying Norton SystemWorks 2005 first.
+##We were leary to say the least, but decided to give Norton the benefit of the doubt.
+##We'd used Norton products like Internet Security 2003 forever with only rare troubles.
+##The SystemWorks 2005 seems to be working GREAT!!
+##We've only had it 2 days, but so far so good.  (WRONG - SEE UPDATE BELOW)
+##I hope it's better than this hunk of junk Internet/AV 2004 package.
+##If SystemWorks 2005 starts to act up, I'm done with Norton products forever.
+##But I don't think SystemWorks 2005 will start acting up.
+##72 hours later after installing, it started doing the exact same things!
+##So, we're fed up.
+HOME VERSION[-3]##DO NOT BUY ANY HOME VERSION OF NORTON ANYTHING.
+Corporate Edition[+2]##We were able to obtain a Norton Corporate Edition of Antivirus only (no firewall or utilities) and so far it's great.
+Corporate edition[+3]## I've used the Corporate edition at work without any problems ever.
+##Unfortunately, you can't buy the corporate edition over the counter.
+Corporate edition[+2], home version[-3][cs]##If we had been unable to obtain the Corporate edition, we would NOT have purchased another Norton 2004 or 2005 home version anything.
+##We'd have probably tried McAffee, but I hear from reviews that it has troubles too.
+##HMMMM.. Good luck.
+Norton Internet/AV 2004[-3]##Our Norton Internet/AV 2004 was terrible right from the get go, so I'd think that if SytemWorks is ok now, it should remain ok.
+##I'll update my review if I find out otherwise.
+##WRONG - SEE MY UPDATE ABOVE.
+corporate[+3]##By the way, I use the Norton 2003 Corporate at work with absolutely no trouble.
+professional version[+2]##Likewise, I've heard Norton 2004 PROFESSIONAL version is fine too.
+home version[-2]##Just the home version of Norton Internet/AV has too many glitches and problems to even remotely bother with.
+##Trust me and all the other reviews on this one.
+##I have always sworn by Norton Anti-Virus and SystemWorks products, and have used them both for years.
+##So I expected the same level of quality and ease of use with their Internet Security program.
+work[-3]##I am an advanced computer user, so I cannot even imagine how a new or novice user would ever get this terrible program to work!
+##After installing, the system froze trying to restart (this is a new computer with Windows XP Home).
+##After finally restarting, the "automatic updates" ran.
+##When all was said and done, I couldn't even use Microsoft Outlook.
+program scan[-1]##Seems the "program scan" feature did NOT find the EXE file for Outlook!
+##It did find Outlook Express, but that's not what I use.
+##Before I managed to manually add the program file, I contacted Symantec support.
+support[-2][u]##Like most of their solutions (which first blame other applications for errors), the tech persons line was that this was probably a Microsoft error - it was NOT.
+Symantec[-2]##It was a Symantec error.
+update[-3]##After a recent update, I can no longer open more then 1 browser window.
+support[-3]##I've searched the program and their online tech support (worthless) and have found no solutions.
+##Again, I tried online email support.
+##They gave me a ridiculous set of steps which included emailing them screen prints as PDF files!
+##I use the program like most other people - in DISABLED mode.
+##Eventually I will uninstall this troublesome bug-filled program.
+##Maybe it's time to explore McAfee products again...
+[s]##Before installing anything on your computer, you need to do a bit of research before spending the money.
+products[-1]##This is definitely one of those products, especially as the company is leaning more towards making a profit.
+[s]##I recommended this for my father based on my experience with previous versions.
+##I wish I'd done some research first....
+NIS 2004[+2]##I've been using NIS 2004 for about 2 months and it works well.
+options[-1], intrusion[+2]##Some of the options are confusing, especially when the popup warnings occur, but I've had no problems with intrusions.
+intrusion[+3]##Norton pops up a window about the intrusions and gives me as much detail as possible about where the intrusion is coming from.
+popup blocker[+2], anti-spam[+2]##The popup blocker and anti-spam are bonuses.
+Product[+1], instruction[-1]##Product is OK; however, despite the fact that I followed the rebate instructions explicitly, I am being denied the rebate because the processing agency incorrectly claims I did not send in proof of ownership of a previous product.
+##Not much recourse for the consumer in these cases.
+nstalling[+1]##I didn't have any major problems installing this software.
+components[-1]##The only problem I had was a few components didn't quite load correctly upon startup, but a reboot fixed the problem.
+##I had NIS 2003 and was very happy with it; this new version really doesn't seem to offer a lot of exciting new features, seems merely the same as 2003 dressed-up to look like a new version.
+working[+2]##Anyhow, this software is working fine and no problems since I installed it two weeks ago.
+installation[-1]##I give it 4-stars only because the installation process - or rather problems that may surface during the installation process - can be frustrating to the average computer user.
+installation[-1] ##If you experience problems with installation, you can visit symantec's website, click the support tab, click the 'home or home office support' and there is an automated support assistant that can scan the Norton program files on your computer and it will tell you what is not working right and how to fix it.
+installation[-1][u]##Can't get easier than that!
+##Avoid like the plague.
+spam[-2]##I already knew something was wrong, because much of the Spam I've seen in the past six months was from resellers of Norton products.
+##For Norton to encourage Spammers by letting them sell their products is a very bad sign.
+##Well, I must be one of the few fortunate ones on here.
+install[+2]##Mine installed no problem (but I DID uninstall my Norton Anti-Virus 2002 & Personal Firewall 2002 first).
+work[+3]##Seems to work great.
+##Sorry to hear about all the other folk's problems....makes me wonder why I'm NOT having any (I'm running Win XP as well).
+##I had Norton Internet Security 2003 and it worked great...one of the features that I liked was the user interface as well as the ad/pop-up blocking feature along w/the logs on internet usage.
+NIS 04[-3]##I read many reviews on Norton I.S. 2004 from a variety of sources (Cnet, Amazon, message boards) and came to the conclusion that NIS 04 was a terrible product and not worth the update.
+##In January of 2004, I renewed my subscription service for NIS 2003 but on Jan 7, everything changed.
+##There was a Verisign problem that conflicted w/Word and Excel and was posted on the Symantec site that affected computers.
+##The Symantec site said it didn't affect NIS but I believe it did.
+##I also believe that when I renewed my subscription service that Symantec uploaded the NIS 2004 patch.
+##All of a sudden everything that reviewers were writing about NIS 2004 was happening to my computer.
+booting[-3]##Booting up my computer took forever!!!
+blocking[-3]##Then, my ad/pop-up blocking was completely gone.
+blocking[-3]##My file log was not responding and the program was not blocking any cookies or unauthorized sites.
+##After extensive researching on the Symantec site I broke down and called Symantec.
+Tech Line[-2]##Again, every review written about the Tech Line is true...after waiting close to 45 minutes I finally spoke to a rep.
+##I had to pay $29.95 just to go any further.
+tech[-2]##After telling the rep and his tech supervisor the problem the only answer was to uninstall the program (which I had already done)...
+##They sent me a link to their website to follow instructions on ridding my registry of all Symantec products so I could get a clean re-install.
+tech[-3][p]##They didn't know what the problem could be.
+##They said to call back if it still didn't work after the complete uninstall.
+support[-3][p]##I did it and it was worse the second time around...unbelievable.
+##I gave up.
+Tech[-3]##Basically, I ate the cost of the renewal and ate the cost of the Tech Help.
+##NIS is a package of several Norton products.
+unstalling[-1]##Unfortunately, it does not give you the option of unstalling (or uninstalling) them individually.
+##If you get NIS be sure you want ALL of them installed and running on your machine.
+components[-1]##You can "disable" some of the individual components, but don't be fooled--they're still there and running.
+Norton AntiSpam[-2]##Although I disabled Norton AntiSpam, it is still there.
+##Every time I start Eudora, a message from AntiSpam pops up telling me that COM automation needs to be turned on for it to run properly.
+##I guess the possibility that someone might not want it to run at all never occured to the designers.
+##Just to try to shut it up, I told it to go ahead and turn on COM automation.
+product[+2]##This did manage to cut the number of popups during start-up from 4 down to 2.
+popups[-2][u]##But those 2 come up every time.
+##And this despite the fact that I'm not even using AntiSpam.
+Norton[-2], charge[-2]##Next, the big reason not to buy ANY Norton product:  If there's a problem with it, Norton charges $30 to even tell them about it.
+charge[-2], Norton[-2][p]##Sure they say if it's their fault you won't get charged, but THEY are the ones who get to decide whether it's their fault.
+##And you have to put up the 30 bucks to get them to decide.
+##Nice little racket they've got there.
+##I bought Norton Internet Security years ago when it first came out.
+NIS [+1]##While it didn't have all the features I would have liked, it was better than anything else I could find at the time.
+installing[-2]##The problems I had installing Norton extended way beyond what Symantec should reasonably expect the public to deal with.
+install[-3]##When I purchase software, I NEVER want to have to spend hours looking up solutions to my install problems -- in particular solutions that involve manually setting driver preferences or editing the registry!
+##This is a very full featured product.
+##It checks every 5 minutes for virus and spam definition updates.
+Spam killer[+2]##Also, with one click you can help train your spam killer.
+wizard[+2]##And the firewall came with a wizard which made it effortless to configure it to my LAN.
+download[-3]##I downloaded this set from Norton, and within minutes my Internet connection failed and my PC was almost dead due to registry problems from the download.
+##I was forced to re-format the next day due to extensive incapatability issues.
+##I lost all my personal info.
+help[-3]##Their site offers no live help at all.
+service[-3], support[-3]##I tried to call Norton, and the only numbers they list on their sites are either for Non-tech Customer Service (tried this one and hung up after 75 minute of MUZAC) or they have a $30 tech-support number.
+cost[-3]##Who wants to pay $30 to discuss a defect in a product that just cost $95? (I also bought the back-up CD).
+support[-2]##I finally got a free support number for Norton through my ISP support staff, but waited an hour or more for a voice.
+refund[-3]##They said they would refund all the money, but a month later, they tell me now the back-up disc is not refundable as its cost is purely handling and shipping - $15 to "handle" and ship a CD? --and they have been indignant and combative on the phone and in emails.
+product[-2], support[-3]##This is a terrible company with a bad product and awful support.
+support[-3][cc]##After 10 years, I now downloaded McCaffee's product after calling their support....they answered quickly, and for free, and were very helpful.
+Norton[-2]##No problems now, just a sickly disappointment in the way Norton has abandoned thier customers.
+Norton[-3]##I see many other reviews that say the same....stay away from Norton, they don't deserve you, or anyone!
+##A security software suite with lots of value
+##While I understand the complaints about Symantec's Norton SystemWorks software suite (which are totally justified), the same can't be said for Norton Internet Security.
+firewall[+3], antivirus[+3], antispam[+2], Parental Control[+2]##It's a highly rated, KICK ASS firewall program that's bundled with the venerable Norton AntiVirus, plus extras (like Norton AntiSpam & Norton Parental Control) that make this security suite a must-have for people who have broadband internet access.
+##Detractors should spend more time actually customizing the program to meet their needs instead of being lazy & complaining just for the hell of it.
+##Once you set it up, you barely even notice it's even there.
+version 2004[-2]##I've alway liked Symantec products, except for this version 2004.
+installing[-2]##If you are already using a previous version of nortron security and unistalled it to install the new version, you will still have all kind of problems in installing the new version on your system!
+##It seems like Symantec did a lousy job on this version.
+product[+1]##Luckly,with 3 rebates this product will cost me nothing! it is indeed worth nothing.
+install[-1], uninstall[-2]##To install that version you have to uninstall from the window registery anything called Symantec or Nortron,... also from the common files in the program folder the symantec folder has to be deleted.
+##If you got stuck do what I did,search for any folder called symantec and delete it! then install that program(assuming you know what you are doing).
+installation[-2]##If you have no previous version of  nortron security on your system, or Nortron Antivirus, the installation will go fine, otherwise dig in and in to do a major registery clean up!the old programs will leave a trace that will mess up the new installation, even if you uninstalled the old programs perfectly.
+support[-3]##What dissapointes me the most that a software like that  is not cheap gets zero support form symantec, if you want support, they'll charge you a Fee!
+zone alarm[+2],sygate[+2][cc]##I've tried the free versions of zone alarm and the free version of sygate and they both have a nice and easy installation and work great!.
+##Next year when I purchase a 2005 FireWall version, I am buying the Zone Alarm or the sygate one.
+symantec[-3]##I am giving a zero star to symantec for this version!
+##I really liked the firewall.
+##It can be a pain to configure, but I dealt with it.
+##THEN all of a sudden when I restarted my pc, I couldn't get to anything in IE.
+##I have gone to their site many times in the last two months looking for an answer.
+##I've tried lots of things they suggest.
+##My computer configuration is probably all screwed up at this point.
+help[+1]##The only free help you get is in renewing your subscription!
+Firewall[-1]##The only way my pc internet works is if I open the Firewall Program configuration and manually refresh it.
+##It's become tedious doing this.
+##Wish I hadn't renewed my subscription.
+##Buy ZONE Alarm.
+##Wish I had.
+##I read how the buyers of this product watched their computers turn into processing sloths, bought a copy and watched my 2.4 Gig XP Pro processor slow down below the level of my 750 Meg 2000Pro laptop!
+##At the same time I bought PC-Cillin for the laptop and what a slick product!
+##So now, when we type, half the time the XP Pro 2.4 Gig PC lags behind the input, sometime by 10 characters!
+Symantec[-2]##Symantec should give us all a refund and apology!
+product[-3]##I will NEVER buy their product again at this rate, and neither should you.
+##BEWARE!!!!
+product[+3]##The product has worked perfectly for me on my XP.
+antivirus[+3]##No more banner ads, pop-ups, and the reliable antivirus.
+antivirus[+3]##I work on word, explorer, netscape, acrobat reader, photoshop at same time (meaning using a lot of memory), but still dont see a problem with computer (getting slow or crashing).
+##I have XP with 256MB RAM, 40GB memory.
+product[+3][cc]##This product is way cooler than anything Ive used before (PcCillins and McCafees and Norton Antivirus alone).
+product[+3][u]##5 stars all the way!
+##I've had the last 3 versions of NIS.
+Product [+1]##All in all it hasn't been a bad product.
+Symantec[-2]##However, Symantec has taken a significant turn for the worse with this release.
+firewall[+2], security suite[-2]##While it has a rather effective firewall, and comes with Norton Antivirus (which I'm actually rather fond of), the Security Suite has significantly slowed down my system.
+boot[-2]##I'm currently using a Sony Vaio S-150 (which I bought at the end of this past August), and it takes about five minutes just to boot the system - in fact, I've taken to just hibernating, rather than shutting down completely.
+antivirus[+2], internet security[-1](cs)##The Antivirus is good, but "Internet Security" just isn't worth it.
+performance[+2]##I've owned many Norton products in my time, and for the most part, I've been pleased with their performance.
+NIS 2004[+2] ##This is also the case with NIS 2004.
+##I've seen many reviews praising 2003 and cursing 2004.
+upgrade[+2] performance[+1]##I upgraded from NIS 2003, and the change in performance has not been noticeable.
+upgrade[+3]##On the contrary, I'm quite pleased with my upgrade.
+performance[+3][u][cs], features[+3]##It works better and has more useful features than NIS 2003.
+##I bought this product after reading the Editor's Choice article at PC Magazine and had a great experience with Amazon (as usual).
+program[+2]##The program is fully featured, with much of what you'd want from a security program --
+##I was upgrading from a version of Norton Anti-virus that was about a year old in order to get spam and pop-up control.
+##My previous experience with multiple Symantec/Norton products has been good.
+installation[+1], set-up[+1], operation interfaces[+1], email spam[+1]##The installation, set-up, and operating interfaces are well organized and intuitive and the email spam component works well.
+symantec[-3]##HOWEVER, I AM VERY DISAPPOINTED WITH THIS PRODUCT AND WITH SYMANTEC.
+performance[-2][u]##It feels like I'm back to the days of 56k dial-up internet service, even though I'm running a Dell 2GHz Pentium 4 with 256MB memory and have had excellent broadband service for the past year.
+performance[-2][u]##I tried disabling the various components provided with this product, paring it all the way back to anti-virus only service... and saw no improvement.
+symantec/Norton site[-2]##There is absolutely nothing useful at the Symantec/Norton site.
+##I am going to uninstall this and stick with my old version until they offer a fix or until I can find a program from another vendor.
+##I purchased this even though I saw some disparaging reviews at the Amazon site, trusting PC Magazine to get it right.
+PRODUCT[-3]##However, I suspect that many people are having a bad experience -- DO NOT PURCHASE THIS PRODUCT.
+Uninstall[+3], Install[+3]##PIII 1Ghz 512MB RDRAM Windows XP Pro 80GB HD  I was able to Uninstall NIS 2003 and Install NIS 2004 with no trouble.
+##First, I turned off my cable modem.
+##Then I disabled both Norton Antivirus and Norton Internet Security.
+##I used "Add/Remove Programs" to unistall NIS 2003.
+##In "Add/Remove, you must selecting the program's Change button.
+##After that was complete, I deleted the Norton Antivirus and Norton Internet Security folders left in the "Programs" section of Windows XP.
+##Next I de-fragged my hard drive.
+##I did not use the Rnis.exe, since I have WinFax Pro on my system. I did not touch the Windows Registry, for the same reason.
+install[+2]##I installed, activated and registered NIS 2004 without issue.
+Anti-Spam[+3]##So far, the Anti-Spam feature seems to be very good.
+##I ain't no computer geek, but I can wrestle with the best of them.
+program[-2]##This program would not let me send Outlook Email or listen to Audible sample books online.
+##I gave up trying to figure how to get my email sent or listen to streaming programs.
+product[-3][u]##Buy this if you like mental challenges or trying how to pick locks.
+##For security buy Zone Alarm. It's a very friendly program.
+##I was begining to think I was computer-retarded after dealing with this program.
+##I was using this on my 2001 Dell laptop (which worked fine until I upgraded to this junk!)
+processor[-3]##I had much of the same problems that everyone else has listed (mainly the SLOOOOOOOOOW processor), and then I couldn't get the damn thing off my computer completely!
+##I decided to give it one last chance... so I formatted my hard drive, reinstalled Windows XP (which also required a day & night download/install of SP2 on dial-up) and put NIS2004 back onto the computer.
+install[-1]##It locked during install and I had to reformat the drive and start from scratch (GRRRRRR!)
+##Blessedly, my DSL was installed just about this time and I set up a wireless network with my desktop.
+##So when I reformatted for the third time, downloading SP2 took no time at all and the new XP was kind enough to even suggest other antivirus programs to try (it also listed Norton and McAffee).
+Computer Associates EZ[+1]##I downloaded a trial version of Computer Associates EZ Firewall and Antivirus and fell in love with a computer security system all over again.
+##I can't recommend their programs enough.
+Norton[-3]##And I can't warn you enough to STAY AWAY FROM NORTON!!
+##I originally bought McAfee VirusScan 7 from Amazon.
+##About a month ago, it had an error that I could not fix and the program would not update.
+##Even though I had 6+ months left on the McAfee subscription, I decided to move on and buy Norton Internet Security 2004 (NIS).
+installation[+2]##I did not have any of the installation problems that people highlighted here.
+##I did remove all remnants of McAfee before installing and confirmed the Windows XP firewall was off.
+speed[-2][u]##It was immediately noticeable that NIS slows down my computer (Pent4, 256 RAM).
+size[-2], scanning[-1]##I think it is a combination of the program size taking up resources and the open/close scanning that it does with every program.
+scan[-1]##Is it necessary to scan my MS Money database when I close the program?
+##I'm not sure how it would have been compromised by a virus.
+firewall[-3]##I have a modern PC with lots of speed and memory, but this firewall just brought it to a halt.
+slow[-2][u]##Start up, log off, log on...everything became very slow.
+home network[-2]##Configuring it for a home network was almost impossible.
+network[-3]##Multiple users on one machine never seemed to behave like you'd expect.
+##Avoid at all costs
+##I just about lost it this morning with this software.
+alerts[-2]##While I was trying to play Half Life 2 it started popping up with "alerts" every twenty seconds (literally), warning me my antivirus protection was off.
+alerts[-2]##But it wouldn't let me turn the AV protection back on and it wouldn't stop with the alerts.
+uninstall[-2]##I had tried to uninstall Norton Internet Security a few weeks ago, and it wouldn't let me do that either.
+Uninstall[-1][u]##I tried it again this morning and it said I didn't have the required "permissions" and lacked proper administrator status.
+##On my own home computer.
+Symantec customer service[-3]##Of course, if you try to reach Symantec customer service you get useless automated systems unless you want to pay $30 per incident.
+##Meanwhile, the damn alert is still popping up every 20 seconds.
+##Finally I ran msconfig and went into the "services" tab and unchecked every last Norton/Symantec "service," then ran uninstall again.
+uninstallation[-1]##This time, it started the uninstallation process, then I left for work. I think it will work. I hope it will work.
+Symantec[-3]##I simply hate Symantec. I swear, if I could have physically ripped that software out of my computer with my bare, bleeding hands, I would have.
+##I have been a loyal Norton Anti-Virus and Internet Security software user for as long as I can remember.
+products[+3]##Their products have been great and have saved my bacon on numerous occasions.
