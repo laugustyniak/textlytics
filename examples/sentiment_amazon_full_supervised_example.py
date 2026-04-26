@@ -13,11 +13,11 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 
 logging.basicConfig(filename='generate_lexicons_and_results.log')
 log = logging.getLogger()

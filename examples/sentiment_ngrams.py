@@ -8,7 +8,7 @@ import math
 from sklearn.svm import LinearSVC
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import results_to_pickle
+from textlytics.data.sentiment import results_to_pickle
 
 logging.basicConfig(filename='processing.log', level=logging.DEBUG,
                     format='%(asctime)s - sentiment_ngrams.py - '

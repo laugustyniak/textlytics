@@ -3,7 +3,7 @@
 from glob import glob
 from os.path import join
 
-import textlytics.word_vectorization.amazon_w2v as aw2v
+import textlytics.data.word_vectorization.amazon_w2v as aw2v
 
 amazon_path = '/datasets/amazon-data/new-julian/domains'
 output_path = '/datasets/amazon-data/new-julian/domains/word_vectorization-models-overall'

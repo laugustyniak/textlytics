@@ -84,7 +84,6 @@ class Evaluation(object):
         with open(join(self.results_path, str(f_name + '.csv')), 'w') as myFile:
             myFile.write(str(results))
 
-    # TODO czy w ogóle tego używam gdzieś?
     def evaluation_measure_to_excel(self, f_name='Results-Table', results={}):
         """
         Evaluation and save to XLSX file.
@@ -138,12 +137,12 @@ class Evaluation(object):
         if not path:
             path = self.results_path
         try:
-            df.to_excel(join(path, str(f_name, '.xlsx')))
+            # FIXME: check the file name
+            df.to_excel(join(path, str(f_name), '.xlsx'))
             log.debug('Dataframe has been saved!')
         except IOError:
-            raise 'Problem with saving file!'
+            raise Exception('Problem with saving file!')
 
-    # TODO: poprawić dokumentację, ang + struktura
     def evaluate_lexicons(self, df, classifiers_to_evaluate):
         """
         Evaluate sentiment assignment, measures: accuracy, precision, recall, f-measure.

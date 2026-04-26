@@ -1,21 +1,17 @@
-# coding: utf-8
-
-import pickle
-import multiprocessing
-import logging
-import sys
-
-import pandas as pd
-import numpy as np
-
 from __future__ import print_function
 
-from sklearn.cross_validation import StratifiedKFold
+import logging
+import multiprocessing
+import pickle
+
+import numpy as np
+import pandas as pd
+import sys
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.svm import LinearSVC
 from sklearn.metrics import f1_score, accuracy_score, recall_score, \
     precision_score, confusion_matrix
+from sklearn.svm import LinearSVC
 
 logging.basicConfig(filename='sentiment-timik.log', level=logging.DEBUG)
 log = logging.getLogger()
@@ -82,27 +78,7 @@ log.addHandler(ch)
 # print('Negative emoticons: {}'.format(emoticons_negative))
 
 
-# In[21]:
-
-# m_sent.groupby('sentiment').describe()
-
-
-# In[18]:
-
-# df.emoticons.unique()
-
-
-# In[20]:
-
-# df.groupby(['emoticons']).count()
-
-
-# # Sentiment analysis based on characters
-
-# In[27]:
-
-def superv_sent(docs, y, result_queue, ngram_range=(1, 1), analyzer='char_wb',
-                n_folds=10):
+def superv_sent(docs, y, result_queue, ngram_range=(1, 1), analyzer='char_wb', n_folds=10):
     logging.info('Analyzer: {}'.format(analyzer))
     logging.info('ngram_range: {}'.format(ngram_range))
     vectorizer = CountVectorizer(analyzer=analyzer, ngram_range=ngram_range,
@@ -185,7 +161,6 @@ if __name__ == "__main__":
         # 'ExtraTreeClassifier': ExtraTreeClassifier()
     }
 
-
     n = messages[messages.sentiment == 'negative'].shape[0]
     messages[messages.sentiment == 'positive'].head(n)
     messages = pd.concat([messages[messages.sentiment == 'negative'],
@@ -218,8 +193,8 @@ if __name__ == "__main__":
         log.info('Add process for {}'.format(param))
         p = multiprocessing.Process(target=superv_sent,
                                     args=(
-                                    docs, y, result_queue, param['ngram_range'],
-                                    param['analyzer'], n_folds))
+                                        docs, y, result_queue, param['ngram_range'],
+                                        param['analyzer'], n_folds))
         p.start()
         jobs.append(p)
 

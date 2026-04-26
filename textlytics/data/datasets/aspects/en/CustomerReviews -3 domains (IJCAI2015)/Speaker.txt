@@ -1,0 +1,689 @@
+speakers[+1] ## These speakers are incredibly amazing .
+## Before this I had the jbl on stage , which were also incredibly good .
+## But I wanted something that I can play without having to plug into a power outlet and would work on rechargable batteries .
+speakers[+1] ## I didnt want one in which I would have to put in batteries myself -LRB- that is a pain -RRB- I did alot of research and read a bunch of reviews and im glad I purchased these speakers .
+## Most of the reviews about the sound quality is true .
+speakers[+1], sound[+1], bass[+1] ## The speakers have a very rich sound and good bass also , obviously not thumping bass for which you would need a huge subwoofer !!
+## Although the bass im getting out of these speakers was unexpected .
+speakers[+1], sound quality[+1], portable[+1][a] ## Without a doubt I would say that these speakers have the same sound quality as the jbl on stage , and are truly portable -LRB- can be played without a power outlet , I love that feature -RRB- .
+remote[-1] ## The only downside is the remote which requires a line of sight .
+## Its not a big deal for me .
+## The main thing I was looking for was sound quality !
+## I read all the reviews herein , and saw all the concerns .
+## First , i was looking for an iPhone dock and FM tuner , not necessarily an alarm clock - as its for the office .
+## I must say : - IT WORKS WITH IPHONE4 , EVEN WITH THIN CASE ON IT .
+## just push it into the slot - It charges the iPhone4 .
+## - It allows incoming calls to interrupt the music , and you can answer the call without having to undock it .
+## - It allows incoming email and TXT messages to be read and responded to w\/o undocking it - essentially you can do ALL iPhone apps while its docked .
+Sound quality[+1] ## - Sound quality is good .
+Tuner quality[+1] ## - Tuner quality is good .
+Looks[+1][v] ## - Looks fantastic , esp w\/iPhone4 docked !!
+Setup[+1][v] ## - Setup , from in the box to completely working , and programmed for 20 preset FM stations , was under 5 minutes .
+## - I bought from an Amazon Prime Fullfiller , used like new , and it is just that - like new , not a blemish or issue , and for $ 56 ... I have no qualms about this .
+buttons[+1] ## Yes , the buttons are a bit small and close , but they are functional .
+## My only recommendation - include a remote ... BUY THIS !
+## I purchased this phone set for work , thinking that inexpensive replacement phones would ease the pain of things being spilled on them or dropped .
+sound quality[-1] ## The sound quality has been poor since day one , the base constantly drops calls , and now there seems to be some sort of short circuit in the base -- we can no longer use the AC adapter with the base or it turns off completely .
+## When I purchased this set , I never imagined I would be running my business telephones off of 4 AA batteries .
+## Other complaints : you ca n't put line 1 on hold and answer line 2 with the same handset without a `` conference call '' beginning .
+volume[-1] ## The incoming call volume is incredibly low and it is often difficult to hear my customers -LRB- it was so bad I had my hearing tested because I thought something was wrong with me .
+## Yes , I 'm blonde , but this proves to me it 's the phones ! -RRB-
+loud[+1][a], install[+1][v] ## I got this for use on my truck and I 'm happy with it for the most part , it is loud and super easy to install , however you are going to want an amp for i
+## I will never buy another GE phone again .
+## Period .
+speakers[+1], sound[+1] ## These speakers have great sound but they will buzz if you leave them on with the sound turned up .
+## These serve as my primary speakers in my living room -LRB- about 14X22 -RRB- .
+## They sit on stands about 8 '' high , and are pretty close to being in the corners on one of the long walls .
+## I am sure that if I had spent more and gone with bigger , floor-standing units from Klipsch , I would be even more impressed , but frankly , these get the job done and do n't seem to break a sweat .
+## Most of our listening is at modest volumes , but I have turned them up on some demanding tracks and they do n't flinch .
+bass[+1] ## Even the bass is pretty impressive from such rather small drivers .
+## My only wish would be that these would 've been made in the USA rather than China , but at least the company is still mostly based here .
+noise[-1] ## I tried to use these with my laptop -LRB- Dell Inspiron 1720 -RRB- but could n't get rid of the buzzing noise others have mentioned , no matter how far I moved them from the computer or where I plugged them in .
+worked[+1][v], sounded[+1][v] ## I took them to a different room and tested them with my mp3 player , where they worked fine and sounded pretty good .
+## So -- before ordering , consider what you will use them for .
+speaker[+1], sound[+1] ## This little speaker has dynamite sound !!
+## I should have ordered two .
+cord[-1] ## My only complaint , is that the cord is not long enough .
+## I use it for my tablet .
+## These stands are about 3 feet high with my Onkyo Surrounds attached .
+quality[+1], stands[+1] ## Excellent heavy build quality , and the stands are not imposing and blend fairly well into the rest of my furniture .
+look[+1][v] ## Wire runs through the body of the stand - giving it a very clean look .
+## I used the double sided tape along the base for mine and it seems to be pretty secure .
+stands[+1], wire[+1] ## I 'm also running in-wall rated insulated 14 gauge speaker wire , and the stands accommodate this thick wire perfectly , even through the groove in the bottom of the base .
+front channels[+1] ## I 'm very happy with these , I 'll probably buy 2 more for the front channels .
+stands[-1], speakers[-1] ## One thing to consider is that these stands are not height adjustable and the speakers will not angle down .
+## So be mindful of your seating height before purchasing this .
+speakers[+1], Volume adjustment[-1] ## Pros : - Big crisp screen 1920x1080 resolution - Under $ 200 - Decent sounding speakers Cons : Volume adjustment is a little annoying but not really a big problem since windows has volume controls .
+## I got mine quick , everything works fine , botta boom botta bing .
+## I do wish they came with mounting screws for the speakers .
+dsub cord[-1] ## The main problems for me is that the dsub cord from the sub to the control station is too short .
+heavy[-1][a] ## That and for the center speaker , when I mount it on the wall its so top heavy that it falls forward , leaning out about and inch from the wall .
+## I 'm trying to find some bigger screws to get it flush , but the screws attach at the bottom so there 's no support for the top of the speaker which hangs .
+speakers[+1], control station[+1], remote[+1], sub[+1] ## Thats pretty much it , the speakers rock , the control station and remote are nifty , and the sub is powerful .
+speakers[+1] ## Great speakers overall .
+## I 'm a college kid , recreational audiophile and bass fanatic , studying engineering .
+## I started off building a custom sub encloser with dual Kicker CompVR 12 '' subs driven by a 1200W Sony amp .
+## I have n't stopped searching for great sound since .
+## I 'm running a pair of these off an H\/K AVR240 , combined with a JBL EC35 center , a JBL S120PII 400w sub , and two sets of E30 surrounds .
+## I 'm big on trying anything before I buy it .
+## I was able to listen to these and the E80s -LRB- the dual 6 '' floorstandings -RRB- at a local audio store before they were discontinued .
+sound[+1] ## I loved the sound of these and the Polk and Klipsich floorstandings of similar characteristics .
+## With the JBLs at a fraction of the price here on Amazon , it was no question .
+## The only issue was what model to get ... I heard very little difference in qualtiy between the E60s and E80s .
+## The dual 6 '' put out a bit lower frequencies , but the difference was so small that I would n't be able to notice without the speakers side by side .
+E90s[+1], E100s[+1] ## Living in a small college apartment the E90s and E100s were beautiful , but a bit overkill for what I needed .
+## I deceided on these over the E60s with the hopes that a single 8 '' would draw less from my amp than the dual 6 '' for a bit less money .
+home theater[+1], music speaker[+1], highs[+1], mids[+1], bass[+1] ## Beautiful home theater and music speaker ... crisp highs , defined mids , and respectable bass .
+heavy[-1][a] ## They are a bit top heavy , as any tower will be .
+bass[+1], JBL sub[+1] ## and I love extremely low , loud bass , and as such , I suplemented the system with a sweet JBL sub .
+## Movies sound great : Saving Private Ryan , Fifth Element , 40 year old virgin , Anchorman , etc. .
+## Music is also fantastic -LRB- with different amp settings tuned for genre -RRB- : Ambient , electronica , hip-hop , rap , jazz , 80s , classical , rock .
+## Ulrich Schnauss , Bonobo , DJ Shadow , Busta , Snoop , E40 , Louis Armstrong , Michael Jackson , Bach , Korn , Metallica , Hoobastank , 311 .
+quality tower speaker[+1] ## If you 're looking for a quality tower speaker ... this is it .
+Bass[+1] ## Bass fanatics , look at the S120PII .
+## you wo n't regret it .
+speakers[+1] ## These a great speakers - full of sound .
+bass[+1] ## The bass is solid and can be quite impressive if turned up .
+speakers[+1], look[+1][v], use[+1][v] ## The speakers look nice and are easy to use .
+speaker system[+1], portable[+1][a] ## This is a great portable speaker system , but wanted to let people know that if your ipod is in an iSkin case you can not dock the ipod without first removing the skin .
+## I spent a lot of time looking online for this information and finally took my ipod and iskin to a store to test it out and learned this .
+speakers[+1] ## if you 're okay with removing the skin each time you want to use the speaker system , then by all means purchase these speakers as they are great !
+## Logitech have a way of seeing what is needed in any given area and bringing it to fruition .
+## Hence the Logitech Portable Speakers are the most obvious product for personal use in this kind of area .
+## I have a 2 dollar radio about the same size as this unit , and whilst it is not as sturdy , it has lasted .
+Logitech 's products[+1] ## Most products will last if taken care of , and Logitech 's products are no exception to this rule , however , since they are somewhat , in fact a great deal more sturdy , than my old radio .
+product[+1], quality[+1], weight[+1] ## The comparable product in quality is the old style Shelf Speaker popular in the 80 's , called the brick , but this unit does not have the weight of that product .
+speakers[+1], perform[+1][v], sound[+1] ## The speakers perform very well , and with the bass boost , the sound fills outs exceedingly well .
+unit[+1] ## For a small , portable , unit , this allows you to listen to , as well as share Ipod music , and podcasts , in an intimate setting .
+product[+1], Logitech production values[+1] ## An excellent product with excellent and typically superb Logitech production values .
+## I have owned my 5500s for a couple of years now and still love them , at least in general .
+price[+1] ## For the price there 's nothing better .
+controller[+1], volume knob[+1], selector buttons[+1] ## I especially love the ` remote ' controller stand with it 's big volume knob and simple selector buttons .
+## I 've tried to find a full-size receiver with something comparable but there 's nothing .
+## The 5500 is effectively a ` receiver ' in that it has multiple inputs and full Dolby and DTS processing -LRB- just no radio : - -RRB- The one real problem I 've had was something that I did n't even notice until months after I 'd purchased it .
+## When I mute the optical input the sub-woofer IS NOT muted ?!
+## I have my TV 's tuner connected to the optical and my HTPC connected to the coax , and I mostly use the computer to watch recordings .
+## So it was only on the rare occasion that I was watching a live broadcast \* AND \* hit mute during a commercial \* AND \* that the commercial had a 5.1 soundtrack -LRB- with sub-woofer sounds , i.e. , the '' .1 '' part -RRB- that I realized there was something wrong .
+## I would be interested to know if any other 5500 owners have the same problem as Logitech tech support said it was an unknown problem .
+cross-ship[-1][v] ## They offered to replace my controller but -- important to note -- they were unwilling to cross-ship it .
+## So I would have had to go without surround sound while waiting\/trusting them to send me a replacement asap .
+## It just was n't worth it and so I 've had to live with the problem -LRB- infrequent as it is -RRB- .
+## This is not exactlly what I expected but I was plesentlly surprised .
+sound quality[+1] ## The sound quality is really good .
+size[+1] ## The size is small .
+speakers[+1] ## The way I have to put in my I-Pod was a little tricky but when it was done the speakers sound really good .
+## Ive only had it a few days so I cant say anymore than that .
+## I had the Klipsh promedia speakers before the corsair 2500 also and I can tell you the klipsh does not compare at all to the corsair .
+Klipsh subwoofer[-1] ## The Klipsh subwoofer is laughable .
+Satellites[+1], corsair[+1] ## The Satellites are good but the corsair is more responsive and clean .
+## The subwoofer of the corsair is miles ahead of the Klipsh .
+## You pay for what you get .
+## I have sb titanium fatility pro sound card .
+## DO NOT PURCHASE ... this item will not hold a charge and spontaneously deletes the downloads ... spend the $ $ for the iPod .
+## Also , Amamzon will not refund me , does n't have a phone number for the manufacturer or any other contact info for Visul Land .
+## I was n't quite sure what to make of this speaker when it arrived .
+## I have no experience with ` speaker bars ' as my home theater system consists of traditional front speakers , center channel , and four rear speakers .
+speaker[+1], condition[+1] ## The speaker arived in excellent condition .
+## The styrofoam inserts kept everything secure and undamaged .
+## Enclosed were the instructions , a wall mounting bracket , and a bracket for placing the speaker on a shelf .
+## My inital thought was `` damn , this thing is a beast '' .
+## I could probably battle Orcs in the front yard with this speaker bar .
+quality[+1] ## The build quality is top notch .
+joints[+1], finish[+1], speaker wire hook-ups[+1] ## Very tight joints , excellent black finish , and precise speaker wire hook-ups .
+## I chose to place the speaker on my home theater stand on the top shelf directly in front of the TV .
+## My TV is a 46 '' Sony Bravia LCD with a Sony 7.1 home theater system .
+## To test the speaker bar I used my new BluRay disc of Transformers 2 .
+sound[-1] ## Initially the sound was low and sounded `` off '' .
+## Then I remembered to recalibrate the Sony audio since I added different speakers .
+## After a quick calibration I fired up Transformers 2 .
+## My initial reaction was `` WOW '' .
+## The front sound comes directly from the front of the TV as sound should .
+## I did n't realize that having front speakers off to the sides of the TV would make so much difference .
+sound[+1] ## The sound was crisp , clear , and no distortion .
+## I cranked the audio up to level 40 during the best Decepticon battle .
+speaker bar[+1] ## The speaker bar response was spot-on .
+sounds[+1] ## The sounds were as the movie directors intended .
+sounds[+1] ## I did n't get any wierd sounds from the side speakers like I did with my old front speakers .
+## I was able to enjoy the Transformers even more than my initial viewing .
+## For a second test I tuned into a show on ScienceHD .
+sounds[+1] ## Again , the sounds were spot-on and projected from where they should , the front of the TV .
+## Very nice since this was a normal cable HD program .
+speaker bar[+1] ## I 'm quite happy with my new speaker bar .
+## I 'm kicking myself for not embracing this technology earlier .
+sound reproduction[+1] ## For those of you looking for excellent sound reproduction , expecially during a raging Decepticon battle , look no further .
+Pinnacle speaker bar[+1] ## This Pinnacle speaker bar is well worth the money .
+warranty[+1] ## It also has a 10 year warranty , which is just icing on the cake .
+## I recommend it to no one .
+## Save you 're money and keep shopping .
+price[+1], unit[+1] ## Over for the price this is a good unit .
+Sound quality[+1], bass quality[+1] ## Sound quality is great , bass quality is beyond good .
+quality[+1] ## Build quality is great .
+remote control[-1], reciever[-1] ## The remote control and reciever not so good .
+buttons[-1] ## The buttons are confusing and super small .
+## When left on for 8 + hours you get a unusual Humm that does n't go away till cooled off .
+price[+1] ## Still for the price you ca n't find better for the cost .
+## I 'm part of the group that has had no luck with these .
+## They worked in the beginning ... then something fried inside the sub ... returned them , got new ones ... Same thing happened ... now they are unuseable .
+## They start to go when you hear the light crackling ... then it moves into the bass distortion mode ... now they just hum loudly with intermitent loud crackling .
+## I 'm now shopping for new speaker and when I saw that they were still available I just wanted to see what other folks were saying about them ... WOW , I 'm not alone !
+look[+1][v], quality issue[-1] ## They look cool but they have a quality issue for sure ... hit or miss I guess , a gamble for sure !
+audio bar[+1], sound[+1] ## This audio bar has a great sound , even when i turn it up to the highest level on my laptop .
+## It only bother 's me when i want the laptop in my lap so i need the screen down a little but this device pulls it way back down .
+sound[+1] ## Other than that the sound is so crisp and clear and I would still purchase this all over again .
+## If anything sometimes I just lay it behind my laptop when it 's on the table or you could just have it laying next to you , like on the couch or something .
+sound[+1] ## The sound is so good that my boyfriend wants one now !
+## I purchased 4 pairs of theese speakers and installed them in my family room -LRB- I only used 7 -RRB- for a surround sound system .
+install[+1][v] ## they were easy to install and ended up using 300 feet of cable .
+price[+1], sound[+1] ## For the price of theese speakers the sound that comes out is unbelievable .
+speakers[+1], cheep[+1][a] ## Billy Joel was n't kidding when he said you get more mileage from a cheep pair of speakers .
+## The frist thing I did was put Ice Age in the Blueray Player and the THX sound check was AWESOM .
+## My wife who really could care less about thees things was impressed I do n't think I will ever go to the movie theater again .
+speakers[+1] ## I highly recomend theese speakers .
+shipping[+1][v], shape[+1] ## As always , super quick shipping by Amazon , items arrived in great shape .
+stands[+1], instructions[+1] ## Assembly of the stands is very straightforward , and well detailed in the instructions .
+speakers[+1] ## They are very sturdy , and have no trouble balance wise , or handling oddly shaped speakers .
+## There are a few different mounting methods , including screws , and double back tape .
+## Black ones are very unobtrusive , and kind of discrete .
+stands[+1] ## I have no problem at all recommending these stands .
+## I 'm a late user to this type of entertainment ... I still use CD 's but was recently given an Ipod and do n't know how I lived without it for so long !
+## My wife and I travel and I thought I might be able to find a portable speaker system so that we could enjoy our music when away from home .
+## This is my second purchase of this type of speaker and as with the first ... THIS IS N'T WHAT YOU WANT !
+sound[+1] ## The sound is clear and clean but if your not on top of it you ca n't hear a thing .
+setting[+1] ## I 'm sure it would and can be useful in a different setting ; one where you would only need your volume to be at a whisper .
+## I plan on keeping this unit for those times when using my ear buds is n't the best of ideas but this unit would n't fit my need say in a hotel room when I 'm trying to set the mood with a little music .
+quality[+1], portable[+1][a], speaker[+1] ## Good quality for a small portable speaker .
+USB port[+1] ## Convenience because it works through the USB port .
+volumn[-1] ## I wished that they could make the volumn a little bit louder .
+sound[+1] ## After seeing and hearing the sound of the I-Tour Pop speaker , I was sold .
+## So much so that I 've already ordered 5 of the speakers for all the young adult children in our family for Christmas .
+## I 've been surprised at how many uses I 've found for it , I 've used it with my laptop in the kitchen , and attached to my iphone 4 , I 've used it in the car , put it on the ledge in the kitchen above the sink and watched movies while doing the dishes , and carried it from room to room while I 've listened to Pandora .
+tiny[+1][a], sound[+1] ## Its tiny and has really decent sound for something so small .
+battery[+1], feature[+1] ## The rechargeable battery is a great feature .
+value[+1] ## Very good value for the money .
+## I am a very pleased customer .
+speaker[+1] ## I love this little speaker .
+## I had purchased a black one some time ago that I was also crazy about so I bought this to have with my other devices .
+sound[+1] ## I was surprised how good the sound was and I especially like to use it when I am listening to audio books .
+speakers[+1], priced[+1][v] ## Both the black and the white speakers are economically priced and worth it .
+speakers[+1], sound[+1], size[+1], range[+1] ## The speakers are nice , no question about it ; the sound is good for the size ; the range is what you might expect from speakers this size -LRB- perhaps even better than expected -RRB- .
+## However , I am still a little disappointed when you come down to the overall feeling I get from the purchase .
+## To start with , I bought these for my wife to use with her iPod .
+work[+1][v] ## There are no incompatibility problems and they work fine .
+## I do find the lack of a way to turn them off , short of unplugging them a bit of a shortcoming .
+range of response[-1] ## The range of response seems a little limited to me -LRB- changing the EQ setting on the iPod produces a definite change in the sound , but I would expect a little more richness in the changes -RRB- .
+size[-1], sound[+1] ## The size is a bit more than I expected from Bose , a company that excels at putting good sound in small packages .
+speakers[+1] ## Lastly , I feel that the speakers were over priced for what I got -LRB- unless there is some inherent benefit in the Bose label that I do n't know of -RRB- .
+speakers[+1] ## Bottom line , I have a better set of speakers , in the Creative Labs I-Trigue 2200 2.0 Speakers , on my computer -LRB- at least to my ears -RRB- , for less than half the cost .
+## So think hard and shop around before you jump on the Bose name , or better yet , if you can , try them out first .
+speaker[+1], use[+1][v], price[+1] ## This portable speaker is easy to use , powerful enough for everyday use , and available at a pretty decent price .
+## It 's been working continuously as background music in my office for the past year without a hitch .
+battery[+1], sound quality[+1] ## The battery has a great life and the sound quality is very good -LRB- not professional but definitely good enough for the average consumer -RRB- .
+## I recommend it over its more expensive counterparts .
+sound system[+1] ## Awesome sound system .
+Onkyo sound[+1] ## Had a JVC system that was 6 years old and I thought it was good , but the Onkyo sound is amazing !
+install[+1][v], components and directions[+1] ## It was easy to install all of the components and directions were easy to understand , even for an old guy like me .
+speaker wire[-1] ## The only drawback is the speaker wire is very thin .
+## I would think that a quality system like this would have come with at least 18 or 16 guage wire .
+## I bought this item along with a couple of other external speakers in an effort to find a good set to use in my elderly car -LRB- speaker system died -RRB- .
+sound[+1], speaker[+1], Phillip speaker sound[+1] ## This set is not my preferred to use in my car -LRB- I use the JBL On Tour - great sound for a small , compact speaker -RRB- , but I was very impressed with the Phillip speaker sound and use them very regularly around the house .
+price[+1], sound[+1], portability[+1] ## For the price , the sound is great and their portability -LRB- pack down to a large egg-shape -RRB- is quite good .
+sound[+1] ## You ca n't go wrong with these if what you are looking for is a good sound in a small package !
+## for what a pain in the ass setting clocks are is im walking on freaking sunshine .
+base[+1] ## the soft orange glow at the base is a nice nightlight .
+sound[+1] ## and the sound well there is no complaints about that .
+quality[+1] ## It 's loud and the quality is good .
+product[+1], built[+1][v] ## A + + + + + + product and very well built for apple users in mind ... ... oh yeah theres a usb port in the back for you droid people .
+## I was unsure myself about this system but I did enough research to take the plunge and am I glad I did .
+## My basement flooded recently ruining 2 sets of floor speakers leaving us listening to our Bose docking box for Iphone which we all know is great for travel , outside etc. .
+## However , the Bose station did not fill the 3 room basement as we wanted so I started searching new speakers .
+## The thought of buying 2 new sets of floor speakers for 300-500 $ a pair just did not make sense , plus if we flood again would I need to put them up on blocks etc. .
+## I have yet to here bookshelf speakers I like thus I turned to wireless options and found Sonos .
+sound[+1], size[+1], price[+1] ## The sound is great , not as good as my $ 1000 each Klipsch R7s , but come on , for the size and price , you will not beat these units .
+## I turned them up loud , ACDC Thunderstruck , wow , we rocked out , no distortion , had to back them down , lol .
+## The S5 can be run solo by itself , acts as both left and right in one room , OR you can `` pair '' 2 S5 units and have one be left and one right as I did in a very large room .
+## The only connection the S5 units require is an electrical outlet , rest is wireless unless you need to connect it to a router -LRB- no Bridge -RRB- or you have something to input via jack in back -LRB- ipod -RRB- .
+## Remember , the music comes from any online source you can think of and your music libraries on your home network -LRB- I tunes , windows media player etc. -RRB- .
+## At this point , someone Geekier than me is probably thinking of my many mistakes , omissions and lay speak but I do n't care , I do n't need your corrections , just move on .
+## The controller can be a Sonos one or an app for your Iphone or a controller downloaded to your PC or Mac .
+## I chose all 3 so I can control it anywhere , anytime , but by far the Iphone app is just stupid fun and cool .
+## You can control everything you need to while sitting anywhere in your home as long as you have your home wifi .
+## You can control each S5 player seperately , what music and what volume , tone , pause etc , all independent of other players !
+## You understand ?
+## If you have 6 of the players around your home you can play 6 different sources of music , at 6 different volumes , pause some or all , and this is all done from your Iphone !
+## And you can have multiple controllers -LRB- 12 I think -RRB- , so my wife and I can fight over the volume settings while we are in different areas of the house , is hilarious .
+## Well enough for this review , I just ordered the Sonos 90 unit to connect my home stereo system into the Sonos system , this unit utilizes your existing amp -LRB- receiver -RRB- and speakers and makes another zone player out of them , too cool .
+## I can listen to my albums again , is crazy , good luck !
+volume[+1], bass[+1], mounting abilities[+1] ## Well , I can not complain about the volume , bass or mounting abilities of the system .
+## I did have a surround speaker buzz and crackle after 5 months .
+## That 's the only reason I have not given this system a 5 star rating .
+## I replaced the speaker with an ebay purchase and hope that will be the only replacement I have to worry about for a while .
+value[+1], quality[+1], speakers[+1] ## These INSTEN `` Folding Speakers '' are a surprisingly good value for decent quality portable speakers !
+performance[+1], speakers[+1], price[+1] ## We own two sets of these -LRB- black -RRB- and I am very pleased with the performance of the these compact speakers , especially at the low price these sell for here on Amazon .
+design[+1], transporting[+1][v], Sound[+1], sound[+1], volume levels[+1] ## Here are my observations : Pros : + Folding ; these have a very clever design that allows them to fold in to a small cube for easy transporting + Good Sound ; produces fairly good sound at all but the highest volume levels -LRB- see `` Cons '' , below -RRB- , at least to my untrained ear + Universal Connector ; the unit uses a standard mini connector , so this can be used with all of MP3 players + Power Options ; comes with a USB power cable or it can use 4 x AAA batteries .
+Instructions[-1], instructions manual[-1] ## You can also use a 6v DC power supply -LRB- not included -RRB- Cons : - Bad Instructions ; like many products of this type the instructions manual is lacking and , in this case , erroneously lists the power requirements as AC when it should be DC .
+sound quality[+1] ## Very compact and portable just as described with great sound quality .
+volume[+1], speaker system[+1] ## Would definatley recommend to a friend and its volume can fill a small house for such a small speaker system .
+product[+1] ## This product is good enough to integrate my clarion cx501 to my Toyota camry 2001 mode .
+works[+1][v], installation[+1] ## It works flawlessly during installation of cx501 .
+## I had heard one of these in a colleague 's office and was amazed ... I like mine too !
+inexpensive[+1][a], speaker[+1] ## I was looking for an inexpensive , room-suited ipod speaker and this is what I got .
+volume[+1], vibration[-1], distortion[-1] ## The volume is loud enough , but at louder levels there is noticable vibration and some distortion .
+incompatibility[-1] ## My biggest problem with this speaker is the incompatibility with my 2nd generation iPod Nano .
+## A new dock was added I see , but the iPod can not be played with the dock unless I hold down the top .
+works[+1][v] ## It works fine without the dock , but it 's shaky and unstable .
+speaker[+1] ## So besides the annoyances , this is a fine speaker for the amount I paid .
+cost[+1] ## For the cost of this product i could not ask for more .
+sound quality[+1] ## The sound quality is very exceptable .
+speakers[-1], tone side[-1] ## The only issue i have against the speakers is its a little on the low tone side , but still is very good , and you can set your equalizer to make up for it .
+## All in all , could n't be more happy with the purchase .
+set up[+1][v], picture[+1] ## Easy set up and the picture was crystal clear .
+## I use it for the xbox as well as my computer and I cried with joy .
+## OK enough said just buy it .
+speaker[+1] ## Love this speaker .
+Sounds[+1] ## Sounds awesome .
+Works[+1][v] ## Works super easy .
+Looks[+1] ## Looks great .
+## Seems to be durable enough but I 've only had it a few weeks so we 'll see .
+disconnects[-1][v] ## My only complaint is like others here ... it randomly disconnects from the bluetooth and it 's really annoying when it does because it does it so often .
+## If it did n't do that , it would be perfect .
+## Because of that though , I am tempted to send it back .
+## This little item blew my sock off when I heard the sound of it .
+highs[+1] ## full spectrum sound from full base to great highs .
+sounds[+1][v] ## it sounds great out on the patio or on my night stand .
+## I would recomend this unit to anyone .
+device[+1], use[+1][v] ## I have found this little device to be quite fun to use .
+range[+1] ## The range seems quite good even through walls .
+sounds[+1][v], size[+1] ## I mainly use it with my Apple IPad and it really sounds quite good for it diminutive size .
+## I find the issue with it connecting to be a little problematic , but it connects eventually .
+## Not bad overall .
+## These are great if you want radio , but your radio is too far away to hear and you do n't want to blast it .
+range[+1] ## The range is great , I can list to my radio anywhere in the house .
+## I just move my speaker to whatever room I 'm cleaning or whatever room I want to listen to the music at .
+## If you are hosting a party and want music to play throughout your house , this would be a great option as well .
+## All you need is an outlet and you are good to go !
+## I 'm a big fan of lapdesks for my netbook and notebook PCs .
+## I use them to protect my legs from the heat output as well as for comfort .
+## When Logitech introduced their new line of lapdesks with built-in external speakers for portable computers , I was so excited !
+volume[-1] ## While my laptop and netbook have decent speakers , the volume on such devices is inherently lower than with standard speakers , making it harder to hear some audio .
+N550 Speaker Lapdesk[+1] ## Logitech 's N550 Speaker Lapdesk wins in the area of comfort .
+underside[+1], typing experience[+1] ## The padded underside is great even when set on bare legs and the unit is angled for a comfortable typing experience .
+speakers[+1], sound[+1][v] ## The speakers themselves sound really good .
+## Powering it from the laptop or netbook 's USB port keeps your computing experience truly portable as you do n't need to plug in to an external power source .
+batteries[+1] ## Even better , you do n't have to worry about constantly replacing batteries .
+## The right side of the lapdesk has three convenienctly placed volume control buttons : Mute , Volume Up , and Volume Down .
+## Installing the lapdesk on both Windows XP and Windows Vista computers was a snap - the drivers installed automatically as soon as the device was plugged in with no need for a software install or a reboot .
+## One thing I missed was an area for an external mouse .
+## I almost always use one with both my netbook and my laptop .
+## While the netbook is small enough to leave room for an external mouse , there really is n't enough room for it with my laptop , which is 14 '' .
+## Which brings me to the next point : this is advertised as being for small laptops and netbooks that are 14 '' and under in size , and that is certainly true .
+option[+1] ## All in all , this is a very good option for anyone who has a small portable computer and wants a lapdesk and external speakers .
+devices[+1] ## This is one of the nicest electronic devices that I 've ever owned .
+## This is nice enough that it will go with any deluxe home configuration .
+speakers[+1], small[+1][a], quality[+1] ## The speakers are pretty small , so they wo n't take up a lot of space , but they play as loud as you want them to , and they have great quality .
+paired[+1][v] ## I paired this very easily to two different Android phones .
+## For inputs , you can either use Bluetooth or a standard audio jack .
+## It also has a headphone out .
+## This means that the device is discoverable .
+## \* If the light blinks blue slowly , then you did n't press the Bluetooth button long enough \* Turn on Bluetooth on your Android \* Scan for devices on your Android \* On your Android , the device name will be , `` Creative T12 Wireless '' \* Choose `` Pair with this device '' on your Android .
+## I never needed a password .
+## \* It will automatically pair , and now you can play music .
+product[+1] ## This product is amazing !!!
+sound[+1], design[+1] ## The sound this slim design puts out !!
+## I could n't beleive what I purchased after I received the item .
+quality item[-1], speaker[-1], sound[-1] ## Very cheap quality item and beside that one of the speaker was bad and the sound out of it was like you are whisling .
+## Do n't purchase it .
+## THIS PRODUCT WAS AS ADVERTISED AND FULFILLED MY EXPECTATIONS .
+## I RECOMMEND THIS PRODUCT AND WOULD BUY IT AGAIN IF NEEDED .
+## AGAIN THIS PRODUCT IS RECOMMENDED BY THIS REVIEWER .
+definition sound[-1] ## It 's a fun little gadget , do n't expect high definition sound .
+## I had read about the soundbugs on various websites in the past ; I eventually bought it out of curiosity .
+## The best use that I found so far for the soundbug , is putting it on the glass of the sliding balcony door to listen to the music outside , while keeping the door shut -LRB- because of the A\/C , for example -RRB- .
+## Another use is to connect it to a portable mp3 player ...
+## I purchased these for my desk at work .
+sound[+1] ## They sound really good just as the reviews say .
+bass[+1], mids[-1] ## A little bit of control over the mids would be nice but the bass is solid for the size .
+## They are n't quite as loud as some of the reviews seem to imply but that could be because of the acoutics of the area they are in .
+switch[-1] ## The switch being in the back is a little awkward as the other reviews also mention and the `` pulse '' is n't really all that but that is irrelevant to me .
+look[-1][v] ## They do look cool in the dark though .
+computer speakers[+1], price[+1] ## Overall I would reccomend these to someone who wants a set of small but effective computer speakers at a reasonable price .
+speakers[-1], preform[-1][v] ## I tried these speakers and found them to preform well below expectations for this price .
+## Bought the Klipsch 2.1 and found them clearly superior to these .
+looks[+1] ## If you are concerned about looks , get these .
+sound[-1] ## If you want good sound , STAY AWAY !!!
+HT upgrade[+1] ## Best HT upgrade I 've made in over 2 years .
+## I am a cheapskate when it comes to spending .
+## I always obsess about researching others reviews before I pull the trigger , especially when it comes to electronics or books .
+quality[-1] ## I will have to wholeheartedly agree with others here about the quality of this speaker .
+## Now , I am not all that technical when it comes to anything , I have just learned from the experience -LRB- and skills , technical know-how , etc. -RRB- of others , but my ears do not lie .
+## I recently purchased some Sennheiser headphones , which have done wonders for audio when on the bus to and from work .
+speaker[+1] ## Well , this speaker does the same wonders for my low-end HT setup .
+Dialogue[+1] ## Dialogue is very noticeably clearer .
+Sound effects[+1] ## Sound effects really sound more authentic .
+## While watching Good Will Hunting yesterday , there was a scene where whathisface starts up his birthday gift car , and I thought , yes , that does sound like a car just started in my family room !
+## I also noticed that in general volume levels can be much lower and the dialogue will still be understandable , even when I had a room air conditioner AND another fan blowing at max in the same room .
+## Well , stop reading my review and pull the trigger , you will have no regrets like me and others !
+## Well , except for the fact that I bus to work\/home , so when it arrived at my work , I was carrying a 25 lb .
+## The box was the size of a large boombox , and I would occasionally peer about me on the way home , partially wondering when I was going to get jacked for the speaker !
+## : -RRB- P.S. BTW , the robbery never occurred , I got home safe and sound ...
+tone[-1], speakers[-1] ## The first set I received had a loud audible tone coming from the speakers and had to be returned .
+working[+1][v] ## The second set is working just fine .
+sound[+1] ## You can fill a small room with sound pretty good , but do n't think it rivals a home theater system .
+surround sound[+1] ## Music sounds great but having surround sound in game is nice and a big difference from headphones .
+## They are currently marked down to $ 70 , that is the lowest I have seen them and definitely worth it .
+speakers[+1], value[+1] ## These speakers are a greatg value I use them as rear speakers with polk fronts and center .
+used[+1][v] ## They are clears and perfect to be used along with a sub .
+## You will not be dissapointed .
+price point[+1] ## In addition the price point is spectacular .
+## I read an earlier review that these speakers have to be protected from weather somewhat when used outdoors , so I thought they 'd make fine speakers for the bathroom , and I was right .
+## I 'm to lazy to register so I used the kid 's review form .
+## So let 's get started .
+computer speakers[+1] ## These are the only computer speakers I 've ever bought so I have no comparison to anything else .
+## The speakers actually sound like speakers , average speakers though .
+subwoofer[-1] ## The subwoofer is a tad boomy and s l o w and it still sounds unnatural even with the subwoofer know turned ALL THE WAY DOWN , but it 's all right because these are computer speakers .
+## These are more suitable for hip hop or rock , the dialogue sounds unnatural and piano music sounds like MIDI -LRB- lol -RRB- .
+horn tweeters[-1] ## Some may not like the horn tweeters , as they tend to sound too hot .
+horns[-1] ## I usually avoid horns but I do n't hear anything overly extreme .
+system[+1] ## This system is very powerful .
+## It played clean up to the highest levels -LRB- except for the subwoofer which had port noise -RRB- .
+## It effortlessly filled by medium-sized room with sound .
+## Do n't be mislead by the THX logo on it , though .
+## The requirements for computer speakers are n't as strict as the ones for theater equipment .
+## In other words , you 're not going to watch Star Wars on this thing .
+## So it all comes together .
+speaker system[+1] ## This is a great 3-piece speaker system for a computer , and it 's worth every penny .
+## Audiophiles though would n't bother with such mediocre equipment -LRB- so bug off -RRB- and GO LISTEN TO THEIR MUSIC SOMEWHERE ELSE .
+## I broke this in for more than 400 hours , not continuously or course .
+sound system[+1] ## This is the best sound system I have ever heard .
+## It beats my Z 680 which I accidently destroyed by a water spill .
+woofer[+1] ## The woofer is much larger .
+sound[+1] ## When I saw a lot of plastic where there was metal I was concerned that the sound would not be as good .
+## But it is better .
+## I would recommend this to anyone looking for the type of surround sound found in the theaters .
+## During games it will shake your seat bottom and the floor and maybe even the neighbors floor if they live too close .
+speakers[+1] ## If I were to rate these speakers on my listening needs , I would give a 2.5 stars , but I 'm giving 4 because I think they do the job that most people want them for .
+tonal qualities[-1] ## What I do n't like is that at lower volume music listening , tonal qualities are very poor .
+## I have to make equalizer adjustments for every different song to make it sound right .
+speaker crossovers[-1] ## There are limitations to what you can do with frequency adjustments because of the built-in speaker crossovers .
+mid-range[-1], bass[-1] ## You can not get decent mid-range or bass at lower levels without inaccurate booming from the sub woofer no matter how you tweak the levels .
+computer speaker[+1] ## However , once you crank the volume a little to a level a bit too distracting for the work I like to get done with some background music , viola , the audio is great -LRB- well , this is relative - great for a computer speaker -RRB- .
+sound[+1] ## Pros : - Great sound for a $ 100 speaker at mid to higher levels .
+computer speakers[+1] ## Definitely more capable of filling the room with sound than any other computer speakers I 've owned .
+Input[+1], headphone[+1] ## - Input and headphone on right jack is super handy .
+components[-1] ## - Construction : all components are pretty rugged and seem built to last .
+Power[+1], volume[+1], bass controls[+1], speaker[+1] ## - Power , volume , and bass controls on the right speaker are fairly handy .
+computer speaker[+1], bass[+1] ## - If you want loud , boomy bass , this does the job very well for a computer speaker -LRB- no , these are n't going to hit as hard as larger power-guzzling woofers , but they perform as nice as or better than many home theater woofers I 've heard -RRB- .
+satellites[-1] ## Cons : - I think the satellites look ugly .
+## The metal grills remind me of '80s boom boxes .
+## Also , certifications do n't impress me , so I 'd really rather not be reminded every time that I look at the speaker that I probably paid an extra % 15 just for Logitech to have these THX certified .
+sub woofer[-1] ## - Ported sub woofer not appropriate for this set up .
+speakers[+1] ## This is a preference , but since these speakers are more than capable of loud levels , I 'd be willing to sacrifice some efficiency to have an enclosed woofer that is much more accurate and less ... redolent of a teenager 's car system .
+## - Games and video can sound very tinny if you do n't do some adjustments on the software end when you switch from music .
+speakers[+1], adjustments[-1] ## While these speakers are capable of sounding good , I have to do more adjustments every time I change media type to keep it from sounding bad .
+speaker cable[-1] ## - Fixed speaker cable -- why do this ?
+## To increase the likelihood that we have to buy new speakers in a few years ?
+Sub woofer[+1] ## - Sub woofer is large .
+computer speaker[+1] ## For those who want the thump that this is capable of producing -LRB- very good for a computer speaker -RRB- , this is probably necessary .
+## I just do n't want this .
+speakers[-1][a] ## Conclusion : I was ready to pay the shipping to return the speakers the day I got them .
+## I decided to give them a chance and I 've gotten a little more used to them .
+properties[-1] ## I 'm still very frustrated with some of the properties , but now that I have saved equalizer settings and know I have to open up my sound card 's control panel every time I switch between music and videos or games , the sound is much more acceptable .
+## I really just want quality sound for listening to my music at moderate levels while I 'm doing work on my computer and these speakers really do n't shine until you start to crank them .
+## I tried to adjust my rating a bit higher assuming that many people probably want exactly what these do -LRB- and I 'm happy I do n't live in an apartment next to you -RRB- .
+speakers[+1] ## I love this speakers .
+Sound quality[+1], base[+1] ## Sound quality and base is amazing .
+speakers[+1], sound[+1] ## This tiny speakers produce really big sound .
+product[+1] ## I would strongly recommend this product !
+speakers[-1], volume[-1] ## The speakers are very small and can not handle loud volume gracefully as voice coils top and bottom out , they clip the audio .
+## This is proof that good things come in small packages .
+size[+1], speaker system[+1], sounds[+1] ## This small size speaker system pumps out great sounds with most MP3 players , including Sansas and Ipods .
+sound[+1] ## I set it up in my living room and the sound was superb .
+## It played my Sandisk e260 beautifully , and then we jacked in my son 's IPOD 30 Gig and it played it perfectly as well .
+system[+1] ## This is a superb system and highly recommended .
+smaller[+1][a] ## It is smaller than I expected when I ordered it , but as it turns out , so much the better .
+system[+1], price[+1] ## A great system at an incredible price .
+product[+1] ## I 'm not easily impressed by electronics , tending to be a little conservative , but this product really deserves five stars .
+## Operates off household current as well as batteries .
+## If you do n't have the smaller size Sandisk MP3 -LRB- mine is bigger than the series the dock is designed for -RRB- , the player does not fit in the dock , but it jacked into the audio input with a cord that is included .
+## A small cosmetic issue , but good to know .
+quality[+1], price[+1] ## However , because this dock plays about any MP3 player and is of good quality and low price , it should sell very well .
+looking[+1], speaker stands[+1] ## These are good looking , durable speaker stands .
+carpet tacks[-1] ## I have n't even used the carpet tacks that came with the stands and they are hard to knock over .
+## I bought them along with one of the specified speakers suggested by Harmon .
+## They are seamless when looking at them straight on , but at side and 3\/4 views -LRB- pictures that were not available on line -RRB- the rear of the speaker is visible .
+stands[+1], look[+1][v] ## Overall they are great stands and look good .
+drawings[-1] ## Assembly is a little awkward because the drawings are n't that great .
+## Go to Harmon on line to see better instructions if needed .
+## I have two , the XtremeMac Luna Voyager and this iHome iP16GXC .
+## Both provide a docking port for the iPod\/iPhone on the top panel .
+## Both then sync with the device so as to display the time .
+## The XtremeMac , which is just a few dollars less expensive than the iHome model , has a blue florescent digit display for the clock while the iHome has a backlit LCD display .
+## While the XtremeMac looks cooler , the iHome is actually more legible from a distance and easier to read at a glance .
+## Both , at the touch of a button , start playing music from the content of the iDevice .
+## The iDevice is then accessed to change songs .
+## Volume is adjusted from the iHome .
+## Both units have an alarm clock capability , with the iPod\/iPhone utilized for the musical accompaniment .
+## The big difference in the two units , beyond their appearance , is in sound quality .
+units[+1], speakers[+1] ## Both units are small , with similarly small speakers .
+stereo separation[+1], bass level[+1] ## The iHome , however , has markedly better stereo separation as well as bass level .
+## When I first listened to the XtremeMac , I thought there was only a single speaker .
+stereo reproduction[+1] ## The iHome 's stereo reproduction is clearly superior .
+clarity[+1] ## Vocals have greater clarity with the iHome as well .
+## The speakers of the XtremeMac are built into the unit , out of harm 's way , and this is advantageous in a dusty environment or one in which small children might poke and prod at the unit .
+## On the iHome , the speaker domes are out in the open at the end of the unit .
+## They can be easily damaged if poked .
+design[+1], sound quality[+1] ## Obviously , one of the advantages of this design is the improvement in sound quality , but there is the disadvantage as well of potential damage .
+## The iHome has a watch-type battery to hold time if the power goes out .
+## It takes four AA batteries if portability is desired away from an AC line while still using the built in speakers and amplifier .
+## I tested it with the original iPhone , the iPhone3GS , and the iPhone4 -LRB- ATT -RRB- and had no problems with any of these sources .
+## Well , a friend of mine 's got the tower without the bluetooth feature , and it was really awesome so for a long time i was willing to buy a tower from this particular brand , 30 extra dolars for the bluetooth feature isnt bad at all .
+works[+1][v], sound[+1], size[+1], price[+1] ## I got it today , it works great , great sound for its size and price , I understand that the volume for iPhone and the towers own volume are two different things that should be placed at the right measures to get the better sound quality so I do n't complain for the fact of the remote not being able to control my iPhone , I highly recommend this tower .
+bass[-1], system[-1] ## First of all , I disagree with any suggestions that the bass on this system is boomy in a bad way .
+## I also disagree that this system sounds like a boombox .
+## It sounds great !
+## I chose this system in particular because it 's THX Certified , so I knew it was unlikely that they 'd sound disappointingly bad .
+sound[+1][v] ## They sound wonderful , in my opinion , and I have n't even touched any equalizers .
+## I got them for my girlfriend so she would n't be stuck with 2W laptop speakers anymore .
+## I 'm breaking them in with some trance at a moderate volume right now .
+Mid-range[-1] ## Mid-range is n't the best , but it 's certainly there and enough to satisfy anyone not looking to spend $ 300 + on computer speakers .
+highs[+1], lows[+1], bass[+1] ## The highs and lows sound great and personally I think the bass is at a perfect level -LRB- at 50 % -RRB- , definitely not boomy .
+## In fact , it beats my -LRB- albeit 11 year old -RRB- Altec Lansing ADA885 system 's subwoofer -LRB- system originally $ 300 -RRB- .
+price[+1], sound[+1][v], bass[+1] ## Bottom line is for the price , these things sound GREAT and have tons of good bass .
+## Highly recommend .
+## Definitely worth spending the extra money over a cheaper $ 60 system ... grab these instead , you 'll be glad you did .
+speakers[+1] ## These are great bike speakers for the weekend cycling in the park .
+## What it really is , is a pouch with speaker - the zippers open up a little bucket for your sunglasses and your cell phone inside .
+## The waterproof feature is also true because it is still working after 2 hours in drizzle .
+mount[+1], use[+1][v] ## The mount is easy to use ... it 's just velcro straps to tie up on the handlebars .
+## I have a bike light so I had to remove it to cater enough space to put this speaker on .
+bigger[-1][a] ## It is also a bit bigger than expected but that 's OK because all I need is something to work with my iphone .
+speakers[+1], sound[+1] ## I believe this are great speakers but you also have to accept the audio capabilities of your Desktop Computer or Laptop , I try this at BestBuy and the sound was perfect for this small speaker , now when I got home and try them on my desktop the sound was ok , I have a Mac and I wanted to avoid installing a sound card since it 's a nightmare to find a fully compatible PCI card , I found a great plug-in for Mac I-tunes , SRS Iwow , after installing the demo I was totally impress by the quality of sound , just a great alternative for mac users .
+## I was super excited to receive this little speaker .
+## I got this item for the sole reason to use on my iPad since the built-in speaker on that device is horribly low , even in quiet rooms !
+## I plugged this baby in my iPod and had 5 people in the living room speak at the same time to see if this thing can overpower that noise .
+## Man was I surprised !
+## This thing drowned all five people out !
+loud[+1][a] ## My brother and I were equally shocked at how loud this thing really is .
+## After my first test run with it , my brother took my smartphone , logged into my Amazon account , and bought one for himself .
+## Yes he asked first lol .
+## I am planning on posting a video to show how loud this thing is .
+bass[-1] ## I deducted a star because , when I put my iPod and iPad on full volume , the speaker 's bass began to completely ruin the sound .
+## It sounded like an busted up speaker and the lyrics were muffled .
+## That kind of annoyed me ... a lot .
+## But to remedy this , all I did was set my iPod and iPad to either Treble reducer or Bass Reducer .
+sound[+1] ## The sound became instantly clear again .
+bass[-1], sheer volume[+1] ## I do wish I could enjoy lots of bass without the sound losing quality , but the sheer volume of this thing makes up for that !
+small[+1][a] ## Upon opening these I found them to be really small but having a solid feel to them .
+## They use a design that has a passive radiator that takes up most of the back of each speaker .
+## You get a power\/volume knob , headphone jack , and Bluetooth button on the front and power , speaker to speaker , and line-in on the back .
+design[-1] ## There are a few things that I do n't like about the design .
+speaker grill[-1] ## There is no speaker grill to offer any protection to the driver .
+## They used a glossy finish on the front .
+## I have found that around the knob is all smudged up and scratched now from normal use .
+## If would have been much nicer if they had put nubs\/tread around the volume knob , it would have provided a more positive grip and given more feedback .
+knob[+1] ## With the smooth knob I find it hard to judge if I am actually gripping it and turning it by feel alone .
+## Pairing to a Bluetooth device is the usual no problem activity that I have come to expect from creative speakers .
+## No complaints there .
+## I also did n't run into any problems using the speakers with any of my Bluetooth devices .
+## When I first setup the speakers I saw a note in the manual to not place the speakers backs against a wall or solid surface .
+## I sat the speakers on my computer desk at home -LRB- not up against a wall -RRB- and was really meh about how these sounded .
+## I had decided that I did n't want to keep these at home and decided to take them to work because I did n't need really good sounding speakers at work .
+## Well when I hooked these up in my cubicle at work they sounded like totally different speakers .
+## I could n't believe how much better they sounded .
+## So the conclusion I have reached is that placement for these speakers is very important .
+## They might sound good in your situation they might not .
+## It is hard to tell .
+speaker mount[+1] ## This is the best speaker mount I had so far .
+material[-1], look[-1] ## Although I was concerned about the plastic material and the fragile look , but it really works .
+speaker mount[+1], speaker[+1] ## This speaker mount is suitable for small speaker .
+## It is what you would expect for a ~ $ 30 dock .
+sound[-1] ## The sound is far from good and there 's a lot of interference mainly when doing any Wifi activity .
+Volume level[+1] ## Volume level is OK .
+material[-1] ## material is on the cheap side .
+## I was expecting more based on the rest of the comments but I guess for ~ $ 30 is `` OK ''
+JBL S310 II[+1] ## JBL S310 II is truly amazing .
+Sound[+1], bass[+1] ## Sound is crystal clear and the bass is very deep as well .
+## I own two of these and I have configured these as my front left & right speakers .
+speaker set[+1] ## I am using JBL N38 II as surround left & right , which is again a very nice excellent speaker set .
+## The Rear Left & Right speakers are JBL N-Center II speakers .
+unit[+1], dialogues[+1] ## The Center channel is JBL - S - Center II , this unit is very powerful and produces crystal clear dialogues , and it 's a 3-way speaker system .
+## JBL 150W PB10 Sub woofer provides the low frequency effects .
+## <p> All of the above mentioned items are powered and driven by Harmon Kardon AVR 525 7.1 Receiver .
+AVR 525[+1], sound[+1], clarity[+1] ## Harmon international has done a great job on all of these equipment , the AVR 525 produces crystal clear sound with excellent clarity .
+## Even though this unit produces 70W per channel , it powerful enough to make an earthquake at -10 db .
+quality service[+1] ## <p> I am very happy about my investment and the quality service of Amazon and J&R store .
+product[+1] ## Great product , works perfectly for my office !!!
+## I even take it home so I can use it when I am working out !!
+## This product is a must have , believe I did my research .
+BASS[+1], bass[+1] ## I love the BASS this thing gets , I have two 12 '' subs in my car , that should tell you enough if I am saying the bass is great !!
+## You wo n't regret it .
+## I very rarely review any type of electronic devise , so I 'm sort of in uncharted territory here .
+devise[+1] ## All I can say is that this is an excellent devise .
+## The word `` amazing '' even comes to mind .
+## I have a very small laptop computer .
+## I was doubtful that this device would be able to do anything helpful for my laptop , but it virtually turned my laptop into a stereo system !
+device[+1] ## I highly recommend this device !
+## Who ever does n't buy these speakers is CRAZY not to ... .
+## Enjoy enjoy enjoy the best !
+## OMG >> >> >> -RRB- Please buy these you will be in heaven .
+## Just for around the computer you will enjoy music like you never did before .
+## Buy Them ...
+## THE BEST BUY IN TOWN .
+SOUND[+1] ## FAR SURPASSES ANYTHING I 'VE HEARD TO DATE FOR THEIR SUPERIOR SOUND .
+## HIGHLY RECOMMENDED .
+install[+1][v], music quality[+1] ## Apart from being very easy to install , and the excellent music quality , what I really find fascinating is discovering new artists with Internet radio stations or music providers .
+## Before Sonos I was n't very convinced about internet music , but Sonos experience is so rich -LRB- numerous sources -RRB- and easy -LRB- there is almost no setup -RRB- making listening to internet radio a pleasure .
+## Got these for my laptop which has terrible sound volume .
+sound[+1][v] ## They sound wonderful the only issue is where to put them when I move around .
+speakers[+1] ## These speakers are great .
+sound[+1] ## They deliver great 5.1 sound when hooked up and ACTUALLY RECEIVING A 5.1 SIGNAL .
+## All of my music outputs in 2\/2 .1 at best except for some FLAC files , but it puts out the sound for Skyrim , movies with the proper audio data , and other similar media with a lot of quality .
+## The sub is downfiring and much more compact than my last batch of Logitech speakers -LRB- Which died after over 7 years of use , a very satisfying ROI -RRB- .
+## My last set of speakers were Logitech and they lasted well past their expected life span with a variety of use and abuse , if these hold up like every other logitech product I 've owned I 'll be very happy .
+## This review is just a warning to anyone with an 8 ohm amplifier : I originally purchased these because they reviewed well .
+## However , they are 4 ohm speakers , and the amp I ordered is 8 ohms .
+## The manufacturer 's website says that they are 8 ohms , but when you download the manual , it says the impedance is 4-6 ohms .
+## I was able to cancel the order before shipping .
+## -LRB- THANKS AMAZON ! -RRB-
+## What I found as a replacement for about the same money were the Bic America RTRV44-2 .
+## They rate better as well , 4.5 stars compared to 4 stars , with NO 1 star reviews .
+## So I have ordered these , and they are on their way .
+## PROTECT YOUR UNIT AND TURN ON & OFF SPEAKERS WHERE EVER YOU ARE OUT SIDE OR IN ... GREG ROCK ON CROYDON ROCKS
+## I had bought a logitech X240 and I knew that I was not going to keep it the very first day as it was merely a big piece of junk .
+power[+1] ## Well it had good power but no precision at all .
+## After reading many reviews about X230 , I ordered it -LRB- through office depot for 34 bucks and free shipping which only took 2 days with UPS -RRB- .
+speaker[+1] ## Wow , this speaker really rocks .
+## Even with its sub volume all the way down , you will hear the complete spectrum of instruments at different pitches and can recognize them one by one .
+satellite speakers[+1], bass tones[+1] ## The satellite speakers actually are really reach in the bass tones .
+## Really happy with the purchase .
+## Highly recommended .
+## After arriving earlier than anticipated , I made a test of two three foot sections .
+## Perfect !
+speaker wire[+1] ## When I put it to use for my daughter 's graduation party in longer lengths , the speaker wire worked as expected , even out of doors .
+quality product[+1] ## If you want a quality product , delivered on time , buy this one .
+Tiny[+1][a] ## Tiny .
+## Powerful .
+Portable[+1][a] ## Portable .
+Sound[+1] ## Great Sound .
+## Seriously , I had to turn it down !
+## It will `` dance '' a little on the table if it 's turned up really high , which is kinda cute , but you do n't want the little guy to hurt himself , so I put a small piece of that slip guard meant for under rugs and kitchen shelves and it worked wonderfully !
+## I 'm buying a second one !
+## Just the fact that you can carry all your music and different genres on cards that take up no room at all makes this a huge PRO factor for me .
+## Fabulous BUY !!!
+## I 've never owned a surround sound system before this .
+## And now I do n't think I can go back to the old school stereo again .
+sound[+1] ## The subwoofer has terrific sound and gets really high !
+## I can shake my whole house !
+Sound[+1], look[+1] ## Pros : - Great Sound - Sleek cool look - Compact - Comes with RCA adapter - Speakers all swivel so they can be wall mounted Cons : - Mainly for PC only -LRB- but works fairly well with TV 's -RRB- - Wattage is n't all that high - No immediate line in -LRB- so you ca n't hook your MP3 player up and get SRS right out of the box -RRB- I 've heard a bunch of people say that the cord 's for the rear speakers are n't long enough .
+## I disagree .
+## They are at least 12 feet long and if you need something longer than that you should move up to a home theater system rather than a PC kit .
+## Note : To experience these speakers to the full , you will need to have a good sound card -LRB- 5 or more ports -RRB- otherwise the rear and center speakers may not work .
+## You will probally also need to setup the sound card to use 5.1 sound .
+## This can be done through the control panel - -RRB- sounds and devices - -RRB- advanced and if this does n't work you 'll need to use the software that comes with your sound card and adjust speaker setting to 5.1 .
+## I have a realtek soundcard and found it in the control panel under the name `` sound effects manager . ''
+## Overall , this is the BEST 5.1 set for under $ 100 .
+cost[+1] ## I 'd venture to say that because of it 's low cost it 's the best PC stereo set out there costwise .
+## If you buy a 6.1 or 7.1 system you wo n't get that much of a sound improvement other than volume .
+## And for a small room , this thing can crank it out enough to hurt your ears !
+Audio Cube[+1] ## The Audio Cube is great .
+sound[+1], bass[+1], unit[+1] ## The sound is surprising full , with a fair amount of bass , even for such a small unit .
+## I bought this unit to use a speaker in the bedroom as well as a nightly dock to charge my iPad and provide additional sound for an alarm app .
+works[+1][v] ## It works great for this purpose .
+## There is also an additional input to charge\/play music from another non iOS device .
+## I like it because it is soft and flexible that I can run it along the edges of the door .
+sound[+1] ## Does what it should and the sound seems fine to me .
+## I guess you may want to get some of those tips for the ends to make it easier to connect to the speakers .
+setup[+1][v] ## This setup worked perfectly the first shot at it .
+worked[+1][v] ## I did not even have to hit the `` auto tune '' button , it just worked instantly .
+sound quality[+1], volume[-1] ## Really good sound quality , but certainly not high fidelity , and volume is not at all blaring .
+price[+1] ## If you want background music , better than your TV sound for movies , speakers around the house for parties , outside get togethers , this is about as good as you can expect , for the price .
+## I have not had any of the bad issues that I saw in other reviews , and we are very pleased with the purchase .
+Works[+1][v] ## Works great !
+pair[+1][v] ## Easy to pair !
+sound[+1] ## Great sound !
+battery life[+1] ## Good battery life !
+Life[+1] ## Life is good .
+## Great gift for any one !
+price[+1] ## Good price !
+controls[-1] ## The controls are hard to see and not intuitive .
+## But , adjusting the picture settings is a one time thing for most people .
+## When I saw these cables , I could n't have been more excited .
+## These were the cables from my youth .
+## I am sure that my appreciation of fine music would never have developed were it not for the audiophile quality sound that these cables were able to extract from my little Fischer-Price phonograph .
+sound[+1] ## The sound that came from that cheap little record player sounded like Carnegie Hall .
+## -LRB- If Carnegie hall had been built on a cloud in heaven . -RRB-
+## So , I traded my Prius in for a 1975 Dodge Dart -LRB- with a built in 8-track - I knew these cables would make that ROCK -RRB- and chose expedited shipping .
+## Within seconds the confirmation email arrived .
+## I plugged in the tracking number and was surprised to learn that the item had already been delivered .
+## BACK IN 1963 !!!!!
+## So that 's where I got those from .
+## I thought Aunt Loretta had sent them .
+## I mean I guess I got my money 's worth .
+## I just wish I had n't ruined them by hooking them onto my bicycle spokes with a clothespin .
+## Oh , well .
+## If this kidney sells , I 'll be able to afford another pair .
+## I 'm A + if anyone is interested .
+## I have loved my rock speaker for about 3 years .
+## I have it in my garden .
+## Last summer I thought I 'd like to have 2 more placed around my garden .
+## Since spring is right around the corner I thought now was the time .
+## I use them with music coming from my computer .
+speakers[+1] ## I absolutely LOVE these speakers .
+## This phone was advertised as a 3 line phone -- I checked and re-checked tht listing on the description when purchasing -- and now that I want to return it , I get NO RESPONSE from Eek Technology whom it was purchased from .
+## \* POORLY LISTED \* NO CUSTOMER SERVICE ON A RETURN \* WO N'T DO THIS AGAIN !!!
+## I ordered Harmon Kardon Soundstick II and I returned them .
+## I own Harmon Kardon Soundstick I and I must say that these speakers do n't compare with the Harmon Kardon Soundstick II .
+sound quality[-1] ## The sound quality is very poor .
+## On a scale of 1-10 I would say it is a 2 at best .
+## Do n't buy these .
+## Harmon Kardon should go back to the old style of speakers with the USB instead of the new plugs .
+## Warning : These speakers are marketed as speakers for your TV , PlayStation , or DVD player -- not your computer .
+## They have RCA inputs ; they want you to use the enclosed RCA cable to connect the audio outputs from your TV\/PlayStation\/DVD directly to the speakers .
+## This would be great in a dorm room or bedroom setting where you may not already have a stereo receiver and want better sound than what your TV is giving you .
+## If your computer is anything like mine , you will need to get a different cord , in a `` Y '' shape , where the `` top '' of the `` Y '' are 2 RCA male connectors -LRB- these plug into the speakers -RRB- , and the `` bottom '' of the `` Y '' is a single male headphone jack connector -LRB- this plugs into your computer -RRB- .
+## You can get one of these cable at just about any electronics store for a few bucks , but it would have been nice to have had it included out-of-the-box .
+## I was bummed to open the box and realize that I could n't enjoy the speakers right away .
+sound quality[+1] ## : - -LRB- All that being said , the speakers have good sound quality .
+sound[+1][v] ## I am using them in my office , and they generally sound good .
+sound[-1][v] ## However , since I am in an office , I normally keep them at a pretty low volume , and at low volumes , they sound a little weak .
+sound[+1][v] ## Once I turn up the volume a touch , they sound really good .
+## I 'm not sure that any speakers could offer me high fidelity at very low volumes , though .

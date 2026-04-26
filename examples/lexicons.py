@@ -4,7 +4,7 @@ __author__ = 'Łukasz Augustyniak'
 import pandas as pd
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 
 df = pd.read_csv('C:\Users\Dell\Documents\GitHub\word2vec\d2v-vs-bow\Automotive9600.csv')
 

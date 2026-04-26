@@ -1,0 +1,879 @@
+price[+1], item[+1], customer service[+1] ## Affordable price , reliable item and excellent customer service .
+customer service[+1] ## I did have problem connecting my laptop to the internet but there customer service representative was very helpful and patient in walking me through all the steps .
+## I have no regrets and thankful to find this product in amazon .
+## After much homework and too much frustration with our cable provided wireless routers -LRB- 4 replacements in 8 months -RRB- we decided on the Netgear N900 !
+set up[+1][v] ## I am above average with technical knowledge but it is easy enough for the beginner to set up .
+## I had no problems .
+speed[+1], connection[+1] ## Our connection and speed immediately soared once it was online and our network was set up .
+## The only problem I encountered why I gave it only 4 stars is when I plugged in a usb storage device .
+## The device is not recognizable on any of the computers even after installing the Netgear genie .
+## The only way I 'm able to access this usb drive is by going through the netgear genie through the ISP of the storage device .
+## I was happy when I saw all my files and I was able to access them BUT when I tried to attach a document or file to an email , again I found you ca n't do this !
+## So the solution I had to do was to make a copy of the image and documents onto my local computer in order to then upload .
+## If they FIX this issue -LRB- which I 've seen in their support as the major complaint -RRB- I would give this a 5-star rating .
+firmware upgrade[+1] ## PLEASE A firmware upgrade that enables all the usb drives attached to this wireless router to be seen in the actual networked local computer desktop portals AND be able to drag and drop , upload , attach , etc. .
+netgear genie tool[-1] ## WITHOUT having to go through the netgear genie tool through the ISP and taking all the extra steps would be far better .
+## The packaging and instructions give the indication of plug-n-play usb ports where you can use any storage device and have it immediately appear in your network as if it was attached to your local computers ... this is a fallacy as it does not actually work that way .
+## After my DLINK DI-614 + router died after 5 years , I bought my new router for a couple bucks less at Costco .
+## Costco package offered a 24\/7 customer support number .
+## Since my router and internet connection were down I could n't use installation wizard .
+customer service[+1] ## I was pleasantly surprised that customer service was able to step me thru manual setup .
+signal strength[+1], speed[+1] ## Have n't setup any advanced features , but the signal strength and speed are roughly twice what I had with old router .
+## So far so good .
+## If I get a chance to setup and confirm advanced features I 'll come back to update review\/rating .
+customer service[+1] ## It works , good customer service -LRB- so far -RRB- = 4 stars .
+## I just got this Netgear to replace an Pre-N Belkin .
+## I must be getting interference from other people in the building so my connection sometimes would hang .
+## Video would pixle , so did n't watch that often .
+## I had the USB adapter for one computer and the express card for the laptop .
+## The laptop had the better reception .
+router[-1], hang[-1][v] ## Sometimes the system would hang , so I would have to restart the router , then get going again .
+## Started looking for a new router , saw this one and thought I 'd give it a try from the reviews .
+## I 'm glad I did .
+## I did n't have to call customer care , I followed the wizard , and it was fairly easy .
+## Naming the bandwidth was a new one for me , I named it the same as my password .
+go online[+1][v], adjust[+1][v] ## Oops , easy to go online , and adjust it there .
+## plan to read through the manual to understand more of what it can do .
+reception[+1] ## From the Belkin my reception increased over 25 % .
+tall[-1][a] ## It is tall , so I ended up laying it on its side .
+Connection[+1] ## Connection to the device is so easy .
+## I just went to my Laptop , it saw the router , I clicked on the name , then you go over to the router and push the button near the bottom , your connected .
+## Very Pleased at this time .
+D-Link DIR-655 Extreme N Wireless Router[+1] ## The D-Link DIR-655 Extreme N Wireless Router works fine as a 802.11 n wireless router .
+## However , the reason I bought it was to wirelessly share my printer between two Macs using the USB Shareport on the router .
+Shareport[-1] ## Shareport is not compatible with Mac OS .
+## After hours of searching the internet , I was disappointed to find that D-Link does not provide support for Mac OS 10 .
+## I bought this in combination with a D-Link DWA-140 Wireless USB Adapter .
+Mac support[-1] ## D-Link does not provide Mac support for the adapter , however I was able to find a free third-party driver that is compatible .
+## The best solution for sharing a printer is to use an Apple Airport Express or Apple Airport Extreme .
+## I returned both D-Link products and purchased an Airport Express .
+## It was running in a couple minutes , and very easy to wirelessly share my printer .
+## I was told by the Qwest support to upgrade my cisco 678 to a pk5000 .
+port translation[-1] ## The router does n't support port translation , e.g forward port 8080 in the outside to port 80 in the inside .
+manual[-1] ## Nor there is a clear manual offered by the manufacturer or by Qwest , Qwest does provide some info , but nothing about what is not intuitive enough in the screen .
+## Called Actiontec for a fix , but they do n't support it , their recommendation was to use it as a bridge , and use a real router behind .
+dsl modem[-1] ## -LRB- yeah , like you 'll use a new , very expensive dsl modem as dumb bridge -RRB- I returned the Item and got a linksys dsl modem instead .
+## I am a long time D-Link customer -LRB- owned 3 different D-link routers -RRB- , the last two all failed in one year .
+D-link[-1] ## When I bought the third one , I thought I can give D-link one more try , but now I regret my decision .
+router[-1] ## The router failed today -LRB- completely dead -RRB- , when I need to work from home due to heavy snow !
+## Should have bought the Linksys routers , no more D-link for me .
+## This is a great buy as far as I know .
+cost[+1], wireless punch[+1] ## With the small cost it packs a powerful wireless punch
+## I upgraded from the Netgear WPN824 and wow what a difference !
+## With the WNDR37AV I now get full bars in every room , through four walls -LRB- metal stud construction -RRB- except in the garage which gets almost full bars .
+Setup[+1][v] ## Setup was very easy .
+router[-1] ## This router does drop every once in a while , but not like the old router did every hour or so !
+USB port[+1], feature[+1] ## The USB port on the back is a nice feature .
+## I wish they would have taken it a step further and added one or two more for additional storage or a local printer server .
+data rate[-1] ## The data rate over the network storage is rather slow , but I only use it for occasional backups so it does n't bother me too much .
+router[+1] ## In all I 'd say this is a decent router for the money .
+product[+1], signal interruptions[+1] ## My house is small , so it 's hard to judge the real strenght of the product through a lot of walls , but in my house the product worked perfectly in all rooms and corners , with no signal interruptions .
+model[+1], software[+1] ## The model is also very clean and nice , and the software is very user-friendly .
+product[+1] ## These were only my first week impressions but , until now , I strongly recommend this product and I 'm very satisfied with it .
+## Bought a d link .
+## Cd does not provide guidance for support for mac or software to install for mac .
+Technical support[-1] ## Technical support rude and unhelpful .
+## This router replaced an aging Linksys WRT54G .
+printer sharing[+1], menu[+1] ## The D-Link has a ton of features including USB printer sharing , two wireless networks -LRB- one not connected to the LAN -RRB- , and a really comprehensive settings menu .
+## I have owned this for over 6 months and have never had to reset it due to instability .
+## I would buy this again , and recommend it to others .
+## My old wireless G was having issues and dropping out .
+## All of the resets and chasing upgrades were n't helping .
+product[+1], price[+1] ## I took a chance with this new product and am pleased , except in six months it will cost half of what I paid , but that 's the price for current state of the art .
+set up[+1][v] ## Piece of cake to set up .
+## I had all four of our computers up and running on the network in about an hour .
+signal strength[+1], setup[+1], security[+1] ## No dropouts , good signal strength all over my three story house -LRB- unit is located on the top floor -RRB- and very user friendly in the setup and security aspects .
+speed[+1] ## I would n't mind having an external adjustable antenna , but it does fine as is and the speed on the bottom floor of the house is much improved .
+## I was really looking for a way to have a wireless NAS .
+## I contacted Netgear before buying to ask if I could set it up as a repeater -LRB- to my primary Netgear router -RRB- with the USB drive enabled .
+## The answer was yes .
+set-up[+1] ## The set-up went fairly smooth with netgears online knowledge base .
+## I hooked up a Lacie external drive and everything seemed to work fine .
+## It showed up on the network .
+SLOW[-1][a] ## I started accessing and transfering files to find it to be extremely SLOW .
+slow[-1][a], useable[-1][a] ## So slow , that it is not useable for files of any size or back-ups .
+## I read online and found that my expectations should not be high , but this thing was roughly equivalent to using a dial-up internet connection .
+signal strengths[+1] ## I verified the signal strengths with a laptop and there was no problem there .
+## E-mailed Netgear and they insisted that I call .
+## After about 30 minutes into it , they told me that they could not help me any further -LRB- without a fee -RRB- because my primary Netgear router is out of warranty .
+## My primary router has no problems at all .
+## The old router has worked well for going on two years .
+## Netgear refused to diagnose the WNR3500L without a fee because I was repeating an older NETGEAR router .
+## I told them I would send it back and they said OK .
+## I just sent it back for refund today .
+USB function[-1] ## Bottom Line - Do n't buy this for the USB function .
+## I bought this router to replace an old Linksys and to go hand-in-hand with a new Motorola SB6120 modem .
+## Having received the router first I elected to hold off setting it up until I got the new modem .
+## After receiving the SB6120 and setting it up I set up the router following the instructions they gave .
+set up[+1][v] ## The set up was pretty simple , basically a matter of hooking everything up and rebooting your system at which time you 're taken to the D-Link website to finalize how your setup will be .
+## This part confused me as I could n't find how to set your security parameters .
+D-Link support crew[+1] ## However , a phone call to the D-Link support crew was answered in a reasonable amount of time and they guided me through the process without a problem .
+router[+1], working[+1][v] ## As of this review I am using the router and it is working very nicely .
+## Moreover , I found it to be more user friendly than the old Linksys I had .
+D-Link DIR-655[+1], connections[+1] ## As a final comment I am happy with the D-Link DIR-655 so far and my home wireless connections are smooth whether I 'm using my ASUS netbook or Apple iPad .
+## Finally got around to installing my Cisco-Valet .
+Installation[+1] ## Installation was easy as advertised .
+## Had couple of minor questions ... tech support number provided said it was available 24\/1 .
+## Since it was Sunday , was very skeptical .
+tech[+1] ## Made call which was immediately answered by very helpful , competent tech .
+tech support[+1] ## Best tech support I have ever experienced .
+speed[+1], set up[+1][v] ## Amazing speed and easy to set up .
+range[+1] ## Very good range and seemed to be better in the horizontal position .
+coverage[+1] ## I get complete coverage everywhere in my house -LRB- about 3500 sq ft -RRB- and it 's located in the corner of my basement .
+## I 'll report back after I have it up and running for a while .
+## Ok ... .
+## Let me start by saying that home networking is bane of my existence .
+## I must live in some sort of black hole as I have been through several different routers in attempts to have my wireless network up to the standard I believe it should be .
+set up[+1][v] ## The set up for this product was a breeze .
+## Real piece of cake .
+work[+1][v] ## Surprisingly , everything seems to work well .
+signal[+1] ## My 2 XBoxs , Ipod , Iphone , Ipad are all catching a nice strong signal .
+## No drops ... The only problem I have had so far is my Apple TV which was operating on the 5.0 Ghz signal .
+## It did drop -LRB- just once -RRB- .
+## Now I have only been using this for a few days so this is a very early review .
+## My B + could grow to an A if things stay on course .
+## I 'm hopeful !!!
+router[-1] ## Addition on 4\/14\/2011 \*\*\* I 've just had the 2nd router of this model go bad inside of 5 months .
+## After the problem I recounted below concerning the first unit , I got a replacement and put the replacement in service .
+reset[-1][v] ## Last night I needed to reset the router .
+power supply[-1] ## I unplugged it , plugged it back in , and the power supply failed .
+## I used a previous router for more than six years without a single problem .
+model router[-1] ## This model router has now failed me twice in the short span of time mentioned .
+## There are too many competitors in the price range to take a chance on this shoddy model .
+## No wonder they had to offer a ` life-time ' warranty on it .
+## They 'll be sending plenty of them out .
+## However , you may not want to be without a router for the time it takes them to replace this -LRB- if you buy it -RRB- when it fails .
+model[-1] ## Avoid this model like the plague .
+## \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* I 'd had a previous wireless router for years that worked fine .
+bandwidth hogging software[-1], Internet connection[-1] ## However , some of the latest bandwidth hogging software was starting to bog it down , to the point where I was having to reset it and my computer far too often in order to reclaim a dropped Internet connection .
+router[+1] ## PROS : So off I went to get a faster router , and this one did the job I bought it for admirably .
+Set up[+1][v] ## Set up was smooth , and both wired and wireless devices worked very well on it .
+## The bandwidth hogs were no longer locking up my network , and rainbows filled the sky .
+## HUGE CON : While I was in the setup screen one day to double check my wireless network password , I noticed that a link had appeared announcing the presence of a firmware upgrade .
+## Normally I have found this to be a good thing .
+perform[+1][v] ## My blu-ray player and WD Live TV box normally lean back , smile , and light up a smoke after a good firmware upgrade , and perform well forever thereafter .
+## Well , not this box .
+firmware upgrade[-1] ## halfway through the firmware upgrade progress bar , the infamous browser `` Page not found '' screen replaced most of the router 's interface .
+network[-1], Internet connection[-1], router[-1] ## The network was down , the Internet connection was gone , and the router was completely unresponsive .
+router[-1] ## After that , the router would never even respond to its own internal browser link .
+## No amount of tech support or troubleshooting research solved this issue .
+## It had become well and truly a door stop .
+## WRAP UP : I exchanged the router for another of the same model .
+operation[+1], firmware update[-1] ## I was pleased with its operation before the attempted firmware update .
+## So I 'll live with the new one as boxed , and never be foolish enough to let NetGear try to make it better , ever again .
+## I see from other reviews that this has been a fairly common issue with this router .
+## Too bad I did n't look here first .
+## I bought it at Best Buy without reading the reviews first .
+firmware update[-1], exchange period[+1] ## In the end I would recommend that you go with a different router , If you decide to get this one , either never do a firmware update , or do it right away so that if the router fails , you are within the easy exchange period .
+## Bought this router about a month ago to replace an old LinkSys unit .
+## I use it primarily for Ethernet connections to several computers and one wireless connection to a laptop .
+connections[+1] ## No problems with any of those connections .
+## The laptop is one floor vertically and about 20 feet horizontally away from the router .
+connect[+1][v], feature[+1] ## The ability to connect an external hard drive to the router is a nice feature when backing up from my various computers .
+set[+1][v] ## I am a novice at this stuff but it was extremely easy to set the router up .
+## The wireless portion has a `` guest '' setting that allows visitors to access the internet but not your network .
+worked[+1][v] ## So far the router has worked well .
+security settings[-1] ## My only complaint to date is that it dropped the security settings once and I am not sure why ; do n't know if it was something that I did or if it was a malfunction of the router .
+## The DD-WRT -LRB- Professional -RRB- firmware V24-SP2 build 19152 for the WHR-HP-G300N that comes from Buffalo 's website does not hold a wireless signal .
+DD-WRT firmware[+1] ## After much frustration , I finally upgraded the firmware to the latest DD-WRT firmware at DD-WRT 's website and it resolved all my problems .
+## It seems that Buffalo does n't put a lot of effort to work on their Professional DD-WRT firmwares .
+firmware[+1] ## You should use the firmware on the DD-WRT website instead .
+## It was working good for 4 months .
+## Now even 2.4 GHz Signals are NOT working .
+## I have to had to keep my laptop within 1 meter radius in order to get the 2.4 GHZ Signals .
+## Contacted Customer Support .
+## They said your 3 months warranty is over .
+## Now I am thinking either buy the expensive warranty or buy another router .
+## This is my 3rd router from Netgear .
+routers[+1] ## The first 2 routers worked good for years .
+## 4 months ago , I bought this and stuck with it .
+customer support[-1] ## The customer support is very rude .
+## I am really surprising how such a mandatory product for every house hold suddently does n't work and the custmer support says you have only 3 months warranty .
+## And the product was $ 100 and their 1 hour service is $ 55 .
+product[-1], Company[-1], Customer Support[-1] ## Hopless product , Hopeless Company and Hopeless Customer Support .
+set up[+1][v], worked[+1][v] ## The Netgear Router was simple to set up and has worked well for the last couple to few months I have had it .
+product[+1], price[+1] ## I am very happy with this product and the price was very reasonable given its features and specifications .
+## I bought this router not quite one year ago and am already shopping for it 's replacement .
+worked[-1][v] ## It worked reasonably well for a while , although it frequently was barely able to keep up when I tried to stream movies , which was a big part of the reason I went to a faster router in the first place .
+USB port[-1] ## The hard drive I had attached to the USB port was sometimes accessible , sometimes not .
+Range[-1] ## Range was comparable to , or possibly slightly worse than the old Linksys router I had been using for years .
+router[-1] ## And finally , in early June , this router stopped broadcasting an internet signal .
+internet signal[-1] ## The internal network still functioned , but it would not pass through the internet signal from the cable modem .
+Linksys[+1] ## I thought it might possibly be the modem or ISP until I hooked the old trusty Linksys back up to it and it worked fine .
+## And now , Netgear has deleted their customer service number from their website .
+## I would too if I was selling garbage like this .
+## I will be going back to a Cisco-Linksys product going forward .
+## This piece of junk ... well , I 'll probably paint a bullseye on it and take to the range .
+## It might be good for that .
+connect[-1][v] ## I bought this set it up and would not connect at wireless N speeds .
+## It would max out at 65 mbps .
+speeds[-1] ## When I reset it , like unplugging it and plugging it back in , I would get the N speeds 150 mbps the first time it connected and would transfer files at that speed , then usually next time I connected it would drop back to 65 or 52 mbps and stay at these speeds .
+## I Googled `` d-link dir-655 65 mbps max '' and found that a lot of people are having this problem .
+support[-1] ## Called their support , they did n't have a clue so I returned it and I am looking for something else that will give me 150 mbps .
+## Purchased this on Amazon .
+install[+1][v] ## Selected it because it looked easy to install .
+## Followed the directions exactly using the provided CD .
+work[-1][v] ## Easy enough but it did not work .
+interface[-1] ## The interface was atrocious ; several elements simply did n't work at all .
+## Called Netgear tech and they walked me through an additional lenghtly proceedure .
+Worked[+1][v] ## Worked fine after that .
+tech support people[+1] ## I have very high praise for the tech support people .
+## He was very patient with me .
+## I am extremely happy with the reault .
+device[+1], small[+1][a], designed[+1][v] ## The device is small and well designed ... I would recomment it highly
+## I purchased a M-10 valet router and had the following experience .
+## The wrong router was in the box -LRB- new not refurb -RRB- .
+work[-1][v] ## Since it would not work as advertised I called support .
+## The software said the unit had the wrong serial number , and the wrong model .
+## The tech continued however to try to make it work .
+## At this point I had no idea they had put the wrong unit in the box .
+## After a few hours the tech said this would have to go to an engineer .
+## Meanwhile most of the units functions did not work .
+## I reinstalled my old router .
+## I then discovered that it was the wrong hardware .
+## I called again and was told I could send it back RMA and wait for a new unit , purchase another and they would do a credit card hold until they got the unit back .
+## Or I could return it to the store .
+## After about 5 hours of frustration I did not feel any love for these choices .
+service tech[-1] ## They caused the problem , ie wrong product in the box , the service tech failed to believe what the software said was wrong .
+## I did get appologies -LRB- canned -RRB- , the case number was 120118-004972 if someone at cisco that cares reads this .
+ROUTER[+1] ## THIS ROUTER IS AWESOM BUT IT WILL ONLY SUPPORT 1 XBOX WE HAVE 3 AND YOU CAN NEVER GET MORE THAN 1 TO HAVE A OPEN NAT TYPE THE OTHERS ARE USUALY MODERATE OR STRICT WHEN I CONTACED SUPPORT THEY WERE VERY NICE AND TRIED THRE BEST TO GET IT WORKING RIGHT BUT TO NO AVAIL BOTTOM LINE IF YOU JUST HAVE A COMPUTER A LAPTOP AND 1 360 YOU WILL BE FINE AND VERY SECURE THIS ROUTER IS WELL WORTH THE MONEY
+## Does what it should , wish everything I bought did this .
+## Owned for 2.5 months and never had to reset yet .
+disconnect[-1][v] ## This router gets 1 star from me due to it 's disconnect issue .
+router[-1] ## Have the latest firmware but as many others have described , the router will randomly stop working for 5 minutes then work again .
+## Experience this about 1-2 times a week .
+## Not a big issue if you are n't doing anything time pressing , but if you 're trying to get that last minute auction or are playing a competitive game you get screwed .
+price[-1], quality[-1] ## Paid more than what amazon is currently selling this router at -LRB- price depression due to poor quality no doubt -RRB- and expected to get a good quality product ... these random disconnects kills it for me .
+shipped out[+1][v], condition[+1], set-up disk[+1] ## Item shipped out quickly , was in good condition , came with easy to use set-up disk ... we have n't had to 're - set ' the router at all so far since it 's delivery , so my wife is no longer giving me the business about losing her wireless internet connection on her laptop ... added security benefits , neighbors no longer hogging signal , well worth the purchase price !
+## <a�href="http://www.amazon.com/gp/product/B0041LYY6K/ref=cm_cr_asin_lnk/179-9716455-1337843"> NETGEAR N600 Wireless-N Dual Band Router with 4-port Ethernet Switch and USB Port </a> This router failed after 5 weeks of operation .
+internet connection[-1] ## -LRB- lost internet connection with the router , internet service was restored when the computer was connected directly to the modem -RRB- .
+## My first service call lasted over an hour -LRB- 46 minutes follwed by a call back that lasted about 25 minutes . -RRB-
+## I was guided through several attempts to find a solution , finally resetting and reloading some software .
+## This worked -LRB- for a few days -RRB- Four days later , same failure .
+## Following the same procedure , restored operation .
+## A few days after that , another failure , same conditions .
+## I replaced the router with another brand and called for a refund or Return Material Authorization -LRB- RMA -RRB- from Netgear .
+## Got the runaround .
+## I called again this morning was put on hold by a technician , and the call was terminated .
+## I called again and spoke to a supervisor who finally agreed to replace the unit if I mailed it in to Netgear , then they would mail a replacement .
+## NO REFUNDS ARE ALLOWED !!!!!
+## For such a key part of a system , to have to wait for a swap by mail is unacceptable , it should be return to the retailer for an immediate swap .
+## I have learned a great deal about Netgear 's warranty policy through this experience , and will avoid this brand at all costs .
+warranty[-1] ## I guess that `` limited lifetime warranty '' means it may take a lifetime to collect on the warranty .
+work[-1][v] ## Bottom line : it did n't work the way it was supposed to so we 're returning it We bought this router for our two computers .
+## One is a new laptop running Vista and the other is a 7 year old desktop with Windows 2000 .
+## Our two requirements of a router were 1 -RRB- it should work with both Vista and 2000 and 2 -RRB- it should have a USB port so that we can connect the printer .
+## You ca n't share a printer between 2000 and Vista , so we 've always just had the printer hooked up to the desktop .
+## Everytime you want to print from the laptop , you have to carry it across the house to the printer .
+## Sometimes , with the old router , the laptop was able to see and access the shared drives on the desktop and we could move and print things that way , but that only worked some of the time .
+## We wanted to find a better solution .
+## My husband and I are both software engineers .
+## If two software engineers ca n't get this working with our system , then it 's not going to work with what we have .
+## We spent probably 12 hours , total , trying to get the router 's USB port to work with no luck .
+## First , I tried to set the router up using the wire connection to the old desktop .
+connect[-1][v] ## I spent 4 hours on that and I could n't connect to the internet .
+connected[+1][v] ## I tried setting the router up with the laptop and it connected easily and hooked me up to the internet in under 15 minutes .
+internet connection[+1] ## When I then moved the wire to the desktop and used the laptop wirelessly , the internet connection was just fine .
+## So if you are trying to use this router with two different operating systems , set it up using the computer that has the newest OS and you 'll hopefully be successful .
+## Once I had the internet working on both computers , I installed the software , SharePort Network USB , from the disk provided with the router .
+## Neither computer could see the printer in the USB port .
+## To rule out that it was a printer issue , I plugged a thumb drive into the USB port and neither computer could see that either .
+## I downloaded the newest version of SharePort , tried it on both computers , no luck .
+## Tried many combinations of rebooting the router , the modem , each computer , etc. .
+## No luck .
+## I installed new firmware versions , one by one , on the router and kept trying .
+## No dice .
+## Read many online forums .
+## Still no luck .
+## Tried beta firmware versions which were supposed to fix the problem .
+## The computers never could see the USB port .
+## Our old router works with both Windows 2000 and Vista .
+## We were really just hoping to have the luxury of not having to physically move the laptop to the big , heavy printer every time we wanted to print a document .
+SharePort[-1] ## However , SharePort on this new router worked 0 % of the time .
+## We 're going to go back to our old router because some of the time is better than never .
+## finally went wireless and this was the router i chose for my 2 story house .
+## its a hit !
+## son is on ipod all the time , wife watching tv on laptop , me online gaming on desktop -LRB- i did increase my bandwith from my internet provider when i did this -RRB- all at the same time and you would never know the difference if they werent .
+## when i installed it i called my internet provider and they walked me through it , so dont feel like you need to know anything at all about installing one of these , cause you dont .
+## all you need to know is this is what you need if you want to go wireless and you need to cover a good size home .
+## This is THE router for those who want to save some $ $ $ by not ` renting ' from a cable firm .
+product[+1] ## This is an outstanding product , one that lives up to the PR .
+## My mom , -LRB- in her 70 's -RRB- bought this for herself , and as a gift to me - say goodbye to hard router set-up 's .
+Valet PLUS[+1], configure[+1][v] ## Valet PLUS is easy to configure , and was set up in about 7 minutes .
+## The product pretty much set 's itself up - unlike other brands\/products .
+range[+1] ## The range is GREAT - upstairs , downstairs , outside , or in a basement - four bars , all the time .
+## If you are a bit shy about setting up a router\/network , this is the one for you .
+set-up[+1][v] ## The set-up is goof-proof , and offers a superior result .
+## SUPER EASY !
+## -LRB- really -RRB- .
+## I had a Xycel x550 that I replaced with the D-Link Dir-655 .
+## x550 was a fine router .
+## Just getting a little old .
+## Went with the Dir-655 .
+Worked[+1][v] ## Worked fine .
+## 17 months later , it died .
+## Almost threw it away .
+## Probably like many others as I had no easy way to test the adapter .
+## You ca n't just plug one adapter in to something else .
+plug[-1] ## Especially due to the odd sized plug designed by D-Link .
+## Intentional ?
+## You tell me ?
+## Tested it with a volt meter .
+## Dead .
+## So , I looked on line to buy one and guess what ?
+size[-1] ## No one sells a 1.2 mm x 2.2 mm sized -LRB- or what ever stupid size it is -RRB- power adapter .
+## They made these small , I can only guess , because it is a possible revenue generator ?
+## New ones are ~ $ 15 .
+## And they will too likely die a short death as well .
+## In fact , I have never had a Power Adapter die before my actual product before .
+## So now , I will buy a - \/ + 12v 2.5 amp or 3amp power adapter or brick and splice this stupid sized end on it .
+## D-Links only recourse is to buy a new power adapter .
+## Nearly impossible to find one of this end size ... unless you buy their replacement product ... NetGear or Zyxel for me .
+## Do NOT buy \/ Avoid
+## I have owned the `` wndr3700 '' for about six months and it does a good job at 1 gbps direct connection and up to 300 mbps wireless .
+## Now they come out with the wndr4500 that offers 900 mbps .
+## Do n't cha just love the old technological trickle .
+## As far as performance my very old Linksys 54g worked fine with a strong signal and a solid 54 mbps wireless .
+## I had no problem running my TV apps with it or using my laptop wirelessly .
+## I mainly got the 3700 for the USB port that allows for bookoo storage on my network .
+## In another 6 mos they will surely come out with a router that will do 2000 mbps -LRB- not that they do n't already have it , they just do n't want to release it , , , , yet -RRB- and everybody will run to get one .
+## Fuhgetaboutit .
+## I fully understand that this is my opinion on the game that is played and not on the performance of this router or it 's worth so save me the comments on that if you would , PLEASE .
+## I know you wo n't but I thought I 'd try .
+software[+1] ## The software on the router is pretty good .
+use[+1][v], feature[+1] ## It 's easy to use , and it seems feature complete .
+## Way more features than I 'll ever use , but nice to know they 're there if I ever want to twiddle .
+## I 'd like to give it 4 or 5 stars .
+reboots[-1][v] ## The problem with this box is that it reboots several times an hour , if not more frequently .
+## This is my experience , and it seems to be a common one .
+## It is infuriating , frustrating , and disruptive to my workflow .
+come back online[-1][v] ## It takes approximately 20 to 90 seconds to come back online -LRB- I have n't timed it -RRB- , which does n't sound that bad until you get nailed 10 times in one hour -LRB- that 's about as bad as it gets ; sometimes it goes for hours without rebooting -RRB- .
+## According to various forums , lots of people have this problem -LRB- just google `` dir-655 rebooting '' -RRB- , and there does n't seem to be a consensus on a solution .
+## The solutions that worked seemed to involve black magic or pure luck , as they would work for one person would not work for another .
+## Most people reported continued problems , even after getting a replacement from DLink .
+## Yes , I have the newest firmware -LRB- I 've even reflashed it several times , just in case -RRB- .
+## I 'm running a minimal configuration , nothing fancy beyond password protecting the wireless .
+## This happens when my laptop is the only computer on its network .
+## I have not contacted DLink .
+## For now , I 've propped it up on its side to increase ventilation -LRB- one of hotly contested but ultimately unverified rumors is that the reboots are heat related -RRB- .
+## We 'll see how it goes .
+## Next , I 'll call Comcast and see if they have any insight .
+## -LRB- Wireshark shows what seems to me to be an excessive amount of ARP requests .
+## Could that be it ?
+## I 'm not a networking expert by any means -RRB- .
+## I recommend buying another product until this long running issue -LRB- I 've seen posts from 2007 -RRB- is resolved .
+## I read most of the reviews and checked out others before I bought this one .
+## It is everything people had reviewed this to be .
+## Very satisfied .
+## I did buy the square trade extended warranty just in case .
+## I got this with a Windows 7 Home Premium 3-Pack .
+## Since it was really a giveaway from Microsoft , I did n't expect much .
+setup[+1] ## However the setup was easy and the results excellent .
+setup[+1] ## I have been dealing with wireless routers and access points for a long time -LRB- most recently with Cisco\/Linksys -RRB- and this was the easiest most efficient setup I 've ever experienced .
+## What a pleasure !
+works[+1][v] ## And it works great too !
+## Nice going Cisco , you got it right .
+## THis thing is incredible and amazing best thing in the wolrd my PS3 and laptop aree now online i would buy over agian !!
+## <a�href="http://www.amazon.com/gp/product/B004089H9S/ref=cm_cr_asin_lnk/178-2829810-0850226"> D-Link DIR-412 Mobile Wireless Router 3G , 11n-based , 150Mbps </a> I wanted to use my Apple WiFi iPad -LRB- non-3G model -RRB- while traveling but since most hotel rooms still require that you use a cat-5 RJ-45 connection for their free internet this was not going to be of much use since the iPad does not have a RJ-45 port .
+## The iPad also does not have a USB port so I could n't use my Verizon Novatel USB760 3G USB dongle modem that I use with my laptop for those hotels without free internet service .
+## I looked at the wifi hotspot type products but most of those require a 1-2 year contact and can cost up to $ 40-60 per month for the data service which adds up fast over a 12 month period .
+device[+1] ## This device solves the problem nicely .
+## It can be attached to the hotel cat-5 cable or can accept several different USB 3G modems to create a local wifi hotspot that the iPad or iPod type devices can use as well as my laptop using it 's wifi connection .
+Setup[+1] ## Setup is simple and it worked right out of the box .
+## If you want to set up security so that no one nearby can `` share '' your hotspot that can be done using the web browser interface common with all routers .
+speeds[+1] ## Speed tests showed that the wireless speeds were comparable to those of my home wireless router when using my home broadband cable modem as input .
+signal strength[-1] ## Unfortunately my Verizon 3G signal strength where I live is very weak -LRB- 1-2 bars -RRB- so I could n't get much more than 1 Mbps download speed but I will test this again when I am in a location with decent signal strength .
+product[+1] ## Overall I am very satisfied with this product and will be using it often .
+updating firmware[-1][v] ## Only issue is with updating firmware .
+## My attempts at upgrading using Netgear Genie corrupted the existing firmware .
+## I had to manually restore the firmware .
+## The procedure for restoring corrupted firmware is not easy to find .
+## This is a replacement to an older NetGear 11b\/g RangeMax router that i have had for a few years .
+set up[+1][v] ## It was a snap to set up and my PS3 , ASUS EEE Netbook , Droid 2 , and PCs all connect without issue .
+speed[-1] ## The problem is that the fastest speed anything has connected to it has been around 72MB\/s , even when in the same room .
+## Maybe I just need to play with the settings a little more .
+set up[+1][v] ## Also , it was very easy to set up a route to my WAMP server as the process was exactly the same as my old NetGear .
+## I really , really wanted to like the DIR-655 .
+## It had most every feature I wanted -LRB- though dual-band N would have been nice - one needs the much more expensive 855 for that -RRB- .
+work[-1][v] ## Unfortunately , I just could not get it to work .
+## The problem is that it would not acquire an IP address by DHCP from my ISP , Verizon FiOS .
+## Using the same MAC address did n't help , neither did making sure the IP was released from the old router before connecting the new one .
+## I had an old Netgear router around and it got an IP immediately , as did my notebook when I connected it directly .
+## I returned the DIR-655 and got a second unit - same exact problem .
+support[-1] ## D-Link support was polite and tried to help , but just worked through a script and was unsuccessful .
+## A web search revealed that this model has a history of DHCP IP acquisition problems , though not everyone sees it .
+## I read reports of a European firmware update that resolved the problem for some , but it did n't for me .
+## I 've never encountered a router problem like this before , and have had probably six or seven over the years .
+## Sadly , I returned the 655 for a refund and will keep looking .
+## I know that many are very happy with this product , even those using Verizon FiOS , but just be aware that you may be as unlucky as I was .
+## Edit : December 2008 .
+## I decided to try again , this time with the DIR-825 -LRB- simultaneous dual-band and some added features I liked . -RRB-
+## Same problem - no DHCP .
+support[+1] ## This time , D-Link support was more helpful and guided me to the actual problem , which was that the router failed to `` auto-negotiate '' the Ethernet link speed from my FiOS optical network block .
+## No other router or PC I had tried had such a problem .
+## The second-level support rep had me change the speed to 10Mbps -LRB- instead of the default 10\/100\/1000 auto -RRB- and it worked .
+## Well , sort of .
+## What 's the point of a 15Mbps service with a 10Mbps Ethernet link ?
+## Could I set it to 100Mbps ?
+## Yes .
+## Did it work ?
+## No. .
+## But I then had a think .
+## I grabbed an Ethernet switch I had elsewhere in the house and put that between the FiOS connection and the router .
+## Success !
+switch[+1] ## The switch negotiated the speed just fine and presented the router with a GigE link .
+## So off to local store I go and I find the same model Netgear GigE switch on sale for $ 30 .
+## Install that and I 'm in business .
+## If I had realized this when I had the DIR-655 I might have stuck with it , but that does raise the price by 30 % .
+## If the DIR-655 does the auto-negotiation for you properly , then that 's great .
+## If not , you can install a switch or look for another brand .
+Ethernet transceiver[-1] ## I conclude that the Ethernet transceiver D-Link uses is not as good as that of other brands .
+install[+1][v], set up[+1][v] ## I am not to savy with a computer but the D-link is very easy to install and set up .
+## I have had no problems with it yet , and I can us my ipod anywhere in the house .
+## Had a lot of problems with the dd-wrt advanced setup , but called tech support , after 45 minutes of holding , and switch to the user friendly firmware and was up and going in no time .
+## Belive there is a problem with my firmware for the dd-wrt .
+## Not a very impressive signal , can only get one maybe two bars and maybe 48mbs .
+## Still good enough to stream video .
+signals[+1] ## No problems with dropped signals unlike the netgear router it replaced which only lasted 4 months .
+## I bought this one for the supposed extended range and external antenna .
+## So much for range though .
+## It was better with my old linksys .
+## Overall , not a bad buy .
+Tech support[+1] ## Tech support was very pleasent and helpfull once you actually got someone .
+## I bought this product in Feb 2011 to replace my old Dlink router .
+## I thought this new model should bring up speed and be reliable by having new n & g mode .
+worked[+1][v] ## It worked perfectly for about a week , then the problems came .
+connection[-1] ## The connection is not reliable and constantly dropped .
+tech support[-1] ## I called the tech support and they helped me install new firmware , but this did not solve the problem .
+product[-1] ## They said the product was defective and said they would send a new one .
+## After that arrived , I was to send the old one to them .
+## However , the day before the new replacement router arrived , our original router started to work like it did the first day we bought it .
+## The connection was smooth , did n't drop all the time , and was much faster .
+## However , the day the replacement router arrived , things got complicated .
+working[+1][v] ## The replacement was even worse than the original one , which was now working fine .
+## We had already agree to return the original one , but that was the one that actually worked .
+product[-1] ## I am disappointed in this product .
+## It is too much of a hassle , so next time , I will buy routers from a different company .
+## I am using this wireless router for video streaming devices in my house .
+## The data line connected to the router is in the front room and there are several wireless devices throughout the house .
+## The first router I had was not fast enough to handle my video streaming needs .
+works[+1][v], router[+1] ## This router works fine and I am able to stream video in all rooms of the house at the same time .
+router[+1], works[+1][v] ## This router works very well right out of the box .
+coverage[+1] ## It also has excellent coverage through our two story house .
+## One reason I purchased this model was that we could print from the router 's USB without the need for a host computer to be running .
+SharePort Utility[-1] ## In that regard , I am still having difficulty attempting to get the SharePort Utility to function normally .
+## The SharePort manual and help screens are very minimalistic .
+router[+1] ## This router is phenomenal !
+## It is a router designed for open source community .
+## I replaced a Linksys wrt54gl running tomato firmware ver .
+## 1.28 .
+## with the NetGear WNR3500L .
+## I have the Netgear WNR3500L running the latest Tomato firmware from -LRB- ... -RRB- it is a modified firmware from the stock tomato firmware from -LRB- ... -RRB- .
+USB interface[+1] ## It allows the USB interface on the router to be used either for NAS or print server .
+## I have an external usb drive hooked up to the USB interface as a Network Attached Storage -LRB- NAS -RRB- device .
+Working[+1][v] ## The router has 4port 1gig Ethernet switch and wireless Access point AP -RRB- 802.11 n Working flawlessly !
+## Not for the faint of heart , but recommended for the user who loves to build networks .
+## Router also works with DD-WRT firmware .
+## This router has a web site dedicated for the users of this router .
+## Check it out at -LRB- ... -RRB- .
+router[+1] ## In short , if you 're just someone that 's a little afraid of technology , and you just want a router to get online , do basic networking and play mafiawars and browse myspace all day , this router is great for you .
+router[-1] ## More than likely , if you are forking over the money for this router , you have higher needs and expectations , which this router does n't meet .
+## My experiences are as follows ... I wanted to upgrade my old linksys router -LRB- wrt54g -RRB- to something a little bit more on par with todays technology .
+## With our new HP Home Mediaserver -LRB- EX495 -RRB- serving out our files , our 2 laptops , 2 desktops , 2 PS3 's , 1 Xbox , and our slew of Netflix junkies , we especially needed something with gigabit speeds for all the internal network trafic that was going on .
+## Guest Network .
+## First I was a bit suprised when I saw this , and I thought it would be a great idea for our next door neighbor that we share our network with for a small monthly fee .
+## Simply pop her on it , and not have to worry about her stumbling on our shared media .
+guest network[-1] ## Well the theory was great , but upon enabling the guest network , things stopped working .
+GUI[-1] ## With it enabled , anytime we made changes to the router , we had to manually press the `` turn on radio '' button on the front of the router because the GUI one would n't work .
+## This would be okay I suppose ... IF it worked .
+## Any time we turned on the guest network , all of our default networking died so we ended up turning off this feature and pretending like we never found it and got all suprised in the first place .
+## UPNP .
+## In short , it does n't work -LRB- properly -RRB- .
+## Our Mediaserver has an option to program our router for the port forwarding for remote access .
+## The old router -LRB- wrt54g -RRB- worked fine .
+## I manually ended up forwarding the ports and this worked fine .
+USB Network storage[-1] ## USB Network storage - `` supposedly '' it 's slow .
+router[-1] ## I 'd tell you myself my experiences but the router waiting to go back to the store so I never got far enough to try this .
+slow[-1][a] ## I was looking forward to it even if all the other reviews already said it was slow .
+## Hey , I like to make my own opinions .
+SLOW[-1][a] ## SLOW GUI - Be prepared to wait approximately 90 seconds every time you change one of the sub menu items and click that dreaded `` apply '' button ... yes , 1�1\/2 minutes !
+## ----------------- Speeds\/Throughput : I did n't have any complaints .
+network speeds[+1] ## It was nice to have the faster internal network speeds while we tested this router -LRB- which was for all of about 3 hours while trying to get everything to work properly -RRB- .
+support[-1], router[-1] ## Due to the lack of support for WHS \/ UPNP \/ Guestnetwork , and having just dropped the bones for this router , I was very unimpressed .
+## I could have spent -LRB- $ 50 and gotten a router that did everything this one was able to do .
+## Had this one done what it claimed , I 'd have been very satisfied ... NOTE : My problems were on both the initial BIOS -LRB- V1 .0.4.43 NA -RRB- and on the upgraded latest bios -LRB- V1 .0.4.55 NA -RRB-
+n-router[+1] ## You can stop looking : This is the best n-router you will find today -LRB- I am writing this on 03 Nov 2011 -RRB- .
+## This is my third router in two years .
+## It is the only one of the three to install itself .
+## All I did was plug it in , print the ID\/password when prompted and download\/install the product dashboard -LRB- NetGennie ? -RRB-
+## after the installation .
+## -LRB- Do n't look for the installation CD : There is n't any ! -RRB-
+## When I reset my WiFi HDTVs from the HDTVs , I assigned them to the 5.0 GHz band .
+## So I have my PCs on the 2.4 GHz band and my HDTV streaming video stuff on the 5.0 Ghz band .
+## I can tell my WiFi is much better : The HDTVs access the internet EVERY TIME I hit the Apps button on the remote , the Netflix selections load faster and the HD streaming videos never slow or stop to buffer .
+## I am SO HAPPY my old , non-Netgear router died on me after less than one year out of the box !
+## Otherwise , how many years would I have been stuck with poor WiFi performance and not know it ?
+## Bought this along with a Roku .
+setup[+1][v] ## The DIR-655 was so easy to setup it was almost too easy .
+## Follow a couple of steps and you are done .
+## Roku picked it up and all was done .
+## Great purchase .
+## UPDATE 2011\/12\/2 : Going strong for half a month now .
+## As far as I recall , no reboots , or maybe one for an unrelated reason .
+## I am raising my rating from one star to three stars .
+## It would have been four if I would n't have had to go through all of this hassle to get it to work right .
+## Netgear should have left well enough alone with firmware v1 .0.4.55 NA and hardware version 1 .
+## UPDATE 2011\/11\/15 : Smallnetbuilder dot com stuck with firmware version v1 .0.4.55 NA according to one of their articles that referenced the WNDR3700v1 test results .
+## That version was still available on Netgear 's support site -LRB- just click `` show all versions '' -RRB- .
+## I loaded that with the following ritual : Hold reset switch 30 seconds with power on -LRB- still 1.0.16.98-dnsNA firmware -RRB- .
+## Keep holding , turn power off , hold for 30 seconds while power is off .
+## Still holding , turn power on .
+## Then turn power off and let go of reset switch and wait 10 seconds .
+## Boot up , leave on for at least two minutes , and do software factory reset -LRB- from backup menu in web GUI -RRB- .
+## Let it reboot .
+## Then upload and install v1 .0.4.55 NA from web GUI .
+## Then do a software reset again .
+## Then re-upload and install v1 .0.4.55 NA .
+## I do n't know if all of this is really necessary .
+## It is my compilation of all the posted paranoia out there .
+## Now set up your preferred SSID names , Port Forwards , DHCP range , etc. .
+## I did n't change any of the QOS or WAN settings .
+## I left NAT as secure .
+## I set up the 2.4 GHz radio as G -LRB- 54Mb\/s -RRB- with WEP , the 5GHz radio as N single band -LRB- 130Mb\/s -RRB- , WPA2 Personal AES .
+## You can probably set it up for 300Mb\/s -LRB- double wide -RRB- if you want .
+## Now everything with youtube and IPTV have been fine for about a day .
+## l already received an RMA number .
+## But if all goes well for another couple of days , I 'll keep the unit .
+## If not and I return it , I will let you know here .
+## The rationale behind the paranoid flash procedure is to make sure that another firmware version 's setup -LRB- usually a slightly different size when backup-stored , with slightly different options -RRB- does n't corrupt the the new firmware footprint -LRB- I guess -RRB- .
+## I do n't know if someone had a rational method of coming up with it -LRB- e.g. , ex-Netgear engineer with some inside knowledge -RRB- or it was just someone 's gut feeling .
+## END OF UPDATE .
+## I searched out a WNDR3700 VERSION 1 because that is the version that got rave reviews at smallnetbuilder.com .
+## -LRB- Netgear screwed up the version 2 by skimping on the antenna array . -RRB-
+## I found this `` Refurb '' version 1 and thought I had lucked out .
+## The seller was very helpful in making sure I got the right version .
+## I suspect Netgear takes defective returns , wraps them in new plastic , and labels them `` Refurb , '' and hopes they work or that whatever defect they had would not be noticed by the new buyer .
+## For some reason , they scratch out the serial number to signal that they wo n't support their refurbs .
+## Why not ?
+## Cisco-Linksys leaves serial numbers on refurbs and give them limited warranties .
+firmware[-1] ## Or maybe Netgear so screwed up the firmware for this device that it does n't know what to do .
+slowed down[-1][v] ## This router started out looking good but then gradually slowed down to the point that even standard def youtube videos and highly compressed IPTV from Hulu Plus would slow down and freeze or stutter .
+## I tried at least three versions of firmware and continued to have the same problem -LRB- 1.0.6.98 NA as shipped , and then 1.0.7.98 NA , 1.0.4.68 NA , and finally the latest 1.0.16.98-dnsNA -RRB- .
+labeling of firmware[-1] ## The labeling of firmware itself is a mystery and suggests that this company is just scrambling to put out fires .
+## What happened to everything between 1.0.7 .
+## x and 1.0.16 .
+## x for example ?
+## And why was 1.0.16.98 label reused for the beta 1.0.16.98-dnsNA instead of calling it 1.0.16.99 NA ?
+## Also , the auto-update only shows up to 1.0.7.98 .
+## The internet is filled with similar complaints about slow downs and freezes , trying various firmwares , and doing various magic spell rituals before upgrading -LRB- holding reset button for 10 seconds , or 30 seconds , or doing it twice , unplugging with reset pushed , and so on -RRB- .
+## I tried the most burdensome rituals in case there was something to them .
+## Just in case anyone gets one of these , the only way I could get even initial acceptable results in youtube was to change the NAT setting from `` secure '' to `` open . ''
+## Not so safe .
+## I have applied to return this piece of garbage .
+## It is back to my old Linksys WRT600n with DD-WRT for now .
+## My only complaint about that dinosaur is that it suddenly looses the 5Ghz wireless connection when streaming a lot of video , probably because of overheating .
+## It is about 3 years old .
+## So I am still looking for a reliable replacement .
+product[-1] ## I wanted the product to work soo bad , but it just did n't .
+connection speeds[+1], reception[+1], connection[-1] ## I got great connection speeds and reception but the connection would drop several times a day on multiple computers both Linux and Windows .
+## I tried changing wireless encryption , updating to the latest firmware from Buffalo 's site , and then upgrading the latest firmware from dd-wrt 's site .
+## I finally decided to stop making a manufacturer 's problem my own .
+return policy[+1] ## Thanks to Amazon 's amazing return policy , I was able to return the product at no loss on my part .
+## actually I made the biggest mistake , I upgraded from DI-624 to DI-624S .
+firmware update[+1] ## My DWL-2100AP does not work as a repeater for DI-624S and there is no firmware update to support this product .
+dlink support[-1] ## I gave up after several attempts to contact dlink support .
+## eventhough it says 108mbps , it opens 54mbps unlike the DI-624 .
+product[-1] ## Simply this product was created and was left behind !
+## ... what a shame !
+install[+1][v] ## As a Non-Technical person , I was surprised to install the Cisco Valet Plus Wireless Hotspot in less than 10 minutes .
+## We purchased this so we could have guests use their laptops and iPods in our home .
+## Also , our previous wireless router was SLOW and unreliable .
+## I have MacBook Pro and my husband has a pc laptop .
+## Now we both use our computers without getting booted out and with no glitches in reception .
+CISCO Valet[+1] ## We still have our other network , which I use with my iPod , however , I will change it soon because the CISCO Valet is much better and faster .
+product[+1] ## I 'm delighted with this product .
+## I had an old Belkin router , which I needed to replace .
+## I have several computers on my network -LRB- iMac , mac book , and 2 XP laptops -RRB- , my ipod , airport , wireless printer and a NAS with two 500GB HD 's .
+## I choose the Valet router for the simple reason that I do not want to know nor do I care about port 21 or other IT stuff .
+## It just has to work .
+## And it did n't .
+Tech Support[+1] ## I spent 1.5 hours on the phone with their Tech Support -LRB- you get connected right away and do n't have to wait -RRB- and got at least my iMac and MacBook back online .
+## The printer still does n't work and the Airport is also not working yet .
+## I got really upset when they got someone on the line who was supposed to help me with my NAS200 -LRB- which is also a Cisco product -RRB- and then I was told that they are going to charge me for premium customer support .
+## At this point I had spent already 2 hours on the phone for a product , which was supposed to be `` plug and play '' .
+product[-1] ## I guess I do n't have to mention that I do not recommend this product , that I most likely will return it and keep my fingers off Cisco\/Linksys stuff in future .
+## Update : I spent another hour with the tech support to get my windows laptop set up .
+router[-1] ## The router has obviously problems with static IP addresses , firewalls and numerous other programs .
+## Total time spent on the phone to set up the network : 3
+## Upgraded from Linksys G to use my Roku HD\/XR Box .
+Set Up[+1][v] ## Easy Set Up .
+## Admin options are more that you would ever need .
+Set up[+1][v] ## Set up WPA with no problems .
+Coverage[+1] ## Great Coverage .
+works[+1][v] ## Even works better on G band than the Linksys .
+## Two Thumbs up .
+## I bought this router so that I could give internet access to both my desktop PC and my new Macbook Pro laptop .
+## After a few hours , and a call to my internet service provider , I accomplished this very basic task .
+## -LRB- I use verizon DSL and discovered that I needed to go through some steps before the router would be recognized by my ISP . -RRB-
+installation software[-1] ## Unfortunately , the installation software crashed several times and I had to reboot my Vista PC at least twice -- not fun .
+instructions[-1] ## Meanwhile , the instructions for Apple users indicated I should load the CD-ROM , but it turns out it only contained a PDF of instructions and offered nothing by way of explanation on installing for Apple computers .
+## It turns out my Apple laptop recognizes the wireless router right out of the box with no installation needed .
+## It turns out my Apple laptop recognizes the wireless router right out of the box with no installation needed .
+## I wish someone had told me that when I started this process !
+## But getting the router up and running is just the first hassle - you also have to get your new network password protected , otherwise anyone can join it .
+## Here I had major problems - no one should have to wade through complicated terminology like WEP and WAP and lord knows what else just to enable a simple password protection for a home network .
+## It should just be a one-step automatic process , rather than requiring us to go boldly into advanced setup screens full of techno-gibberish .
+software[+1] ## The final insult is that while this router comes with useful software to make sharing printers wirelessly a snap , it 's only a trial version -- you have to download the trial software from the internet then pay an additional $ 40-60 to some unknown company to unlock all the features !
+## Not only that , but you ca n't even use the trial demo on macs - in order make printer sharing work , you have to buy the full version for macs -LRB- but not for PCs -RRB- .
+## That is absurd and downright deceptive .
+product[-1] ## Exasperated at 3 AM , I called it quits and will be sending this awful , deceptive product back .
+## I only hope this review spares one person from a similar strife .
+product[+1], price[+1] ## This is a great product and carries a lot of pride in its networking capabilities for the price !
+## The 802.11 draft N-protocol made a huge difference from the Super-G which showed obselete in comparison .
+router[+1] ## I personally would recommend this router in every house hold or small buisiness environmnets .
+administration[+1] ## Reliable , Highly available and ease of administration and forget about me -LRB- Do n't bother anymore -RRB- equipment !
+## I am lucky to have bought it and using it in my house Thanks Ihsan
+## I bought this Dual band router to replace my old Cisco WRT45G router .
+set up[+1][v] ## It was really easy to set up out of the box and I got all my wireless devices -LRB- 2 laptops , 1 desktop and 2 smartphones -RRB- connected to the internet in minutes .
+internet connection[-1] ## Everything was great until it started dropping internet connection sporadically .
+## Every few minutes wireless devices would stop receiving data from the router .
+## I called the tech support who took me through a few scripted steps -LRB- upgrade firmware , downgrade firmware , set a permanent channel etc. -RRB- ; none of these suggestions worked .
+## A number of angry phone calls router Netgear agreed to replace my WNDR3700v2 router with a refurbished WNDR3700v1 router .
+router[-1] ## The new router worked well for 2 months after which it had failed .
+router[-1], connection[-1] ## I am having the same problem with the router dropping connection every few minutes .
+router[-1] ## Its annoying when you pay $ 100 + for a router and it does n't work as it is supposed straight out of the box !
+quality[-1], customer service[-1] ## I am so tired of Netgear 's product quality & customer service that I would NEVER recommend netgear products to anyone I know .
+device[-1], customer service[-1] ## All in all , bad device , bad customer service ... run like hell from this product .
+Set up[+1][v] ## Set up went pretty well and things seemed good .
+## Then the box began rebooting itself every 1-3 hours .
+## Support suggested power problems .
+## While this may seem logical , their recommendation made no sense : Bypass the UPS and plug it directly into the wall , `` Just to see what happens . ''
+## Same problem .
+## I replaced the box with another N600 from another store in the theory that that bad box gets through once and a while .
+## Same problem .
+## I dumped the 2nd box and bought a Zoom X7N at half the price and have no problems with it at all .
+## I try had to make it work but it never ... sad about it The lights dont go green , only red
+## It does everything it says .
+router[+1] ## It is a wonderful little router .
+## Commputer , Laptop and TV hooked up to it .
+## No problems .
+## Just once in a while like your modem you need to unplug and reboot everything .
+## Par for the norm .
+## Would highly recommend
+## Works -LRB- almost -RRB- exactly as advertised .
+## Setup required one phone call to tech support , during which it was determined that I had not completely re-set my cable modem -LRB- it has a backup battery , so simply disconnecting the power cord was n't enough - I had to remove the backup battery , too -RRB- .
+## Once that was done , connectivity was instananeous , and setting up the 2 other computers -LRB- a Mac and a PC -RRB- in the house literally took 5 minutes in total .
+Connection speed[+1], product[+1] ## Connection speed to the other 2 machines seems awesome - much quicker than the router I replaced , and when combined with the simplicity of the Valet Plus , this makes for a great product .
+## Highly recommended - well worth the $ $ .
+router[+1] ## This router is the best I have used to date .
+## There may be others that perform as well .
+speed[+1], reliability[+1], transmit a signal[+1][v] ## However , if speed , reliability , and power to transmit a signal across the house are your requirements , then this router will do the job .
+Worked[+1][v], firmware[-1] ## Worked great until the new firmware that installs SecureSpot .
+working[-1][v] ## When the SecureSpot free trial finishes , they ask you to buy it and when you do n't , it stops working well .
+SecureSpot[-1] ## Even when you disable SecureSpot completely , it will upon reboot keep saying your computer is new even when it is n't and force you to tell it that your computer is authorized .
+## After 20 rounds of that over the last year I gave up and ordered a router from another company .
+## You may ask why not go back to the old firmware .
+upgrade[-1] ## You ca n't , that `` upgrade '' is irreversible .
+D-Link[-1], product[-1] ## D-Link got greedy and in trying to sell you their pathetic extras made the product unusable .
+## I purchased this Netgear router 6 months ago to replace an older model Linksys router with antennas , which had replaced an even older Linksys , also with antennas .
+## It 's difficult to make a comparison due to the fact that the Linksys was using a ` g ' band , while I 'm using the ` n ' band on this Netgear - although both are at 2.4 GHz .
+## But I can say the Netgear has more signal strength .
+## I actually have it sitting flat , rather than upright .
+## I would say signal strength has increased by 1\/3 at the least - and it 's consistent .
+## The wifi is approximately 21 + yards away -LRB- on the same ground floor -RRB- , going through 4 walls at full signal strength .
+Setup[+1] ## Setup was easy -LRB- Windows XP wired , Windows 7 Professional wifi -RRB- .
+## The software disc -LRB- which is the Setup Wizard -RRB- included is not Windows 7 compatible , although you can download it at Netgear 's site .
+## I did n't bother with it .
+instructions[+1] ## I followed the easy instructions in the manual , and once online at the router 's login , there is a setup Wizard which will work with your OS if you choose to use it .
+set[+1][v] ## I just set it up manually , which is very easy .
+setup[+1] ## The router recognized my other wifi devices easily , and further setup was a breeze .
+Linksys[-1] ## My Linksys froze for 30 minutes or longer when applying changes .
+## The Netgear does so within a few seconds .
+## Having Dual Bands is a bonus , although currently I do not have any ` n ' band 5.0 GHz capable devices - and have disabled the 5.0 GHz for now ... but it 's there for the future .
+## I do n't wish to repeat all the options this router offers as others have already done so in good detail .
+## I would however like to emphasize a few Basic things for those unfamiliar with router setups : 1 -RRB- Once you are connected , do upgrade the firmware before proceeding .
+## 2 -RRB- Please , please change the login Password from the Default -LRB- listed in the manual which comes with the router -RRB- to your own .
+## Half my neighbors have not .
+## This is just basic and so easily done - and will keep others from piggybacking , or worse yet , logging into your router and changing the settings and using their own login password to lock you out -LRB- if this has already happened you 'll need to Reset your router manually and start all over -RRB- .
+## Once you login to the router 's address , you 'll find it listed under Maintenance at Set Password .
+## Keep track of all your passwords !
+## One of my neighbors could no longer gain access to the internet and blamed it on the router ... I had seen that it was initially not secured , and later secure .
+## I 'm guessing a neighboring kid just decided to mess around .
+## Fortunately they mentioned this to me -LRB- before just buying another router -RRB- and I helped them get back online .
+## 2a -RRB- Set up a secure connection .
+## Again , I `` see '' too many who have n't set any type of security .
+## At your Netgear router login page , go to Setup , and underneath are options for both Wireless Settings -LRB- your wifi -RRB- and Guest Network .
+## Type in your own SSID -LRB- name -RRB- - do n't leave it at the Default name .
+## Set up a security option and type in your own Passphrase password ... it is strongly recommended you not use WEP for the Guest Network if this can be avoided -LRB- I do n't think this Netgear even has WEP for Wireless Settings , but it does for the Guest Network -RRB- .
+## Again , keep a record of these .
+## Use strong passwords , both uppercase and lowercase letters , mixed with numbers and symbols - and make it long .
+## Just these basic steps should keep neighbors and drive-by 's from piggybacking your connection , which at the least can slow down your internet connection speed or cause intermittent loss of connectivity if you have quite a few piggybackers .
+## Remember to occasionally login to see if there are any upgrades for your router .
+router[+1] ## I 'm very happy with this router , and would recommend it .
+## I will update later should I run into any problems .
+working[+1][v] ## Update : I 've been using this router for 3 months and it 's still working very well - wifi remains strong and consistant .
+## I do use the power button frequently -LRB- hold it about 2-3 seconds to power on\/off for wifi .
+## Can even use the power button if laptops are booted and our internet connection is almost immediate .
+router[+1] ## I remain extremely pleased with this router !
+## Advertised as D-link extreme over 300 mbs .
+works[+1][v], performance[-1] ## It works fine but performance is no better than my old SMC G 54mbs .
+## I was really excited to finally get an N router , an upgrade from my Linksys wireless G WRT54G2 .
+speed[-1] ## First thing I tested was the speed , and I have to say it was abysmal .
+## On a wired connection with my linksys , speedtest.net rated my home pc with a connection of up to 25mbps connection and wireless speeds around 15 mbps .
+speed[-1] ## Hooked up to the D-Link extreme N , connected speed dropped to 18mbps and wireless down to 8mbps .
+## AND THIS ONE IS EXTREME .
+fast[+1][a] ## At first I dealt with this as 18mbps was still REALLY fast .
+internet connection[-1] ## The next day , I turned on my laptop and it connected to the network , but no internet connection .
+## I had read in other reviews that it dropped their internet connection every couple of days so at the first sign of this happening to me , I got an RMA and shipped it back .
+## SAVE YOUR MONEY .
+## Go with another brand , I know if I ever bight the bullet for another N router , it will be a linksys .
+product[+1] ## This is a good product .
+cheap[-1][a], expensive[+1][a] ## Not cheap but not expensive either .
+## I installed it directly from Windows 7 in about three minutes .
+## It was in operation within five minutes .
+range[+1] ## It has very good range -- much better than the Linksys router it replaced .
+## It covers three floors with no difficulty .
+## I am the home network administrator\/complaint department .
+## There have been no complaints from my `` customers '' -LRB- my daughters who use the 5-G channel with their Powerbooks -RRB- .
+USB port[+1] ## It has a USB port -- so you can plug in a USB-powered drive and have network-accessible storage .
+## I highly recommend it .
+## I have been using this router for about 2 years now , since October 2008 .
+firmware[+1], router[+1] ## It seems that with every firmware release the router gets better & better .
+range[+1], speed[+1] ## Good range & speed .
+## I highly recommend .
+## I bought this to replace an old Linksys that would not cooperate with my new Canon printer .
+price[+1] ## The price was the lowest I 'd seen in my research -LRB- Best Buy , Office Depot -RRB- .
+## It was a snap to insert the install thumb drive which walked me through the install for my Mac and then the printer and our two iPhones .
+use[+1][v], instructions[+1] ## Easy to use with clear instructions contained in the install drive .
+guest feature[+1] ## Also has a nice guest feature so your visitors can connect separate of your primary link .
+## BACKGROUND - I 'll provide some background so that people can put my comments in context .
+## First , I have what I consider an average understanding of computers and home network technology .
+## I wired my house with a Cat 5e ethernet system .
+## My home network now includes 3 desktops , 1 netbook , 2 laptops , iPods , network printer , network attached storage device -LRB- 2TB RaidX -RRB- , patch panel , 8-port switch , router , and cable modem .
+## The patch panel , switch , router , and modem are located in a panel in the basement where all my computer , video , and phone cables originate .
+## With the recent addition of the netbook and ipods , I decided to add a wireless access point for greater mobility .
+## I wanted a device with good range , data transfer capacity , and security .
+## I could n't care less about `` peripheral '' features that are often bundled with todays routers such as the NAS capabilities .
+## Keep that in mind with respect to my evaluation of this product .
+## On a side note , I have operated on Windows XP and found it a real struggle to manage all the various permissions between different users and devices .
+## I am in the process of upgrading to Windows 7 and find the network features much easier .
+## If you have an extensive home network , Windows 7 is worth the upgrade .
+## APPEARANCE - Now for the Buffalo Nfinity WHR-HP-G300N router .
+packaged[+1][v] ## It came well-packaged .
+device[+1], looking[+1][a] ## It 's a really nice looking device and can be positioned horizontally or vertically .
+looks[+1] ## I give it a rating of 5 stars for looks .
+## EXTERNAL SWITCH -LRB- AUTO MODE -RRB- - It 's advertised as a router and wireless access point .
+## This is important , because not all routers can function as access points .
+## Furthermore , one of the advertised features is an external switch that allows users to switch the device as a router , access point , or `` auto . ''
+## Theoretically , `` auto '' is supposed to detect the present of a router or modem and then the Nfinity G300N will function as an access point .
+## I do n't think I was able to get it to work because when I tried auto , the Nfinity G300N never disabled it 's router functions .
+## You can not have two devices on one network trying to assign IP addresses to other devices connected on the network .
+## It does n't work .
+## EXTERNAL SWITCH -LRB- AP MODE -RRB- - Then I switched the router to the Access Point -LRB- AP -RRB- mode figuring that it would turn-off the Nfiniti 's router function .
+## That did n't work either .
+external switch[-1] ## I do n't think the external switch is much of a feature because in the end , you have to learn how to identify IP addresses , switch the router from from a dynamic to static IP address , and assign a static IP address that is compatible with your router or modem .
+## There 's no getting around it .
+## Like I said , I have an average technical level and ultimately could not figure it out despite referring to the online user manual and various web-site suggestions .
+## In the end , I ended up calling the Buffalo Technologies technical support phone line .
+setup software[-1] ## SETUP SOFTWARE - For my application , I found the setup software on the enclosed CD to be useless .
+## It really assumes a simple installation like plugging it in and using it as a router .
+## If that 's your type of installation , then the setup software might be the best thing since sliced bread .
+Buffalo Technical Support line[+1] ## TECHNICAL SUPPORT LINE - The Buffalo Technical Support line on the other hand , was very helpful .
+wait[-1][v] ## Be prepared for a long wait -LRB- 30-45 minutes -RRB- , but the wait was worth it .
+## The person I talked to was very knowledgeable and spoke English .
+## I 'm guessing that he was actually located within the U.S. which I almost consider a bonus since so much technical support is overseas .
+technical support[+1] ## The technical support phone line was responsible for my giving technical support 4 stars .
+software[-1], internet user manual[-1] ## If I only considered the software or internet user manual I would have rated technical support as 2 or maybe 3 -LRB- at best -RRB- .
+## HOW TO SETUP AS AN ACCESS POINT - The Technical Support representative walked me through the setup of the router .
+## We did not use the software .
+## Since I did n't find the software or user manual useful to help setup the Nfinity G300N as an access point , I 'll try to summarize what we did in case you 're one of the unfortunate people like me who are relatively ignorant about manipulating IP addresses to setup an access point .
+## 1 .
+## Get important system information about your primary router or modem .
+## Windows 7 : Click the `` start '' icon in the lower left corner -RRB- control panel -RRB- Network and Internet -RRB- Network and Sharing Center -RRB- and then click `` See full map '' under the heading `` View your basic network information and setup connections . ''
+## Move your pointer over the device icon labeled `` Gateway '' .
+## You 'll see a number that looks something like 192.168 .
+## X.X. .
+## This is an IP address .
+## I learned that the first digits `` 192.168 '' are industry standard for private networks .
+## However the `` X. X '' are different between home networks and `` X '' may generally be one , two , or three digit numbers .
+## 2 .
+## Open a web browser .
+## Type the Gateway IP address -LRB- 192.168 .
+## X. X -RRB- into the browser address bar .
+## A Windows Security window should open asking for a username and password that you previously setup to get into your primary router or modem setup software .
+## It will depend on who makes your router or modem but there should be something like a `` status '' menu option .
+## In my case , I clicked on `` Status '' and then on `` System Data . ''
+## I wonderful summary window appears that shows LAN and Internet IP information .
+## The important number your looking for is the DHCP range .
+## Your router or modem has a LAN IP address and then will assign addresses to other devices on your network in a given range which means the second `` X '' referenced above will range between two numbers .
+## Record this range because when you assign a static IP address to the Buffalo Nfinity it will need to be in this range .
+## On my first attempt , I assigned a static IP that was outside the range of my primary router so I had to go into my router setup and change my router 's range so my router could `` see '' the Nfinity Wireless Access Point .
+## 3 .
+## Reset the Nfinity G300N using the reset button .
+## This undid all the changes I made during previous attempts to set it up and restored factor defaults .
+## If you have n't messed with your router , you may not need to do this .
+## 4 .
+## Set the external Nfinity G300N switch to AP mode -LRB- switch is in the `` off '' position -RRB- .
+## 5 .
+## Plug in the Nfinity G300N power and connect it to the computer with an ethernet cable .
+## Make sure the ethernet cable is plugged into Nfinity 's LAN port and not the WAN -LRB- blue -RRB- port .
+## This also means , the your computer is no longer connected to your network and is `` focused '' on setting up your Nfinity G300N .
+## 6 .
+## Open another browser window .
+## Type the IP address for Nfinity 's setup page .
+## This might be the most useful information I got from the software disc .
+## The default IP address from Buffalo Technologies was 192.168.11.1 for my device .
+## Type the default into the browser address window and the Buffalo DD-WRT setup window should appear .
+## My setup window was a gray and red color scheme .
+## 7 .
+## The first time you login , you might need to create a username and password .
+## Under the `` WAN Connection Type '' , click `` disable '' to disable `` Automatic Configuration - DHCP '' .
+## After changing the username and password , you should end up on the `` Setup-Basic '' screen .
+## Scroll down to `` Network Setup '' information and enter a Local IP Address for the Nfinity .
+## Remember , this is going to be 192.168 .
+## X.X where X.X puts the Nfinity in range of your primary router .
+## The first `` X '' will be a number identical to that of your primary router or modem .
+## The second `` X '' will be a number that is in the range of numbers that will be assigned by your primary router or modem .
+## Then enter your Gateway IP address from you router or modem .
+## The `` Local DNS IP '' address will be all zeros in most cases .
+## Scroll further down to `` Network Address Server Settings -LRB- DHCP -RRB- '' and make sure that the DHCP server is `` disabled . ''
+## Scroll to the bottom and click `` Apply Settings . ''
+## 8 .
+## Click on `` Wireless '' heading on the Buffalo setup homepage .
+## Then go to `` Basic Settings '' subheading and change Wireless Network Name -LRB- SSID -RRB- to something you like .
+## Do n't make it too cute or interesting which might encourage hackers .
+## Make sure SSID Broadcast is enabled .
+## It should be .
+## Then click on `` Wireless Security '' subheading which is next to the `` Basic Settings '' subheading .
+## The Buffalo Tech Rep had me change Security Mode to `` WPA Personal '' , change WPA Algorithms to `` AES '' , and change the WPA Shared Key -LRB- which is the password used to enter the network wirelessly .
+## Use a pretty difficult password .
+## Click `` Apply Settings . ''
+## 9 .
+## I unplugged my new Nfinity G300N and moved it to a central location where I already had an ethernet jack installed .
+## Make sure that the Nfinity Wireless Access Point is connected to your network by a LAN port and not the WAN -LRB- blue -RRB- port .
+setup[-1], Bufflo Nfinity G300N[+1], access point[+1], range[+1] ## SUMMARY - I 'm happy to say that despite much frustration with setup , the Bufflo Nfinity G300N is working fantastic as a wireless access point with great range .
+sleek[+1][a], looking[+1][a] ## And it 's sleek and sexy looking as well .
+## I can only wonder why Buffalo Technologies does n't post a video on their web site that shows exactly what their Technical Representative went over with me .
+## It probably would have saved a phone call to their support line .
+## I hope I accurately captured my notes from my call to Buffalo Technologies and that you find my notes helpful .
+## I can not make an open-ended claims that my settings will ultimately work for you but hopefully my comments will help .
+worked[+1][v] ## UPDATE Jan 12 , 2012 The device has worked flawlessly for the past year .
+## I bought this device to be a repeater bridge .
+## Technically this is possible , but I instead just used WDS to form an extended wireless network to a wired device .
+## The unit came with the DD-WRT firmware dated from last August .
+## I quickly updated this firmware to Buffalo branded DD-WRT firmware dated this June .
+## It was all good , but I could not get the repeater bridge working .
+## I set it up as best I could with the directions , but it seems like this device is not able to do repeater bridge at this time .
+## People have claimed that it is possible .
+## Instead , I just installed the `` non-pro '' version of the firmware and setup WDS mode .
+## This worked because I needed to extend a wired network using the wireless network cards .
+## So , the wireless card on the buffalo are exclusively used to connect back to the WAP ; wireless clients will not connect to the buffalo device .
+## After about a week , the WAP and the buffalo remain linked , thus I can still access that remote machine connected to it .
+device[+1] ## The device itself is pretty solid .
+## I only had to reset the device one time to install the non pro software .
+dd-wrt software[-1] ## I only give it 4 stars because the device came with really old dd-wrt software .
+## I was looking for a replacement for my tired old Linksys WRT54G , of which I 'd used several for almost ten years .
+## On the recommendation of several friends and positive reviews , I picked up the WNDR3700 .
+## Unfortunately , when I purchased it , Netgear had decided to push out a `` v2 '' model shortly before I purchased , which included a few hardware changes for the better , but the unit shipped with an atrocious firmware .
+system[+1] ## The system was nowhere near stable , and the code was in `` alpha '' stage at best .
+## The router would close any open connection after about 2 minutes , meaning that telnet\/ssh and numerous games would suddenly disconnect .

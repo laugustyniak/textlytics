@@ -1,0 +1,300 @@
+small[+1]##I want to start off saying that this camera is small for a reason.
+##Some people, in their reviews, complain about its small size, and how it doesn't compare with larger cameras.  
+camera[+3],size[+2]##I'm in high school, and this camera is perfect for what I use it for, carrying it around in my pocket so I can take pictures whenever I want to, of my friends and of funny things that happen.
+memory[-2]##The only thing I don't like is the small size (8 MEG) memory card that comes with it.
+room[-2]##I have to move pictures off of it every day so I have room for more pictures the next, and I don't have enough money to buy the 256 MEG card that I've had my eye on for a while.
+memory[-1][s],battery[-1]##A larger memory card and extra battery are good things to buy.
+pictures[-2]##Other than that pictures taken in the dark are not as nice as I'd like them,
+camera[+3]##I'd say that this camera is perfect.
+compact[+2]##OK, not quite everything...but this camera is so compact that you will have it by your side when you need it.
+size[+2]##I bought this camera for the same reason many of you are considering it, or have already bought it--it's size.
+small[+3]##It is amazingly small, it's hard to believe all that has been packed into this camera.
+##I take it with me everywhere,literally, 
+small[+3],durable[+2]##it is so small that I am able to keep it in my pocket, and I don't have to fear that it will get ruined in my pocket because it is so durable.
+covering[+2]##There is also a small covering for the lens, so you need not worry that the lens will get scratched.
+picture[+3],small[+2]##The picture quality surprised me, when I first saw this camera I saw how small it was an instantly assumed that the picture quality would not be good--but I was wrong!
+picture[+3]##The picture quality of this camera is outstanding (taking its' size and price into consideration).
+##However, I do have a few things to complain about...  
+battery[-2]##First off, the battery.
+battery[-2]##This camera uses a lithium battery, I find lithium batteries to be highly inconvenient; because what if you are on vacation, where the nearest place to buy batteries is just a gas station--there is no way that you are going to find lithium batteries there.
+battery[-2]##Not only is it inconvenient, but also the battery life span is short.
+##The longest I've had it work was about 1 hour and 45 minutes.
+batteries[-1]##This isn't uncommon in cameras, though, just as long as you bring your charger and spare batteries, you should be fine.
+zoom[-2]##Another problem I had with this camera was the zoom function.
+zooms[-2]##Such a small zoom length that you would think that the zoom would be silent since it hardly zooms in...wrong!
+##Very wrong.  
+zoom[-2]##The zoom function on this camera is so loud that sometimes you will be unable to use it if you find yourself in a situation where you must be quiet.
+start-up[-2]##Even just turning the camera on will move the lens a little, resulting in a noisy start-up.
+flash[-2]##The flash is very weak.
+##Really dissapointing. If you are inside, you can't be any farther away then 10 feet in a lit room.
+macro[-2]##The last problem I found with this camera was the macro function.
+auto-focus[-2]##The auto-focus on the camera seems to have trouble focusing on the subject.
+work[-2]##To make matters work, there is no manual override to overcome this problem.
+focus[+2]##The focus is great, though, if you are not taking a macro shot.
+##These are all the flaws I found in the camera, 
+cameras[-1][cc]##it's not my first choice in cameras,
+size[+2]##I have come across many other beginner cameras that I prefer over this camera, but the thing you have to keep in mind about this camera is the size.
+camera[+2]##If you are just looking for something to keep with you at all times, then this is a great camera choice.
+##I researched digital cameras for a month before purchasing the s100... 
+s100[+2]##after considering my needs further and researching the marketplace, I decided on the s100.
+##I have had this little gem for four months now. 
+camera[+2]##It has given me zero problems, and the more I use it, the better I become at taking advantage of its strengths.
+##I had a regular Canon Elph (APS), as well as a JVC digital camera.
+##I was looking for a blend of the two and so I bought this camera. 
+##I'll share some observations that may differ a bit from what other reviewers have noted. 
+small[-1]##1) It is perhaps too small. 
+buttons[-2],read[-2]##I find it a bit difficult to manage the very tiny buttons and impossible to read the icons without my reading glasses on.
+size[-2]##Its size makes holding it steady for long a bit of a challenge (not enough camera body to grip with more than your finger tips).
+delay[-2],shots[-2]##2) The delay from the time you fully depress the shutter to the time the picture is taken is too long and may yield some fuzzy shots. 
+autofocus[-2]##This is due to the unusually slow autofocus system.
+resolution setting[-1]##3) The lack of an intermediate resolution setting, as other reviewers have suggested, is a problem, but that problem is meaningless with a larger CompactFlash memory card
+##(I got a 64 meg card for $... and it holds 105 pics at 1600 x 1200 res).
+hot[-2]##4) The camera gets really hot when you are busy snapping away.
+hot[-2]##It is hot enough to be annoying.
+##Canon says it's normal. 
+##I have found it gets less warm with the LCD off.
+small[+3],pictures[+3]##This wonderfully small digital camera produces fantastically good pictures printed on any decent photo-quality printer (with photo quality paper).
+snapshots[+1][cc]##It will not replace your high-end 35mm SLR but it's a great toy to keep near you at all times for snapshots.
+##I have used many digital cameras. 
+camera[+3]##This IS the best camera you can have for digital images if you want to:
+pictures[+2]##Take quick pictures with excelent resolution
+wait[+2]##Hate to wait between shots
+Download[+2]##Download it fast to your computer
+bundled software[+2]##Have a great and easy to use bundled software
+size[+2]##Travel with it without knowing you have it in your pocket
+Battery[+1]##FYI, Battery doesn't die if you don't use LCD
+color and light[+3]##The color and light I captured with this camera on a 12-day trip to Turkey (gorgeous vividly colored ceramic tiles inside darkened mosques) were far superior to anything I've ever gotten with a traditional 35-mm film camera.
+camera[+3]##I love this camera.
+camera[+1]##I don't believe this camera is still available. But if you can find one, you might like to get it.
+smallest[+3],best-built[+3]##It's still one of the smallest 2MP digital cameras on the market, and absolutely one of the best-built most stylish cameras ever.
+##I bought my camera based on recommendations from my other friends who own it. 
+purchase[+2]##I am very pleased with my purchase.
+##It's best to list the pros and cons of this camera:
+camera[+3]##I've been incredibly happy with this camera.
+camera[+2][cc]##This camera is great if you're used to a high-end SLR.
+snapshots[+1][cc]##It's overkill for simple snapshots, unless you've got way too much money to blow.
+Exposure[+1]##Exposure compensation in 1/3 stop increments (I leave it set on +1/3 stop to brighten up the default exposure, which goes a bit dark for my taste).
+flash[+2], mode[+2]##Slow-syncro flash, macro/infinity mode, etc.
+zoom range[-1],small[+2]##The zoom range is a little narrow (35-70mm in 35mm film equivalent), but given that the camera is the same as my wallet, I can't think of any real complaint.
+body[+2]##The SS body is wonderful, feels high-quality.
+body[+2][cs]##It's the same body as the popular ELP2 APS camera (take a look at a standard credit card from your wallet and you'll have an idea of the front profile!).
+##A 2X optical zoom (you can pretty much ignore any time a  manufacturer refers to "digital zoom")
+lcd[-3]##I left the camera in my car in Maine (not a very hot place) and the LCD screen cracked !
+design[-2]##I then realized a major design flaw.
+functionality[-2]##All the camera's functionality is only available (or selectable) when the screen is functional.
+screen[-2]##When the screen stops working, you're out of luck !
+##I wrote another review and this is the update. 
+manual mode[+3]##I discovered that the camera has a manual mode that gives you total control over exposure, white balance, flash (red eye, person against bright background, flash on, flash off, flash automatic).
+##I have used this camera for about 3 weeks so far, taking over 500 pictures. 
+##I have 2 batteries and a 128 mb card. 
+##Here are some useful facts:- 
+##On a battery charge, the camera takes approximately 70 pictures, where the camera is opened and closed between pictures. 
+##A 64mb card stores approximately 100 pictures at default resolution (ie between 500k and 1.5mb per picture). 
+viewfinder[-2]##The viewfinder does not accurately represent the pucture being taken.
+##The LCD should be used.
+##However, in dark settings you must use the viewfinder. 
+zoom[-3]##The digital zoom is crap.
+##Turn it off. 
+fits[+2]##It fits in your pocket.
+##The closest competitor is the SONY DSC-P1 (3.3mp). 
+##But that camera is a little larger and you defeat the whole purpose of having a truly portable camera.
+##I take my camera everywhere. 
+##Tamrac makes a tiny pouch that is best for the camera. 
+##The front even has a zipper for an extra battery and your wallet stuff. 
+panorama setting[+3]##The panorama setting is unbelieveable !
+##You take around 12 pictures in a circle, stitch them together and voila; you have a perfect memory of where you were standing ! 
+pictures[-1]##The pictures are a little dark sometimes.
+flash[+1]##You have the option to have the flash automatic or off.
+S100[+2]##The new Canon s300 is 33% larger and 26% heavier than the S100.
+movie mode[-1]##The movie mode can only record a max of 30 seconds at 160X120 per clip and a max of 4 seconds at 640X480.
+mode[+2][cs]##It has one more resolution of 1024X768 and a "Normal" compression mode.  And, it has the 3X zoom.
+price[-1][cs]##The price is $... more.
+software[-3]##I originally gave this camera 5 stars. When I had Windows 98 it was wonderful but I got a new computer last November with XP the usb software is Sooo... not compatible with XP
+##I have found however that you can just buy a card reader to solve this problem.
+drivers[-1]##The new drivers on cannon's site do not help at all but try them if you want they have made me have to use the backup software.
+software[-2]##The Adobe software also was wonderful in 98 but it will not let you print correctly with XP so you are forced to create your document then either print it from Windows or export it to another application.
+pictures[+3]##But it takes gorgeous pictures for a 2.1 MP camera.
+camera[+3]##I love this camera!
+memory[-2][s]## the only thing I don't like about it is that You have to buy a larger memory card, first thing!
+price[+3]##I got this camera for an unbelievably low price at amazon.
+camera[+3]##I would recommend this camera unequivocally!
+camera[+3]##I got this camera for an unbelievably low price at amazon.
+camera[+3]##I would recommend this camera unequivocally!
+##My last digital camera was an Apple QuickTake 200, which shot 640x480 pixel images.
+##The Apple was actually better in two repects: it turned-on quickly and it showed you what you just shot right after you shot it.
+##The  ELPH will do the latter but you must hold down the shutter button to view  it.
+battery[+2]##But this DOES work even if you turn off the LCD viewing -- great  battery saver.
+##I've been using this camera for a few months now.
+camera[+2]##A great camera, but here are some points which I don't notice in most of the reviews here, which may be of concern especially to the more advanced amatuer:
+##Good quality and fun!
+Elph s100[+2]##I purchased the Elph s100 mainly because I thought it was cool.
+##I'm a professional photographer using pro digital equipment and I was looking for something to have around the house so that my wife could capture candid moments with my kids.
+##In practice, we've been VERY happy with the results.
+exposure[+2],prints[+2][cc]##The camera does a great job with exposure and prints made with my professional printer looks great (not as good as prints from my pro digital camera, but still VERY good).
+##My last digital camera was the Canon Powershot A5 Zoom, which I liked  quite a bit.
+smaller[+1],resolution[+1]##But I was ready to upgrade and when I discovered that Canon  was going to come out with an even smaller digital camera with a higher  resolution, I had to have the S100.
+S100[+3][cc]##This is my second digital camera, but I'm much more impressed with the Canon S100 Digital Elph than I EVER was with my Kodak DC240.
+light[+3][u],tiny[+3][u]##This camera is so light and tiny that I literally carry it everywhere with me, which is great considering I'm an artist and like to capture interesting items for future painting.
+software[+2]##The software that comes with the Digital Elph is very nice and intuitive.
+##I especially like the way that ZoomBrowser EX lets you look at a virtual filmstrip of your pictures.
+software[+2]##The PhotoStitch software is very cool if you want to do any 360 degree panorama shots.
+##I'd suggest that you not only buy this camera, but the case for it and an extra battery pack.
+on-camera controls[-1]##My only complaint and the reason I gave it 4 stars instead of 5 is that the on-camera controls aren't as intuitive as they should be.
+work[-1][u]##I've often struggled to get something to work the way I want it, and hate to have to carry the manual with me all the time!
+camera[+2]##Other than that, I love this camera.
+pictures[+3],color rendering[+3]##The pictures are uniformly excellent and color rendering is perfect.
+size[+2],metal case[+1],use[+2],picture quality[+1],software[+2]##The good:  Small size; durable-seeming metal case; easy to use; visually distinctive; good picture quality; fast USB connection; mostly intuitive operation; really cool PhotoStitch software that knits pictures together to give wide panoramas.
+size[+3],S100[+1]##If compact size is your highest priority in a 2-megapixel camera, the Canon PowerShot S100 Digital Elph is a standout choice and aptly named for its diminutive design.
+image quality[+1],weighs[+2]##The S100's image quality rates in the middle of its class, but it can still be a reasonable choice for students, families, or small businesses looking for an ultra-portable camera that weighs less than half a pound with media and battery pack.
+##Recently I was at dinner with some friends, and we were debating the merits of one digital camera vs. another.
+##One of my friends was going on and on about his camera and how fancy it was.
+##While he was talking, I took my S100 out of the front pocket of my Levi's and took his picture.
+##I said, can your fancy camera do that?
+##No, because he doesn't (can't) always carry his with him.
+##End of story.
+camera[+3]##I purchased this camera before it went on sale, and while I wouldn't have minded keeping the extra $$$, it was definitely worth it.
+product[+3]##I have been absolutely, completely satisfied with the product and its capabilities.
+##I am no computer expert, and this is my first (and probably last) digital camera.
+product[+3]##This is a great product, and Canon has done an excellent job.
+##I've been very reluctant to join the digital camera communitysince I've been an avid "legacy" photographer for most of mylife.
+jewel[+3][u]##I received this little jewel as a gift and I can honestly say Iabsolutely love it.
+usability[+2],performance[+2],expandability[+2],looks[+3]##I give this product five stars for its usability,performance, expandability, and definitely looks!
+##I've had this camera for three years.
+##price[-1][u]I bought it new, when it was cutting edge and very expensive.
+##I put a 128MB CF card in it.
+camera[+2],software[+2]##First, I have to say that I have NEVER had the slightest problem with this camera or the software.
+##I've probably taken upwards of 5000 pictures with it, it's been all over the country.
+software[+2]##The software has been installed on Windows 95, 98, 2000 and XP and I haven't had any problems with it.
+camera[+1],performs[+1],picture[+2],battery[+1]##The camera is solid, performs well, takes good pictures, and the battery lasts pretty long if you disable the LCD viewfinder.
+##If battery life were that big a deal, one could purchase a second battery and rotate.
+pictures[-1]##All that said, I am a little disappointed with the quality of the pictures from the camera.
+sharp[+3],color balance[+3],focus[+2]##They are razor sharp, the color balance is perfect, and the focus is great.
+pictures of people[-3]##When taking pictures of people, however, it shows EVERY flaw in the subject's skin.
+##Scratches, oil, freckles are magnified and come out looking horrific.
+##It requires extensive Photoshopping to fix the flaws.
+pics[-2][cc]##Other cameras taking pics of the same subjects turn out looking much better.
+processing[-1]##I will also say that it takes a very long moment for the camera to do its digital image processing between the time you press the button and when the camera actually takes the picture.
+##By the time the shot's taken, something (especially a squirmy child or a sports play) has invariably moved and it's not the exact picture you wanted.
+##I'm going to buy a real Single-Lens Reflex (SLR) to take baby pictures, but I'll keep this as a travel camera.
+##I'm a writer and new to digital photography.
+##I've owned a few 35mm cameras over the years, including one SLR and two point & shoots.
+##I had been waiting for the prices of digital cameras to come down before  taking the plunge.
+##This year, with a cruise to Nova Scotia coming in  August, I decided the time was right and just purchased a Canon S100  Digital Elph.
+camera[+3]##I must say, I think this is the coolest camera I've ever  owned!
+size[+3]##First, it really is tiny; the size of a pack of cigarettes, maybe  a scooch deeper.
+##The included battery charger is larger!
+use[+3]##Second, it is  incredibly easy to use.
+photos[+2]##I just went on a quick photo shoot in NYC's  Central Park today, and what a bunch of beautiful photos I took, if I do  say so myself (and I do!)
+use[+2][cc]##The camera is as easy to use as a point and  shoot, and with instant review on the LCD screen, you can retake any  flubbed shots on the spot.
+optical zoom[+2],cap[+1]##The two-times optical zoom operates smoothly  and quietly, and lo and behold, a two-piece shutter-like cap automatically  slides closed over the lens when you turn the camera off.
+software[+2]##I also had no  problems installing or running the camera software on my PC.
+##I'm still  learning about file sizes (and how large is too large to email), and I did  erase one photo I wanted to keep as I was getting used to the menu system.
+##But otherwise I am thrilled to have taken the plunge into digital  photography.
+##And there are two more advantages to digital photography  which I hadn't anticipated, beyond the lack of film and developing.
+##One is  the lack of censorship of your photos -- time for some, uh, fashion  photography of your wife or girlfriend, if that's something you both would  enjoy!
+##Another is the ability to upload images from your PC to a memory  card in the camera.
+##This is a great source of personal entertainment for  travelers, if you catch my drift, and you can zoom in on the LCD images!
+##I  would also recommend Canon's soft case for the camera, which has a slot to  attach to your belt along with a second nicely finished compartment to hold  an extra battery or memory card.
+##As other reviews have noted, you will  definitely want one or more additional memory cards.
+##I've found I can get  from nine to twelve compressed 1600 X 1200 photos on one 8MB card, or 28  images uploaded from my PC.
+S100[+2]##At any rate, if you have been interested in  digital photography but the price and confusion have held you back,  consider the Canon S100 Digital Elph.
+camera[+2]##It really is the perfect travel  camera, plus it offers the convenience of digital photography.
+##Why did I wait so long?
+detail[-1],color rendition[-1][cc]##If you're looking for a digital camera to replace your big Nikon or Canon SLR, forget it - film is still king when exquisite detail and fine color rendition are critical.
+##Before you give up on digital cameras, though, ask yourself a few questions: 
+##got this as it flew off the shelves.
+use[+2],images[+2],fits[+1][u]##Really like it, easy to use, great images, very intuitive, fits in my jacket pocket.
+##What else can I say?     
+compact[+1][u],rugged[+1],use[+1]##I was looking for a compact, rugged (I carry it hiking, skiing, boating, etc) camera which is easy to use.
+memory expansion[+1],macro mode[+1],housing[+1]##I wanted standard memory expansion (CF cards), macro mode, and if possible, a waterproof housing (for kayaking).
+##This is the only camera with all these capabilities.
+small[+2]##Even with the waterproof housing it is small.
+lens[+1]##The lens retracts and has its own metal cover so you don't need to fuss with a lens cap.
+housing[+1]##The metal housing seems very rugged.
+##Turn-on to ready-to-shoot is about 3 seconds.
+automatic modes[-1]##I'd give it  5 stars if the automatic modes were better and if there were true manual focus and exposure modes.
+auto mode[-1]##For example, in auto mode you can't use the flash redeye reduction, you must be in manual mode for that.
+auto color balance[-1]##The auto color balance is often fooled by dense clouds.
+##You need to use the manual exposure adjustment in backlight or bright light conditions such as with snow in the background.
+dynamic range[-1][cc]##The dynamic range seems not quite as good as the Kodak DC260.
+macro mode[+1]##The macro mode works well, although it takes some practice since the camera doesn't clearly indicate when it can't focus.
+LCD[+1]##The white-LED backlit LCD is very bright and crisp, even in sunlight, and relatively easy on the battery.
+panorama modes[+2]##The panorama modes are wonderful.
+##Buy at least two batteries and you'll never run out in the field.
+##High-res photos take 1-1.5 MBytes each so you want a CF card sized accordingly.
+small[+3][u],light[+3][u]##It's so small and light, even with a spare battery, you really can take it anywhere.
+auto mode[+1]##In auto mode anyone can use it as a point and shoot camera.
+manual modes[+1]##The manual modes give you a lot of control over exposure and white balance (but there is no manual focus or manual exposure).
+##1600x1200 means really good, cropped 5x7 prints and acceptable 8x10s.
+light[+1],compact[+1]##There are better cameras but none anywhere near as light and compact.
+##It's a little jewel.
+Small[+1]##1- Small.
+smal[+2]##VERY smal.
+##You'll carry it with you every day.
+##I've been taking near 100 pictures per month since I got mine.
+cameras[+2][cc]##I've had a lot of cameras, but this one is ACTUALLY being used, and not stored in a desk: it's allways in my shist pocket.
+picture quality[+3],use[+2][u]##2- Excellent picture quality and so simple to use!!!
+##Fool proof.
+##I started shooting even before reading the manual (not recommended at all).
+##3- USB kicks!
+##2 secs to download a 600KB 1600x1200 picture!
+Looks[+1][u]##4- Looks great.
+case[+1]##Silver metal case -NOT PLASTIC.
+software[+3]##5- Excelent software package.
+TFT screen[+1]##6- Small but very clear TFT screen.
+##Take shots at angles you thought you wouldn't.
+TFT[+1]##Don't care about sunlight: it's TFT.
+panorama mode[+2]##7- 360 panoramic pictures are a very big deal.
+buttons[-1]##8- Buttons are little, but If you have steady fingers and dealed with a casio wirst calculator watch, you can deal with almost anything.
+buttons[-1]##Buttons size is OK for me, my wife, but not my grany.
+##9- Cons? Not a single one after 5 months.
+canon s100[1][cc]##i researched and researched between getting the canon s20 or the canon s100, and of course i got the latter!
+##and i'm glad i did!
+ease of use[+2][u],picture detail[+2][u]##I was looking for something that wasn't too complicated to use and to help the pics I post on Ebay show more detial.
+size[+3][u],casing[+2]##This camera is great, wonderfully small, and has attactive hi-tech casing.
+ease of use[+3]##Very easy to use for someone like me who's just hopping on the digital camera bandwagon.
+##I love not having to go to Walgreen's to get my pictures develpoed anymore!
+##Definitely a good investment.
+controls[+2],ease of use[+2][u]##The controls are easy to understand and big enough that they are easy to see and use.
+##I would recommend spending a little money and this will be the perfect digital camera.
+##I added a second battery (about $69, recharges in about two hours) and a large (192Mb for less than $400) CF module.
+##Now I can take over 300 1600 x 1280 shots (or for the webshot fanatic, 1,141 pictures at 640 x 480).
+zoom[+1]##The optical and digital zooms combine to give an effective 4x zoom.
+capacity[+2]##This is enough capacity and capability to do a complete household inventory, for example.
+##While this might seem pricy, I have been spending $27 for 25 APS images, with prints and a CD, so this camera will pay for itself in a year.
+##I have a 35mm camera outfit that cost quite a bit of money a few years ago.
+size[+1]##So, why the small Digital Elph, rather than one of the other cameras with better resolution or picture quality? size[+2]
+##because, unless it's small, I won't cary it around.
+##If I won't cary it around, I won't use it, and if I won't use it, what's the point?
+##My first impression of Elph S100 was that there couldn't POSSIBLY be room in the thing for anything other than a battery and a memory card.
+##Somehow, the engineers at Canon did it, and the results are nothing less than astounding.
+##I was a little skeptical about what people had said about this camera, because it's just so small.
+size[+1][u],pictures[+2]##After getting one for Christmas from Amazon, I'm now a believer:  The Digital Elph is truly the world's smallest digital camera that shoots great pictures.
+pictures[+2]##I've had this camera just over 2 years and it takes pretty good pictures.
+size[+3]##The size is tiny, which I love.
+##We bought extra memory and a backup battery (so we can use one while the other is charging).
+pictures[-1]##Sometimes the pictures are onthe dark side, but I'm able to fix that using the Photoshop 6.0 "adjust levels" function ... not sure how a person would do that without Photoshop, though.
+##OK so I bookmarked pages about this camera on our home computer, in a place I was sure my wife would see, and loh and behold, what did I get.
+##Thank you Santa!
+##I bought this camera at the end of August.
+##With the camera I also bought a 128MB compact flash card, an extra battery, and a carrying case.
+##I also recently bought Viking's IntelliFlash Memory Reader.
+##I've got a couple of digital cameras.
+##An Olympus 2500 and an Olympus 620.
+##Really like them,  they work well and the macro function of the 2500 really helps my Ebay biz.
+##BUT they are big cameras,  they have to reside in a large case,  they need all kinds of batteries,  in short they're a pain to lug around.
+##I've struggled for years with supposedly high-quality point and shoot 35mm cameras delivering astonishingly inconsistent results.
+##The Canon S100 destroys this problem.
+##I've had this camera for roughly 3 weeks now and I've taken approximately 250 pictures.
+##The results are superb...  both in print and over the computer.
+##Positives:
+ease of use[+3][u]##This camera is so easy to use!
+##I just took it out of the box, charged the battery, and started taking pictures.
+features[+3]##All the features are incredibly intuitive, even for a novice like me.
+##I would recommend getting a larger Compact Flash card, because once you start taking pictures, you won't want to stop.
+pictures[+3],size[+3]##The pictures are beautiful, and the camera is so small you can carry it anywhere.
+price[+2],features[+2],size[+2],ease of use[+2]##I, as many others, have waited for many years for the convergence of price, features, size and ease of use to hit that happy center point.
+##Well wait no more!
+fun[+3]##I bought this little guy a few weeks back, and I have to saythat I never had so much fun with a new toy as this.
+size[+3]##You willdefinitly appreciate the small size.
+##You can take it anywhere withyou, unlike other bulky cameras, and capture every moment of yourlife.

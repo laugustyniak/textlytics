@@ -1,0 +1,531 @@
+## I purchased this monitor because of budgetary concerns .
+inexpensive[+1][a] ## This item was the most inexpensive 17 inch monitor available to me at the time I made the purchase .
+monitor[-1] ## My overall experience with this monitor was very poor .
+screen[-1], picture quality[-1] ## When the screen was n't contracting or glitching the overall picture quality was poor to fair .
+monitor[-1], picture quality[-1] ## I 've viewed numerous different monitor models since I 'm a college student and this particular monitor had as poor of picture quality as any I 've seen .
+screen[-1] ## A week out of the box and I began to see slight contractions of the screen from time to time , growing more frequent each day .
+Display[-1] ## Display glitches and flashes also occurred .
+monitor[-1] ## I could tell this was a `` cheap '' monitor as soon as I set it up .
+## I sent it back and now will search for a better quality monitor .
+## I 'd stay away from this brand , that is , if you ever come across it again .
+## 3G Technologies ?
+## Searches across the Net come up empty with these guys .
+## Two thumbs down .
+monitor[-1], colors[-1] ## I used this monitor for 2 years and now it shows a mixture of various colors and de-focused text .
+## I had a dell latitude netbook that I had to return .
+size[+1] ## I really liked the size so I researched what to buy and this was it .
+computer[+1], quality[+1] ## This computer has an excellent screen size and quality -LRB- for a netbook -RRB- .
+## It is bigger than the dell and the hp mini .
+keyboard[+1], color[+1] ## The full sized keyboard is sweet not to mention the aquamarine color .
+speed[+1], memory[+1] ## That is surface stuff , but the speed and memory is very good .
+## I use a netbook for all of my computing with the exception of tax programming and backup .
+laptop[+1], form[+1] ## This really is a laptop in a small form .
+## I can use several programs at once with little difficulty .
+windows 7 premium[+1] ## The windows 7 premium is good -LRB- do n't recommend starter -RRB- and user friendly .
+## I can write reports , check social network , pictures , check email , read reviews , and shop at the same time .
+slower[-1][a], screen quality[+1], hard drive[+1] ## It is slightly slower than the dell , but it is hard to notice with the very nice screen quality and larger hard drive .
+screen[+1] ## The larger screen has allowed me to put all my photos on it -LRB- could n't on the dell -RRB- and edit them .
+## This has turned into a much better purchase than I expected and it is very light .
+machine[+1] ## Overall a sweet machine .
+## I 've purchased two of these netbooks , one for myself and the other for my girlfriend .
+## Sure , it 's no laptop , but you could have fooled me .
+light-weight[+1][a] ## It 's very light-weight , which is why I use this more than my Alienware .
+## It does just what I need once fully configured : Add 4GB of ram , clean out pre-loaded junkware , and install CCleaner and MS Security Essentials .
+## Those who claim that this netbook falls apart need to stop using it for non-intended uses .
+## It 's not a laptop , you need to learn its limitations -LRB- no Photoshop or power apps -RRB- and take care of your gear .
+## Buy a neoprene case and keep it protected .
+## Most people who have device failures simply push their gear to the limits and then when it fails they turn around and cry foul on the manufacturer .
+light-weight[+1][a], device[+1] ## It 's just such a nice , light-weight , non-intrusive device which you can take anywhere .
+## I 'm not a fan of tablet computers .
+## I think they are interesting , but they do n't serve any practical uses in my opinion , yet .
+## At least from a work standpoint .
+## You wo n't be disappointed with this netbook , and just encase you may want to purchase a Squaretrade warranty .
+## 5\/5 stars .
+netbook[+1] ## I really love this netbook .
+## Huh ?!?!?!?!
+## I do n't get all the negative reviews from so many others about this product .
+monitor[+1] ## I 've had this monitor for over a year and I absolutely LOVE IT !
+## Now I do n't know what kind of video card and connection others are using but I am using an ATI 9800 Pro and have the monitor hooked into the DVI Digital Output instead of the standard VGA which is analog .
+picture[+1] ## I do n't think that really matters though - I mean hooked my Xbox 360 up to the standard VGA port a little while ago and the picture was awesome .
+## I 'm not discounting anyone else 's opinion of the product by any means because maybe theirs came from a bad batch or something , but just so others can hear a positive review from someone that has been very happy with their purchase for a while now !
+speakers[-1], monitor[-1] ## The only reason I did n't give it 5 stars is because the speakers on the monitor are a little weak , but that 's really to be expected is n't it ...
+netbook[+1] ## This netbook is exactly what I want for my kids .
+## If I buy something for me , I would consider to buy the same too .
+lighter[+1][a], functionality[+1] ## it is lighter to carry around and it has enough functionality to use .
+price[+1] ## Great replacement at great price for an older bulky and heavy monitor .
+Color[+1], contrast[+1] ## Color and contrast are perfect for my needs .
+product[+1] ## Seems like a good product .
+clicker[-1], mouse pad[-1] ## The only problem I have is the clicker on the mouse pad is stiff .
+## Very compact and easy for travel .
+monitor[+1] ## Excellent monitor .
+image[+1] ## Clear and crispy image .
+## Very , very satisfied with it .
+small[+1][a], computer[+1] ## My fiance ordered this computer , she 's a teacher so she needed a small computer that would keep her from bringing work home with her .
+performance[+1] ## We got this on time , and it was brand new , perfect condition , performance as can be expected for the machine specifications , keep in mind I 'm extremely computer savvy , so my opinion comes to a lot of people .
+## I highly recommend it , she loves it and we 're both very happy with the purchase .
+## If you 're debating getting this item , I would n't hesitate any longer .
+computer[+1] ## I 'm not a person well read in technology but this is just an absolutely wonderful computer .
+run[-1][v] ## I 've been playing Minecraft on it and multi tasking at the same time , and while it does run slower while multi-tasking , the gaming experience is not compromised for me .
+keyboard[+1] ## The keyboard is also very nice and quite comfortable-although it does take some getting used to .
+computer[+1] ## I do n't want to be a sensationalist but this computer is incredible .
+netbook[+1] ## If you have netbook expectations you will be pleasantly surprised by how well this baby runs .
+## If you have notebook expectations you will feel `` meh '' towards it because it runs like a low-grade to medium-grade notebook .
+## Pros : The capabilities for size and price The keyboard size Windows Premium The look Cons : Be aware that the finish does smudge and gets finger printy , but all polished , it looks incredible Screen size -LRB- but its a netbook , duh ! -RRB-
+download[-1][v], run[-1][v] ## Slow to download and run certain programs Wish you the best and hope my review helped !
+## Doing business with Amazon is pleasant .
+products[+1], price[+1] ## We count on good products at a good price .
+Acer Monitor[+1] ## Our purchase of an Acer Monitor was just as we expected .
+## No surprises .
+## Received this item within a few days of ordering .
+hook up[+1][v] ## Easy to hook up .
+picture[+1] ## Great picture .
+monitor[+1] ## I am very happy with this monitor .
+## I had been thinking a lot about changing my CRT montior to LCD monitor .
+## I was waiting for lower pricess , faster respons time & wide screen monitor .
+## I was keeping my eye on Samsung , Benq & Acer .
+## Last week , I visited JAREER Bookstoor in Riyadh -LRB- Saudi Arabia -RRB- I found this LCD .
+disign[+1], price[+1] ## It really impressed me with the disign , the specs & the price .
+## So , I could not wait anylonger & I got it .
+## I will provide my comments about the disadvantages only because the advantages you may get it from the product specs .
+direct Elictrical connectivity[-1], connect[-1][v] ## My comments are as follow : 1 - Does n't have direct Elictrical connectivity -LRB- you need Adapter which is comming with the package -RRB- 2 - It is really very difficult to connect the the power Cable & the regular -LRB- VGA -RRB- PC connection .
+quality of picture[-1], DVI Connection[+1], VGA Connection[-1] ## 3 - Not perfect quality of picture if you use the VGA Connection while the DVI Connection is perfect .
+## 4 - No flixpility to turn the monitor right or left because it is fixed .
+## 5 - hight can not be adjusted .
+## Some of you may ask how did I gave 4\/5 while having the mentioned disadvantages .
+LCD monitor[+1] ## Then I would say that this LCD monitor have many feature in one piece .
+## It has TV tuner , Composite inputs , DVI Input , SCART Input , Nice Speekers .
+remote control[+1] ## In addition , it comes with a remote control .
+screen quality[+1], side view[+1] ## The screen quality is very high & the side view is very sharp & clear .
+## In conclusion this master piece has every thing you need .
+price[-1] ## One last note , I purchased this monitor with a higher price than what you can get in the states .
+pricess[+1] ## It costs me about 640 $ so you should be gratefull that the pricess in the states much lower .
+## Regards , Abdulrahman Saudi Arabia - Riyadh
+## Everything on this unit seems fine so far except for one item .
+## Almost all new video cards have DVI only connection .
+vga connection[-1] ## This means that the vga connection will not work with my computers .
+## I will have to find an adapter of some sort which is a pain as a cable should be sent with the unit in my honest opinin .
+## I use a dual monitor workstation -LRB- normally both 24 '' -RRB- for web development and video production .
+## One of my monitors recently went south -LRB- quit working -RRB- , and I went looking for a replacement .
+## Though this monitor is only a 23 '' , the reviews were good and I 've always had good luck with Acer products .
+color[+1], brightness[+1], pixel quality[+1] ## I 'm glad I went with it , it actually exceeds my ViewSonic for color , brightness , and pixel quality .
+## In fact , my 24 '' Viewsonic has now been moved to second monitor position and this Acer is now the primary .
+monitor[+1], resolution[+1] ## Though it does n't have quite the screen real estate , it 's an excellent monitor and crystal clear at a resolution of 1920x1080 .
+monitor[+1], price[+1] ## Very happy with the monitor and the price ...
+monitor[+1] ## I have this monitor for a month now and I 'm very pleased with it .
+## I have it at my home office and we sometimes watch movies on it .
+widescreen[+1] ## My wife is even more pleased due to its widescreen .
+colors[+1] ## The colors are clear , also .
+## I purchased this monitor after shopping around for a good deal on a 19 '' LCD .
+## What a mistake .
+backlight[-1] ## The backlight will periodically fail , the first time it happened I sent it in for warranty repair .
+Acer tech support[+1] ## It came back working , and I was momentarily glad that the rumors I 'd heard about Acer tech support did n't turn out to be true in my case .
+## The second time it happened I got suspicious .
+## I wanted to call acer tech support and talk to someone .
+## I managed to find their mysterious phone number from a google cache and called them .
+## It turns out they did n't DO anything when they received it .
+## They opened it up , turned it on , and it worked so they sent it back .
+## Of course , they do n't tell you they did nothing .
+Acer[-1] ## Acer has been awful to deal with , they treat their customers like rubbish , and have a miserable repair facility to match their products .
+monitor[-1] ## Do n't buy this monitor !
+backlight[-1] ## Now when the backlight fails , I have to leave it unplugged overnight and it works the next day .
+## Acer will not replace it because the problem does n't occur when they have it .
+## worldwide distributor was the worst buying experience in my life , since i started to shop online .
+## never ever .
+## i 'm regular online shopper , i never had this bad experience in my life , this bring Question .
+product[+1] ## I really enjoy this product .
+portability[+1], battery life[+1] ## I was looking for portability and good battery life and this product delivers both .
+slow[-1][a], system[-1] ## I felt the system was slow so I purchased a 4gb ram from crucell and replaced the standard 2gb that came with the system .
+battery[+1] ## I seem to be getting 5 to 6 hours on the battery which is sufficient for my needs .
+## Since I 've only had the computer for a few weeks I 'll report later on my further experience with the system <a�href="http://www.amazon.com/gp/product/B001KB21KA/ref=cm_cr_asin_lnk/192-0570718-7655811"> Crucial Technology CT51264BC1067 4 GB 204-pin SODIMM DDR3 PC3-8500 CL = 7 Unbuffered NON-ECC DDR3-1066 1.5 V 512Meg x 64 Memory </a>
+## Just walk away .
+## I do n't think Acer brand is ready for the USA .
+technical support[-1] ## Someday , your going to need support , and Acer 's technical support department is the next to worthless .
+## So , my opinion is to shop elsewhere .
+## I got this product yesterday ... !!!
+netbook[+1], light[+1][a] ## This netbook is very light but still powerful .
+Screen brightness[+1] ## Screen brightness is really good .
+Sound[+1], size[-1] ## Sound is also nice as compared to its size .
+cheap[+1][a], netbook[+1] ## This netbook is closer to the notebook powers but still very cheap .
+## Portables are fragile machines that need extra care .
+## If you spend a lot of money on a Mac Book Pro spend these extra few hundred too if you prefer a relaxed life .
+## I was planning to buy a kindle fire on amazon but just got this little thing packed with 320 GB HD , Win 7 Home Premium , webcam , office starter etc etc. .
+## Then I decided to invest few more bucks and went for this netbook .
+## I do n't know why people buy expensive gadgets like ipad2 3G ... very satisfied and I think I made very good decision .
+delivering[+1] ## Pros : Competitive Cost Win 7 Home premium HDMI port -LRB- I could watch the Amazon instant videos on my HDTV and its delivering great .
+## I am so happy that I was clever enough to take out Apple Care as it saved me buying a new computer and a lot of stress .
+## Just the other day Apple replaced my computer that was 18 months old due to hassle that occured in the past three months .
+Office Starter Web Cam[+1], weight[+1] ## Office Starter Web Cam is also fairly good Light in weight and elegant Cons : I wo n't say anything bad as you are just paying 280 for this net book .
+## I would imagine the cost will go upto 200 bucks one day and then it will be unbeatable deal .
+monitor[+1], price[+1], cable hook ups[-1][v] ## Nice monitor for price but I agree with other customer review about difficulty of cable hook ups .
+## Would like to know what the DVI cable is used for .
+monitor[+1] ## I love this monitor .
+color display[+1], picture[+1], size[+1] ## Great color display , sharp picture , and just the right size for my desk .
+Fits[+1][v] ## Fits perfectly in the corner of my small desk !!
+## I bought this monitor as an addition to my existing desktop monitor .
+images[+1], text[+1], fonts[+1] ## The images are vivid and crisp , the text and fonts are very clear .
+price[+1] ## Absolutely love it and cant beat the price !
+monitor[+1] ## This monitor works great .
+set up[+1][v], pixels[+1], price[+1], LCD monitor[+1] ## Easy to set up , no bad pixels , great price for 19 LCD monitor !
+## This is our second Acer LCD monitor .
+items[+1] ## Both are absolutely great items .
+## Seems as though when Acer started out they seemed a bit on the po-dank side of the computer industry .
+## No more !
+Acer stuff[+1] ## All the latest Acer stuff is top notch !
+Acer Monitor[+1], screen[+1], design[+1] ## The Acer Monitor has an extremely bright screen and its design allows the placement in an area -LRB- from a heighth perspective -RRB- that many 20 '' screens will not fit in .
+brighter[+1][a], weighs[+1] ## Compared to the 19 '' Dell Monitor this replaced it is far brighter and weighs much less .
+set up[+1][v] ## Very easy to set up .
+monitor[+1], price[+1] ## Highly recommend this monitor - hard to beat at this price point .
+clarity[+1], sharpness[+1] ## I purchased three of these Acer 19 '' at very good rates from Amazon ... we are extremely pleased with the clarity and sharpness .
+## Flying first class at tourist rates .
+## Ken Monzingo
+## WOW !!!!
+sleek[+1][a], monitor[+1] ## This sleek looking monitor is absolutely awesome !!
+## Everything appears larger than life !!!
+product[+1], unbox[+1][v], install[+1][v] ## This Wonderful product was easy to unbox and install !!
+ACER widescreen[+1], ULTRA Slim monitor[+1] ## Thuumbs up to ACER widescreen ULTRA Slim monitor .
+## We use these monitors in the office .
+## Well , other people do - I use a Dell 20 '' LCD .
+video cable[+1], fit into the socket[-1][v] ## First gripe : I set up a lot of these puppies , and the video cable does n't always fit into the socket on the underside of the monitor .
+## It 's because of the way the port lines up -LRB- or does n't -RRB- with the plastic of the case .
+## To get the cables in , I had to nick bits of the plastic casing on the end of the cable -LRB- and these are the cables that ship in the box with the monitors ! -RRB-
+display[+1], price[+1] ## Other then that it is a fantastic display for the price .
+monitors[-1] ## Second gripe : In the 6 or so months since we purchased our batch of 30-40 of these monitors , 2 have already been returned for repair or replacement .
+## That 's at least a 5 % failure rate .
+## Not good .
+monitors[-1] ## Third gripe : These monitors can suffer from the LCD equivalent of screen burn - `` image persistence '' if you like .
+## If you leave an image on the screen long enough , a ghost of that image will persist into the LCD even after you switch the monitor off and on again .
+## The image \* will \* go away if you either leave the monitor off for a while or leave a white area of a window under that part of the screen - but it takes time .
+## I 'm happy with my Dell .
+display[+1] ## I have n't really need any since the display have proven to be very intelligent when resizing different screen res 's and I can use the ATI drivers to adjust things like color temp and gamma .
+## I would n't touch one of these Acers !
+## For the money you ca n't beat it .
+## Dell 's similar monitor is over $ 300 .
+## Sure more options but for me it serves my needs totally .
+bright[-1][a] ## In fact others say not bright enough ?
+bright[-1][a] ## I find it too bright .
+## Retired and not a computer geek .
+quality[+1] ## For me its perfect and the quality for games and word docs is more than acceptable .
+## Would definately recommend it .
+widescreen monitors[-1] ## Besides , I hate widescreen monitors !!!!
+## Also one review said it does n't tilt ?
+## It certainly does .
+faster[+1][a] ## Much faster than my previous Acer One Netbook with single processor .
+Battery[+1] ## Battery last longer too .
+## I 'm very happy with the purchase .
+## Highly recommended .
+## Amazon delivery is very efficient and on time , as always .
+price[+1] ## Purchased this item because of reviews and price .
+Netbook[+1], Customer service[-1] ## The Netbook is great and rates 5 stars EXCEPT -- Customer service is useless .
+## Shunted to 4 different `` techs '' with language problems and no knowledge only to be told that a question on a Brand New Printer can only be answered by paying $ 38 per call .
+monitor[+1], price[+1], picture[+1] ## excellent , very good monitor to rest the price is pretty good , I recommendt he picture is sharp and in perfect condition came to Venezuela
+Fits[+1][v] ## Fits nicely on the small desk we use in our computer room .
+distort[+1][v], video[+1], pictures[+1] ## It does not distort ; video and pictures look great .
+Acer products[+1] ## We like Acer products and this one does n't disappoint .
+monitor[+1], Size[+1], looking[+1], 3d[+1] ## Hi , I just got this , and let me tell you is an awsome monitor , Size , looking and 3d is awsome good with this LCD .
+## Sadly mine came with 2 Pixels dead , one always is green and the other one is black , I read warranty and says it have to be more than 4 pixels IN THE SAME PLACE to become a valid warranty claim .
+## Ok this is not a big issue anyway , 2 dots dont make a huge diferences , they are just annoying .
+monitor[-1] ## 2 weeks later , The monitor start having other issues , only half screen turns on , or it become a full green screen and doesnt change , you need to turn it off and on again until it works .
+## Im starting the warranty process to see what happens at the end They told me it was normal since this LCD 's are 120Hz you need to let them warm up sometimes is what they told me .
+## I hope this dont ends in a square pieces of garbage broken and unable to claim to anyone .
+## If this issues still being fixed by turning off and on the monitor , I guess I can deal with it , but I didnt paid the amount of money this babies cost to deal with this ... Shouldnt be that way .
+## Im gladly open to any help you can give me .
+## After opening the computer for the first time , I notice any javascript links would not work on internet explorer .
+## The default settings were turned on .
+## I contacted Acer support and they wanted $ 100 to fix the preinstalled internet explorer issues that I was setup with .
+## Because it is not a hardware issue , they will not help you unless you pay them .
+## After searching the internet for hours and trying countless options I downloaded Firefox to get my internet operational .
+Acer[-1] ## I was dissapointed that Acer was n't more helpful .
+## I talked to a manager and explained that I had not modified any preset items and they still could not waive the cpu support fee despite the cpu being brand new .
+## I would rather hire a local tech support company than pay $ 100 to fix a brand new software issue on a $ 375 computer ... Besides that it seems to be working fine now .
+compact[+1][a] ## Nice and compact .
+Acer Netbook Aspire One[+1], computer[+1], pretty[+1][a], quality[+1], quiet[+1][a], heated[+1][a], keyboard[+1], laid out[+1], screen functions[+1] ## After much delay I received my Acer Netbook Aspire One and I can teell you I am very satisfied with this computer , is very pretty , well finished , high quality , so quiet , not heated than other netbook or at least I think it is within in normal ranges , the keyboard is very smooth and very well laid out , the screen functions are very practical in a nutshell is an excellent buy and I am very pleased with the purchase , I recommend it .
+laptop[+1] ## its definately an outstanding laptop .
+expensive[+1][a], design[+1] ## it 's far from expensive for the specifications but there is a lot more than in there ... i like it so much ... its nicely designed for the portable user and I like the Ferrari design on it .
+color[+1] ## The color is red and is so attractive !!
+weight[-1] ## <p> It 's not lite on weight ... so sad ... I definately recommend it to anyone out there .
+## It is wonderful !
+images[+1] ## Sharp , crisp images .
+## The is the essence of more bang for your buck !
+## No issues .
+Delivery[+1] ## Delivery was prompt .
+Monitor[+1], set up[+1][v] ## Monitor was easy to set up and works as promised with my newly acquired NVIDIA glasses .
+increased memory option[+1] ## The operation with the increased memory option was flawless with the Windows 7 Home Professional instaled otherwise other netbooks with Windows 7 Starter doesnt allow , and nobody mention this .
+size[+1] ## This is a plus with this netbook , the increased size of 1.6 inches means better and clear view of webpages and woks made in Office .
+monitor[+1], speakers[+1] ## This is a very nice monitor , matte black and built-in speakers .
+image[+1] ## Sharp image .
+small[+1][a] ## Relatively small desktop footprint too .
+delivery[+1] ## VERY fast delivery .
+price[+1] ## Ca n't beat it for the price .
+## I am an extremely experienced computer user .
+## In my home I have two servers , five desktop computers , and six different monitors .
+## I spend 8-12 hours a day on a computer and often have eyestrain by the end of the night .
+## As a result I am always looking for a better monitor .
+LED monitor[+1] ## This LED monitor is fantastic !!!
+## I bought mine a few months ago and after just a week I noticed that my eyes felt better at night .
+Image[+1] ## Image clarity is great -LRB- I do a lot of work in PhotoShop with 18MB RAW image files and noticed the difference immediately -RRB- .
+## I also see a difference when surfing the web or using Microsoft Office applications .
+## All my future monitors will be LED .
+## This unit replaced a broken display on a server with limited space .
+worked[+1][v] ## It worked great and we just pluged it in .
+## Nothing fancy just reliable replacement .
+## This is a great buy !
+cheap[+1][a] ## I was a little skeptical because of how cheap it was .
+screen[+1] ## However , when I plugged it into my Mac Mini , the screen looked wonderful .
+colors[+1] ## The colors and everything are great .
+colors[+1] ## I exchanged this from an LG that I bought for nearly twice as much and the colors on the LG were not at all as nice as this .
+## There is a slight `` halo '' on the edge of the screen when it is showing blacks -LRB- say for instance the black horizontal bars of a movie -RRB- , but during everyday activities -LRB- email , pages , internet .
+## No other screen adjustments with the PC .
+## etc. -RRB- you do n't notice it at all .
+## Especially when you know you paid less than $ 100 for it !
+## I got this monitor to go to a dual monitor config .
+## My other monitor is a 23 inch ACER .
+display[+1] ## I thot my original monitor had a good image , but the S201HL has a much brighter display .
+## Everything is brighter and better defined on it .
+weight[+1], battery life[+1], keyboard[+1], screen[+1], heat up[+1][v], HDMI output[+1], local HD decoding[+1], audio volume[-1] ## Pros : Low weight , long battery life , decent keyboard , decent screen , does not heat up , HDMI output , flawless local HD decoding Con : low audio volume , just enough CPU power
+switches[-1] ## When it works its fine but I have gone through two monitors now both with defective switches .
+## Acer says they will replace it if I ship it back but that costs $ 50.00 .
+## I now have a Samsung which is great .
+## I bought this to replace an $ 89 2011 holiday special 21.5 '' Acer from Best Buy .
+monitor[+1] ## This monitor is much , much better but still not great .
+colors[+1], viewing angle[+1], quality[+1] ## The colors and viewing angle are about average , but a huge upgrade from the truly terrible quality of the other monitor .
+stand[-1] ## My other big complaint about this monitor is the stand .
+monitor[-1] ## It 's flimsy plastic and the monitor bounces around while you type .
+height adjustability[-1] ## There 's also no height adjustability , so it sits very low to the desk .
+## If you use it with a laptop , that might be a plus , but if you use with with an iMac or a taller monitor , you 're going to need some books or something to level them out .
+monitor[+1] ## Not a bad monitor for $ 120 but it 's nothing special .
+battery life[+1], screen resolution[+1] ## recieved this product in time for a gift giving ... works outstanding good battery life nice screen resolution uses windows 7 which is what the rest of the house uses connectsd to my network easisly
+features[+1], performance[+1] ## Overall , I like the system features and performance .
+convenient[+1][a] ## I love that it is a tablet - it is so much more convenient than a regular laptop .
+keyboard[-1] ## There is one very annoying problem with this model though : the keyboard is `` sticky '' - meaning , despite this tablet is brand new and just arrived , when I press and release a key on the keyboard it acts as if I kept it pressed , continuing to type the same character again and again .
+## Sometimes , when I compose an email and press the `` DEL '' key to delete a character - ooops !
+## - it deletes half of the email .
+## Unfortunately , this problem happens way too often , a few times per day .
+## I did not expect this behavior from a new computer .
+monitor[+1] ## I bought this monitor from computer direct a couple months ago , and I have been very satisfied with it so far .
+## Some specifics from my purchase experience were : 1 .
+clarity[+1], contrast[+1] ## The clarity and contrast are exactly what I was looking for in a monitor , and spec for spec , it is a bargain compared to other brands .
+## 2 .
+shipping[+1] ## The computer direct processing and shipping was outrageously fast .
+shipping[+1] ## I ordered it on a Monday afternoon -LRB- around 2 PM -RRB- and with no extra shipping costs , the monitor was at my door in Chicago by the time I got home from work Tuesday .
+## 3 .
+stand[-1], monitor[-1] ## The stand is by far the most inferior aspect of this monitor .
+monitor[-1] ## It will only move the monitor side to side -LRB- no up\/down or tilt feature -RRB- .
+view angle[+1] ## However , the view angle on this thing is so big that you will see very clearly on any desk\/viewing situation you normally run across .
+## 4 .
+## Just in general , make sure your graphics card can handle the native screen resolution on this monitor .
+## Many computers from 2003 or before may not be able to .
+## 5 .
+dead pixels[+1], color bleeding[+1] ## I have seen no dead pixels or color bleeding that I 've heard about with other ACER models
+netbook[+1], fast[+1][a] ## the netbook work as a breeze for my sales person , it worked fine , fast and with the extra ram nothing could stop it , in fact it works better than my own laptop so I will change to this one as soon as possible
+Acer 19-inch flat screen monitor[+1] ## I am very happy with the Acer 19-inch flat screen monitor which I received for Christmas .
+screen[+1] ## Things are much more distinct , and I do n't have to strain my eyes and squint when I am trying to read something on the screen -LRB- like I had to do with my clunky old monitor -RRB- .
+## AND ... there is now much more room on the top of my desk for me to spread out my work when I am online or pursuing any of my many and varied journalistic endeavors .
+## Very happy with purchase .
+## Monitor doubles as a primary monitor for a Mac G2 as well as a secondary monitor for a Dell Notebook .
+## No problems detected , no flaws noticed .
+product[+1] ## Just an average user getting good value in this product .
+## I was looking for an upgrade on a monitor .
+## I got a new pc so I wanted a nice size monitor for it without busting me in price .
+## So I came across the acer read some of the reviews andi was a little skeptical , but the price was right .
+picture[+1], colors[+1], weight[+1] ## Hooked it worked like a charm , great picture , bright colors and very light weight .
+price[+1] ## I 'm very satisfied with it especially for he price .
+## Did not have a ring around it like other reviews stated .
+monitor[+1], price[+1] ## Good monitor for the price .
+## Let me start by saying if I could give this review a -50 stars I wish I could .
+monitor[-1] ## Maybe some of you do n't have this problem , but I know of over 20 cases of buzzing from this monitor .
+## If you do n't know if yours buzzes , try going to a dark website such as Hardforum.com at 120Hz and see if the back of your monitor buzzes .
+service[-1], support[-1] ## Anyways , back to the point : I 've tried to be so calm over the past month of dealing with Acer and their terrible service and support .
+monitor[-1] ## I sent my monitor in to Acer for repairs for such a small but very problematic problem of random Buzzing from my Acer GD235Hz monitor .
+## When I finally got my monitor back from repairs I was given an `` we could not find the problem '' letter .
+## I was pissed that they could not find it and even more mad that they did not even bother to tell me before shipping it out .
+## Angry that they did not even read the information that I had given on how to duplicate the problem .
+chat support[-1], repair technicians[-1] ## You can blame the bad chat support or the repair technicians for that because I gave all the information I could .
+## So I just asked Acer to repair it a second time .
+## So when they received the monitor I was very happy that this time that they actually were able to find the problem .
+## It took them a total of 5 or so days to repair it and ship it back to me .
+## Great .
+## But when I finally got the monitor back , it still had the same issue and it also came back scratched on the bezel too .
+## Let me tell you that the monitor was in PERFECT cosmetic condition .
+## Now I am very angry .
+repair team[-1] ## I should 've trusted all the online comments about the terrible repair team of Acer .
+## I told myself it could not be that bad , but it obviously was .
+## I would never ever even think about recommending or buying another Acer product in my life again .
+## Please treat your customers with respect , Acer .
+repair technicians[-1] ## You guys need to hire new repair technicians because the ones that are in the repair center obviously have no idea what they are doing .
+## I got this montior for $ 199.00 -LRB- with $ 50.00 rebate -RRB- .
+## I am in the computer business and could n't get it at this price from any of my suppliers .
+## I expected it to be quite good , the specs were where they should be contrat , response time , etc. .
+## I was not disappointed .
+## I was impressed .
+colors[+1] ## The colors are bright , beautiful and clear .
+resolution[+1] ## I am in the business and have seen many 19 '' LCD monitors that sell for much , much more , and aside from monitors with a higher resolution -LRB- ie 1600 x 1200 -RRB- , there is no noticable difference at all .
+price[+1] ## This product is hard to beat at any price .
+viewing angle[-1] ## I agree with the earlier reviewer who said that there is a very limited vertical viewing angle in order to get consistent contrast .
+monitor[+1], price[+1] ## Otherwise a very decent monitor for its price .
+## I bought this item at Target for $ 197 , and added to 4G ram the same day .
+## When I got home , I uninstalled every useless software , removed others from Start Up list , disabled some services , and other tweaks .
+## Then , I installed PotPlayer -LRB- install the 64bit version -RRB- on it .
+## PotPlayer is the King of all PC media player .
+## It uses GPU hardware acceleration by default .
+## Now I can play 1080p movie from NAS drive , downloading with uTorrent , browsing internet all at the same time .
+## 1080p movie got no stutter or lag at all .
+smooth[+1][a] ## Very smooth .
+## Before I installed PotPlayer , I used KMPlayer , PowerDVD , Corel WinDVD and none of them could play 1080P smoothly .
+## Audio was always laggish , stuttered , delayed , out of sync ... After I used PotPlayer , it 's like totally a different world ; The difference is like Black and White .
+GPU hardware acceleration[+1] ## I think the real reason that made the changes is that it now uses GPU hardware acceleration .
+laptop[+1], small[+1][a] ## So far , I am super happy with this small yet powerful enough laptop .
+## It does everything I want , especially on 1080p HD playback part .
+## I am really amazed that it can play 1080p movie flawlessly .
+## Again , if you can not play 1080p movie smoothly , I am very sure your media player does n't enable GPU hardware acceleration .
+## My suggestion is to download PotPlayer .
+image quality[-1] ## If you are not picky about image quality , go for it .
+## Otherwise get something more expensive .
+contrast[+1], brightness[+1], viewing angles[+1] ## I can see a drastic difference between this monitor and Dell Ultrasharp in terms of contrast , brightness and viewing angles .
+## These were a ` drop dead deal ' when Target sold them for $ 200 over the Holidays , but they are still a solid value at current prices .
+## You will not be disappointed .
+## However , if you are still on the fence , Staples has them for under 300 , starting this Sunday -LRB- Feb 19 -RRB- , equipped with 4 gig of ram !
+## EDIT : Beep can be fixed , see Violet Swordsmith 's heroic method below .
+## Please ignore all the posts about turning off the sounds under sounds .
+computer[+1] ## : P Fantastic little computer , does everything I had hoped for work\/study\/travel .
+beeps[-1][v] ## However , when you unplug the computer it beeps .
+## Not a big deal ?
+## HA !
+## You CAN NOT turn it off , trust me I 've scoured the internet and even did two hour long chats with Acer -LRB- they pretend they have no idea what is going on then want to charge you money to diagnose the problem .
+## lulz -RRB- .
+## Anyway , why is this a big deal , it 's just a beep ?
+## Well , because it is deafening if you have head phone on , or connected to external speakers b\/c the noise is MAXIMUM volume every time .
+computer[+1], customer service[-1] ## Wonderful computer , horrible customer service , and I may be deaf come next year .
+customer service[-1] ## Would n't buy again because of the customer service .
+## I ordered this monitor from Amazon on Thursday and I received it on Monday .
+shipping service[+1] ## This was very prompt standard shipping service .
+## I have limited space with not enough room for a wide screen monitor .
+fits[+1][v] ## This 4 X 3 monitor fits my space very well .
+monitor[+1], display[+1] ## The monitor works very well with a sharp and bright display .
+## I have been using it for about a month and am well pleased with it .
+instructions[-1] ## The only negative thing about this was the instructions for adjusting the display were not very clear and it took a little time to figure out how to do it .
+## I purchased this as a Christmas gift .
+keyboard connector[-1] ## While upgrading the memory the keyboard connector broke .
+## Not enough time to get a repair before Christmas , so I bought a second one .
+## Same result .
+machine[-1], Acer[-1] ## I 'm not very happy with this machine or Acer .
+## Update : I sent both machines back to Acer .
+## They just informed me that they wanted $ 99\/unit to fix the problem .
+Acer product[-1] ## I would not recommend this or any Acer product to anyone except perhaps my ex .
+## -LRB- \* _ ~ -RRB-
+## I ca n't go back to using anything else at all .
+## Make sure you have a nice , smooth mouse , as well a rig that can push out -RRB- 120 FPS on most games .
+## Even my SLI 570 's ca n't do that for Crysis , though .
+brightness[+1] ## Changing brightness is easy , with four presets and one user changeable -LRB- I leave that at minimum brightness for at night -RRB- .
+screen[+1], colors[+1] ## The screen is a very pleasing matte , and the colors are great .
+## You change it to 120 Hz in the advanced screen resolution settings in Windows 7 .
+monitor[+1] ## I have used this monitor for a few months and have had no problems .
+color[+1], price[+1] ## It has good color and price was great .
+display[+1] ## Fantastic display ... do n't understand why this model is n't available anymore .
+lines[+1], viewing angle[+1], price[+1] ## Bright , vivid , clean lines , wide viewing angle , and best of all - great price !
+## I 'd been looking a long time for a 1280x1024 LCD monitor with with digital DVI input for around 1000 bucks .
+## A simple request , but impossible to fill !
+AG Neovo 's standout 17 '' monitor[+1] ## It was worth the wait because AG Neovo 's standout 17 '' monitor has all this and more .
+## Like a hard glass surface that you can actually Windex , and an attractive minimalist black design that looks like it came from a Swedish furniture showcase .
+contrast[+1], crispness[+1], readability[+1], viewing angles[+1] ## The contrast , crispness , and readability from even the most extreme viewing angles ca n't be beat .
+displays[+1] ## When the Matrox G550 Dual-DVI card comes out , I 'll consider purchasing one more of these super displays .
+## This is a great gadget that actually works .
+## Make sure you check the area coverage before you buy it , though .
+## We 've had ours for about 6 months and have no problems with it whatsoever .
+Expensive[-1][a] ## Expensive , but for us -- well worth it .
+## Now I do n't have to logon to the computer all of the time just to check the weather -- I can just look at my wall .
+colors[+1] ## The changing colors help to tell , with a quick glance .
+## It 's fairly accurate -- I think ... with a very few minor exceptions .
+device[+1] ## The idea of this device is great : it picks up a 5-day weather forecast from AccuWeather and displays the key elements on its screen .
+## Icons show projected weather conditions and temperature ranges at a glance , along with the current outdoor temperature .
+## Unfortunately , if your experience is like mine , you may find yourself spending a fair amount of time corresponding with Ambient 's apparently sole customer service rep trying to get the device to work properly .
+## I have owned one of these for several weeks now and am already on my second unit ; Ambient replaced the first one under warranty after first sending me a refurbished pager board that did n't fit in the unit 's plastic case .
+switch[-1] ## The replacement unit had a problem too : the little switch on the bottom was n't working properly , making it impossible to select among city forecasts in my area .
+## Because I had already had experience -LRB- too much -RRB- opening the case , I think I managed to solve the problem ; at any rate , the unit appears to be receiving updated forecasts for New York City , which has been my primary objective since I bought it .
+5-day forecaster[+1] ## So if you 're game for a little fiddling , you may be very pleased with this 5-day forecaster .
+## If you ca n't be bothered with things that do n't work properly right out of the box , however , you should probably pass this gadget by .
+## I have come to understand why Radio Shack has apparently unloaded their remaining inventory of these at $ 15 a pop ; you may be especially upset by the `` adoption pains '' if you have shelled out the retail price of 100 clams ...
+product[-1] ## This product did not work at all .
+## It received no signal despite the manufacturers web site indicating full services in my location .
+## I was given this screen at work .
+colors[-1], brightness[-1] ## I spend 10 hours\/day in a VNC session with dark colors ; the colors and brightness change across the panel when I look from the center to the corner .
+panel[-1] ## For my work this panel is unusable .
+viewing angles[-1] ## Others may have better luck , but I have never seen a flat-panel with such horrible viewing angles .
+monitors[+1], price[+1] ## These monitors are great for the price .
+Shipping[+1], set up[+1][v] ## Shipping was fast and they are very easy to set up .
+dead pixels[+1] ## No dead pixels on mine .
+Brightness[-1], viewing angle[-1], price[+1] ## Brightness could be better and the viewing angle is not great , but for the price I paid for a 24inch monitor , this can not be beat .
+## I would do it again .
+## I did quite a lot of research on this monitor prior to ordering .
+## Checked the reviews at several sites , all were favorable .
+price[+1] ## The price is very good .
+instructions[-1] ## I have been disappointed to find that there is no printed instructions with it , just a crude pictorial instruction of installation , which leaves a great deal of information missing .
+## The included accompanying CD containing detailed information does not want to print out on my computer .
+## This info .
+## is great but unfortunately I need it on paper .
+running[+1][v], picture[+1] ## However , I now have it running nicely and it produces a nice picture .
+## It 's worth the money .
+## The AOC 2436 Monitor worked very well at first , then seemed to have problems .
+## AOC replaced the monitor - almost immediately , but it displayed the same problems .
+video card[-1] ## The problems came from my video card .
+monitors[+1] ## The monitors were both good .
+monitor[+1] ## We are well pleased with the monitor and the company .
+machine[+1] ## This machine is a replacement for your desktop .
+## It 's that powerful and versatile , and if you 're a windows user , the design of the OS X operating system that it runs will enhance your experience and workflow in ways you ca n't even imagine .
+## The aluminum frame beats the old titanium design easily .
+heat dissipation[+1] ## Solid , resistant to scratches , better heat dissipation .
+## Close the lid , then slam it around , drop it , prop it against the wall and kick it over .
+## You 'll break your foot before you break the laptop .
+display[+1], text rendering[+1] ## The display is large enough , and the text rendering is sharp enough , that you 'll forget entirely about workspace issues .
+## A piece of advice : Get the new logitech optical USB mouse with the little app-switcher button on it , and assign that extra button to the Expose feature of OS X 10.3 .
+## Use it whenever you 're working at a tabletop or desk .
+## Freaking brilliant .
+machine[+1] ## This machine will change your whole idea of what a laptop should be .
+## Ordered it immediately after the Macworld keynote .
+small[+1][a], value[+1] ## It 's so small , but big value Mac .
+## Our `` mini '' is now in the living room attached to a Syntax Olevia LT30HV HDTV and works great !
+Superdrive[+1], WiFi\/Bluetooth modules[+1] ## Highly recommend getting the Superdrive and the WiFi\/Bluetooth modules .
+wireless keyboard[+1], mouse[+1] ## Apple 's wireless keyboard and mouse work flawlessly with the mini .
+memory[+1] ## The memory is not really hard to upgrade .
+## I have upgraded ours to 1 Gig with third party SDRAM .
+## Opening the case with a `` putty knife '' is not as hard as most people think it is .
+## The bundled iLife 05 alone elevates this computer from bargain PCs .
+value[+1] ## This is an excellent value .
+insurance[+1] ## Not that Apple computers break down often but this is cheap insurance for 3 years .
+## Do n't buy a laptop or desktop without it .
+works[+1][v] ## I have this connected to my late 2008 MacBook Pro , and it works flawlessly .
+## Numerous people in the Apple Forums had previously complained saying the Apple Displays had sound issues -LRB- end up being due to not upgrading the firmware to current -RRB- , but I did not have any such issues .
+## -LRB- I am running OS\/X Lion and I seem to have the current firmware in the display , and the latest drivers on OS\/X Lion -RRB- Compared to the old 15 '' display , it is like watching IMAX in comparison .
+sound[+1] ## The sound is pretty good also -LRB- although not anything like a 5.1 surround system -RRB- There is reflection , but I only really notice it when the display is off , in which case you see you own reflection on the screen .
+## I do n't get any anything reflections when the power is on .
+## Note there is no power switch - it just detects that your computer is on by monitoring the Apple display-port signals .
+## Some people may not like this , but it is very simple .
+## I 'd only recommend you buying this if you 're more DIY\/techie and 'd like to take the time and effort to pry your mini open to see its guts and put this in .
+## There are numerous detailed installation guides and even a few videos online to get you through the ` cracking the case ' scenario and I definately suggest getting some putty knives over the other strange techniques online .
+## As a longtime Mac user - I have always taken the AppleCare extended warranty and have had my money 's worth .
+## Once I bought an iSight camera on eBay that arrived not working , and after trying unsuccessfully contacting the seller turned to Apple telephone support .
+## They guided me through some tests and from these concluded that I had a faulty iSight , but to my my enormous surprise said it was covered under my extended AppleCare warranty on my iMac -LRB- even after I told them it was a second hand purchase -RRB- , and promptly sent me a brand new replacement !
+support[+1] ## Kudos Apple - though your products are of superb quality , your support is equal to that .
+product[+1] ## This product is definitely worth the purchase .
+## While it is unknown whether I will need it or not , there is one thing I have realized when it comes to Apple .
+expensive[-1][a] ## Their products are super expensive , especially to get them fixed .
+products[+1] ## However , you DO get what you pay for in reliable products .
+## I have been using my MacbookPro for over a year now with no sluggishness or hesitation .
+customer service reps[+1] ## I do n't for-see myself having any issues with it in the coming year or two however if I do , I will know that with this product , it will be taken care of for free and quick with helpful and courteous customer service reps. The service of Amazon in getting this item to me was faster than I expected and it is exactly what I knew it would be .
+## The package was unblemished and the code worked without any problems .
+## Two thumbs way up from me .
+## Thanks again , Amazon !
+## You have never let me down .
+## After several months of debating whether or not it was worth the money , I finally bought one of these babies .
+price[-1] ## I hesitated for so long because of the price .
+## I came close to ordering the 21 '' Samsung several times but really wanted a WS .
+## After seeing the in the Apple stores several times , I really wanted one but $ 1300 was a big chunk of change .
+## Then when the price dropped to below $ 1000 I gave in .
+display[+1] ## Overall , it is an impressive display .
+## I am running it with a custom built PC using an ATI 9700 Pro w\/DVI out .
+## At first I could not get the thing to work at native resolution at all and any other res would produce strange results .
+## Eventually , I discovered that something was wrong with my display drivers and I simply wiped out windows and started over from scratch -LRB- had been meaning to do it anyway and I upgraded the HD at the same time -RRB- .
+## After that , it worked like a champ .
+## No problems whatsoever .
+incompatibility[-1] ## My only grips are the incompatibility with XP and the USB hub in the display .
+## This is a well know problem with the PCs and Apple does not seem to care .
+## Also , the only hard button controls you get are brightness and contrast .

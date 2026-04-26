@@ -8,7 +8,7 @@ from unittest import TestCase
 
 import numpy as np
 
-from textlytics.sentiment.text_features import \
+from textlytics.preprocessing.text_features import \
     TextBasicFeatures
 
 if __name__ == '__main__':

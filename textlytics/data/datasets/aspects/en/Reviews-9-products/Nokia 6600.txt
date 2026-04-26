@@ -1,0 +1,554 @@
+phone[+3][u]##I've had this beauty for nearly 2 months now and I truely love it.
+battery life[-2]##The only disappointment so far has been battery life.
+battery life[-2][u]##Mine generally requires a charege every 48 hours or so and I don't really talk on it that much.
+##Why is this phone so great?
+##Simple.
+phone[+3][p]##It has it all.
+phone[+3]##This is the first phone I know of that has the large bright screen, infrared, bluetooth, USB connector and a speakerphone.
+phone[+3]##If you are looking for an upgrade, this is definitely the phone for you.
+##I got this with the need for a nokia GSM camera-phone with speakerphone.
+size[cs][+2]##3660 had similar features, but that is big in size.
+6600[+3]##6600 looks and feels nice.
+bluetooth[+3]##This one is full of features(has bluetooth).
+LCD[+3]camera quality[+3]##Especially the LCD is big and the camera quality is among the very best around.
+PDA[+3]##I have set up it's PDA features with avantgo.com where you can download info from sites like weather,mapquest maps/directions into it, which is great.
+s/w[+3]##Using supplied s/w, you can transfer all addresses from a different nokia phone into it.
+battery life[+3][u]##Goes ~3 days after a charge.
+##Its been 11 months now that I've held on to my Nokia 6600 for.
+phone[-1][cs]##I purchased this phone knowing it was slightly old as compared to the newer models of Nokia phones available.
+priced[-2]##I thought it was kind of steeply priced at that time.
+phone[+3]##I must add to the dismay/delight of readers this phone is simply the most groundbreaking phone mankind has ever held.
+use[+3]##It has raised the bar owing to number of features it offers and the absolute ease of use delight.
+##Now I'm a techy and like getting technical about things so I'd brief you in on the few features I liked about this phone-
+keypad[+3]##1.The Phone has the best keypad any Nokia phone has to offer.
+##My dad has a Nokia 6670 before which he has a Nokia 7210 and before that he had a Nokia 6610.
+##I think the keypad on your cell phone is the most important thing for me as Im constantly sending messages , calling people and fiddling around with my phone.
+keypad[+3][cc]##Believe me when I say this I have used and fingered all Nokia phones and the 6600 has the best keypad
+##2. The looks are absolutely no nonsensical.
+##Some complain it being a tad too bulky looking.
+look[+2]##I must admit its not the best looking phone ever but then it has this look of static and absolute conviction that looks like everything a phone should be
+interface[+3]##3. The Nokia 6600 has a brilliant Java interface.
+##There's a whole lot of things you can do with this phone besides reading a book , playing various Java games , having a variety of software installed.
+MMC card[+3][u]##The Phone offers a 32 Mb MMC card and I think that is certainly the most exciting feature.
+##I upgraded mine to a 128 MB MMC Card via which I can store unlimited number of messages, take a thousand pictures and videos.
+Capacity[+3]##Capacity is not a problem here.
+Build[+3]##4. The Build is just right.
+sturdy[+3][u]##The phone is sturdy.
+build[+3][u]##I've dropped it atleast a dozen times to my recolletion and it still works as good as ever.
+phone[+3][u]##Its a tough one this unless you wanna drive your car over it.
+phone[+3][u]##This isn't the most rugged phone ever but then your not gonna play aeroplane with this,are you.
+Camera[+3]##5.The Camera installed on this phone is awesome.
+bluetooth[+3]##I click pictures in JPG format and because the phone has a bluetooth device I find it extremely easy to transfer pics to my pc and forth.
+display[+3][u]##The display and brightness on this phone is quite extraordinary.
+colors[+3]##The use of 65536 (16bit) colors ensures you get your share of animations and icons on your phone
+##Besides the above mentioned Merits , the phone has decent ear volume and loudspeaker functionality.
+upgradibility[+3]##It has great upgradibility.
+##I can play MP3 files on my phone by simply downloading softwares freely available on the net.
+##Now that is neat.
+log[+3]##The log functions helps you track down the incoming , outgoing calls in the most easy of ways.
+handsfree[+3]##The handsfree provided by the phone is useful for those who talk on the phone while driving.
+##I wouldn't do that because it's not worth my life.
+processor[-3]ear volume[-2][cs]##Anyhow some demerits of this phone, The phone has a slow processor and the ear volume is lower than 6610 but then the 6610 has the best ear volume among most Nokia variants.
+battery life[-2]##The battery life of this phone is at most 2 days and at least one day at excessive use.
+Video recording[-2]##Video recording is limited at just 9 seconds.
+upgrade[-1][u]##You can upgrade but then there's a certain level of trouble involved.
+##Overall I dont think I will ever upgrade from this phone.
+##When I purchased this phone , I thought to myself that I had purchased the most popular phone around and the thought didn't please me.
+##In any case , putting aside how common it is in my city , I dont think I can be anymore satisfied.
+phone[+3]##This makes for a great phone.
+##Did I mention the note feature and how you can send notes via Bluetooth?
+##gee anyways ENJOY WHAT WORKS!
+phone[-3]##I've had Nokia's for years, and while this one is packed with whiz bang features it is disappointing for its primary use - a phone.
+##Before buying, I'd urge you to actually use one and not just handle it in the store.
+phone[-3]##On the plus side it's packed with features, including BlueTooth that works fine - it's really a tiny computer that is also a phone... and that's the negative.
+screen[-3][u]##As a computer, or PDA its weak since the screen, while large by phone standards, is still tiny to really do anything on.
+##And remember, this is a PHONE first and foremost which is where I have my biggest complaints...
+dial[-3]##When you dial a number, you'll need to check the screen to see that the number entered is correct.
+keys[-3]##You'll do that because the keys are tightly packed in and your fingers will likely press two keys at once.
+screen[-3][u]##I hope you have a magnifying glass, because the number displayed as well as most of the pop up options are tiny.
+screen[-3]##It's as though Nokia has segregated 90% of the screen for fancy features rarely used and leave just 10% for the day to day use.
+phone[-3]##I've have many Nokia's and while this is the best for features, it's the worst as a phone.
+##Sorry, try something else or at least trying using one.
+##You'll see what I mean ... if you have a magnifying glass.
+feels[+2],bluetooth[-2]##This phone is flashy and feels good in the hand, but it could not hold a connection to any of my bluetooth devices (headset, handheld, or desktop computer).
+phone[-2][cc]##My old Siemens s56, on the other hand, worked beautifully with all of the above.
+##Don't get me wrong.
+##I love gadgets, technology and whatever electronic equipment you throw my way.
+##I've gone from almost every Nokia phone since they were only known and operational in Europe.
+##In those days I've gone from Oki, Motorolla and progressed (actually regressed) to Sony Ericsson's T610.
+##Now I'm back to Nokia to try their 6600 model.
+camera[-3]##who in the hell needs a frigging *VGA* camera on their CELLPHONE???
+##What is that, .00000001 megapixel quality?
+##Ha!
+##i bought this phone last march, almost a year ago, in saudi arabia (it came out there before it did here).
+phone[+3][p]##since then, i have not found one major problem with it.
+camera[+3]PDA[+3]##i highly recommend it if you are looking for a phone with great camera quality and/or lots of features you would find in a PDA.
+bulky[-1][u],features[+3][p]##Sure, it is a relatively bulky, but it is really packed with many great features.
+bluetooth[+3]transfer[+3]##I own this phone for about 6 months now, I have used the following features: bluetooth connection to laptop and desktop for sync contacts and calendars with Outlook, transfer files (movies, songs), I have many movies on it now with a 512MB memory card that it takes.
+##Bought a bluetooth headset and it works like a wonder.
+Handsfree[+2]##Handsfree future is good, but not too exciting.
+Camera[+2],video recording[-1]##Camera is nice, and video recording for some reason is only limited to 9 seconds.
+slow[-2],bluetooth[-2]##Only thing I don't like about it is slow in changing apps, boot up, and sometime it has problem connect thru bluetooth.
+looking[+2]##This one has a good looking.
+look[+2][u]##It's oval and... nice.
+shape[+2],keypad[+2],joystick[+2]##I like it's shape and it's keypad and joystick.
+use[+3],small[+3][u]##It's easy to use. Not too small, and not too big.
+screen[+2]##The screen is quite big (between all handphone), but the just about 65000 color.
+camera[-2]##And, other else,  the camera is still VGA.
+slow[-2][p]##I must say, this one is quite slow to open an application.
+phone[-2][p]##Sometimes, it needs few minutes to open an application.
+##What's wrong with it?
+##Is it really slow, or what?
+phone[+2][p]##Few month ago, it's very popular among my community.
+phone[+2][p]##It's good.
+phone[-1][p]##But not good enough for me.
+color[+3]##:! OK, score 7.0 Oh yes, the newest color of this phone is quite cool.
+Nokia[-2][cc]##I have overall been disappointed with Nokia in the past, finding that Samsung and Motorola tended to have better quality phones.
+6600[+2][cc]##While this phone obviously doesn't have the same quality construction as Motorola does, the Nokia 6600 is one of the better phones I've used.
+versatility[+3]features[+3]##What makes it so great is the versatility and the number of features it has.
+##The best features that I use most often are:
+audio quality[+3]##1) Great audio quality overall.
+audio quality[+3]##Handset quality is great, as is the speakerphone quality and the headset audio quality.
+##2) Camera phone.
+camera[+3]##A decent camera phone for taking quick pictures, movies, and having general all around fun with.
+joystick[+3]##3) The joystick design they are using on the new Nokias gives you a great degree of control.
+joystick[-2]##The only problem is that occasionally the joystick does start to dig into your thumb while gaming.
+ring tone[+3],game[+3]##4) One nice thing about Nokias is that they have a ton of ring tone and game choices.
+Nokia[+3]##If you love your cell phone games or changing your ring tones everyday, Nokia beats everyone else.
+Bluetooth[+3]##5) Bluetooth wireless technology, so that I can transfer data to and from my computer without messing with any cables.
+##This is great for putting photos and memos on the computer and transferring calander data to my phone.
+wide[+2][u]##6) The phone is really wide, which seems to be a turnoff for many people, but the phone is actually easier to grip and feel more ergonomic.
+small[+3][u]##I feel much less likely to drop this phone than others, which are actually starting to get too small.
+[s]##You will probably have to get a belt clip for it, however, unless you wear the pants with the cargo pockets.
+construction[-2]##My biggest concern is that I have found Nokia phones lower quality construction to lead to lower prices, but they also don't last as long.
+construction[+1][u]##I can tell using the phone that it feels a little flimsier than Motorolas do, but as long as I'm not planning on dropping the phone or running over it with my car it should be just fine.
+[s]##I wouldn't use it for business purposes and hand one out to all my employees, because you tend to want a little more rugged a phone for that.
+phone[+3]##Other than that it meets or surpasses all of my needs and surely won't disappoint any already established Nokia phone fans.
+interface[-2]##OPERATION: It's like BMW's I-Drive - It does it's job, but has the most unintuitive, overly-layered interface.
+##For example, the memory card is under the battery.
+operation[-2][u]##The phone must be shut down & taken apart to change the memory card... and turning the phone back on takes a little while.
+##This is representative of the entire phone operation.
+##Not for the impatient.
+##If you've never used an advanced mobile phone before, you might assume this is par for the course, but it simply isn't.
+instruction booklet[-2]##Even the instruction booklet is out of order.
+applications[+2]##APPLICATIONS: It has lots of applications and they work very well... when you eventually find where they are and they finally open.
+applications[-2]##No matter how accustomed to the phone you become, too much time is required to get to, open and close applications.
+##On the other hand, one may leave many applications open at once, hide them and return to them just where they left off - similar to a Mac.
+##Me likes.
+6600[+2][u]##The 6600 has more ameneties than most - World phone, Camera (VGA/zoom/night mode/timer), Video (w/ audio & zoom), Speaker (good sound), Bluetooth, infrared, Modem for computers, electronic wallet, Internet access, Calendar, calculator, converter and more.
+phone[-2][u]##The phone does not have an Mp3-player, FM radio, 200k+ color screen, megapixel camera, quad band, PDA, photo editor.
+##I'm not sure that a phone w/ these and all of the above features exists just yet. ...I'm not sure I'd want to spend THAT much time w/ a device, anyhow.
+DEPENDABILITY[+3]##DEPENDABILITY: I've seen no glitches.
+phone[+3][u]##I've had no problems w/ this phone.
+keys[-2][u]##STYLING/ERGONOMICS: The keys are small, which generally doesn't bother me if they are spaced because I can employ a little 'Braille,' but the keys run into each other, so careful attn. must be paid when dialing.
+##As for appearance, well, that's subjective.
+##Few will look at the phone and know it's 'all that'.
+stylized[-2][u]##It's not as stylized as a Sony or Samsung.
+##Less Benz/obvious; more Audi/understated.
+big[+2][u]##Although it has chubby hips, the device isn't really so big.
+screen[+3]##Solid, squeak-free, large screen.
+MEMORY[+3]##MEMORY/STORAGE - Seemingly boundless.
+memory[+3]##First of all, the phone houses a great deal of memory for multiple videos, sound clips, photos, texts, etc.
+transmission[+3]##Secondly, all info can be sent to a computer and w/o the hassle of USB wires.
+##Still not sure?
+##If you max out the phone memory and have sent all you wish to a computer, there is a memory card w/ a good deal of storage as well.
+##This is no small deal.
+##If you're still whining about storage, deleting some games will free-up still more memory.
+##RECEPTION: This really depends on locale & carrier.
+6600[+3],mhz[+3]##The 6600 (T-Mobile) is the true 'world phone' in that it has the mhz to operate around the globe, including New Zealand and Australia (900) whereas the  6620 (available from Cingular) replaces it w/ 800mhz (some refer to as 850).
+coverage[+3][u]##The latter will provide better coverage in more remote areas of The States but still operates in many countries, excluding New Zealand and Australia.
+6600[-2],service[-1]##The 6600 will provide similar service in more developed areas of The States and not as well in more remote areas.
+6600[+3]##As the 6600 uses 900mhz, it operates in more countries than the 6620.
+battery life[+1]##The battery life is less than stellar, but it charges w/ the quickness.
+operating system[+3]##Remember, this phone uses an operating system - Symbian... and it's feature-rich w/ 65k colors.
+video[+3]##It films 10 second video, for crying out loud.
+battery life[-1]##The battery life can't be very long; let's not be greedy.
+##GAMES - Java.
+game[-3]##Don't use them, so I delete them for addtl space.
+##In my humble opinion, games, along w/ 'flip phones' belong in the hands of teenagers.
+[s]##IMP: Two important pieces of advice - Visit Nokia's site.
+downloads[+3]##There are number of downloads needed/available for this phone & they will be texted to you at no cost.
+##The downloads are for basic and advanced operations.
+[s]##The second piece of advice - Be prepared to spend a lot of time w/ this phone.
+##If you expect to be able to pick things up when you're out and in a rush via common sense, many times you'll end up frustrated.
+phone[+2][cc]##A Sony Ericcson may be the phone for you... but good luck finding one w/ all the features & such a competitive price.
+[s]##Keep in mind that for nearly every screen, there are a number 'along side' and 'beneath' them... for every 'save,' there are choices of phone memory, memory card or sim card.
+phone[+3]##Despite a critical start, this phone deserves four stars because it accomplishes what it sets out to do (which is pretty lofty)... does more than most... does it well... is dependable.
+##It's a high-line Audi, on a Cadillac suspension, at a reasonable price.
+phone[-2]##When you consider expandability (downloads via computer), the numerous features, two transmission programs and multiple storage devices, dependability - this is a phone that isn't easy to out-grow.
+[u]##I would suggest this phone for all but the simple-minded... or those who simply don't need so many features.
+##*****DO NOT BUY THIS PHONE***** ****READ WHY****
+##In October of 2003, I bought a Nokia 3650 off of eBay.
+##It was an OK phone with a really nice screen, great battery life, decent signal, and cool applications.
+##It was a major step up from a Sony t68i.
+##The 3650--being essentially a mini-computer--had memory leaks and occassional crashing, but nothing that a quick power cycle couldn't help.
+##Most importantly, it allowed me to get on the Internet via Bluetooth via GPRS flawlessly.
+##It's a nice phone, and I'm glad to have used it.
+##In July of 2004, I purchased a Nokia 6600 from T-Mobile.
+##Since I use my Palm PDA and T-Mobile offers unlimited Internet, I asked the sales representative if I could use this phone as a Bluetooth modem for my Palm, and he said yes.
+##So I bought the phone and went on my merry way.
+BLUETOOTH[-3]##BLUETOOTH DOES NOT WORK ON THIS PHONE.
+##THE ADVERTISING IS A LIE.
+Bluetooth[-3]##Though nearly a dozen different people at both T-Mobile and Nokia have told me otherwise, it is simply not possible to use this phone as a Bluetooth modem for the vast majority of PDAs and many other devices.
+##While the two devices will pair, the phone will immediately drop the connection if any data is transferred.
+##With the recent "bluejacking" vunerability, the Bluetooth overseers have created a new security system called Combination Key.
+##This helps prevent people from sending short "obscene" messages to your phone.
+##The older security method is called Unit Key.
+##Most Bluetooth devices only support the older security system, Unit Key.
+##This includes ALL Palm PDAs! Further, due to an unparalled design oversight, Nokia is the only device that supports Combination Key that is NOT BACKWARDS COMPATIBLE with the older devices that people actually own.
+##Does all this sound technical?
+##That's because it is, and the only way I learned it was by spending over an hour talking to T-Mobile's tier-3 technicians in South Africa (to learn that the problem wasn't about T-Mobile) and three hours of getting nowhere with Nokia support technicians reading endlessly from scripts, never deviating, until I started cursing and got a tier-2 tech.
+PHONE[-3]##Only then did I learn the truth -- THIS PHONE DOES NOT WORK WITH PALM PDAS!
+##So, after all this frustration of adding all of my newest contacts to the 6600, I asked the technician if it were possible to transfer the data from the 6600 to the 3650.
+##He advised me to back up the 6600 to a newly formatted Nokia MMC card, and restore the data to the 3650.
+##I followed the technician's directions to the letter while they were on the phone, and after I had done so, the phone restarted and displayed the message "Phone startup failed. Contact the retailer."
+##I spent over an hour talking to a tier-2 technician who told me that their tier-1 technician should have known that it was not possible to backup the 6600 to the 3650 safely in any condition.
+##I could not get the 3650 working to even factory defaults, even after trying every reset code they could muster.
+##Nokia finally determined that my phone was in need of repair, but since it was out of warranty (it was made in May '03 and they would not take an eBay purchase as proof) they refused to fix the phone for less than $120!
+##After over two hours of being placed on hold and persuasion, a supervisor finally agreed to fix the phone for free.
+##I did a little research and discovered that the repair could be done by any basic cell-phone for $30.
+##All that had to be done was restore the software to the phone, and all that took was a cable and some Nokia software.
+##I still decided to send in the phone, since insured shipping was only $10.
+##Two weeks later I mailed the phone in for repair.
+##Two days after they received the phone, I received a letter in my mailbox stating that if I did not pay $120 for the repair of my phone, it would be returned unrepaired.
+##I called Nokia to try to get it sorted out, and they stated that they had no recollection of ever promising to repair the phone for free.
+##They stated that though it was a simple repair they would not do it for less than $120.
+##I suggested that it didn't make sense for me to send in the phone for repair if I thought Nokia would charge me $120 to repair it since I could get it done locally for $30.
+nokia[-3]##This simple nuance was too much for Nokia, and they still refuse to acknoledge the fact that their technician could have broken the phone or repair the phone for free.
+##The supervisor stated that it must have been third-party applications on the 6600 that caused the 3650 to break, and would not take the suggestion that his own tier-2 technicians stated that it was not possible to back up the 6600 to the 3650 without damaging the 3650, regardless of what was or was not on the 6600.
+Nokia[-3]##In short - Nokia themselves don't know that this phone doesn't work with the Palm, and if you don't heed my advice you will spend hours with technicians around the globe reading from scripts, chiding you in broken english for not following their directions exactly.
+##You will also hard-reset both your Palm and your Nokia to factory defaults in their lame attempts to get the script to work, though it will not.
+Nokia[-3]##Ultimately you will learn just how bad Nokia is, and why their recent loss of market share is so utterly deserved.
+##The title pretty much says it all.
+photos[-3]##The photos in the address book are terribly scaled too; they look as though they were built out of legos.
+phone[+3]##This phone is one of the best I've ever used.
+phone[+3][p]##It has everything I needed: bluetooth, infrared, support for MMC, camera, and a good operating system with lots of supporting software.
+phone[+2][cs]##I would have given this phone 5 stars if it wasn't for the fact that I would rather use my 3330 to do all the most common things you do with a phone.
+interface[-3]##It's important that people know the following:  First, the interface is slow.
+interface[-3][u]##You hit the message button on the front and it takes a matter of SECONDS to bring up the menu.
+##Same with the contacts list, recent call list and everything else.
+lag[-3],useable[-2]##Secondly, in addition to the lag each time you give a command, it's just not that easily useable on the go.
+number buttons[-3],fonts[-1],interface[-2]##The number buttons are crammed into a 3x4cm area, the fonts are small, the interface is too convoluted and frustrating, it's not that customisable as well.
+look[+3],battery life[+3],memory[+3]##The plusses are the features, look, good signal and battery life, memory size and robustness.
+camera[+2],video[+2]##The camera and video functionality is decent, I can't see myself wasting my time with it, but some people will.
+[s]##All in all I would say wait for the cell phone companies to create a PDA/cell hybrid that is efficient and easy to use as a phone.
+phone[+3]##this is a great phone i have this phone since Feb 04 and i never have any problem at all.
+features[+3],camera[+3],ringtones[+3],bluetooth[+3]##very cool features... great camera with zoom...cool quality pictures... great ringtones... bluetooth feature is great....
+##I have purchased two of these phones together from the Amazon market place.
+[s]##If you are purchasing this phone, then make sure you can handle the speed of this phone.
+phone[-3][u]##This phone is not suitable for fast people, maybe only for old people.
+slow[-3][u]##The menu pops up after 3 seconds The picture takes a while to load from its slow card memory.
+time[-3][u]##The navigation takes so much time that it would eventually drive you crazy.
+##Its like having a 66Mhz computer with a webcam, fax, printer, blue tooth...etc...Just an example..
+##I bet most of the users of this phone would agree.
+##Sometimes,the phone gets stuck just like a computer and it doesnt store any incoming call numbers..etc..
+[s]##If you find a better phone, then I suggest you go for it.
+big[-2][u]##At first glance, I thought this phone was a little too big for me, maybe a little too complicated.
+##One minute with the salesman and I was sold.
+phone[+3][p]##This thing does everything but washes your dishes.
+modem[+3][p]##I can use it as a modem for my computer, connect with clients and friends, the possibilities are endless.
+ringtones[+3],screen[+3]##The ringtones are beautiful, the screen is super high quality.
+##I could go on and on---but I won't!
+##Go see for yourself.
+##The ONLY bad thing?
+carrier[-3]##I can NOT find a carrier for this phone I like, end up just tossing it in my purse.
+phone[+3]##I do not need to repeat what's great about this phone.
+##A few things that I want to suggest for improvements:
+##1) phone card calling feature.
+Phone card calling[-3]##This phone doesn't include Phone card calling.
+##So you have to dial your phone card access number, PIN card, and choose "send touch tone" and find your contact from the address book.
+phone card calling[-3]##This process can be very annoying and unsafe when you are driving a stick shift on the highway.
+##For phone card with PIN Free dialing setup, you are a little bit lucky.
+##All you need to do is to choose your "phone card" contact and then "send touch tone" and choose the contact.
+##This feature is very important to me as I make a lot of international calls.
+feature[-3][cc]##My old Sony Ericsson T610 has this feature.
+##All I need to do is to choose the contact and in option select "calling card call".
+##2) Low volume on regular answering.
+hear[-3][u]##In noisy environment, it's hard to hear from the earpiece.
+##You have to use speaker or handsfree, to get larger volume.
+volume[-3][u]##Speaker volume is loud and clear but it sacrifaces the battery life.
+##Most of thew reviews are high for this phone ......
+##My explanation is that most of the reviewers are americans that live in the states .....
+##the difference is : until recently there have been no GSM networks in a wide scale , so most cell network companies supplied consumers with cells , we in the middle east (for example) have stopped using years ago ....
+##So no wonder a lot of people find the 6600 such a miracle .
+##I have purchased the 6600 when it was first released in The Middle East , almost a month before Europe , and reading the brochures and features , it really did sound like a true all-in-one functionality monster .
+phone[-3][p]##Unfortunately , I sold it exactly a month later .
+volume[-3]##1-A cell phone is to make CALLS , in other words , quality of reception and mic/speaker are the most important , the 6600 has a relatively low volume speaker , you'd have to press it hard against your ear to hear anything the other person is saying , unless the surroundings were completely quiet .
+bulky[-3][u],buttons[-3]##2- It is bulky and the small buttons on the sides are sloppy to use .
+SLOW[-3][cs]##3- It is SLOW , if you keep the original configuration and progs (why'd u buy it then ?!) it'll run smoothly , but still slower than most other coloured-screen Nokias .
+##As soon as you copy video/audio files and add some programs and games , it WILL hang at least 5-10 times a day.
+##A firmware upgrade is irrelevant .
+phone[-3]##4- My idea was that it was an all-in-one , and that theory -once again- proves wrong , this phone excells at nothing , less  than average in everything , if you seriously need any of the "other than phone" functionalities , you'll be disappointed .... if you have lots of money and bought it for the love of gadgets then fine .... but don't expect to get much done .
+##5- If you already have a girlfriend and/or wife , you won't need Bluetooth lol .
+features[-3]##Basically the 6600 is a bundle of over-hyped features you don't and won't need (if you do get yourself a PDA or pocket PC) , none of them work as they should , and the basic phone functions and ergonomics are less than average .
+phone[-3][cs]##I'm an advocate of Nokia , but this phone and the following models (7610) , are seemingly a desperate trial at squeezing as much under-engineered and experimental technologies in one sloppy phone .
+phones[-3][cs]##I'm giving it 1 star because as compared to other Nokia phones , its a 1 , compared to other blunders by other companies (such a samsung and motorrola) it might be good .... but if you're getting a Nokia , don't get this one .
+##I bought this phone a few months ago and I have been using it since then.
+phone[+3][u]##I never had a single problem.
+menu[+3]##It is Nokia and thus easy to acces the menu options.
+video[+3],pictures[+3]##High quality video and pictures rock!
+band[+3]##3 band and you can just change the SIM card in it to be able to use it in Europe with another service provider.
+phone[+3]##Bottom line great phone for the time being.
+color TFT display[+3][u],camera[+3],video[+3]##I use a Nokia 6600, it has a great color TFT display and camera equipped with zoom, which complement a built-in video recorder with audio and a RealOne player for playback and streaming of 3GPP-compatible and RealMedia video clips.
+Multimedia functions[+3]##Multimedia functions are enhanced by multi-slide MMS messages and a Gallery for organizing digital content captured or downloaded with the phone.
+##So, do I recommend the 6600?
+[s]##Yes, certainly.
+##But if you are in the market for a new business capable phone, and don't want to deal with a stylus equipped PDA like device such as the P900, then the 6600 will probably suit you just fine.
+6600[+3]##The Nokia 6600 is a decent extension of the smartphone line.
+keypad[+3],display[+3][u],rundown time[+3][u],software[+3]##The phone has such advantages as the excellent keypad and display, long rundown time and a good software suite.
+MMC slot[-2],design[-2]##Among its weak points is the MMC slot location and a bit vague design.
+6600[+2]##In short, the Nokia 6600 is an evolution but not a revolution.
+multimedia[+3]##I'm sure you can read the specs above to see everything it does, but for me the best thing is that I can easily check my email, movie times, news, or any website with this phone.
+picture[+3]##You can take pic of your friends and the picture will pop up when they call.
+ringtone[+3]##Give each friend a different ringtone.
+rings[+3],themes[+3]##Get great themes and wallpapers for this phone and many many polyphonic rings.
+screen[+3]##A huge beautiful color screen which can not been scratched at all even with the rough handling i give it.
+Nokia[+3],phones[+3]##Nokia makes great phones, and this one is the cream of the crop.
+phone[+3]##Best phone i've ever owned, period.
+##I've been using this phone for 3 days now, and while I admit that seems doesn't seem like very long -- I should also point out that I've been using it almost non-stop.
+phone[+3][p]##Frankly, I think this is one of the niftiest pieces of hardware I've ever used.
+speed[+2]##It is slow to initially start up, but once it's turned on, I've never had any complaints about the speed.
+##Over the past three days, I've only had to turn the phone off twice, so I rarely have to deal with the delay in initially booting the phone.
+phone[+3][u]##Everything, so far, has worked flawlessly.
+##I've synched it with my PC over bluetooth.
+##I've synched it with my Jabra 250 bluetooth headset.
+##I've been on the phone, while browsing the net over a GPRS connection, while sending a text message.
+phone[+3][u]##All at the same time, and all without a hitch.
+interface[+3]##I think the interface is great.
+6600[+3][cc]##I actually purchased two phones recently (this one at the new Blackberry phone), and this one is far superior (IMHO).
+##In short, I don't have a single negative thing to say.
+features[+3],interface[+3],size[+3],camera[+3],internet connectivity[+3],quality[+3]##I love the features, the interface, the size (the screen is a delight), the camera (though I admit I'm not much of a camera user -- so just a toy for me), the internet connectivity, the quality, etc.
+phone[+3]##If I had to do it over, I wouldn't buy anything else.
+##I bought this phone after having other phones that had less-than-consistant reception.
+signal[+3][u][cc]##UPSIDE: This one, like most Nokias, receives a consistently strong signal (I've tried some Samsung and Sony Ericsson models which were very weak on the reception front).
+Bluetooth[+3]##I love the Bluetooth; easy to use with a wireless Jabra headset.
+Photos[+3]##Photos are pretty darned good!
+speed[-3][u]##DOWNSIDE: It takes a long time to start up.
+speed[-3][u][cs]##My last simpler Nokia started right up and was immediately ready for use.
+movies[-3][u]##The "movies" last about 5 seconds.
+movies[-3][u]##I mean, they're short!
+##Why have the function if you can't film anything longer than e few seconds?
+feature[-3]##I find this feature on this phone useless, but, since I don't really need this function anyway, I don't really use it.
+navigatee[-3]##Also, when I dial an "800" number like an airline, it will not allow me to use number keys to navigatee the prerecorded menu.
+##This is a MUST when you need to get flight times, connect to reservations, etc.
+screen[-3]##Finally, after about a week's use, the screen started to freeze on me.
+calls[-3][p]##It would not hang up on calls.
+screen[-3][p]##Once it froze so bad I couldn't even use the power button to turn it off, and had to open and take out the battery.
+phone[+2]##Probably a great phone overall, and perhaps mine just has bugs.
+##But beware of the bugs; they are major!
+##What I have found useful to consider before purchasing a phone:  - decent battery life - good call quality - user-friendly interface - camera/video functions - bluetooth - ability to sync contacts stored in the PC with the phone (no more manual entries!)
+user-interfaces[+3],bluetooth[+3],applications[+3],6600[+3]##With one of the most intuitive user-interfaces around, seamless bluetooth sync with Microsoft Outlook, support for thousands of applications for the Symbian platform which this phone runs on (I own the IR Remote, ICQ and a few others), the Nokia 6600 is all of the above - one of the few phones from T-Mobile that can claim such a distinction.
+phone[+3]##Ive had this phone for a year now - and its the best phone I have owned.
+camera[-2]##The only con I can think of is the lack of a mega-pixel camera.
+##Motorola's phones are well engineered but have an user interface that reflects very poorly on what is otherwise an excellent engineering company.
+##Its a real shame that T-Mo does not offer the newer Nokia models.
+##According to a survey, more customers are ordering their cell phone and service from AMAZON.COM
+[s]##But if you are one of the customers contributing to this, its a big mistake.
+##I have ordered 2 "cell phone + service"s from Amazon.
+## The first shipment took such a long time, I had to cancel it.
+##The second one is on hold for almost 2 weeks with a message that "Can be delayed further".
+[s]##So if you order one of the top 10 bestselling phones from Amazon now, it will take at least 3 weeks for your shipment to be delivered...guess Amazon is waiting for seconds to re-package,
+phone[+2]##This may be a really cool phone, but it's not worth it with T-Mobile.
+service[-3][p]##They have the worst service of any of the major companies.
+T-Mobile[-3]##I really regret signing up with T-Mobile, but I'm stuck with them for the next 6 months of the contract.
+[s]##If you're looking for a new company, don't be fooled by the service plans.
+##T-Mobile's minute plans are cheaper for a reason.
+phone[+3]##This phone is fantastic.
+reception[+3],visibility[+3],interface[+3]##Great reception, visibility and interface (may be complicated by others).
+rebate[-3]##Just don't get drawn into T-Mobile's catchy rebate.
+rebate[-3]##T-Mobile wasn't upfront about some of the terms to qualify for the rebate.
+phone[+3]##I highly recommend this phone.
+Sony ericsson T610[+3][cc]##I had a Sony ericsson T610 before this and the T610 is far inferior.
+back cover[-2], battery life[+3]##I find it difficult to remove back cover so is you plan to have a spare battery and replace it I suggest you don't ,besides it has a long battery life.
+battery life[+3][u]##Im able to keep my phone on for about a week (mostly stand by) to three days (regular use)
+##I used to work with t-mobile..
+##i have owned many phones with them such as v60, 6190, e715, 6610, v66, v205.... and the list can go on!
+phone[+3]##but this by far is the best phone out there right now!
+large[-1][u],screen[+3]##yes it is a bit large, but the realestate on the screen will spoil you!
+screens[+3][cc]##i have a hard time using other phones with smaller screens!!!
+OS[-1]##the OS is abit confusing at 1st, but within a few days you will pass this learning curve!
+##I use this phone as my quick and dirty digital camera!
+pics[+3]##the pics can be touched up in photoshop, and be printed at 4x6 and they look great!
+bluetooth[+3]##i also use the phone as my modem via bluetooth to my Apple powerbook!
+bluetooth[+3][u]##The speed is the same as dail up, where i live we do not have wifi everywhere so this is my version of it until we catch up.
+##I have used this wireless internet almost everywhere i travel and it works great.
+##If you own an apple you can isync it to your address book so that you have all of you numbers in two places..... in case you lose your phone (get INSURACE)
+##the stand by is really good considering all the toys this phone has and the screen size!
+[s]##i would highly recommmend...... oh and i have owned this baby for like 6 months now
+phone[+3]##The phone itself is pretty nice.
+Camera quality[+2]##Camera quality isn't bad for the low resolution.
+Menu[-1][u],phone[+3][u]##Menu is a bit slow, but overall, phone is very functional.
+##But watch the Amazon rebates on these (T-Mobile rebate is fine).
+##You have to wait to get your second bill before you can send the rebate form in. \
+##Depending on the timing of the postmark date, you don't get your second bill until the postmark date passes, so it's impossible to qualify for the rebate.
+features[+3]##This phone has a nice blend of features without going overboard.
+Motorola T720i[-3][cc],calls[-3][cc],syncing data[-3][cc]##I was using a Motorola T720i with Verizon and I had alot of dropped calls and I had troubles syncing data.
+Bluetooth[+3],battery life[+3],reception[+3],screen[+3]##I was looking for a phone which synced with Mac OSX using Bluetooth, had decent battery life, could check email, had good reception, nice screen size and was durable (I break often break small gadgets)
+interface[+3]##The interface is simple to use.
+menus[-2],menu[-2],load time[-2]##I saw a few complaints on the load time of menus and I feel people are over-exaggerating the menu load time.
+menu[+2][u]##I have a couple hundred contacts and the menu loads within a few seconds, no big deal.
+menus[+2][u]##I did notice if you turn the phone on and off the OS takes a bit to load up and initially the menus are slower but once the phone has been on and booted up the menus are reasonably quicker.
+camera[+2]##The camera is adequate and if I want high-res photos I'll use my digital camera instead.
+T-Mobile service[+3]##On the T-Mobile service I was able to take pics as we drove across I-70 and email them to family & friends once we reached a T-Mobile tzone (usually a major city).
+T-Mobile service[+3]##Outside of the T-Mobile service area the phone seamlessly jumped onto AT&T Wireless and various other services where the T-Mobile service was unavailable.
+reception[+3]##As I drove across the country I lost reception only in eastern Kentucky's mountains.
+6600[+3][cs],battery life[+3],connectivity bars[+3],features[+3]##Along the way we compared it to my wife's T720i and the 6600 was superior in terms of battery life, connectivity bars and features.
+iSync[+3][u]##For those Mac OSX users out there, iSync works fairly well.
+Bluetooth[-1]##On occasion I'm not able to connect to the phone with iSync via Bluetooth but I found that rebooting the phone seems to solve this problem.
+Bluetooth[+2],battery[+2]##And Bluetooth does not drain the battery as quick as I thought it would, I usually can go 1.5 days with Bluetooth on along with making calls before I need a full recharge.
+battery[+2]##With Bluetooth off the phone last almost twice as long.
+phone[+3]##The nokia 6600 is a great phone, good games, good camera.
+video recorders[-1]##The video recorders a bit odd, sometimes I get 9 secs on my recordings, sometimes I get 17.
+voice recorders[+2]##The voice recorders good, but you can't record songs off the radio for ring tones.
+games[+1]##The games are decent, but u only get 2 to start off with.
+games[+3]##But you can download some really good ones like pac-man or mafia wars.
+phones[+3]##Overall the phones fantastic, and I would have given it 5 stars, but its not perfect.
+[s]##If your looking for a phone thats mainly for calls and killing time this is the one you want.
+battery[+3]##The battery on mine lasts 2 days if I don't play games that much, and it only takes 90 mins to charge from flat.
+battery[+3]##This phone has the best battery, it lasts longer then my old 3210
+MMC[+3]##I got a 1GB MMC upgrade for this phone and now I can:
+video[+3]##1. Record around 1 hour of video with Phillips Camcorder Pro.
+pictures[+3]##2. Take around 10,000 640x480 pictures.
+games[+3]##3. Play Java games on it.
+games[+3]##4. Play N-Gage games on it.
+internet[+3]##5. Check traffic411.com for LA traffic on the 405.
+games[+3]##6. Play Gameboy Color games on it with GoBoy.
+speaker phone[+2]##7. Have a good chunk of my small MP3 to listen through the speaker phone.
+bluetooth[+3]##8. Connected the phone to my tablet pc and now can access company VPN at 56k speed via bluetooth.
+call logs[+1]##Clear the call logs once in a while to speed up the phone people!!!
+bluetooth[+2]##As for bluetooth, no problems at all.
+bluetooth[+2]##I've connected the phone with two laptops and a iPaq 4155.
+bluetooth[+2]##Very simple and painless.
+phone[+3]##This is the first cell phone I've owned, and overall, I am quite pleased with it.
+[cs]##I purchased this phone after researching many different phones, mostly Nokia's that were T-Mobile compatiable.
+phone[+2]##Among my requirments for a phone were: good screen, decent camera, bluetooth, and GPRS support.
+6600[+3],phone[+3]##The 6600 was the best phone I could find with these options that I could get with t-mobile.
+internet[+1]##One primary reason for getting a cell phone was so that I could use it as an internet connection for my laptop running linux, where softmodem drivers are hard to find, and don't work very well.
+GPRS[+2]##If you are using Linux, and you want to use GPRS to connect to the net, I suggest this phone along with a Belkin USB Bluetooth adapter.
+##For the linux users out there who are intrested in my setup: I'm running Debian (Knoppix 3.4) with a custom 2.6.7 kernel.
+##On a DELL Inspiron 8200 with a P4 2.0ghz system with 1gb RAM.
+##The KDE Bluez system for bluetooth support.
+camera[+3]##I have really enjoyed the camera on this phone.
+images[-1],camera[+2]##Although the images are not the best in the world, its very handy to have a camera everywhere you go.
+feature[+2]##And the phone has a very cool feature wich allows you to send images via a normal POP3/SMTP e-mail account.
+e-mail[+3]##I will also say that setting up the e-mail account was very simple and straight-forward, although you do need an external SMTP server to use.
+ringtone[+2]##The phone can use any MIDI audio file as a ringtone.
+ringtone[+3],music[+3]##Which is really nice because you can get pretty much any piece of music in MIDI format for free on the net.
+bluetooth[+1]##You can use the OBEX File Transfer service with bluetooth from linux (KDE-bluetooth provieds a nice intergration into Konqueror for this) for sending files to the phone.
+ringtones[+2]##The fact that you can assign ringtones to people and/or groups is really cool.
+##Apparently some phones don't allow you to give an entire group a ringtone.
+OS[-1]##I will say that the OS that the phone runs does have a few issues.
+applications[-2]##Sometimes, various applications crash.
+bluetooth[-2]##Especially the bluetooth server... Meaning you have to restart the phone if you want bluetooth to work again.
+bluetooth[-2]##This is somewhat annoying, but from working with computers (espcially windows -- ugh...)
+##I'm used to having to restart things.
+##On average, I prolly restart the phone every two days.
+##I use this phone exculsivly with a Jabra Freespeak 250.
+Freespeak[+2]##I really dislike holding a phone to my ear, and I've found the Freespeak to be very comfortable and easy to use with this phone.
+voice-dialing system[-2]##The only main drawback is the fact that the voice-dialing system is kinda picky.
+voice-dialing system[-1][p]##It takes a while to learn how to use it right, and at this point I am able to make about 70% of my calls using it.
+voice-dialing system[-2][p]##However, it needs to be quite quiet for it to work at all -- dosn't work at all in the car, for example.
+size[-1],weight[-1]##Some people have commented about the size and weight of the phone, and it has rightfully gotten the nick-name "the bar of soap" which, it really is.
+size[+1],weight[+1]##But if you use all bluetooth accessories, as I do, its really not an issue.
+phone[+3]##All in all, this is a great phone.
+price[+3]##Especially for the price amazon gives it at (I was unable to get mine through amazon due to some credit complications).
+phone[+3]##If you use linux and want GRPS and/or want to use a handsfree bluetooth device, and want a decent camera -- this is the phone for you.
+phone[+3]##I really love this phone...
+T-Mobile[+3],ATT[-3]##I also am loving T-Mobile (100 times better than ATT...
+T-Mobile[+3]##you actually can talk to a real person for support in under an hour!).
+6600[+2][u],T-Mobile[+2]##Have had the Nokia 6600 for a year now and am generally very happy with it and with T-Mobile.
+features[+2]##It offers way more features than I need but the ones I use work well.
+signal[+3]##I almost always get a good strong signal, even in fairly remote areas here in the southwest.
+sound[+3],speaker phone[+3]##The sound quality is excellent and the speaker phone couldn't be easier to use.
+size[+2],shape[+2]##I like the size and shape.
+size[+3],shape[+3]##It fits comfortably in my hand and pocket.
+keys[-1]##The only problem is the size of the keys.
+key[-1][u]##My fingers are kind of stubby so it took a while to learn how to hit a key without hitting the adjacent ones.
+kays[-2][u]##They really are awfully small.
+battery life[-1]##Also the battery life isn't great but it's sufficient for my needs.
+calls[+1]##It also works just fine for international calls.
+instant messaging[+2]##It's a bit pricey to call home from other countries but the instant messaging to and from covered countries in Europe are quite reasonable.
+quality[+3]##It's really well made and has survived sliding across floors and pavement without a scratch.
+T-Mobile[+3]##I've had nothing but good luck with T-Mobile.
+customer service agents[+3],service[+3]##Their customer service agents are always prompt and polite and my service is terrific.
+calls[+3]##I never get dropped calls.
+T-Mobile[+3],Verizon[-1],Quest Wireless[-3]##It seems to be a much more user friendly company than Verizon and a thousand percent better than the horrible Quest Wireless.
+T-Mobile[+3][s],6600[+3][s]##I recommend T-Mobile and the Nokia 6600 without reservation.
+6600[+3][cs],3650[-2]##The Nokia 6600 is really just a glorified 3650: you know the 3650, those bulbous, formless, big phones a few unfortunate ATT customers are carrying around.
+OS[+2]##The Nokia 660 runs the Symbian OS, which works pretty well for most standard phone fare, most of the stuff is not that intuitive, but if you actually learn how to use it all, there's plenty of neat tie-ins.
+phone[+3],use[+3]##I've had this phone for almost a year now and it has been nothing but great to use.
+bluetooth[+2]##I can connect to my computer via bluetooth to transfer images, calender events, contacts and anything else.
+ringers[+3]##Another great feature for me anyway is the ability to load .wav sounds as ringers.
+ringtones[+3]##This way I never have to be ripped off by the carrier for stupid ringtones, I can get whatever I want.
+slow[-1]##The only downside I have found with this phone is that it is a bit slow to react, meaning when I push the contacts button, it takes a while to load, this is true for almost all the menus and programs on the phone.
+OS[+3]##Other than that, the simbian series 60 OS is great and offers lots of proprietary software that will work on your phone if you're willing to hunt for it.
+Hand set[+1],rebate[-1]##Hand set is good, but be aware of this T-MOBILE rebate.
+rebate[-1]##These people takes lest effort to process rebate forms.
+rebate[-2]##For last one month my Rebate status showing me that my rebate is apporved and check is delivered but still I am waiting for Check.
+customer care[-2]##There is no way you can talk with customer care about this.
+rebates[-2]##Dont rely on T-Mobile rebates.
+##I bought 2 of these Nokia 6600 phones recently, thru the amazon market place.
+features[+2],speaker phone[+1],web browser[+1],camera[+1]##Initially these phones were fun to play with some of the cool features like the speaker phone, web browser and ofcourse the built in camera.
+##So on the whole, let me summarize the good and bad things about this phone, instead of writing a long review.
+screen[+2],display[+2]##The good:  1) Large LCD screen, colorful display, good resolution.
+features[+3],web browser[+1],camera[+1],video recorder[+1], speaker phone[+1],reception[+2]##2) Nice features, like web browser, camera, video recorder, speaker phone (very usefully), clear voice reception.
+Joy stick[+2],memory card[+2]##3) Joy stick for eazy navigation, 35Mb memory card to store the pictures and stuff.
+battery[-2]##Now the bad:  1) As usual, battery power not sufficient for daily usuage.
+Joy stick[+2],memory card[+2]##3) Joy stick for eazy navigation, 35Mb memory card to store the pictures and stuff.
+battery[-2]##The battery power discharges rapidly especially on using the web browser.
+slow[-3][u]##2) Phone is awfully slow.
+menu[-3][u]##Sometimes when you press buttons, the menu appears after a second or two.
+size[+1],heavy[-2][u]##3) Phone is kinda heavy, but small in size.
+##Looks big in the display ads though.
+Buttons[-2][u]##4) Buttons are quite small and is really a pain exp if one is fond of text messaging.
+Buttons[-2][u]##There will be much erasing of text as, one would tend to type something instead of the actual letters.
+video recorder[-2]##5) Video recorder is of no use and one cannot record something useful in 10 seconds and it takes a while to send the same through the "Free picture and video messaging" offered by service provider.
+##So my review should defintely give you an idea about this phone.
+Phone[+1]##The bottom line is "Phone is cool one - only for the moment, as its the latest phone in the market and has all the new features, but this will soon be displaced by upcoming newer phones".
+##my number one criteria for a new phone was iSync compaibility via bluetooth.
+##all the other features are gravy.
+##i checked the iSync compatibility page and it was listed--they even had a photo of the 6600 shown in the graphic.
+iSync compaibility[-2][u]##so, right out of the box i had issue.
+sync[-3]##namely, it wouldnt sync.
+iSync compaibility[-3][u]##after scouring the various boards i find this is an arbitrary and pervasive problem.
+##there are lengthy hacks offered requiring root access and edits via terminal.
+##i may have been up for this 10 years ago, but i just want a phone that works at this point.
+##i guess its my own fault for not researching more before buying the thing.
+nokia[-3]##but, i am quite unhappy with nokia at the moment.
+sonyericsson[+1]##if you are looking for a phone to integrate as easily as the sonyericsson phones with iSync, i say stick with a sonyericsson.
+##i'd rather have a little more phone than the t610 offers.
+##but, that's the only SE t-mobile offers right now.
+##this nokia is going back to china or wherever it came from.
+phone[-3][p]##if there was a zero-star rating i would give it.
+##went with T mobile Nokia 6600 replacing my Sony T610.
+phone[+1],reception[+2]##It is a multifunction phone, reception quality is better than the 610.
+speaker phone[+2],MMC card[+2]##speaker phone quality is good, and poping in a 512mb MMC card, it rocks !
+MP3 player[+2],games[+2],application[+2]##putting in MP3 player, lots of games and application to download.
+size[-2]##DOwnside is the size of the phone, it is BIG for today's standard.
+battery life[-3]##and the battery life is bad !
+battery life[-3][u]##I could hardly use it without a recharge in 2 days!
+battery life[-3][p]##a bit dissapoitnd on that!
+GPRS[-3]##the GPRS web access is sloooooooooooooow!
+##DaveC
+phone[+1]##I got this phone yesterday and didn't find any problems with it yet.
+Picture[+1],video[+1]##Picture and video quality is ok.
+speaker phone[+2]##Love the speaker phone.
+MEMORY[+3]##INCREDIBLE MEMORY!
+MMC card[+3]##Aside from a 6MB++ built-in phone memory, there's a 32MB MMC card that goes with it!
+Picture[+3],video[+2]##Picture quality's great for still and video with sound.
+ringtone[+2]##you can record your voice and turn it into a ringtone.
+Sony T610[-1][cc]##you can't do that with a Sony T610 (which i traded for a 6600).
+T610[-1][cc]##T610 supports only midi files.
+N6600[+2]##N6600 supports midi, wav, amr, mp3 etc.
+N6600[+2]##it has a handsfree loudspeaker, conference and transfer!
+##i'm having mine upgraded to capture endless video, which right now allows 10 secs.
+##I'll have to buy bigger MMC card of course.
+phone[+3]##I love this phone.
+phone[+3]##This phone is one of the milestones in the history of the cellular phones.
+OS[+2]##Supporting an operating system, Symbian OS, you can download and run a lot of programs on this phone.
+phone[+3],size[+3]##You can turn this phone into a gaming machine, a camcorder or a digital camera, an mp3-player, a movie viewer, a voice recorder, a personal secretary, a GPS map browser, a book, a multifunction remote controller, practically everything that you can do with the computer, plus it is a phone(!!) and also you can carry it in your pocket :).
+programs[+2][u]##Many of these programs are shareware, some can be purchased by paying a little bit of bucks.
+MMC memory[+3]##It uses the extendable MMC memory, it is perfect for storing videos, pictures and mp3s.
+look[+2]##Its nice look is also a plus.
+SIM-card[+2]##And also, since it is tri band and since it uses SIM-card, you can just use it in Europe and many other parts of the world, wherever GSM exists.
+phone[+3]##I am just in love with this phone, especially after using a more primitve phone about 3 years.

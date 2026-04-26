@@ -1,43 +1,19 @@
-# -*- coding: utf-8
-
 import datetime
 import logging
-import sys
 from collections import OrderedDict
 
 import networkx as nx
 
-log = logging.getLogger()
-log.setLevel(logging.DEBUG)
-
-ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-log.addHandler(ch)
-
 # graphtool is really hard to install lib
 # it's highly recommend to install it on linux OS
 # TODO add docker image with graphtool installed
-try:
-    from graph_tool.all import *
+log = logging.getLogger()
+from graph_tool.all import *
 
-    log.info('Graph-Tool based network will be created!')
-    _graph_tool = True
-except ImportError:
-    log.info('There lack of Graph Tool library')
-    _graph_tool = False
-
-from textlytics.parsers import parser_amazon as pa
-
-
-# from memory_profiler import profile
-# import cProfile
+from textlytics.data.parsing.amazon_reviews import parser_amazon as pa
 
 
 class AmazonReviewNetwork(object):
-    # @profile
     def create_amazon_graph(self, line_limit=-1, review_limit=-1,
                             is_graph_with_unknown_nodes=False,
                             category_file=None, amazon_file=None,
@@ -57,8 +33,7 @@ class AmazonReviewNetwork(object):
         :return: Graph Tool or NetworkX graph object - default Graph Tool,
             if you do not have graph tool installed NetworkX, will be used
         """
-        adp = pa.AmazonDatasetParser(category_file=category_file,
-                                     amazon_file=amazon_file)
+        adp = pa.AmazonDatasetParser(amazon_file=amazon_file)
         log.debug('AmazonDatasetParser done!')
         n_reviews = 0
         start = datetime.datetime.now()

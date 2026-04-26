@@ -8,7 +8,7 @@ from pprint import pprint
 from sklearn.linear_model import LogisticRegression
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import results_to_pickle
+from textlytics.data.sentiment import results_to_pickle
 
 log = logging.getLogger(__name__)
 

@@ -1,0 +1,2428 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sentences>
+	<sentence id="1">
+		<text>I purchased this monitor because of budgetary concerns .</text>
+	</sentence>
+	<sentence id="2">
+		<text>This item was the most inexpensive 17 inch monitor available to me at the time I made the purchase .</text>
+		<aspectTerms>
+			<aspectTerm from="23" to="33" polarity="positive" term="inexpensive" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="3">
+		<text>My overall experience with this monitor was very poor .</text>
+		<aspectTerms>
+			<aspectTerm from="32" to="38" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="4">
+		<text>When the screen was n't contracting or glitching the overall picture quality was poor to fair .</text>
+		<aspectTerms>
+			<aspectTerm from="9" to="14" polarity="negative" term="screen" pos="nn"/>
+			<aspectTerm from="61" to="75" polarity="negative" term="picture quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="5">
+		<text>I 've viewed numerous different monitor models since I 'm a college student and this particular monitor had as poor of picture quality as any I 've seen .</text>
+		<aspectTerms>
+			<aspectTerm from="96" to="102" polarity="negative" term="monitor" pos="nn"/>
+			<aspectTerm from="119" to="133" polarity="negative" term="picture quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="6">
+		<text>A week out of the box and I began to see slight contractions of the screen from time to time , growing more frequent each day .</text>
+		<aspectTerms>
+			<aspectTerm from="68" to="73" polarity="negative" term="screen" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="7">
+		<text>Display glitches and flashes also occurred .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="6" polarity="negative" term="Display" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="8">
+		<text>I could tell this was a `` cheap '' monitor as soon as I set it up .</text>
+		<aspectTerms>
+			<aspectTerm from="36" to="42" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="9">
+		<text>I sent it back and now will search for a better quality monitor .</text>
+	</sentence>
+	<sentence id="10">
+		<text>I 'd stay away from this brand , that is , if you ever come across it again .</text>
+	</sentence>
+	<sentence id="11">
+		<text>3G Technologies ?</text>
+	</sentence>
+	<sentence id="12">
+		<text>Searches across the Net come up empty with these guys .</text>
+	</sentence>
+	<sentence id="13">
+		<text>Two thumbs down .</text>
+	</sentence>
+	<sentence id="14">
+		<text>I used this monitor for 2 years and now it shows a mixture of various colors and de-focused text .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="18" polarity="negative" term="monitor" pos="nn"/>
+			<aspectTerm from="70" to="75" polarity="negative" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="15">
+		<text>I had a dell latitude netbook that I had to return .</text>
+	</sentence>
+	<sentence id="16">
+		<text>I really liked the size so I researched what to buy and this was it .</text>
+		<aspectTerms>
+			<aspectTerm from="19" to="22" polarity="positive" term="size" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="17">
+		<text>This computer has an excellent screen size and quality -LRB- for a netbook -RRB- .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="12" polarity="positive" term="computer" pos="nn"/>
+			<aspectTerm from="47" to="53" polarity="positive" term="quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="18">
+		<text>It is bigger than the dell and the hp mini .</text>
+	</sentence>
+	<sentence id="19">
+		<text>The full sized keyboard is sweet not to mention the aquamarine color .</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="22" polarity="positive" term="keyboard" pos="nn"/>
+			<aspectTerm from="63" to="67" polarity="positive" term="color" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="20">
+		<text>That is surface stuff , but the speed and memory is very good .</text>
+		<aspectTerms>
+			<aspectTerm from="32" to="36" polarity="positive" term="speed" pos="nn"/>
+			<aspectTerm from="42" to="47" polarity="positive" term="memory" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="21">
+		<text>I use a netbook for all of my computing with the exception of tax programming and backup .</text>
+	</sentence>
+	<sentence id="22">
+		<text>This really is a laptop in a small form .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="22" polarity="positive" term="laptop" pos="nn"/>
+			<aspectTerm from="35" to="38" polarity="positive" term="form" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="23">
+		<text>I can use several programs at once with little difficulty .</text>
+	</sentence>
+	<sentence id="24">
+		<text>The windows 7 premium is good -LRB- do n't recommend starter -RRB- and user friendly .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="20" polarity="positive" term="windows 7 premium" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="25">
+		<text>I can write reports , check social network , pictures , check email , read reviews , and shop at the same time .</text>
+	</sentence>
+	<sentence id="26">
+		<text>It is slightly slower than the dell , but it is hard to notice with the very nice screen quality and larger hard drive .</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="20" polarity="negative" term="slower" pos="jj"/>
+			<aspectTerm from="82" to="95" polarity="positive" term="screen quality" pos="nn"/>
+			<aspectTerm from="108" to="117" polarity="positive" term="hard drive" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="27">
+		<text>The larger screen has allowed me to put all my photos on it -LRB- could n't on the dell -RRB- and edit them .</text>
+		<aspectTerms>
+			<aspectTerm from="11" to="16" polarity="positive" term="screen" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="28">
+		<text>This has turned into a much better purchase than I expected and it is very light .</text>
+	</sentence>
+	<sentence id="29">
+		<text>Overall a sweet machine .</text>
+		<aspectTerms>
+			<aspectTerm from="16" to="22" polarity="positive" term="machine" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="30">
+		<text>I 've purchased two of these netbooks , one for myself and the other for my girlfriend .</text>
+	</sentence>
+	<sentence id="31">
+		<text>Sure , it 's no laptop , but you could have fooled me .</text>
+	</sentence>
+	<sentence id="32">
+		<text>It 's very light-weight , which is why I use this more than my Alienware .</text>
+		<aspectTerms>
+			<aspectTerm from="11" to="22" polarity="positive" term="light-weight" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="33">
+		<text>It does just what I need once fully configured : Add 4GB of ram , clean out pre-loaded junkware , and install CCleaner and MS Security Essentials .</text>
+	</sentence>
+	<sentence id="34">
+		<text>Those who claim that this netbook falls apart need to stop using it for non-intended uses .</text>
+	</sentence>
+	<sentence id="35">
+		<text>It 's not a laptop , you need to learn its limitations -LRB- no Photoshop or power apps -RRB- and take care of your gear .</text>
+	</sentence>
+	<sentence id="36">
+		<text>Buy a neoprene case and keep it protected .</text>
+	</sentence>
+	<sentence id="37">
+		<text>Most people who have device failures simply push their gear to the limits and then when it fails they turn around and cry foul on the manufacturer .</text>
+	</sentence>
+	<sentence id="38">
+		<text>It 's just such a nice , light-weight , non-intrusive device which you can take anywhere .</text>
+		<aspectTerms>
+			<aspectTerm from="25" to="36" polarity="positive" term="light-weight" pos="jj"/>
+			<aspectTerm from="54" to="59" polarity="positive" term="device" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="39">
+		<text>I 'm not a fan of tablet computers .</text>
+	</sentence>
+	<sentence id="40">
+		<text>I think they are interesting , but they do n't serve any practical uses in my opinion , yet .</text>
+	</sentence>
+	<sentence id="41">
+		<text>At least from a work standpoint .</text>
+	</sentence>
+	<sentence id="42">
+		<text>You wo n't be disappointed with this netbook , and just encase you may want to purchase a Squaretrade warranty .</text>
+	</sentence>
+	<sentence id="43">
+		<text>5\/5 stars .</text>
+	</sentence>
+	<sentence id="44">
+		<text>I really love this netbook .</text>
+		<aspectTerms>
+			<aspectTerm from="19" to="25" polarity="positive" term="netbook" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="45">
+		<text>Huh ?!?!?!?!</text>
+	</sentence>
+	<sentence id="46">
+		<text>I do n't get all the negative reviews from so many others about this product .</text>
+	</sentence>
+	<sentence id="47">
+		<text>I 've had this monitor for over a year and I absolutely LOVE IT !</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="21" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="48">
+		<text>Now I do n't know what kind of video card and connection others are using but I am using an ATI 9800 Pro and have the monitor hooked into the DVI Digital Output instead of the standard VGA which is analog .</text>
+	</sentence>
+	<sentence id="49">
+		<text>I do n't think that really matters though - I mean hooked my Xbox 360 up to the standard VGA port a little while ago and the picture was awesome .</text>
+		<aspectTerms>
+			<aspectTerm from="125" to="131" polarity="positive" term="picture" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="50">
+		<text>I 'm not discounting anyone else 's opinion of the product by any means because maybe theirs came from a bad batch or something , but just so others can hear a positive review from someone that has been very happy with their purchase for a while now !</text>
+	</sentence>
+	<sentence id="51">
+		<text>The only reason I did n't give it 5 stars is because the speakers on the monitor are a little weak , but that 's really to be expected is n't it ...</text>
+		<aspectTerms>
+			<aspectTerm from="57" to="64" polarity="negative" term="speakers" pos="nn"/>
+			<aspectTerm from="73" to="79" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="52">
+		<text>This netbook is exactly what I want for my kids .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="netbook" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="53">
+		<text>If I buy something for me , I would consider to buy the same too .</text>
+	</sentence>
+	<sentence id="54">
+		<text>it is lighter to carry around and it has enough functionality to use .</text>
+		<aspectTerms>
+			<aspectTerm from="6" to="12" polarity="positive" term="lighter" pos="jj"/>
+			<aspectTerm from="48" to="60" polarity="positive" term="functionality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="55">
+		<text>Great replacement at great price for an older bulky and heavy monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="27" to="31" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="56">
+		<text>Color and contrast are perfect for my needs .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="4" polarity="positive" term="Color" pos="nn"/>
+			<aspectTerm from="10" to="17" polarity="positive" term="contrast" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="57">
+		<text>Seems like a good product .</text>
+		<aspectTerms>
+			<aspectTerm from="18" to="24" polarity="positive" term="product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="58">
+		<text>The only problem I have is the clicker on the mouse pad is stiff .</text>
+		<aspectTerms>
+			<aspectTerm from="31" to="37" polarity="negative" term="clicker" pos="nn"/>
+			<aspectTerm from="46" to="54" polarity="negative" term="mouse pad" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="59">
+		<text>Very compact and easy for travel .</text>
+	</sentence>
+	<sentence id="60">
+		<text>Excellent monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="16" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="61">
+		<text>Clear and crispy image .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="21" polarity="positive" term="image" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="62">
+		<text>Very , very satisfied with it .</text>
+	</sentence>
+	<sentence id="63">
+		<text>My fiance ordered this computer , she 's a teacher so she needed a small computer that would keep her from bringing work home with her .</text>
+		<aspectTerms>
+			<aspectTerm from="67" to="71" polarity="positive" term="small" pos="jj"/>
+			<aspectTerm from="73" to="80" polarity="positive" term="computer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="64">
+		<text>We got this on time , and it was brand new , perfect condition , performance as can be expected for the machine specifications , keep in mind I 'm extremely computer savvy , so my opinion comes to a lot of people .</text>
+		<aspectTerms>
+			<aspectTerm from="65" to="75" polarity="positive" term="performance" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="65">
+		<text>I highly recommend it , she loves it and we 're both very happy with the purchase .</text>
+	</sentence>
+	<sentence id="66">
+		<text>If you 're debating getting this item , I would n't hesitate any longer .</text>
+	</sentence>
+	<sentence id="67">
+		<text>I 'm not a person well read in technology but this is just an absolutely wonderful computer .</text>
+		<aspectTerms>
+			<aspectTerm from="83" to="90" polarity="positive" term="computer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="68">
+		<text>I 've been playing Minecraft on it and multi tasking at the same time , and while it does run slower while multi-tasking , the gaming experience is not compromised for me .</text>
+		<aspectTerms>
+			<aspectTerm from="90" to="93" polarity="negative" term="run" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="69">
+		<text>The keyboard is also very nice and quite comfortable-although it does take some getting used to .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="11" polarity="positive" term="keyboard" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="70">
+		<text>I do n't want to be a sensationalist but this computer is incredible .</text>
+		<aspectTerms>
+			<aspectTerm from="46" to="53" polarity="positive" term="computer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="71">
+		<text>If you have netbook expectations you will be pleasantly surprised by how well this baby runs .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="18" polarity="positive" term="netbook" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="72">
+		<text>If you have notebook expectations you will feel `` meh '' towards it because it runs like a low-grade to medium-grade notebook .</text>		
+	</sentence>
+	<sentence id="73">
+		<text>Pros : The capabilities for size and price The keyboard size Windows Premium The look Cons : Be aware that the finish does smudge and gets finger printy , but all polished , it looks incredible Screen size -LRB- but its a netbook , duh ! -RRB-</text>
+	</sentence>
+	<sentence id="74">
+		<text>Slow to download and run certain programs Wish you the best and hope my review helped !</text>
+		<aspectTerms>
+			<aspectTerm from="8" to="15" polarity="negative" term="download" pos="vb"/>
+			<aspectTerm from="21" to="23" polarity="negative" term="run" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="75">
+		<text>Doing business with Amazon is pleasant .</text>
+	</sentence>
+	<sentence id="76">
+		<text>We count on good products at a good price .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="24" polarity="positive" term="products" pos="nn"/>
+			<aspectTerm from="36" to="40" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="77">
+		<text>Our purchase of an Acer Monitor was just as we expected .</text>
+		<aspectTerms>
+			<aspectTerm from="19" to="30" polarity="positive" term="Acer Monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="78">
+		<text>No surprises .</text>
+	</sentence>
+	<sentence id="79">
+		<text>Received this item within a few days of ordering .</text>
+	</sentence>
+	<sentence id="80">
+		<text>Easy to hook up .</text>
+		<aspectTerms>
+			<aspectTerm from="8" to="14" polarity="positive" term="hook up" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="81">
+		<text>Great picture .</text>
+		<aspectTerms>
+			<aspectTerm from="6" to="12" polarity="positive" term="picture" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="82">
+		<text>I am very happy with this monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="26" to="32" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="83">
+		<text>I had been thinking a lot about changing my CRT montior to LCD monitor .</text>
+	</sentence>
+	<sentence id="84">
+		<text>I was waiting for lower pricess , faster respons time & wide screen monitor .</text>
+	</sentence>
+	<sentence id="85">
+		<text>I was keeping my eye on Samsung , Benq & Acer .</text>
+	</sentence>
+	<sentence id="86">
+		<text>Last week , I visited JAREER Bookstoor in Riyadh -LRB- Saudi Arabia -RRB- I found this LCD .</text>
+	</sentence>
+	<sentence id="87">
+		<text>It really impressed me with the disign , the specs & the price .</text>
+		<aspectTerms>
+			<aspectTerm from="32" to="37" polarity="positive" term="disign" pos="nn"/>			
+			<aspectTerm from="57" to="61" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="88">
+		<text>So , I could not wait anylonger & I got it .</text>
+	</sentence>
+	<sentence id="89">
+		<text>I will provide my comments about the disadvantages only because the advantages you may get it from the product specs .</text>
+	</sentence>
+	<sentence id="90">
+		<text>My comments are as follow : 1 - Does n't have direct Elictrical connectivity -LRB- you need Adapter which is comming with the package -RRB- 2 - It is really very difficult to connect the the power Cable & the regular -LRB- VGA -RRB- PC connection .</text>
+		<aspectTerms>
+			<aspectTerm from="46" to="75" polarity="negative" term="direct Elictrical connectivity" pos="nn"/>
+			<aspectTerm from="175" to="181" polarity="negative" term="connect" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="91">
+		<text>3 - Not perfect quality of picture if you use the VGA Connection while the DVI Connection is perfect .</text>
+		<aspectTerms>
+			<aspectTerm from="16" to="33" polarity="negative" term="quality of picture" pos="nn"/>
+			<aspectTerm from="75" to="88" polarity="positive" term="DVI Connection" pos="nn"/>
+			<aspectTerm from="50" to="63" polarity="negative" term="VGA Connection" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="92">
+		<text>4 - No flixpility to turn the monitor right or left because it is fixed .</text>		
+	</sentence>
+	<sentence id="93">
+		<text>5 - hight can not be adjusted .</text>		
+	</sentence>
+	<sentence id="94">
+		<text>Some of you may ask how did I gave 4\/5 while having the mentioned disadvantages .</text>
+	</sentence>
+	<sentence id="95">
+		<text>Then I would say that this LCD monitor have many feature in one piece .</text>
+		<aspectTerms>
+			<aspectTerm from="27" to="37" polarity="positive" term="LCD monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="96">
+		<text>It has TV tuner , Composite inputs , DVI Input , SCART Input , Nice Speekers .</text>		
+	</sentence>
+	<sentence id="97">
+		<text>In addition , it comes with a remote control .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="43" polarity="positive" term="remote control" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="98">
+		<text>The screen quality is very high & the side view is very sharp & clear .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="17" polarity="positive" term="screen quality" pos="nn"/>
+			<aspectTerm from="38" to="46" polarity="positive" term="side view" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="99">
+		<text>In conclusion this master piece has every thing you need .</text>
+	</sentence>
+	<sentence id="100">
+		<text>One last note , I purchased this monitor with a higher price than what you can get in the states .</text>
+		<aspectTerms>
+			<aspectTerm from="55" to="59" polarity="negative" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="101">
+		<text>It costs me about 640 $ so you should be gratefull that the pricess in the states much lower .</text>
+		<aspectTerms>
+			<aspectTerm from="60" to="66" polarity="positive" term="pricess" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="102">
+		<text>Regards , Abdulrahman Saudi Arabia - Riyadh</text>
+	</sentence>
+	<sentence id="103">
+		<text>Everything on this unit seems fine so far except for one item .</text>		
+	</sentence>
+	<sentence id="104">
+		<text>Almost all new video cards have DVI only connection .</text>
+	</sentence>
+	<sentence id="105">
+		<text>This means that the vga connection will not work with my computers .</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="33" polarity="negative" term="vga connection" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="106">
+		<text>I will have to find an adapter of some sort which is a pain as a cable should be sent with the unit in my honest opinin .</text>
+	</sentence>
+	<sentence id="107">
+		<text>I use a dual monitor workstation -LRB- normally both 24 '' -RRB- for web development and video production .</text>
+	</sentence>
+	<sentence id="108">
+		<text>One of my monitors recently went south -LRB- quit working -RRB- , and I went looking for a replacement .</text>
+	</sentence>
+	<sentence id="109">
+		<text>Though this monitor is only a 23 '' , the reviews were good and I 've always had good luck with Acer products .</text>
+	</sentence>
+	<sentence id="110">
+		<text>I 'm glad I went with it , it actually exceeds my ViewSonic for color , brightness , and pixel quality .</text>
+		<aspectTerms>
+			<aspectTerm from="64" to="68" polarity="positive" term="color" pos="nn"/>
+			<aspectTerm from="72" to="81" polarity="positive" term="brightness" pos="nn"/>
+			<aspectTerm from="89" to="101" polarity="positive" term="pixel quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="111">
+		<text>In fact , my 24 '' Viewsonic has now been moved to second monitor position and this Acer is now the primary .</text>
+	</sentence>
+	<sentence id="112">
+		<text>Though it does n't have quite the screen real estate , it 's an excellent monitor and crystal clear at a resolution of 1920x1080 .</text>
+		<aspectTerms>
+			<aspectTerm from="74" to="80" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="105" to="114" polarity="positive" term="resolution" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="113">
+		<text>Very happy with the monitor and the price ...</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="26" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="36" to="40" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="114">
+		<text>I have this monitor for a month now and I 'm very pleased with it .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="18" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="115">
+		<text>I have it at my home office and we sometimes watch movies on it .</text>
+	</sentence>
+	<sentence id="116">
+		<text>My wife is even more pleased due to its widescreen .</text>
+		<aspectTerms>
+			<aspectTerm from="40" to="49" polarity="positive" term="widescreen" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="117">
+		<text>The colors are clear , also .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="118">
+		<text>I purchased this monitor after shopping around for a good deal on a 19 '' LCD .</text>
+	</sentence>
+	<sentence id="119">
+		<text>What a mistake .</text>
+	</sentence>
+	<sentence id="120">
+		<text>The backlight will periodically fail , the first time it happened I sent it in for warranty repair .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="12" polarity="negative" term="backlight" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="121">
+		<text>It came back working , and I was momentarily glad that the rumors I 'd heard about Acer tech support did n't turn out to be true in my case .</text>
+		<aspectTerms>
+			<aspectTerm from="83" to="99" polarity="positive" term="Acer tech support" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="122">
+		<text>The second time it happened I got suspicious .</text>
+	</sentence>
+	<sentence id="123">
+		<text>I wanted to call acer tech support and talk to someone .</text>
+	</sentence>
+	<sentence id="124">
+		<text>I managed to find their mysterious phone number from a google cache and called them .</text>
+	</sentence>
+	<sentence id="125">
+		<text>It turns out they did n't DO anything when they received it .</text>
+	</sentence>
+	<sentence id="126">
+		<text>They opened it up , turned it on , and it worked so they sent it back .</text>
+	</sentence>
+	<sentence id="127">
+		<text>Of course , they do n't tell you they did nothing .</text>
+	</sentence>
+	<sentence id="128">
+		<text>Acer has been awful to deal with , they treat their customers like rubbish , and have a miserable repair facility to match their products .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="3" polarity="negative" term="Acer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="129">
+		<text>Do n't buy this monitor !</text>
+		<aspectTerms>
+			<aspectTerm from="16" to="22" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="130">
+		<text>Now when the backlight fails , I have to leave it unplugged overnight and it works the next day .</text>
+		<aspectTerms>
+			<aspectTerm from="13" to="21" polarity="negative" term="backlight" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="131">
+		<text>Acer will not replace it because the problem does n't occur when they have it .</text>
+	</sentence>
+	<sentence id="132">
+		<text>worldwide distributor was the worst buying experience in my life , since i started to shop online .</text>
+	</sentence>
+	<sentence id="133">
+		<text>never ever .</text>
+	</sentence>
+	<sentence id="134">
+		<text>i 'm regular online shopper , i never had this bad experience in my life , this bring Question .</text>
+	</sentence>
+	<sentence id="135">
+		<text>I really enjoy this product .</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="26" polarity="positive" term="product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="136">
+		<text>I was looking for portability and good battery life and this product delivers both .</text>
+		<aspectTerms>
+			<aspectTerm from="18" to="28" polarity="positive" term="portability" pos="nn"/>
+			<aspectTerm from="39" to="50" polarity="positive" term="battery life" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="137">
+		<text>I felt the system was slow so I purchased a 4gb ram from crucell and replaced the standard 2gb that came with the system .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="25" polarity="negative" term="slow" pos="jj"/>
+			<aspectTerm from="11" to="16" polarity="negative" term="system" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="138">
+		<text>I seem to be getting 5 to 6 hours on the battery which is sufficient for my needs .</text>
+		<aspectTerms>
+			<aspectTerm from="41" to="47" polarity="positive" term="battery" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="139">
+		<text>Since I 've only had the computer for a few weeks I 'll report later on my further experience with the system <a�href="http://www.amazon.com/gp/product/B001KB21KA/ref=cm_cr_asin_lnk/192-0570718-7655811"> Crucial Technology CT51264BC1067 4 GB 204-pin SODIMM DDR3 PC3-8500 CL = 7 Unbuffered NON-ECC DDR3-1066 1.5 V 512Meg x 64 Memory </a></text>
+	</sentence>
+	<sentence id="140">
+		<text>Just walk away .</text>
+	</sentence>
+	<sentence id="141">
+		<text>I do n't think Acer brand is ready for the USA .</text>
+	</sentence>
+	<sentence id="142">
+		<text>Someday , your going to need support , and Acer 's technical support department is the next to worthless .</text>
+		<aspectTerms>
+			<aspectTerm from="51" to="67" polarity="negative" term="technical support" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="143">
+		<text>So , my opinion is to shop elsewhere .</text>
+	</sentence>
+	<sentence id="144">
+		<text>I got this product yesterday ... !!!</text>
+	</sentence>
+	<sentence id="145">
+		<text>This netbook is very light but still powerful .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="netbook" pos="nn"/>
+			<aspectTerm from="21" to="25" polarity="positive" term="light" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="146">
+		<text>Screen brightness is really good .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="16" polarity="positive" term="Screen brightness" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="147">
+		<text>Sound is also nice as compared to its size .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="4" polarity="positive" term="Sound" pos="nn"/>
+			<aspectTerm from="38" to="41" polarity="negative" term="size" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="148">
+		<text>This netbook is closer to the notebook powers but still very cheap .</text>
+		<aspectTerms>
+			<aspectTerm from="61" to="65" polarity="positive" term="cheap" pos="jj"/>
+			<aspectTerm from="5" to="11" polarity="positive" term="netbook" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="149">
+		<text>Portables are fragile machines that need extra care .</text>
+	</sentence>
+	<sentence id="150">
+		<text>If you spend a lot of money on a Mac Book Pro spend these extra few hundred too if you prefer a relaxed life .</text>
+	</sentence>
+	<sentence id="151">
+		<text>I was planning to buy a kindle fire on amazon but just got this little thing packed with 320 GB HD , Win 7 Home Premium , webcam , office starter etc etc. .</text>
+	</sentence>
+	<sentence id="152">
+		<text>Then I decided to invest few more bucks and went for this netbook .</text>
+	</sentence>
+	<sentence id="153">
+		<text>I do n't know why people buy expensive gadgets like ipad2 3G ... very satisfied and I think I made very good decision .</text>
+	</sentence>
+	<sentence id="154">
+		<text>Pros : Competitive Cost Win 7 Home premium HDMI port -LRB- I could watch the Amazon instant videos on my HDTV and its delivering great .</text>
+		<aspectTerms>
+			<aspectTerm from="118" to="127" polarity="positive" term="delivering" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="155">
+		<text>I am so happy that I was clever enough to take out Apple Care as it saved me buying a new computer and a lot of stress .</text>
+	</sentence>
+	<sentence id="156">
+		<text>Just the other day Apple replaced my computer that was 18 months old due to hassle that occured in the past three months .</text>
+	</sentence>
+	<sentence id="157">
+		<text>Office Starter Web Cam is also fairly good Light in weight and elegant Cons : I wo n't say anything bad as you are just paying 280 for this net book .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="21" polarity="positive" term="Office Starter Web Cam" pos="nn"/>
+			<aspectTerm from="52" to="57" polarity="positive" term="weight" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="158">
+		<text>I would imagine the cost will go upto 200 bucks one day and then it will be unbeatable deal .</text>
+	</sentence>
+	<sentence id="159">
+		<text>Nice monitor for price but I agree with other customer review about difficulty of cable hook ups .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="17" to="21" polarity="positive" term="price" pos="nn"/>
+			<aspectTerm from="82" to="95" polarity="negative" term="cable hook ups" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="160">
+		<text>Would like to know what the DVI cable is used for .</text>
+	</sentence>
+	<sentence id="161">
+		<text>I love this monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="18" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="162">
+		<text>Great color display , sharp picture , and just the right size for my desk .</text>
+		<aspectTerms>
+			<aspectTerm from="6" to="18" polarity="positive" term="color display" pos="nn"/>
+			<aspectTerm from="28" to="34" polarity="positive" term="picture" pos="nn"/>
+			<aspectTerm from="57" to="60" polarity="positive" term="size" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="163">
+		<text>Fits perfectly in the corner of my small desk !!</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="3" polarity="positive" term="Fits" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="164">
+		<text>I bought this monitor as an addition to my existing desktop monitor .</text>
+	</sentence>
+	<sentence id="165">
+		<text>The images are vivid and crisp , the text and fonts are very clear .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="images" pos="nn"/>
+			<aspectTerm from="37" to="41" polarity="positive" term="text" pos="nn"/>
+			<aspectTerm from="46" to="50" polarity="positive" term="fonts" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="166">
+		<text>Absolutely love it and cant beat the price !</text>
+		<aspectTerms>
+			<aspectTerm from="37" to="41" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="167">
+		<text>This monitor works great .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="168">
+		<text>Easy to set up , no bad pixels , great price for 19 LCD monitor !</text>
+		<aspectTerms>
+			<aspectTerm from="8" to="13" polarity="positive" term="set up" pos="vb"/>
+			<aspectTerm from="24" to="29" polarity="positive" term="pixels" pos="nn"/>
+			<aspectTerm from="39" to="43" polarity="positive" term="price" pos="nn"/>
+			<aspectTerm from="52" to="62" polarity="positive" term="LCD monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="169">
+		<text>This is our second Acer LCD monitor .</text>
+	</sentence>
+	<sentence id="170">
+		<text>Both are absolutely great items .</text>
+		<aspectTerms>
+			<aspectTerm from="26" to="30" polarity="positive" term="items" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="171">
+		<text>Seems as though when Acer started out they seemed a bit on the po-dank side of the computer industry .</text>
+	</sentence>
+	<sentence id="172">
+		<text>No more !</text>
+	</sentence>
+	<sentence id="173">
+		<text>All the latest Acer stuff is top notch !</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="24" polarity="positive" term="Acer stuff" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="174">
+		<text>The Acer Monitor has an extremely bright screen and its design allows the placement in an area -LRB- from a heighth perspective -RRB- that many 20 '' screens will not fit in .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="15" polarity="positive" term="Acer Monitor" pos="nn"/>
+			<aspectTerm from="41" to="46" polarity="positive" term="screen" pos="nn"/>
+			<aspectTerm from="56" to="61" polarity="positive" term="design" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="175">
+		<text>Compared to the 19 '' Dell Monitor this replaced it is far brighter and weighs much less .</text>
+		<aspectTerms>
+			<aspectTerm from="59" to="66" polarity="positive" term="brighter" pos="jj"/>
+			<aspectTerm from="72" to="77" polarity="positive" term="weighs" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="176">
+		<text>Very easy to set up .</text>
+		<aspectTerms>
+			<aspectTerm from="13" to="18" polarity="positive" term="set up" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="177">
+		<text>Highly recommend this monitor - hard to beat at this price point .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="28" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="53" to="57" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="178">
+		<text>I purchased three of these Acer 19 '' at very good rates from Amazon ... we are extremely pleased with the clarity and sharpness .</text>
+		<aspectTerms>
+			<aspectTerm from="107" to="113" polarity="positive" term="clarity" pos="nn"/>
+			<aspectTerm from="119" to="127" polarity="positive" term="sharpness" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="179">
+		<text>Flying first class at tourist rates .</text>
+	</sentence>
+	<sentence id="180">
+		<text>Ken Monzingo</text>
+	</sentence>
+	<sentence id="181">
+		<text>WOW !!!!</text>
+	</sentence>
+	<sentence id="182">
+		<text>This sleek looking monitor is absolutely awesome !!</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="9" polarity="positive" term="sleek" pos="jj"/>
+			<aspectTerm from="19" to="25" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="183">
+		<text>Everything appears larger than life !!!</text>
+	</sentence>
+	<sentence id="184">
+		<text>This Wonderful product was easy to unbox and install !!</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="21" polarity="positive" term="product" pos="nn"/>
+			<aspectTerm from="35" to="39" polarity="positive" term="unbox" pos="vb"/>
+			<aspectTerm from="45" to="51" polarity="positive" term="install" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="185">
+		<text>Thuumbs up to ACER widescreen ULTRA Slim monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="14" to="28" polarity="positive" term="ACER widescreen" pos="nn"/>
+			<aspectTerm from="30" to="47" polarity="positive" term="ULTRA Slim monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="186">
+		<text>We use these monitors in the office .</text>
+	</sentence>
+	<sentence id="187">
+		<text>Well , other people do - I use a Dell 20 '' LCD .</text>
+	</sentence>
+	<sentence id="188">
+		<text>First gripe : I set up a lot of these puppies , and the video cable does n't always fit into the socket on the underside of the monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="56" to="66" polarity="positive" term="video cable" pos="nn"/>
+			<aspectTerm from="84" to="102" polarity="negative" term="fit into the socket" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="189">
+		<text>It 's because of the way the port lines up -LRB- or does n't -RRB- with the plastic of the case .</text>
+	</sentence>
+	<sentence id="190">
+		<text>To get the cables in , I had to nick bits of the plastic casing on the end of the cable -LRB- and these are the cables that ship in the box with the monitors ! -RRB-</text>
+	</sentence>
+	<sentence id="191">
+		<text>Other then that it is a fantastic display for the price .</text>
+		<aspectTerms>
+			<aspectTerm from="34" to="40" polarity="positive" term="display" pos="nn"/>
+			<aspectTerm from="50" to="54" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="192">
+		<text>Second gripe : In the 6 or so months since we purchased our batch of 30-40 of these monitors , 2 have already been returned for repair or replacement .</text>
+		<aspectTerms>
+			<aspectTerm from="84" to="91" polarity="negative" term="monitors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="193">
+		<text>That 's at least a 5 % failure rate .</text>
+	</sentence>
+	<sentence id="194">
+		<text>Not good .</text>
+	</sentence>
+	<sentence id="195">
+		<text>Third gripe : These monitors can suffer from the LCD equivalent of screen burn - `` image persistence '' if you like .</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="27" polarity="negative" term="monitors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="196">
+		<text>If you leave an image on the screen long enough , a ghost of that image will persist into the LCD even after you switch the monitor off and on again .</text>
+	</sentence>
+	<sentence id="197">
+		<text>The image \* will \* go away if you either leave the monitor off for a while or leave a white area of a window under that part of the screen - but it takes time .</text>
+	</sentence>
+	<sentence id="198">
+		<text>I 'm happy with my Dell .</text>		
+	</sentence>
+	<sentence id="199">
+		<text>I have n't really need any since the display have proven to be very intelligent when resizing different screen res 's and I can use the ATI drivers to adjust things like color temp and gamma .</text>
+		<aspectTerms>
+			<aspectTerm from="37" to="43" polarity="positive" term="display" pos="nn"/>
+		</aspectTerms>
+	</sentence>	
+	<sentence id="200">
+		<text>I would n't touch one of these Acers !</text>
+	</sentence>
+	<sentence id="201">
+		<text>For the money you ca n't beat it .</text>
+	</sentence>
+	<sentence id="202">
+		<text>Dell 's similar monitor is over $ 300 .</text>
+	</sentence>
+	<sentence id="203">
+		<text>Sure more options but for me it serves my needs totally .</text>
+	</sentence>
+	<sentence id="204">
+		<text>In fact others say not bright enough ?</text>
+		<aspectTerms>
+			<aspectTerm from="23" to="28" polarity="negative" term="bright" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="205">
+		<text>I find it too bright .</text>
+		<aspectTerms>
+			<aspectTerm from="14" to="19" polarity="negative" term="bright" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="206">
+		<text>Retired and not a computer geek .</text>
+	</sentence>
+	<sentence id="207">
+		<text>For me its perfect and the quality for games and word docs is more than acceptable .</text>
+		<aspectTerms>
+			<aspectTerm from="27" to="33" polarity="positive" term="quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="208">
+		<text>Would definately recommend it .</text>
+	</sentence>
+	<sentence id="209">
+		<text>Besides , I hate widescreen monitors !!!!</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="35" polarity="negative" term="widescreen monitors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="210">
+		<text>Also one review said it does n't tilt ?</text>
+	</sentence>
+	<sentence id="211">
+		<text>It certainly does .</text>
+	</sentence>
+	<sentence id="212">
+		<text>Much faster than my previous Acer One Netbook with single processor .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="10" polarity="positive" term="faster" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="213">
+		<text>Battery last longer too .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="6" polarity="positive" term="Battery" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="214">
+		<text>I 'm very happy with the purchase .</text>
+	</sentence>
+	<sentence id="215">
+		<text>Highly recommended .</text>
+	</sentence>
+	<sentence id="216">
+		<text>Amazon delivery is very efficient and on time , as always .</text>
+	</sentence>
+	<sentence id="217">
+		<text>Purchased this item because of reviews and price .</text>
+		<aspectTerms>
+			<aspectTerm from="43" to="47" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="218">
+		<text>The Netbook is great and rates 5 stars EXCEPT -- Customer service is useless .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="10" polarity="positive" term="Netbook" pos="nn"/>
+			<aspectTerm from="49" to="64" polarity="negative" term="Customer service" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="219">
+		<text>Shunted to 4 different `` techs '' with language problems and no knowledge only to be told that a question on a Brand New Printer can only be answered by paying $ 38 per call .</text>
+	</sentence>
+	<sentence id="220">
+		<text>excellent , very good monitor to rest the price is pretty good , I recommendt he picture is sharp and in perfect condition came to Venezuela</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="28" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="42" to="46" polarity="positive" term="price" pos="nn"/>
+			<aspectTerm from="81" to="87" polarity="positive" term="picture" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="221">
+		<text>Fits nicely on the small desk we use in our computer room .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="3" polarity="positive" term="Fits" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="222">
+		<text>It does not distort ; video and pictures look great .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="18" polarity="positive" term="distort" pos="vb"/>
+			<aspectTerm from="22" to="26" polarity="positive" term="video" pos="nn"/>
+			<aspectTerm from="32" to="39" polarity="positive" term="pictures" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="223">
+		<text>We like Acer products and this one does n't disappoint .</text>
+		<aspectTerms>
+			<aspectTerm from="8" to="20" polarity="positive" term="Acer products" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="224">
+		<text>Hi , I just got this , and let me tell you is an awsome monitor , Size , looking and 3d is awsome good with this LCD .</text>
+		<aspectTerms>
+			<aspectTerm from="56" to="62" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="66" to="69" polarity="positive" term="Size" pos="nn"/>
+			<aspectTerm from="73" to="79" polarity="positive" term="looking" pos="nn"/>
+			<aspectTerm from="85" to="87" polarity="positive" term="3d" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="225">
+		<text>Sadly mine came with 2 Pixels dead , one always is green and the other one is black , I read warranty and says it have to be more than 4 pixels IN THE SAME PLACE to become a valid warranty claim .</text>
+	</sentence>
+	<sentence id="226">
+		<text>Ok this is not a big issue anyway , 2 dots dont make a huge diferences , they are just annoying .</text>
+	</sentence>
+	<sentence id="227">
+		<text>2 weeks later , The monitor start having other issues , only half screen turns on , or it become a full green screen and doesnt change , you need to turn it off and on again until it works .</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="26" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="228">
+		<text>Im starting the warranty process to see what happens at the end They told me it was normal since this LCD 's are 120Hz you need to let them warm up sometimes is what they told me .</text>
+	</sentence>
+	<sentence id="229">
+		<text>I hope this dont ends in a square pieces of garbage broken and unable to claim to anyone .</text>
+	</sentence>
+	<sentence id="230">
+		<text>If this issues still being fixed by turning off and on the monitor , I guess I can deal with it , but I didnt paid the amount of money this babies cost to deal with this ... Shouldnt be that way .</text>
+	</sentence>	
+	<sentence id="231">
+		<text>Im gladly open to any help you can give me .</text>
+	</sentence>	
+	<sentence id="232">
+		<text>After opening the computer for the first time , I notice any javascript links would not work on internet explorer .</text>		
+	</sentence>
+	<sentence id="233">
+		<text>The default settings were turned on .</text>
+	</sentence>
+	<sentence id="234">
+		<text>I contacted Acer support and they wanted $ 100 to fix the preinstalled internet explorer issues that I was setup with .</text>
+	</sentence>
+	<sentence id="235">
+		<text>Because it is not a hardware issue , they will not help you unless you pay them .</text>
+	</sentence>
+	<sentence id="236">
+		<text>After searching the internet for hours and trying countless options I downloaded Firefox to get my internet operational .</text>
+	</sentence>
+	<sentence id="237">
+		<text>I was dissapointed that Acer was n't more helpful .</text>
+		<aspectTerms>
+			<aspectTerm from="24" to="27" polarity="negative" term="Acer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="238">
+		<text>I talked to a manager and explained that I had not modified any preset items and they still could not waive the cpu support fee despite the cpu being brand new .</text>
+	</sentence>
+	<sentence id="239">
+		<text>I would rather hire a local tech support company than pay $ 100 to fix a brand new software issue on a $ 375 computer ... Besides that it seems to be working fine now .</text>
+	</sentence>
+	<sentence id="240">
+		<text>Nice and compact .</text>
+		<aspectTerms>
+			<aspectTerm from="9" to="15" polarity="positive" term="compact" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="241">
+		<text>After much delay I received my Acer Netbook Aspire One and I can teell you I am very satisfied with this computer , is very pretty , well finished , high quality , so quiet , not heated than other netbook or at least I think it is within in normal ranges , the keyboard is very smooth and very well laid out , the screen functions are very practical in a nutshell is an excellent buy and I am very pleased with the purchase , I recommend it .</text>
+		<aspectTerms>
+			<aspectTerm from="31" to="53" polarity="positive" term="Acer Netbook Aspire One" pos="nn"/>
+			<aspectTerm from="105" to="112" polarity="positive" term="computer" pos="nn"/>
+			<aspectTerm from="124" to="129" polarity="positive" term="pretty" pos="jj"/>
+			<aspectTerm from="154" to="160" polarity="positive" term="quality" pos="nn"/>
+			<aspectTerm from="167" to="171" polarity="positive" term="quiet" pos="jj"/>
+			<aspectTerm from="179" to="184" polarity="positive" term="heated" pos="jj"/>
+			<aspectTerm from="261" to="268" polarity="positive" term="keyboard" pos="nn"/>
+			<aspectTerm from="299" to="306" polarity="positive" term="laid out" pos="nn"/>
+			<aspectTerm from="314" to="329" polarity="positive" term="screen functions" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="242">
+		<text>its definately an outstanding laptop .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="35" polarity="positive" term="laptop" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="243">
+		<text>it 's far from expensive for the specifications but there is a lot more than in there ... i like it so much ... its nicely designed for the portable user and I like the Ferrari design on it .</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="23" polarity="positive" term="expensive" pos="jj"/>
+			<aspectTerm from="177" to="182" polarity="positive" term="design" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="244">
+		<text>The color is red and is so attractive !!</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="8" polarity="positive" term="color" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="245">
+		<text><p> It 's not lite on weight ... so sad ... I definately recommend it to anyone out there .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="27" polarity="negative" term="weight" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="246">
+		<text>It is wonderful !</text>
+	</sentence>
+	<sentence id="247">
+		<text>Sharp , crisp images .</text>
+		<aspectTerms>
+			<aspectTerm from="14" to="19" polarity="positive" term="images" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="248">
+		<text>The is the essence of more bang for your buck !</text>
+	</sentence>
+	<sentence id="249">
+		<text>No issues .</text>
+	</sentence>
+	<sentence id="250">
+		<text>Delivery was prompt .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="7" polarity="positive" term="Delivery" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="251">
+		<text>Monitor was easy to set up and works as promised with my newly acquired NVIDIA glasses .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="6" polarity="positive" term="Monitor" pos="nn"/>
+			<aspectTerm from="20" to="25" polarity="positive" term="set up" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="252">
+		<text>The operation with the increased memory option was flawless with the Windows 7 Home Professional instaled otherwise other netbooks with Windows 7 Starter doesnt allow , and nobody mention this .</text>
+		<aspectTerms>
+			<aspectTerm from="23" to="45" polarity="positive" term="increased memory option" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="253">
+		<text>This is a plus with this netbook , the increased size of 1.6 inches means better and clear view of webpages and woks made in Office .</text>
+		<aspectTerms>
+			<aspectTerm from="49" to="52" polarity="positive" term="size" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="254">
+		<text>This is a very nice monitor , matte black and built-in speakers .</text>
+		<aspectTerms>
+			<aspectTerm from="20" to="26" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="55" to="62" polarity="positive" term="speakers" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="255">
+		<text>Sharp image .</text>
+		<aspectTerms>
+			<aspectTerm from="6" to="10" polarity="positive" term="image" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="256">
+		<text>Relatively small desktop footprint too .</text>
+		<aspectTerms>
+			<aspectTerm from="11" to="15" polarity="positive" term="small" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="257">
+		<text>VERY fast delivery .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="17" polarity="positive" term="delivery" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="258">
+		<text>Ca n't beat it for the price .</text>
+		<aspectTerms>
+			<aspectTerm from="23" to="27" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="259">
+		<text>I am an extremely experienced computer user .</text>
+	</sentence>
+	<sentence id="260">
+		<text>In my home I have two servers , five desktop computers , and six different monitors .</text>
+	</sentence>
+	<sentence id="261">
+		<text>I spend 8-12 hours a day on a computer and often have eyestrain by the end of the night .</text>
+	</sentence>
+	<sentence id="262">
+		<text>As a result I am always looking for a better monitor .</text>
+	</sentence>
+	<sentence id="263">
+		<text>This LED monitor is fantastic !!!</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="15" polarity="positive" term="LED monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="264">
+		<text>I bought mine a few months ago and after just a week I noticed that my eyes felt better at night .</text>
+	</sentence>
+	<sentence id="265">
+		<text>Image clarity is great -LRB- I do a lot of work in PhotoShop with 18MB RAW image files and noticed the difference immediately -RRB- .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="4" polarity="positive" term="Image" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="266">
+		<text>I also see a difference when surfing the web or using Microsoft Office applications .</text>
+	</sentence>
+	<sentence id="267">
+		<text>All my future monitors will be LED .</text>
+	</sentence>
+	<sentence id="268">
+		<text>This unit replaced a broken display on a server with limited space .</text>
+	</sentence>
+	<sentence id="269">
+		<text>It worked great and we just pluged it in .</text>
+		<aspectTerms>
+			<aspectTerm from="3" to="8" polarity="positive" term="worked" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="270">
+		<text>Nothing fancy just reliable replacement .</text>
+	</sentence>
+	<sentence id="271">
+		<text>This is a great buy !</text>
+	</sentence>
+	<sentence id="272">
+		<text>I was a little skeptical because of how cheap it was .</text>
+		<aspectTerms>
+			<aspectTerm from="40" to="44" polarity="positive" term="cheap" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="273">
+		<text>However , when I plugged it into my Mac Mini , the screen looked wonderful .</text>
+		<aspectTerms>
+			<aspectTerm from="51" to="56" polarity="positive" term="screen" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="274">
+		<text>The colors and everything are great .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="275">
+		<text>I exchanged this from an LG that I bought for nearly twice as much and the colors on the LG were not at all as nice as this .</text>
+		<aspectTerms>
+			<aspectTerm from="75" to="80" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="276">
+		<text>There is a slight `` halo '' on the edge of the screen when it is showing blacks -LRB- say for instance the black horizontal bars of a movie -RRB- , but during everyday activities -LRB- email , pages , internet .</text>
+	</sentence>
+	<sentence id="277">
+		<text>No other screen adjustments with the PC .</text>
+	</sentence>
+	<sentence id="278">
+		<text>etc. -RRB- you do n't notice it at all .</text>
+	</sentence>
+	<sentence id="279">
+		<text>Especially when you know you paid less than $ 100 for it !</text>
+	</sentence>
+	<sentence id="280">
+		<text>I got this monitor to go to a dual monitor config .</text>
+	</sentence>
+	<sentence id="281">
+		<text>My other monitor is a 23 inch ACER .</text>
+	</sentence>
+	<sentence id="282">
+		<text>I thot my original monitor had a good image , but the S201HL has a much brighter display .</text>
+		<aspectTerms>
+			<aspectTerm from="81" to="87" polarity="positive" term="display" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="283">
+		<text>Everything is brighter and better defined on it .</text>
+	</sentence>
+	<sentence id="284">
+		<text>Pros : Low weight , long battery life , decent keyboard , decent screen , does not heat up , HDMI output , flawless local HD decoding Con : low audio volume , just enough CPU power</text>
+		<aspectTerms>
+			<aspectTerm from="11" to="16" polarity="positive" term="weight" pos="nn"/>
+			<aspectTerm from="25" to="36" polarity="positive" term="battery life" pos="nn"/>
+			<aspectTerm from="47" to="54" polarity="positive" term="keyboard" pos="nn"/>
+			<aspectTerm from="65" to="70" polarity="positive" term="screen" pos="nn"/>
+			<aspectTerm from="83" to="89" polarity="positive" term="heat up" pos="vb"/>
+			<aspectTerm from="93" to="103" polarity="positive" term="HDMI output" pos="nn"/>
+			<aspectTerm from="116" to="132" polarity="positive" term="local HD decoding" pos="nn"/>
+			<aspectTerm from="144" to="155" polarity="negative" term="audio volume" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="285">
+		<text>When it works its fine but I have gone through two monitors now both with defective switches .</text>
+		<aspectTerms>
+			<aspectTerm from="84" to="91" polarity="negative" term="switches" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="286">
+		<text>Acer says they will replace it if I ship it back but that costs $ 50.00 .</text>
+	</sentence>
+	<sentence id="287">
+		<text>I now have a Samsung which is great .</text>
+	</sentence>
+	<sentence id="288">
+		<text>I bought this to replace an $ 89 2011 holiday special 21.5 '' Acer from Best Buy .</text>
+	</sentence>
+	<sentence id="289">
+		<text>This monitor is much , much better but still not great .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="290">
+		<text>The colors and viewing angle are about average , but a huge upgrade from the truly terrible quality of the other monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="colors" pos="nn"/>
+			<aspectTerm from="15" to="27" polarity="positive" term="viewing angle" pos="nn"/>
+			<aspectTerm from="92" to="98" polarity="positive" term="quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="291">
+		<text>My other big complaint about this monitor is the stand .</text>
+		<aspectTerms>
+			<aspectTerm from="49" to="53" polarity="negative" term="stand" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="292">
+		<text>It 's flimsy plastic and the monitor bounces around while you type .</text>
+		<aspectTerms>
+			<aspectTerm from="29" to="35" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="293">
+		<text>There 's also no height adjustability , so it sits very low to the desk .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="36" polarity="negative" term="height adjustability" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="294">
+		<text>If you use it with a laptop , that might be a plus , but if you use with with an iMac or a taller monitor , you 're going to need some books or something to level them out .</text>
+	</sentence>
+	<sentence id="295">
+		<text>Not a bad monitor for $ 120 but it 's nothing special .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="16" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="296">
+		<text>recieved this product in time for a gift giving ... works outstanding good battery life nice screen resolution uses windows 7 which is what the rest of the house uses connectsd to my network easisly</text>
+		<aspectTerms>
+			<aspectTerm from="75" to="86" polarity="positive" term="battery life" pos="nn"/>
+			<aspectTerm from="93" to="109" polarity="positive" term="screen resolution" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="297">
+		<text>Overall , I like the system features and performance .</text>
+		<aspectTerms>
+			<aspectTerm from="28" to="35" polarity="positive" term="features" pos="nn"/>
+			<aspectTerm from="41" to="51" polarity="positive" term="performance" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="298">
+		<text>I love that it is a tablet - it is so much more convenient than a regular laptop .</text>
+		<aspectTerms>
+			<aspectTerm from="48" to="57" polarity="positive" term="convenient" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="299">
+		<text>There is one very annoying problem with this model though : the keyboard is `` sticky '' - meaning , despite this tablet is brand new and just arrived , when I press and release a key on the keyboard it acts as if I kept it pressed , continuing to type the same character again and again .</text>
+		<aspectTerms>
+			<aspectTerm from="64" to="71" polarity="negative" term="keyboard" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="300">
+		<text>Sometimes , when I compose an email and press the `` DEL '' key to delete a character - ooops !</text>
+	</sentence>
+	<sentence id="301">
+		<text>- it deletes half of the email .</text>
+	</sentence>
+	<sentence id="302">
+		<text>Unfortunately , this problem happens way too often , a few times per day .</text>
+	</sentence>
+	<sentence id="303">
+		<text>I did not expect this behavior from a new computer .</text>
+	</sentence>
+	<sentence id="304">
+		<text>I bought this monitor from computer direct a couple months ago , and I have been very satisfied with it so far .</text>
+		<aspectTerms>
+			<aspectTerm from="14" to="20" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="305">
+		<text>Some specifics from my purchase experience were : 1 .</text>
+	</sentence>
+	<sentence id="306">
+		<text>The clarity and contrast are exactly what I was looking for in a monitor , and spec for spec , it is a bargain compared to other brands .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="10" polarity="positive" term="clarity" pos="nn"/>
+			<aspectTerm from="16" to="23" polarity="positive" term="contrast" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="307">
+		<text>2 .</text>
+	</sentence>
+	<sentence id="308">
+		<text>The computer direct processing and shipping was outrageously fast .</text>
+		<aspectTerms>
+			<aspectTerm from="35" to="42" polarity="positive" term="shipping" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="309">
+		<text>I ordered it on a Monday afternoon -LRB- around 2 PM -RRB- and with no extra shipping costs , the monitor was at my door in Chicago by the time I got home from work Tuesday .</text>
+		<aspectTerms>
+			<aspectTerm from="77" to="84" polarity="positive" term="shipping" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="310">
+		<text>3 .</text>
+	</sentence>
+	<sentence id="311">
+		<text>The stand is by far the most inferior aspect of this monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="8" polarity="negative" term="stand" pos="nn"/>
+			<aspectTerm from="53" to="59" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="312">
+		<text>It will only move the monitor side to side -LRB- no up\/down or tilt feature -RRB- .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="28" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="313">
+		<text>However , the view angle on this thing is so big that you will see very clearly on any desk\/viewing situation you normally run across .</text>
+		<aspectTerms>
+			<aspectTerm from="14" to="23" polarity="positive" term="view angle" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="314">
+		<text>4 .</text>
+	</sentence>
+	<sentence id="315">
+		<text>Just in general , make sure your graphics card can handle the native screen resolution on this monitor .</text>
+	</sentence>
+	<sentence id="316">
+		<text>Many computers from 2003 or before may not be able to .</text>
+	</sentence>
+	<sentence id="317">
+		<text>5 .</text>
+	</sentence>
+	<sentence id="318">
+		<text>I have seen no dead pixels or color bleeding that I 've heard about with other ACER models</text>
+		<aspectTerms>
+			<aspectTerm from="15" to="25" polarity="positive" term="dead pixels" pos="nn"/>
+			<aspectTerm from="30" to="43" polarity="positive" term="color bleeding" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="319">
+		<text>the netbook work as a breeze for my sales person , it worked fine , fast and with the extra ram nothing could stop it , in fact it works better than my own laptop so I will change to this one as soon as possible</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="10" polarity="positive" term="netbook" pos="nn"/>
+			<aspectTerm from="68" to="71" polarity="positive" term="fast" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="320">
+		<text>I am very happy with the Acer 19-inch flat screen monitor which I received for Christmas .</text>
+		<aspectTerms>
+			<aspectTerm from="25" to="56" polarity="positive" term="Acer 19-inch flat screen monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="321">
+		<text>Things are much more distinct , and I do n't have to strain my eyes and squint when I am trying to read something on the screen -LRB- like I had to do with my clunky old monitor -RRB- .</text>
+		<aspectTerms>
+			<aspectTerm from="121" to="126" polarity="positive" term="screen" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="322">
+		<text>AND ... there is now much more room on the top of my desk for me to spread out my work when I am online or pursuing any of my many and varied journalistic endeavors .</text>
+	</sentence>
+	<sentence id="323">
+		<text>Very happy with purchase .</text>
+	</sentence>
+	<sentence id="324">
+		<text>Monitor doubles as a primary monitor for a Mac G2 as well as a secondary monitor for a Dell Notebook .</text>
+	</sentence>
+	<sentence id="325">
+		<text>No problems detected , no flaws noticed .</text>
+	</sentence>
+	<sentence id="326">
+		<text>Just an average user getting good value in this product .</text>
+		<aspectTerms>
+			<aspectTerm from="48" to="54" polarity="positive" term="product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="327">
+		<text>I was looking for an upgrade on a monitor .</text>
+	</sentence>
+	<sentence id="328">
+		<text>I got a new pc so I wanted a nice size monitor for it without busting me in price .</text>
+	</sentence>
+	<sentence id="329">
+		<text>So I came across the acer read some of the reviews andi was a little skeptical , but the price was right .</text>
+	</sentence>
+	<sentence id="330">
+		<text>Hooked it worked like a charm , great picture , bright colors and very light weight .</text>
+		<aspectTerms>
+			<aspectTerm from="38" to="44" polarity="positive" term="picture" pos="nn"/>
+			<aspectTerm from="55" to="60" polarity="positive" term="colors" pos="nn"/>
+			<aspectTerm from="77" to="82" polarity="positive" term="weight" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="331">
+		<text>I 'm very satisfied with it especially for he price .</text>
+		<aspectTerms>
+			<aspectTerm from="46" to="50" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="332">
+		<text>Did not have a ring around it like other reviews stated .</text>		
+	</sentence>
+	<sentence id="333">
+		<text>Good monitor for the price .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="21" to="25" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="334">
+		<text>Let me start by saying if I could give this review a -50 stars I wish I could .</text>
+	</sentence>
+	<sentence id="335">
+		<text>Maybe some of you do n't have this problem , but I know of over 20 cases of buzzing from this monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="94" to="100" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="336">
+		<text>If you do n't know if yours buzzes , try going to a dark website such as Hardforum.com at 120Hz and see if the back of your monitor buzzes .</text>
+	</sentence>
+	<sentence id="337">
+		<text>Anyways , back to the point : I 've tried to be so calm over the past month of dealing with Acer and their terrible service and support .</text>
+		<aspectTerms>
+			<aspectTerm from="116" to="122" polarity="negative" term="service" pos="nn"/>
+			<aspectTerm from="128" to="134" polarity="negative" term="support" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="338">
+		<text>I sent my monitor in to Acer for repairs for such a small but very problematic problem of random Buzzing from my Acer GD235Hz monitor .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="16" polarity="negative" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="339">
+		<text>When I finally got my monitor back from repairs I was given an `` we could not find the problem '' letter .</text>
+	</sentence>
+	<sentence id="340">
+		<text>I was pissed that they could not find it and even more mad that they did not even bother to tell me before shipping it out .</text>
+	</sentence>
+	<sentence id="341">
+		<text>Angry that they did not even read the information that I had given on how to duplicate the problem .</text>
+	</sentence>
+	<sentence id="342">
+		<text>You can blame the bad chat support or the repair technicians for that because I gave all the information I could .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="33" polarity="negative" term="chat support" pos="nn"/>
+			<aspectTerm from="42" to="59" polarity="negative" term="repair technicians" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="343">
+		<text>So I just asked Acer to repair it a second time .</text>
+	</sentence>
+	<sentence id="344">
+		<text>So when they received the monitor I was very happy that this time that they actually were able to find the problem .</text>
+	</sentence>
+	<sentence id="345">
+		<text>It took them a total of 5 or so days to repair it and ship it back to me .</text>
+	</sentence>
+	<sentence id="346">
+		<text>Great .</text>
+	</sentence>
+	<sentence id="347">
+		<text>But when I finally got the monitor back , it still had the same issue and it also came back scratched on the bezel too .</text>
+	</sentence>
+	<sentence id="348">
+		<text>Let me tell you that the monitor was in PERFECT cosmetic condition .</text>
+	</sentence>
+	<sentence id="349">
+		<text>Now I am very angry .</text>
+	</sentence>
+	<sentence id="350">
+		<text>I should 've trusted all the online comments about the terrible repair team of Acer .</text>
+		<aspectTerms>
+			<aspectTerm from="64" to="74" polarity="negative" term="repair team" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="351">
+		<text>I told myself it could not be that bad , but it obviously was .</text>
+	</sentence>
+	<sentence id="352">
+		<text>I would never ever even think about recommending or buying another Acer product in my life again .</text>
+	</sentence>
+	<sentence id="353">
+		<text>Please treat your customers with respect , Acer .</text>
+	</sentence>
+	<sentence id="354">
+		<text>You guys need to hire new repair technicians because the ones that are in the repair center obviously have no idea what they are doing .</text>
+		<aspectTerms>
+			<aspectTerm from="26" to="43" polarity="negative" term="repair technicians" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="355">
+		<text>I got this montior for $ 199.00 -LRB- with $ 50.00 rebate -RRB- .</text>
+	</sentence>
+	<sentence id="356">
+		<text>I am in the computer business and could n't get it at this price from any of my suppliers .</text>
+	</sentence>
+	<sentence id="357">
+		<text>I expected it to be quite good , the specs were where they should be contrat , response time , etc. .</text>
+	</sentence>
+	<sentence id="358">
+		<text>I was not disappointed .</text>
+	</sentence>
+	<sentence id="359">
+		<text>I was impressed .</text>
+	</sentence>
+	<sentence id="360">
+		<text>The colors are bright , beautiful and clear .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="361">
+		<text>I am in the business and have seen many 19 '' LCD monitors that sell for much , much more , and aside from monitors with a higher resolution -LRB- ie 1600 x 1200 -RRB- , there is no noticable difference at all .</text>
+		<aspectTerms>
+			<aspectTerm from="130" to="139" polarity="positive" term="resolution" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="362">
+		<text>This product is hard to beat at any price .</text>
+		<aspectTerms>
+			<aspectTerm from="36" to="40" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="363">
+		<text>I agree with the earlier reviewer who said that there is a very limited vertical viewing angle in order to get consistent contrast .</text>
+		<aspectTerms>
+			<aspectTerm from="81" to="93" polarity="negative" term="viewing angle" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="364">
+		<text>Otherwise a very decent monitor for its price .</text>
+		<aspectTerms>
+			<aspectTerm from="24" to="30" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="40" to="44" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="365">
+		<text>I bought this item at Target for $ 197 , and added to 4G ram the same day .</text>
+	</sentence>
+	<sentence id="366">
+		<text>When I got home , I uninstalled every useless software , removed others from Start Up list , disabled some services , and other tweaks .</text>
+	</sentence>
+	<sentence id="367">
+		<text>Then , I installed PotPlayer -LRB- install the 64bit version -RRB- on it .</text>
+	</sentence>
+	<sentence id="368">
+		<text>PotPlayer is the King of all PC media player .</text>
+	</sentence>
+	<sentence id="369">
+		<text>It uses GPU hardware acceleration by default .</text>
+	</sentence>
+	<sentence id="370">
+		<text>Now I can play 1080p movie from NAS drive , downloading with uTorrent , browsing internet all at the same time .</text>
+	</sentence>
+	<sentence id="371">
+		<text>1080p movie got no stutter or lag at all .</text>
+	</sentence>
+	<sentence id="372">
+		<text>Very smooth .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="10" polarity="positive" term="smooth" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="373">
+		<text>Before I installed PotPlayer , I used KMPlayer , PowerDVD , Corel WinDVD and none of them could play 1080P smoothly .</text>
+	</sentence>
+	<sentence id="374">
+		<text>Audio was always laggish , stuttered , delayed , out of sync ... After I used PotPlayer , it 's like totally a different world ; The difference is like Black and White .</text>
+	</sentence>
+	<sentence id="375">
+		<text>I think the real reason that made the changes is that it now uses GPU hardware acceleration .</text>
+		<aspectTerms>
+			<aspectTerm from="66" to="90" polarity="positive" term="GPU hardware acceleration" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="376">
+		<text>So far , I am super happy with this small yet powerful enough laptop .</text>
+		<aspectTerms>
+			<aspectTerm from="62" to="67" polarity="positive" term="laptop" pos="nn"/>
+			<aspectTerm from="36" to="40" polarity="positive" term="small" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="377">
+		<text>It does everything I want , especially on 1080p HD playback part .</text>
+	</sentence>
+	<sentence id="378">
+		<text>I am really amazed that it can play 1080p movie flawlessly .</text>
+	</sentence>
+	<sentence id="379">
+		<text>Again , if you can not play 1080p movie smoothly , I am very sure your media player does n't enable GPU hardware acceleration .</text>
+	</sentence>
+	<sentence id="380">
+		<text>My suggestion is to download PotPlayer .</text>
+	</sentence>
+	<sentence id="381">
+		<text>If you are not picky about image quality , go for it .</text>
+		<aspectTerms>
+			<aspectTerm from="27" to="39" polarity="negative" term="image quality" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="382">
+		<text>Otherwise get something more expensive .</text>
+	</sentence>
+	<sentence id="383">
+		<text>I can see a drastic difference between this monitor and Dell Ultrasharp in terms of contrast , brightness and viewing angles .</text>
+		<aspectTerms>
+			<aspectTerm from="84" to="91" polarity="positive" term="contrast" pos="nn"/>
+			<aspectTerm from="95" to="104" polarity="positive" term="brightness" pos="nn"/>
+			<aspectTerm from="110" to="123" polarity="positive" term="viewing angles" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="384">
+		<text>These were a ` drop dead deal ' when Target sold them for $ 200 over the Holidays , but they are still a solid value at current prices .</text>
+	</sentence>
+	<sentence id="385">
+		<text>You will not be disappointed .</text>
+	</sentence>
+	<sentence id="386">
+		<text>However , if you are still on the fence , Staples has them for under 300 , starting this Sunday -LRB- Feb 19 -RRB- , equipped with 4 gig of ram !</text>
+	</sentence>
+	<sentence id="387">
+		<text>EDIT : Beep can be fixed , see Violet Swordsmith 's heroic method below .</text>
+	</sentence>
+	<sentence id="388">
+		<text>Please ignore all the posts about turning off the sounds under sounds .</text>
+	</sentence>
+	<sentence id="389">
+		<text>: P Fantastic little computer , does everything I had hoped for work\/study\/travel .</text>
+		<aspectTerms>
+			<aspectTerm from="21" to="28" polarity="positive" term="computer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="390">
+		<text>However , when you unplug the computer it beeps .</text>
+		<aspectTerms>
+			<aspectTerm from="42" to="46" polarity="negative" term="beeps" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="391">
+		<text>Not a big deal ?</text>
+	</sentence>
+	<sentence id="392">
+		<text>HA !</text>
+	</sentence>
+	<sentence id="393">
+		<text>You CAN NOT turn it off , trust me I 've scoured the internet and even did two hour long chats with Acer -LRB- they pretend they have no idea what is going on then want to charge you money to diagnose the problem .</text>
+	</sentence>
+	<sentence id="394">
+		<text>lulz -RRB- .</text>
+	</sentence>
+	<sentence id="395">
+		<text>Anyway , why is this a big deal , it 's just a beep ?</text>
+	</sentence>
+	<sentence id="396">
+		<text>Well , because it is deafening if you have head phone on , or connected to external speakers b\/c the noise is MAXIMUM volume every time .</text>
+	</sentence>
+	<sentence id="397">
+		<text>Wonderful computer , horrible customer service , and I may be deaf come next year .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="17" polarity="positive" term="computer" pos="nn"/>
+			<aspectTerm from="30" to="45" polarity="negative" term="customer service" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="398">
+		<text>Would n't buy again because of the customer service .</text>
+		<aspectTerms>
+			<aspectTerm from="35" to="50" polarity="negative" term="customer service" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="399">
+		<text>I ordered this monitor from Amazon on Thursday and I received it on Monday .</text>
+	</sentence>
+	<sentence id="400">
+		<text>This was very prompt standard shipping service .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="45" polarity="positive" term="shipping service" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="401">
+		<text>I have limited space with not enough room for a wide screen monitor .</text>
+	</sentence>
+	<sentence id="402">
+		<text>This 4 X 3 monitor fits my space very well .</text>
+		<aspectTerms>
+			<aspectTerm from="19" to="22" polarity="positive" term="fits" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="403">
+		<text>The monitor works very well with a sharp and bright display .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="10" polarity="positive" term="monitor" pos="nn"/>
+			<aspectTerm from="52" to="58" polarity="positive" term="display" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="404">
+		<text>I have been using it for about a month and am well pleased with it .</text>
+	</sentence>
+	<sentence id="405">
+		<text>The only negative thing about this was the instructions for adjusting the display were not very clear and it took a little time to figure out how to do it .</text>
+		<aspectTerms>
+			<aspectTerm from="43" to="54" polarity="negative" term="instructions" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="406">
+		<text>I purchased this as a Christmas gift .</text>
+	</sentence>
+	<sentence id="407">
+		<text>While upgrading the memory the keyboard connector broke .</text>
+		<aspectTerms>
+			<aspectTerm from="31" to="48" polarity="negative" term="keyboard connector" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="408">
+		<text>Not enough time to get a repair before Christmas , so I bought a second one .</text>
+	</sentence>
+	<sentence id="409">
+		<text>Same result .</text>
+	</sentence>
+	<sentence id="410">
+		<text>I 'm not very happy with this machine or Acer .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="36" polarity="negative" term="machine" pos="nn"/>
+			<aspectTerm from="41" to="44" polarity="negative" term="Acer" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="411">
+		<text>Update : I sent both machines back to Acer .</text>
+	</sentence>
+	<sentence id="412">
+		<text>They just informed me that they wanted $ 99\/unit to fix the problem .</text>
+	</sentence>
+	<sentence id="413">
+		<text>I would not recommend this or any Acer product to anyone except perhaps my ex .</text>
+		<aspectTerms>
+			<aspectTerm from="34" to="45" polarity="negative" term="Acer product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="414">
+		<text>-LRB- \* _ ~ -RRB-</text>
+	</sentence>
+	<sentence id="415">
+		<text>I ca n't go back to using anything else at all .</text>
+	</sentence>
+	<sentence id="416">
+		<text>Make sure you have a nice , smooth mouse , as well a rig that can push out -RRB- 120 FPS on most games .</text>
+	</sentence>
+	<sentence id="417">
+		<text>Even my SLI 570 's ca n't do that for Crysis , though .</text>
+	</sentence>
+	<sentence id="418">
+		<text>Changing brightness is easy , with four presets and one user changeable -LRB- I leave that at minimum brightness for at night -RRB- .</text>
+		<aspectTerms>
+			<aspectTerm from="9" to="18" polarity="positive" term="brightness" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="419">
+		<text>The screen is a very pleasing matte , and the colors are great .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="screen" pos="nn"/>
+			<aspectTerm from="46" to="51" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="420">
+		<text>You change it to 120 Hz in the advanced screen resolution settings in Windows 7 .</text>
+	</sentence>
+	<sentence id="421">
+		<text>I have used this monitor for a few months and have had no problems .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="23" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="422">
+		<text>It has good color and price was great .</text>
+		<aspectTerms>
+			<aspectTerm from="12" to="16" polarity="positive" term="color" pos="nn"/>
+			<aspectTerm from="22" to="26" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="423">
+		<text>Fantastic display ... do n't understand why this model is n't available anymore .</text>
+		<aspectTerms>
+			<aspectTerm from="10" to="16" polarity="positive" term="display" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="424">
+		<text>Bright , vivid , clean lines , wide viewing angle , and best of all - great price !</text>
+		<aspectTerms>
+			<aspectTerm from="23" to="27" polarity="positive" term="lines" pos="nn"/>
+			<aspectTerm from="36" to="48" polarity="positive" term="viewing angle" pos="nn"/>
+			<aspectTerm from="76" to="80" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="425">
+		<text>I 'd been looking a long time for a 1280x1024 LCD monitor with with digital DVI input for around 1000 bucks .</text>
+	</sentence>
+	<sentence id="426">
+		<text>A simple request , but impossible to fill !</text>
+	</sentence>
+	<sentence id="427">
+		<text>It was worth the wait because AG Neovo 's standout 17 '' monitor has all this and more .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="63" polarity="positive" term="AG Neovo 's standout 17 '' monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="428">
+		<text>Like a hard glass surface that you can actually Windex , and an attractive minimalist black design that looks like it came from a Swedish furniture showcase .</text>		
+	</sentence>
+	<sentence id="429">
+		<text>The contrast , crispness , and readability from even the most extreme viewing angles ca n't be beat .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="11" polarity="positive" term="contrast" pos="nn"/>
+			<aspectTerm from="15" to="23" polarity="positive" term="crispness" pos="nn"/>
+			<aspectTerm from="31" to="41" polarity="positive" term="readability" pos="nn"/>
+			<aspectTerm from="70" to="83" polarity="positive" term="viewing angles" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="430">
+		<text>When the Matrox G550 Dual-DVI card comes out , I 'll consider purchasing one more of these super displays .</text>
+		<aspectTerms>
+			<aspectTerm from="97" to="104" polarity="positive" term="displays" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="431">
+		<text>This is a great gadget that actually works .</text>
+	</sentence>
+	<sentence id="432">
+		<text>Make sure you check the area coverage before you buy it , though .</text>
+	</sentence>
+	<sentence id="433">
+		<text>We 've had ours for about 6 months and have no problems with it whatsoever .</text>
+	</sentence>
+	<sentence id="434">
+		<text>Expensive , but for us -- well worth it .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="8" polarity="negative" term="Expensive" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="435">
+		<text>Now I do n't have to logon to the computer all of the time just to check the weather -- I can just look at my wall .</text>
+	</sentence>
+	<sentence id="436">
+		<text>The changing colors help to tell , with a quick glance .</text>
+		<aspectTerms>
+			<aspectTerm from="13" to="18" polarity="positive" term="colors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="437">
+		<text>It 's fairly accurate -- I think ... with a very few minor exceptions .</text>
+	</sentence>
+	<sentence id="438">
+		<text>The idea of this device is great : it picks up a 5-day weather forecast from AccuWeather and displays the key elements on its screen .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="22" polarity="positive" term="device" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="439">
+		<text>Icons show projected weather conditions and temperature ranges at a glance , along with the current outdoor temperature .</text>
+	</sentence>
+	<sentence id="440">
+		<text>Unfortunately , if your experience is like mine , you may find yourself spending a fair amount of time corresponding with Ambient 's apparently sole customer service rep trying to get the device to work properly .</text>
+	</sentence>
+	<sentence id="441">
+		<text>I have owned one of these for several weeks now and am already on my second unit ; Ambient replaced the first one under warranty after first sending me a refurbished pager board that did n't fit in the unit 's plastic case .</text>
+	</sentence>
+	<sentence id="442">
+		<text>The replacement unit had a problem too : the little switch on the bottom was n't working properly , making it impossible to select among city forecasts in my area .</text>
+		<aspectTerms>
+			<aspectTerm from="52" to="57" polarity="negative" term="switch" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="443">
+		<text>Because I had already had experience -LRB- too much -RRB- opening the case , I think I managed to solve the problem ; at any rate , the unit appears to be receiving updated forecasts for New York City , which has been my primary objective since I bought it .</text>
+	</sentence>	
+	<sentence id="444">
+		<text>So if you 're game for a little fiddling , you may be very pleased with this 5-day forecaster .</text>
+		<aspectTerms>
+			<aspectTerm from="77" to="92" polarity="positive" term="5-day forecaster" pos="nn"/>
+		</aspectTerms>
+	</sentence>	
+	<sentence id="445">
+		<text>If you ca n't be bothered with things that do n't work properly right out of the box , however , you should probably pass this gadget by .</text>
+	</sentence>
+	<sentence id="446">
+		<text>I have come to understand why Radio Shack has apparently unloaded their remaining inventory of these at $ 15 a pop ; you may be especially upset by the `` adoption pains '' if you have shelled out the retail price of 100 clams ...</text>
+	</sentence>
+	<sentence id="447">
+		<text>This product did not work at all .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="negative" term="product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="448">
+		<text>It received no signal despite the manufacturers web site indicating full services in my location .</text>		
+	</sentence>
+	<sentence id="449">
+		<text>I was given this screen at work .</text>
+	</sentence>
+	<sentence id="450">
+		<text>I spend 10 hours\/day in a VNC session with dark colors ; the colors and brightness change across the panel when I look from the center to the corner .</text>
+		<aspectTerms>
+			<aspectTerm from="62" to="67" polarity="negative" term="colors" pos="nn"/>
+			<aspectTerm from="73" to="82" polarity="negative" term="brightness" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="451">
+		<text>For my work this panel is unusable .</text>
+		<aspectTerms>
+			<aspectTerm from="17" to="21" polarity="negative" term="panel" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="452">
+		<text>Others may have better luck , but I have never seen a flat-panel with such horrible viewing angles .</text>
+		<aspectTerms>
+			<aspectTerm from="84" to="97" polarity="negative" term="viewing angles" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="453">
+		<text>These monitors are great for the price .</text>
+		<aspectTerms>
+			<aspectTerm from="6" to="13" polarity="positive" term="monitors" pos="nn"/>
+			<aspectTerm from="33" to="37" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="454">
+		<text>Shipping was fast and they are very easy to set up .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="7" polarity="positive" term="Shipping" pos="nn"/>
+			<aspectTerm from="44" to="49" polarity="positive" term="set up" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="455">
+		<text>No dead pixels on mine .</text>
+		<aspectTerms>
+			<aspectTerm from="3" to="13" polarity="positive" term="dead pixels" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="456">
+		<text>Brightness could be better and the viewing angle is not great , but for the price I paid for a 24inch monitor , this can not be beat .</text>
+		<aspectTerms>
+			<aspectTerm from="0" to="9" polarity="negative" term="Brightness" pos="nn"/>
+			<aspectTerm from="35" to="47" polarity="negative" term="viewing angle" pos="nn"/>
+			<aspectTerm from="76" to="80" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="457">
+		<text>I would do it again .</text>
+	</sentence>
+	<sentence id="458">
+		<text>I did quite a lot of research on this monitor prior to ordering .</text>
+	</sentence>
+	<sentence id="459">
+		<text>Checked the reviews at several sites , all were favorable .</text>
+	</sentence>
+	<sentence id="460">
+		<text>The price is very good .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="8" polarity="positive" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="461">
+		<text>I have been disappointed to find that there is no printed instructions with it , just a crude pictorial instruction of installation , which leaves a great deal of information missing .</text>
+		<aspectTerms>
+			<aspectTerm from="58" to="69" polarity="negative" term="instructions" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="462">
+		<text>The included accompanying CD containing detailed information does not want to print out on my computer .</text>
+	</sentence>
+	<sentence id="463">
+		<text>This info .</text>
+	</sentence>
+	<sentence id="464">
+		<text>is great but unfortunately I need it on paper .</text>
+	</sentence>
+	<sentence id="465">
+		<text>However , I now have it running nicely and it produces a nice picture .</text>
+		<aspectTerms>
+			<aspectTerm from="24" to="30" polarity="positive" term="running" pos="vb"/>
+			<aspectTerm from="62" to="68" polarity="positive" term="picture" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="466">
+		<text>It 's worth the money .</text>
+	</sentence>	
+	<sentence id="467">
+		<text>The AOC 2436 Monitor worked very well at first , then seemed to have problems .</text>
+	</sentence>	
+	<sentence id="468">
+		<text>AOC replaced the monitor - almost immediately , but it displayed the same problems .</text>
+	</sentence>
+	<sentence id="469">
+		<text>The problems came from my video card .</text>
+		<aspectTerms>
+			<aspectTerm from="26" to="35" polarity="negative" term="video card" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="470">
+		<text>The monitors were both good .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="11" polarity="positive" term="monitors" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="471">
+		<text>We are well pleased with the monitor and the company .</text>
+		<aspectTerms>
+			<aspectTerm from="29" to="35" polarity="positive" term="monitor" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="472">
+		<text>This machine is a replacement for your desktop .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="machine" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="473">
+		<text>It 's that powerful and versatile , and if you 're a windows user , the design of the OS X operating system that it runs will enhance your experience and workflow in ways you ca n't even imagine .</text>
+	</sentence>
+	<sentence id="474">
+		<text>The aluminum frame beats the old titanium design easily .</text>		
+	</sentence>
+	<sentence id="475">
+		<text>Solid , resistant to scratches , better heat dissipation .</text>
+		<aspectTerms>
+			<aspectTerm from="40" to="55" polarity="positive" term="heat dissipation" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="476">
+		<text>Close the lid , then slam it around , drop it , prop it against the wall and kick it over .</text>
+	</sentence>
+	<sentence id="477">
+		<text>You 'll break your foot before you break the laptop .</text>
+	</sentence>
+	<sentence id="478">
+		<text>The display is large enough , and the text rendering is sharp enough , that you 'll forget entirely about workspace issues .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="10" polarity="positive" term="display" pos="nn"/>
+			<aspectTerm from="38" to="51" polarity="positive" term="text rendering" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="479">
+		<text>A piece of advice : Get the new logitech optical USB mouse with the little app-switcher button on it , and assign that extra button to the Expose feature of OS X 10.3 .</text>
+	</sentence>
+	<sentence id="480">
+		<text>Use it whenever you 're working at a tabletop or desk .</text>
+	</sentence>
+	<sentence id="481">
+		<text>Freaking brilliant .</text>
+	</sentence>
+	<sentence id="482">
+		<text>This machine will change your whole idea of what a laptop should be .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="machine" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="483">
+		<text>Ordered it immediately after the Macworld keynote .</text>
+	</sentence>
+	<sentence id="484">
+		<text>It 's so small , but big value Mac .</text>
+		<aspectTerms>
+			<aspectTerm from="9" to="13" polarity="positive" term="small" pos="jj"/>
+			<aspectTerm from="25" to="29" polarity="positive" term="value" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="485">
+		<text>Our `` mini '' is now in the living room attached to a Syntax Olevia LT30HV HDTV and works great !</text>
+	</sentence>
+	<sentence id="486">
+		<text>Highly recommend getting the Superdrive and the WiFi\/Bluetooth modules .</text>
+		<aspectTerms>
+			<aspectTerm from="29" to="38" polarity="positive" term="Superdrive" pos="nn"/>
+			<aspectTerm from="48" to="70" polarity="positive" term="WiFi\/Bluetooth modules" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="487">
+		<text>Apple 's wireless keyboard and mouse work flawlessly with the mini .</text>
+		<aspectTerms>
+			<aspectTerm from="9" to="25" polarity="positive" term="wireless keyboard" pos="nn"/>
+			<aspectTerm from="31" to="35" polarity="positive" term="mouse" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="488">
+		<text>The memory is not really hard to upgrade .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="9" polarity="positive" term="memory" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="489">
+		<text>I have upgraded ours to 1 Gig with third party SDRAM .</text>
+	</sentence>
+	<sentence id="490">
+		<text>Opening the case with a `` putty knife '' is not as hard as most people think it is .</text>
+	</sentence>
+	<sentence id="491">
+		<text>The bundled iLife 05 alone elevates this computer from bargain PCs .</text>		
+	</sentence>
+	<sentence id="492">
+		<text>This is an excellent value .</text>
+		<aspectTerms>
+			<aspectTerm from="21" to="25" polarity="positive" term="value" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="493">
+		<text>Not that Apple computers break down often but this is cheap insurance for 3 years .</text>
+		<aspectTerms>
+			<aspectTerm from="60" to="68" polarity="positive" term="insurance" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="494">
+		<text>Do n't buy a laptop or desktop without it .</text>
+	</sentence>
+	<sentence id="495">
+		<text>I have this connected to my late 2008 MacBook Pro , and it works flawlessly .</text>
+		<aspectTerms>
+			<aspectTerm from="59" to="63" polarity="positive" term="works" pos="vb"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="496">
+		<text>Numerous people in the Apple Forums had previously complained saying the Apple Displays had sound issues -LRB- end up being due to not upgrading the firmware to current -RRB- , but I did not have any such issues .</text>
+	</sentence>
+	<sentence id="497">
+		<text>-LRB- I am running OS\/X Lion and I seem to have the current firmware in the display , and the latest drivers on OS\/X Lion -RRB- Compared to the old 15 '' display , it is like watching IMAX in comparison .</text>
+	</sentence>
+	<sentence id="498">
+		<text>The sound is pretty good also -LRB- although not anything like a 5.1 surround system -RRB- There is reflection , but I only really notice it when the display is off , in which case you see you own reflection on the screen .</text>
+		<aspectTerms>
+			<aspectTerm from="4" to="8" polarity="positive" term="sound" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="499">
+		<text>I do n't get any anything reflections when the power is on .</text>
+	</sentence>
+	<sentence id="500">
+		<text>Note there is no power switch - it just detects that your computer is on by monitoring the Apple display-port signals .</text>
+	</sentence>
+	<sentence id="501">
+		<text>Some people may not like this , but it is very simple .</text>
+	</sentence>
+	<sentence id="502">
+		<text>I 'd only recommend you buying this if you 're more DIY\/techie and 'd like to take the time and effort to pry your mini open to see its guts and put this in .</text>
+	</sentence>
+	<sentence id="503">
+		<text>There are numerous detailed installation guides and even a few videos online to get you through the ` cracking the case ' scenario and I definately suggest getting some putty knives over the other strange techniques online .</text>
+	</sentence>
+	<sentence id="504">
+		<text>As a longtime Mac user - I have always taken the AppleCare extended warranty and have had my money 's worth .</text>		
+	</sentence>
+	<sentence id="505">
+		<text>Once I bought an iSight camera on eBay that arrived not working , and after trying unsuccessfully contacting the seller turned to Apple telephone support .</text>
+	</sentence>
+	<sentence id="506">
+		<text>They guided me through some tests and from these concluded that I had a faulty iSight , but to my my enormous surprise said it was covered under my extended AppleCare warranty on my iMac -LRB- even after I told them it was a second hand purchase -RRB- , and promptly sent me a brand new replacement !</text>		
+	</sentence>
+	<sentence id="507">
+		<text>Kudos Apple - though your products are of superb quality , your support is equal to that .</text>
+		<aspectTerms>
+			<aspectTerm from="64" to="70" polarity="positive" term="support" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="508">
+		<text>This product is definitely worth the purchase .</text>
+		<aspectTerms>
+			<aspectTerm from="5" to="11" polarity="positive" term="product" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="509">
+		<text>While it is unknown whether I will need it or not , there is one thing I have realized when it comes to Apple .</text>
+	</sentence>
+	<sentence id="510">
+		<text>Their products are super expensive , especially to get them fixed .</text>
+		<aspectTerms>
+			<aspectTerm from="25" to="33" polarity="negative" term="expensive" pos="jj"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="511">
+		<text>However , you DO get what you pay for in reliable products .</text>
+		<aspectTerms>
+			<aspectTerm from="50" to="57" polarity="positive" term="products" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="512">
+		<text>I have been using my MacbookPro for over a year now with no sluggishness or hesitation .</text>
+	</sentence>
+	<sentence id="513">
+		<text>I do n't for-see myself having any issues with it in the coming year or two however if I do , I will know that with this product , it will be taken care of for free and quick with helpful and courteous customer service reps. The service of Amazon in getting this item to me was faster than I expected and it is exactly what I knew it would be .</text>
+		<aspectTerms>
+			<aspectTerm from="202" to="223" polarity="positive" term="customer service reps" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="514">
+		<text>The package was unblemished and the code worked without any problems .</text>		
+	</sentence>
+	<sentence id="515">
+		<text>Two thumbs way up from me .</text>
+	</sentence>
+	<sentence id="516">
+		<text>Thanks again , Amazon !</text>
+	</sentence>
+	<sentence id="517">
+		<text>You have never let me down .</text>
+	</sentence>
+	<sentence id="518">
+		<text>After several months of debating whether or not it was worth the money , I finally bought one of these babies .</text>
+	</sentence>
+	<sentence id="519">
+		<text>I hesitated for so long because of the price .</text>
+		<aspectTerms>
+			<aspectTerm from="39" to="43" polarity="negative" term="price" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="520">
+		<text>I came close to ordering the 21 '' Samsung several times but really wanted a WS .</text>
+	</sentence>
+	<sentence id="521">
+		<text>After seeing the in the Apple stores several times , I really wanted one but $ 1300 was a big chunk of change .</text>
+	</sentence>
+	<sentence id="522">
+		<text>Then when the price dropped to below $ 1000 I gave in .</text>
+	</sentence>
+	<sentence id="523">
+		<text>Overall , it is an impressive display .</text>
+		<aspectTerms>
+			<aspectTerm from="30" to="36" polarity="positive" term="display" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="524">
+		<text>I am running it with a custom built PC using an ATI 9700 Pro w\/DVI out .</text>
+	</sentence>
+	<sentence id="525">
+		<text>At first I could not get the thing to work at native resolution at all and any other res would produce strange results .</text>
+	</sentence>
+	<sentence id="526">
+		<text>Eventually , I discovered that something was wrong with my display drivers and I simply wiped out windows and started over from scratch -LRB- had been meaning to do it anyway and I upgraded the HD at the same time -RRB- .</text>
+	</sentence>
+	<sentence id="527">
+		<text>After that , it worked like a champ .</text>
+	</sentence>
+	<sentence id="528">
+		<text>No problems whatsoever .</text>
+	</sentence>
+	<sentence id="529">
+		<text>My only grips are the incompatibility with XP and the USB hub in the display .</text>
+		<aspectTerms>
+			<aspectTerm from="22" to="36" polarity="negative" term="incompatibility" pos="nn"/>
+		</aspectTerms>
+	</sentence>
+	<sentence id="530">
+		<text>This is a well know problem with the PCs and Apple does not seem to care .</text>
+	</sentence>
+	<sentence id="531">
+		<text>Also , the only hard button controls you get are brightness and contrast .</text>
+	</sentence>		
+</sentences>

@@ -17,7 +17,7 @@ from sklearn.svm import SVC, LinearSVC
 from sklearn.tree import DecisionTreeClassifier, ExtraTreeClassifier
 from textlytics.sentiment.sentiment import Sentiment
 
-from textlytics.sentiment.io_sentiment import results_to_pickle
+from textlytics.data.sentiment import results_to_pickle
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Reviews>
+    <Review rid="1090587">
+        <sentences>
+            <sentence id="1090587:0">
+                <text>Just went here for my girlfriends 23rd bday.</text>
+            </sentence>
+            <sentence id="1090587:1">
+                <text>If you've ever been along the river in Weehawken you have an idea of the top of view the chart house has to offer.</text>
+            </sentence>
+            <sentence id="1090587:2">
+                <text>Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening.</text>
+            </sentence>
+            <sentence id="1090587:3">
+                <text>The lava cake dessert was incredible and I recommend it.</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="LOCATION#GENERAL" polarity="positive"/>
+                <Opinion category="SERVICE#GENERAL" polarity="positive"/>
+                <Opinion category="FOOD#QUALITY" polarity="positive"/>
+                <Opinion category="FOOD#PRICES" polarity="positive"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="1661043">
+        <sentences>
+            <sentence id="1661043:0">
+                <text>Pizza here is consistently good.</text>
+            </sentence>
+            <sentence id="1661043:1">
+                <text>Salads are a delicious way to begin the meal.</text>
+            </sentence>
+            <sentence id="1661043:2">
+                <text>You should pass on the calamari.</text>
+            </sentence>
+            <sentence id="1661043:3">
+                <text>It is thick and slightly soggy.</text>
+            </sentence>
+            <sentence id="1661043:4">
+                <text>Decor is charming.</text>
+            </sentence>
+            <sentence id="1661043:5">
+                <text>Service is average.</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="FOOD#QUALITY" polarity="conflict"/>
+                <Opinion category="AMBIENCE#GENERAL" polarity="positive"/>
+                <Opinion category="SERVICE#GENERAL" polarity="neutral"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="1349391">
+        <sentences>
+            <sentence id="1349391:0">
+                <text>sometimes i get good food and ok service.</text>
+            </sentence>
+            <sentence id="1349391:1">
+                <text>sometimes i get bad food and bad service, sometimes i get good good and bad service.</text>
+            </sentence>
+            <sentence id="1349391:2">
+                <text>it is not consistent.</text>
+            </sentence>
+            <sentence id="1349391:3">
+                <text>really depends on your luck!</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="FOOD#QUALITY" polarity="conflict"/>
+                <Opinion category="SERVICE#GENERAL" polarity="negative"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="negative"/>
+            </Opinions>
+    </Review>
+    <Review rid="1357554">
+        <sentences>
+            <sentence id="1357554:0">
+                <text>I started out with a Bombay beer which was big enough for two.</text>
+            </sentence>
+            <sentence id="1357554:1">
+                <text>For dinner I had the chicken tikka-masala and some garlic naan.</text>
+            </sentence>
+            <sentence id="1357554:2">
+                <text>MMmmm... it was delicious.</text>
+            </sentence>
+            <sentence id="1357554:3">
+                <text>Service was slow, but the people were friendly.</text>
+            </sentence>
+            <sentence id="1357554:4">
+                <text>It's a nice place to relax and have conversation.</text>
+            </sentence>
+            <sentence id="1357554:5">
+                <text>I can't wait to go back.</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="DRINKS#STYLE_OPTIONS" polarity="positive"/>
+                <Opinion category="FOOD#QUALITY" polarity="positive"/>
+                <Opinion category="SERVICE#GENERAL" polarity="conflict"/>
+                <Opinion category="AMBIENCE#GENERAL" polarity="positive"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="1730014">
+        <sentences>
+            <sentence id="1730014:0">
+                <text>I went here with a friend on a whim, we went someplace else first and couldn't get a table.</text>
+            </sentence>
+            <sentence id="1730014:1">
+                <text>Service here was great, food was fantastic.</text>
+             </sentence>
+            <sentence id="1730014:2">
+                <text>Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.</text>
+            </sentence>
+            <sentence id="1730014:3">
+                <text>Will absolutely visit again.</text>
+            </sentence>
+            <sentence id="1730014:4">
+                <text>Maybe tomorrow ;-)</text>
+            </sentence>
+       </sentences>
+            <Opinions>
+                <Opinion category="SERVICE#GENERAL" polarity="positive"/>
+                <Opinion category="FOOD#QUALITY" polarity="positive"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="1500453">
+        <sentences>
+            <sentence id="1500453:0">
+                <text>Molto bene!</text>
+            </sentence>
+            <sentence id="1500453:1">
+                <text>This quaint and romantic trattoria is at the top of my Manhattan restaurant list.</text>
+            </sentence>
+            <sentence id="1500453:2">
+                <text>The food is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment.</text>
+            </sentence>
+            <sentence id="1500453:3">
+                <text>Whether it's the parmesean porcini souffle or the lamb glazed with balsamic vinegar, you will surely be transported to Northern Italy with one bite.</text>
+            </sentence>
+            <sentence id="1500453:4">
+                <text>Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.</text>
+            </sentence>
+            <sentence id="1500453:5">
+                <text>A guaranteeed delight!</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="AMBIENCE#GENERAL" polarity="positive"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+                <Opinion category="FOOD#QUALITY" polarity="positive"/>
+                <Opinion category="SERVICE#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="505535">
+        <sentences>
+            <sentence id="505535:0">
+                <text>this little place has a cute interior decor and affordable city prices.</text>
+            </sentence>
+            <sentence id="505535:1">
+                <text>the pad se ew chicken was delicious, however the pad thai was far too oily.</text>
+            </sentence>
+            <sentence id="505535:2">
+                <text>i would just ask for no oil next time.</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="AMBIENCE#GENERAL" polarity="positive"/>
+                <Opinion category="RESTAURANT#PRICES" polarity="positive"/>
+                <Opinion category="FOOD#QUALITY" polarity="conflict"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="1016296">
+        <sentences>
+            <sentence id="1016296:0">
+                <text>I was very disappointed with this restaurant.</text>
+            </sentence>
+            <sentence id="1016296:1">
+                <text>Ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away.</text>
+            </sentence>
+            <sentence id="1016296:2">
+                <text>I had to ask her three times before she finally came back with the dish Ive requested.</text>
+            </sentence>
+            <sentence id="1016296:3">
+                <text>Food was okay, nothing great.</text>
+            </sentence>
+            <sentence id="1016296:4">
+                <text>Chow fun was dry; pork shu mai was more than usually greasy and had to share a table with loud and rude family. </text>
+            </sentence>
+            <sentence id="1016296:5">
+                <text>I/we will never go back to this place again.</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="RESTAURANT#GENERAL" polarity="negative"/>
+                <Opinion category="SERVICE#GENERAL" polarity="negative"/>
+                <Opinion category="FOOD#QUALITY" polarity="negative"/>
+                <Opinion category="RESTAURANT#MISCELLANEOUS" polarity="negative"/>
+            </Opinions>
+    </Review>
+    <Review rid="Z#3">
+        <sentences>
+            <sentence id="Z#3:0">
+                <text>Excellent food, although the interior could use some help.</text>
+            </sentence>
+            <sentence id="Z#3:1">
+                <text>The space kind of feels like an Alice in Wonderland setting, without it trying to be that.</text>
+            </sentence>
+            <sentence id="Z#3:2">
+                <text>I paid just about $60 for a good meal, though :)</text>
+            </sentence>
+            <sentence id="Z#3:3">
+                <text>Great sake!</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="FOOD#QUALITY" polarity="positive"/>
+                <Opinion category="AMBIENCE#GENERAL" polarity="negative"/>
+                <Opinion category="FOOD#PRICES" polarity="positive"/>
+                <Opinion category="DRINKS#QUALITY" polarity="positive"/>
+                <Opinion category="RESTAURANT#GENERAL" polarity="positive"/>
+            </Opinions>
+    </Review>
+    <Review rid="PP#9">
+        <sentences>
+            <sentence id="PP#9:0">
+                <text>Way below average</text>
+            </sentence>
+            <sentence id="PP#9:1">
+                <text>I think the pizza is so overrated and was under cooked.</text>
+            </sentence>
+            <sentence id="PP#9:2">
+                <text>Had no flavor and the staff is rude and not attentive.</text>
+            </sentence>
+            <sentence id="PP#9:3">
+                <text>Would NEVER go back</text>
+            </sentence>
+        </sentences>
+            <Opinions>
+                <Opinion category="RESTAURANT#GENERAL" polarity="negative"/>
+                <Opinion category="FOOD#QUALITY" polarity="negative"/>
+                <Opinion category="SERVICE#GENERAL" polarity="negative"/>
+            </Opinions>
+    </Review>
+</Reviews>

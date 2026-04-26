@@ -14,10 +14,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
-from textlytics.sentiment.document_preprocessing import \
+from textlytics.preprocessing.text_preprocessing import \
     DocumentPreprocessor
 from textlytics.sentiment.sentiment import Sentiment
-from textlytics.sentiment.io_sentiment import to_pickle
+from textlytics.data.sentiment import to_pickle
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)

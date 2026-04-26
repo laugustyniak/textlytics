@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 
-from textlytics.sentiment.document_preprocessing import DocumentPreprocessor
+from textlytics.preprocessing.text_preprocessing import DocumentPreprocessor
 
 logging.basicConfig(filename='train_sent_superv_model.log')
 log = logging.getLogger()

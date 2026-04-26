@@ -1,0 +1,531 @@
+##Don't get this...keep browsing. 
+##The iPod has so far been one of the most advertised and populated MP3 players so far. 
+##I'm still figuring out why.
+features[-2]## There isn't much features on the iPod at all, except games.
+##My friend has this unit while not experience it much, I look at other reviews on this site and tried out the unit at Best Buy, and it's definitely the most overrated gadget in history. 
+sound[+2]##SOUND QUALITY: The iPod's sound quality is pretty good.
+## The Creative player sounds a bit better, but not anything to worry about.
+equalizer[-1]## It has an equalizer, but the iRiver H10-20GB has a lot more presets than the iPod. 
+bass[+3],treble[+2]##The bass is deep and the treble is clear.
+battery[-2]##  DURABILITY: Not good. First problem, if you haven't seen the news recently, the iPods are being recalled for battery problems and not lasting the advertised 18 months.
+##This is really stupid to me. 18 months for a battery isn't good, actually, it's medicore. 
+##iRiver's battery lasts four to five years. 
+Replaceable battery[-3]##Also, the battery's AREN'T USER REPLACEABLE.
+## However, the Creative and iRiver players are (Rio's isn't), and they only cost around $30 to replace, while iPod charges shipping and technical support. 
+##The iPod's battery, 1.5 years. 
+##Yeah, pretty weak.
+flip side[-2]## Another thing you should know, the metal on the flip side of the iPod is very tacky, and scratches very easily.
+## While all MP3 players are easy to scratch, the iPod is the worst of the Creative and iRiver.
+case[-2]## Also, not liking the gel case. 
+##iRiver's seems a lot more sturdier than the iPod's.
+features[-3]## FEATURES: Really, there aren't any features, unless you call the games a feature. 
+FM tuner[-3]##There is no FM tuner, while there is no FM tuner on the Creative Zen (on the micro version of the Zen there is a tuner), the iRiver H10-20GB, the Rio Karma, and the iAudio X5 have FM tuners. 
+voice recording[-3]## There is also no voice recording, something most if not all MP3 players have that the iPod doesn't.
+photo viewing[-1]## There is no photo viewing option, however, there is a 20 GB photo iPod, but it costs $20 more.
+## There is an alarm and timer, but most MP3 players have this feature.
+use[+3]##  EASE OF USE/DESIGN: The iPod is a very easy to use MP3 player, and if you can't figure this out, you shouldn't even own one.
+##The Click Wheel is a great design, something no one else came up with (however, the iRiver has a touchpad). 
+iTunes[-1]##I'm probably the only person that dislikes the iTunes software. 
+##I just don't like it, the weird thing is, I don't know why I dislike it.
+## Maybe because it doesn't have a lot of skins to choose from like WMP, but then again, I dislike WMP as well because it's slow on my computer. 
+##Anyhow, adding music to the player is easy.
+## BATTERY LIFE: Pretty medicore at 12 hours, the Creative, iAudio, Rio, and iRiver players last longer. 
+CUSTOMER SERVICE[-3]## CUSTOMER SERVICE: Awful. Listen to this one, remember the battery statement I made earlier. 
+##If your battery dies and it's still under warranty, guess what, you're out of luck, because Apple doesn't cover the battery in the iPod warranty. 
+##They have the nerve to charge you $30 for a warrantied iPod.
+technical service[-3]## There technical service isn't helpful either; they just read what's on their website and charge you $50 (+ toll fees) to do it.
+##At least Creative and iRiver's only charge toll fees like most companies.  
+iPod[-3], sound quality[+2], design[+2]##OVERALL: I highly dislike the iPod, even though the sound quality and design is above-average. 
+##Maybe in their 5th generation they'll add features to the iPod. But for now, pleases don't buy this, and buy a Creative Zen or the iRiver H10-20GB instead. 
+##God Save Apple	 I have been an Apple person since 1984, when I got my first Mac. 
+##Since then, I have been a devotee of the elegant styling and functionality of all things Apple. 
+Ipod[+2]##The Ipod is a fine cousin to the early macs and current offerings from Jobs and Company. 
+Apple[+2]##Long live Apple, long live Macs, and long live the Ipod!     
+ipod[+2]##I have an ipod and it is a great buy. 
+##It holds a ton of songs and looks cool in the palm of your hand.
+sturdy[+2]## Very sturdy and strong.
+games[-1]## Doesn't have alot of good games on it.
+## the 20 gig because that holds 10,000 songs right there and that's alot of songs. 
+##buy it.      
+iPod[+3],service[-2]##iPod is brilliant, but service was awful
+## Wow iPod. 
+##How did we listen to music before it?
+##This 20 gigabyte iPod by Apple Computer allows you to put up to 5000 songs onto it, in a choice of digital formats.  MP3, AAC, etc. 
+iTunes[+2]##The software with the iPod includes iTunes, which allows you to play the music on your computer, rip CDs onto your computer, and move your music from the computer to the iPod. 
+##iTunes is a great piece of software, and you can also buy songs from the iTunes Store at 99 cents per download. 
+click wheel[+2]##This new click wheel iPod allows you to navigate through the menus and song via a touch-wheel for scrolling and click-able buttons for selection.  
+##It allows fast and easy navigation.
+## The backlit screen of the iPod is also easy to read. 
+song quality[+3],ear buds[+3]## The song quality of the iPod is excellent, and the included ear buds are actually more than satisfactory, for most users.
+scratches[-1]## The back of the iPod is in a chrome finish, and this surface is prone to scratches. 
+##It is best to protect the iPod in a case of some kind.
+Battery life[+1]## Battery life keeps improving on the iPod, and a new iPod will give you up to twelve hours of play time, per charge. 
+##I use my iPod all the time. 
+## You can also use it as an external hard drive to back-up documents, photographs, etc. 
+##The problem with my iPod. 
+## The first one I received skipped songs randomly. 
+## I had to send it in for repair, and it took six weeks to get a replacement back to me.
+## I actually had to contact Apple's Vice-president, in order to get the situation resolved.  
+##However, he quickly helped me, and I have been enjoying my replacement 20 gigabyte click-wheel iPod for several months now. 
+Apple[+2]##Thank you Apple!  You make fabulous products. 
+product[+2]## The product I rate five stars, 
+service[-2]##but I had to give you four because the service for my brand-new iPod was terribly slow.
+## However, you should still buy an iPod!
+## The chances of getting a flawed one is very small indeed.
+Amazon[+2]##  Plus, if you order from Amazon.com, they will exchange it for you no problem.  
+##I had ordered a customized one from Apple.com, so I couldn't exchange it. 
+##iPod will change the way you enjoy music!      
+##Very Pleased.
+##I'd never had an MP3 player before, so this was a new one on me.
+interface[-1]## The interface took a little getting used to.
+## The best thing for anyone to do who has not used one is to ask the store clerk at apple or a teenager for advice on how to operate it. 
+display[+2]## This one has a color display, which I like a lot, being very visual. 
+photos[+2]##I loaded a lot of photos into it and they display very clearly for such a small screen and, very importantly, the transition from one photo to the next is instantaneous. 
+sound[+1]## The sound is just fine. 
+##I'm not a big audiophile, but I have no objections to how it sounds.
+## I use it to listen to language tapes and to play "Earl" by the Dixie Chicks incessantly.  
+adapter[+1]##It comes with an adapter to plug into the wall, which I hear is a step up from the other iPods, which require you plug it into a computer to charge it.  
+##I also have been using it as a USB device, which just tickles me no end. 
+##Now, I can back up what little I  keep on my computer quickly and without a fuss. 
+photo quality[-1]## One caveat I have is that I understand the iPod does not save the photos in such a way that the quality of the image is preserved.
+## I think its the 21st century version of the wallet with little photos.     
+##Here's the TRUTH in short....	 
+##This is a great device, but there are its pros and cons. 
+Hard Drive[+2], affordable[+2]## Pros: Large Hard Drive for the $$-- 20GB and 40GB are both affordable. 
+Screen[+2]##Decently Sized Screen-- One of the larger ones on the market at 2" 
+Battery[+1]##Decent Battery-- On the average size, but the 40GB comes with a dock.  
+##12 hours is about average, and it has an AC adapter in the box, with quick charge (2 hours) at probably 80%... and 4 hours for a full charge.
+FireWire[+3],USB[+3]## FireWire & USB2.0-- For those fortunate enough to have FireWire400, your in for a real treat with autosync.
+Design[+3]## Great Design-- Very sleek and touch wheel has still never been successfully copied (vertal ones are the only competition); and now the wheel clicks, taking away a lot of headaches from 3rd gen and very navigable in the menus. 
+sound[+2],Durable[+2],compact[+1]##Good sound-- Plays very nicely, even though the stock headphones are kind of weak Durable-- not the most durable because its mostly plastic, but very compact and sturdy 
+Games[+1]##Games-- not really important, but existant 
+Hold[+1]##Hold Button-- suprisingly not all MP3s have this; this allows you  to have all the buttons unusable, so that you don't accidently hit something in your pocket. 
+Radio Tuner[-2]## Cons: No AM/FM Radio Tuner-- Something a large number of competetors are doing
+Voice Recorder[-2]##3 No Voice Recorder-- this has also become an important and popular feature that the iPod unfortunately doesn't have.
+Memory Stick slots[-2],Battery[-2]## No Memory Stick slots-- Although a rare feature, it would be nice to have extra storage, not that it needs it Built-in Lithium Battery-- A huge hassle to bring this back; draining the battery once you get it helps, but removable/replaceable ones are a lot more convenient
+iTunes[+1]##. iTunes-- this is a love-hate relationship program; usually people with Mac like this program than people with a PC, but depending on your computer expertise, this could be a difficult program to use, and it is required for an iPod. 
+accessories[-1]##No inbox accessories-- An arm strap, belt strap, case, or anything would be nice, but nope... Moveable parts-- This makes me almost want to keep my 3rd gen over a 4th; with moveable parts, its easy to damage an iPod at a gym, so this is for more casual listeners; note the iPod Mini doesn't have moveable parts and is made of titanium.
+Overall[+1]##  Comments: Overall this is still a great value, but is kind of overrated in the sense that there are beater deals on the market.
+##  A lot of people go for the iPod because of its reputation, but if you honestly shop around and check out the reviews on Cnet and things like that, you can find a better 20GB HD MP3 player. 
+## This is definately worth the money to have, but certain aspects of it doesn't make it the best.     
+##Get an ARCHOS Gmini400 instead	 If you are doing your research and thinking whether iPod is right for you...      give the ARCHOS Gmini400 a look. 
+##I returned my 20G iPod 7 months ago and got a Gmini instead.
+## A sound decision and a happy customer right here!
+## I look at iPod owners today and quietly feel sorry for them. :) They just didn't know about the ARCHOS gmini400. 
+##The Gmini is like an iPod VIDEO, PHOTO, GAME, MUSIC, all into ONE and it is exactly the same size as the iPod...      and you can play any MP3 directly and fresh from the NET...     oh yeah, even audio books, anything!   
+##It's a plug n play device, recognized as MASS STORAGE DEVICE on any windows xp computer. 
+##No need to install the iTunes. 
+Versatile[+2]##Versatile and stylish.	 
+design[+2],capacity[+2],connection options[+2],iTunes[+2]##I had a Casio unit, which had given great service, and would have been happy to get another one, but was tempted by the iPod's sleek design, storage capacity, connection options- - firewire and USB, and its integration with iTunes.   
+battery[-1]##The battery issue is superficially a concern, but any reasonable solder-jockey (such as myself :-) can pop in a new one when the time comes (based upon the plentiful info gained from a google for 'ipod battery replacement').   
+controls[+2]##The controls and the menus are clearly displayed and easily fathomed  
+##And it's easily connected to a Linux or FreeBSD machine for loading and unloading files, so I can also retire my ZIP drive. 
+iPod[+2]## The iPod is a very nice product, which given reasonable care, should give a lot of service.      
+##Still not so sure about this one...	
+iPod[-1]## First, let me say that I got the 20gb iPod for Christmas, and I most likely would not have spent the $300 myself. 
+## So far, in the month that I have had it, I have had to take it in for service twice.
+##  This is a hassle, of course, but I'm not sure if the problems are to blame on poor construction, cold weather, or misuse by yours truly.  
+battery[-2]##In addition, I do not think the battery lasts much more than eight to ten hours, and it can take four hours for a full charge.
+##  Again, another hassle. 
+## To be sure, I am not looking forwards to paying for the battery replacement, whenever that may come.  
+##But enought of the negativity. 
+quality[+2]## I have about 6 gb used on my iPod so far (well over 1000 songs), and as far as I can tell, all of them play at near-cd quality.
+## Sound quality is more dependant on the quality of the original source and of the unit used to broadcast (headphones, stereo, etc).  
+interface[+2], use[+3]##Other than the fact that one can't delete a file directly from the iPod, the interface is excellent and mind-numbingly simple to use.  
+##Someone wrote that they haven't been able to upload songs from burned cds; I have not found this to be so. 
+## I have several hundred songs from burned albums, at they all worked fine. 
+iTunes[+1]## As for iTunes, I don't find it to be as good as the Windows Media Player as a computer mp3 player, but it is good enough. 
+## I haven't used it to purchase any files, so I don't know about that.
+##  All in all, it does what it is supposed to do with minimal frustration.
+iPod[+2]## In conclusion, I gave the iPod a 4/5 because anything this expensive should would work just about flawlessly.
+##  In the end, I haven't used it long enough to say that it is worth the extra money. 
+##Do your research before you buy it, and especially talk to other owners.      
+## i've had a beastly experience from trying to buy an ipod from circuit city. 
+##when i got the ipod, i slid the box out of its sheath and the whole thing tumbled out! 
+##simply put somebody had already opened the box earlier!
+## the packing inside was in tatters. 
+##i didnt touch the product. 
+## i called circuit city and complained that they had sent me an already opened box.
+## they initially told me that i would have to ship it back to them on my own cost. 
+##then when i argued with them they told me that they would pick it up.
+## a week passed but it was never picked up.
+## the when i called they said they werent responsible for open packages because they couldnt verify it being open when i received it (why else would i want to return it if not for this? if the product was defective i would have complained so) and that if i returned it i would have to pay a 15% restocking fee!  i'm at my wits end with this company. 
+##buyers BEWARE!     
+##There's got to be a better solution...	  
+##I bought my IPOD roughly six months ago, and I've been pretty disappointed so far.
+sensitive[-2]## *The ipod is overly sensitive to just about everything and gets scratched easily. 
+## You must buy some sort of protective case unless you want your ipod to look like some crazed animal with ten inch nails attacked it.  
+##*	The 20 GB version doesn't actually have 20 GB, but 18.5 GB, which makes a difference of roughly 300 songs. *	
+Battery[-1]##The Battery does not last 12 hours.  
+##Like I said, I've had my ipod for six short months and I'd estimate the battery life to be about four hours at the most.
+##  It seems to deteriorate every time I use it. 
+battery[-2]## You can't change the battery, so I don't know what I'm going to do in a year or so.
+volume[-1]##  *	You can't turn the volume up very high, but I think this might be for health reasons. *	
+freezes[-1]##My ipod freezes occasionally, which is especially annoying when you're in the middle of a game of "brick." *
+apple[-2]##If you call apple and tell them your ipod has been damaged, they charge you roughly $105.50 per minute and blame you for "abusing" your ipod.
+support service[-2]## The user support service isn't too great either.  
+##Buyer beware!      
+iPod[+2]##Everything I Wanted! The Apple iPod has become one of the most sought-after electronic gadgets - and for good reason.
+design[+2],capacity[+2],iTunes[+2]## Its sleek design, large memory capacity, compatibility with iTunes, and ease of use makes this one of the best portable digital listening devices on the market. 
+capacity[+2]## Unless you have an enormous music/audio book library, the 20 GB model should have more than adequate storage capacity, with a stated ability to hold 5000 songs.  
+##At an average of 14 cuts per CD, that's over 350 CD's. 
+##This version does not come with a dock, although it can be added later as an accessory.  Y
+##You can use it to listen to music or audio books, either downloaded via the internet or added to your music library using your CD drive.
+wheel[+2], backlighting[+2],iTunes[+2]## Features: click wheel to navigate; ability to work with Windows or Mac; optional backlighting (you can have it on all the time, or have it shut off to save battery power after 5, 10, or 20 seconds); ability to download PDA info; automatic or manual download from iTunes when iPod is plugged into your computer. 
+equalizer[+2]##There's even an equalizer (under "settings") that allows you to adjust the sound for acoustic, bass booster, bass reducer, classical, dance, "deep", and electronic.
+accessories[+1]##  With accessories, you can make the iPod into a digital recorder, broadcast it remotely through stereo speakers using wireless technology, and play it through your car speakers using either a CD adaptor or FM stereo broadcaster. 
+reformatted[-2]## The iPod comes formatted for the Mac, but within seconds of plugging it into a PC, is automatically reformatted for Windows.  (The HP version comes with Windows formatting, and takes seconds to change to Mac.) Although the iPod can be changed from one format to another, you will lose all of your music and data when doing so. 
+##Both platforms work seamlessly with the iPod. 
+## The box comes with iPod, ear buds, iTunes and iPod software, USB 2.0 and FireWire cables, and a home charger. 
+## You  will need a computer with a six-pin FireWire or USB 2.0 port (USB 1.1 
+##For Mac owners, you'll need Mac OS X 10.1.5 or later (10.3.4 or later is recommended) and your machine must have the appropriate ports built-in.
+## PC users must have a processor of 500 MHZ or faster, Windows 2000 with Service Pack 4 or later or Windows XP, with the ports either built-in or expanded with a card. 
+ITunes[+2]##ITunes can be downloaded from the enclosed CD or for free from the Apple site.    
+##Since nothing is perfect, the iPod does have some disadvantages, such as its reliance on iTunes to download music (if you hate iTunes, don't buy an iPod!).  
+##Because it is a hard drive, it has moving parts unlike other MP3 players, perhaps making it more prone to catastrophic damage.
+steel backing[-2]## Its steel backing picks up fingerprints and scratches easily, not great from a cosmetic standpoint.  
+device[+2][p]##All in all, this is a wonderful device.  
+##About 1/2 inch thick, with the face dimensions the size of a credit card, it can be slipped in a pocket or carried easily in the han!d.
+weight[-1],solid feel[+2]##  The weight is heavier than many digital players, but I like the solid feel. 
+## Highly recommended for people who like to listen to music or audio books on the go.          
+scratch[-2]##Holy cow! It really does scratch easily!	
+## Wow... just less than 15 minutes and the back of it already has a scratch!
+## So dissapointing, however I am now just gonna assume it's gonna get pretty niceley scratched over the years and I'll just have to live with it... and i will buy a case for it tomorrow... I mean heck I intended to get the case tomorow anyway but now it feels like the thing might even scratch IN THE CASE.. Other than that I am super extied about this product... I will update the review later in a few days...   
+##great product with Limited Services
+## I was quite happy after months of saving part of my pay-check to go to the store and finally get an iPod.
+##  It was worth it, as I use it to this very day.
+scratches[-2]##  The thing has survived plenty of falls with little or no damage, except the inevitable scratches.
+Apple[+2]##  Apple has definately fulfilled its reputation in making quality equipment, and surprisingly wasn't as expensive as its reputation normally holds.  
+##However, it fell into one of Apple's worst reputations. 
+## It is very closed to services and programs outside of Apple's small (though luxiourious, admittedly) island. 
+## However, they close you off from exploring the continent that is other music providers.  
+##After hearing about the new Napster service for portable MP3 players, I was anxious to try it out. 
+## This type of service is one that Microsoft is touting...  one where you pay a flat rate per month for unlimited music downloads. 
+## So it was not any surprise that I could not try out this new type of service.  
+Apple[-2]##Apple closed their island to anything that resembled Microsoft, and clearly let Napster know it could not use their products with Napster's services. 
+## This has been the case with all other competing music services and Napster.  
+##Why would they let anything compete with them when they are making millions from song downloads by iPod owners who have no other choice?
+##  If Apple makes no attempt to at least create an equivalent type of service, they are failing to compete with the market. 
+## And if they treat their customers like herding sheep, I see little reason to purchase another MP3 player with a bitten apple embroidered on it. 
+Battery[+2]## Battery non-issue. 
+## The iPod batteries can go through a full recharge cycle 400 times.
+## If you listen to the iPod four hours per day and you get 10 hours per recharge cycle (not the full twelve specified by Apple) then the iPod will give you over 2.5 years of daily listening.
+##  Apple provides a good discussion of the battery technology at www.apple.com/batteries (and this web address is noted in the iPod manual)
+##  My earlier generation (15Gb) iPod lasted two years, shortened by my own inattention to the simple maintainence asked by Apple (go through at least one charging cycle per month, and don't store the iPod in a car on a summer day because high temp. is harmful to the battery's life). 
+## Finally, if your battery gives out, you can use any number of reputable iPod services to swap it out for <$50 and you're good to go for another 2.5 years (or longer if battery technology improves.)  
+##Ask yourself how often you've seen battery covers break on consumer electronics. 
+##They wear out pretty easily when you're changing batteries every week or so. 
+##Given that, I find the iPod solution reasonable: keep the case sealed and let the battery be changed by a technician once every 2-3 years. 
+##No big deal.  
+##You might change the battery once before the iPod is superceded by something a lot better and less expensive.
+## In fact you may get a newer-better-cheaper device before you get to that point.  
+iPod[+2],use[+2]##Finally, compare the iPod to other players on a cost/Gb, and also consider ease of use. 
+iPod[+2]##The iPod is not overpriced compared to the market.
+purchase[+2]##This is the best purchase I've made in a very long time.
+## I am a total iPod addict. 
+sound[+3],bass[+3]##The sound is INCREDIBLE; very clean, very wide dynamic range of bass, mids and highs, and can be very loud if I turn it up full blast.
+## I have less than 3 GB worth of music, and I don't have any more music in my collection.
+## I love my new iPod!     
+Versatile[+2]##The Great And Versatile iPod	 I love my iPod! 
+##I have wanted one for a long time, but just didn't want to spend the money.
+## I wish I had a long time ago.
+sound[+3],controls[+2]## The sound quality is excellent, accessing the music is easy, and the controls are generally well thought out. 
+iTunes[-1]##As a Windows user, I had to install the software including drivers and iTunes on my desktop, and this is the only area where I encountered a nuisance. 
+##The first install did not work correctly and would never transfer music to the iPod (but did allow me to register with Apple and load songs into iTunes). 
+##Eventually I had to uninstall the whole works and reinstall it from scratch, and from then on it has worked like a dream.
+iPod[+3]## I still give the iPod five stars, though, as it could have been something I did incorrectly during the install (though I did follow the onscreen prompts) so I'll give Apple the benefit of the doubt.
+##  My only regret is that I bought the 20GB model, which is way too big for what I really need: I would have been better off with a smaller model of lower capacity. 
+##Perhaps over time I will fill it up, but with almost 250 songs on my iPod now and less than 1GB used, I have a long way to go.
+## That's the only advice I would give to someone considering an iPod purchase: you really may not really need 20GB or 40GB. 
+##The iPod does come with other nifty software accoutrements, but honestly I haven't used them much as I use the iPod to listen to music while I run or on a plane. 
+battery[+1]##The battery holds a charge for a very long time (maybe 15 or so hours of use) so realistically there are no real range or endurance issues associated with iPod use. 
+outside finish[-2]##  My only complaint (really more of an observation) is that the outside finish of the iPod is rather delicate, so I am going to get a case for mine so it doesn't get all scratched up. 
+quality of audio[+2],controls[+2],capacity[+2]##(It sure does look nice, though!)  I recommend this to any music lover anywhere: the quality of the audio is excellent, the controls and indicators rapidly become intuitive, and the storage capacity and battery life are huge!     
+## Still my favorite MP3 player	 Is it overpriced ?
+## Dunno, possibly but you have to ask yourself what you are neccessarily paying for, which is 20GBs worth of storage capacity, which even if all your music is in high fidelity such as 320kpbs, there is still a whole lot of room to place much music in here.
+iTunes[+2]##  Using the software iTunes is relatively simple, you just plug the USB cable in, wait your machine to detect the iPod and voila, any songs listed in your iTunes library will be transfered on over to the iPod.
+##  At first I primarily used it as a stand-alone portable player but it wasn't until I decided to take it in my car and use it to play back music that I truly adored this device.
+## Now if you do decide to take the iPod on the road, my suggestion is to forego any purchasing of the FM Transmitter devices, unless you live out in the middle of Mississipi because frankly, you'll need a next-clear FM channel on your radio to get any sembelance of a clear signal. 
+## I actually hooked up the iPod to my receivers AUX port with a Pbus connector and a Y-splitter cable, it wasn't too hard to do and now, I can listen to all my music in my car without ever having to lug around CDs again.
+amplifier[+2]## And, with the iPods' full volume up, all you have to do is adjust your receivers' volume and your set, since the iPod itself acts as a strong amplifer of its' own.
+proprietary[-1]##  If there were any complaints I have, they are marginal, but one is Apples' properietary set-up for music files, their incompatibility with other music services (i.e. Napster) is down right wrong.
+## I mean, it would be nice if one day, iTunes can actually offer their customers a monthly service that allows iPod owners to load their iPods up with unlimited music with one set fee, as an option to the pay-99cents-a-track path.  
+##Regardless though, it did set me back financially but now, I'm glad I have one.
+## I go everywhere with it, on campus, in the gym and at work too !
+##By far the best MP3 player I've ever used	
+## This review will contain some comparisons to other MP3 players (mainly the Rio Nitrus) for interested consumers.
+## If you want to know exclusively about the iPod, you'll find that here too!  RIO VS. IPOD  For Christmas I was given a Rio Nitrus (1.5 GB) and was extremely pleased with it. 
+##However I looked up some consumer reviews online only to find out it had the shortest warranty of any MP3 player on the market, and was notorious for having poor customer service and completely breaking after 90 days (when the warranty expires, surprise, surprise). 
+##I still have my Nitrus and stand by it so far - a month has nearly passed and it's still working flawlessly.
+iPod[+2]##  However after purchasing a 20 GB iPod it's clear to see the superiority. 
+iPod[+3], interface[+3], design[+3]##For a sleeker, smaller and more "average" MP3 player the Nitrus is great but the iPod blows it out of the water - the interface is great and the design is wonderful.
+## It "feels" much more professional and well built - the clickable scroller, for example, is a brilliant invention and I never feel as if I'm going to perhaps break it or snap it off (as I sometimes did with the Nitrus).
+##  THE CONS OF THE IPOD  There are a few advantages to the Nitrus. 
+##You can transfer music from one PC to the other.
+## However, with the iPod you cannot. 
+##The music MUST be on your computer.
+## If you plug your iPod into a PC and try to upload music/etc. it won't work.
+##Someone told me that he had a 40 GB iPod, and after his computer crashed he lost his paid iTunes music files. 
+##They were on his iPod, but the device would not let him upload the files onto his new computer; and after he tried, the iTunes software deleted the files from his iPod, assuming they were stolen (?). 
+play WMA[-2]## Also, some other MP3 players such as the Nitrus allow you to play WMA (Windows Media Audio) files, whereas the iPod does NOT. 
+##Considering the fact that just about any CD you purchase and "rip" to your hard drive will be formatted as a WMA file, iTunes version 4.5 (included with new iPod releases) contains an auto-converter that converts WMA to MP3 for iPod compatability.
+## My only nitpick with this is that it sometimes doesn't work on certain files and presents error messages. 
+##I had similar trouble with my Soundgarden CD - the ripped tracks continually failed to convert properly to MP3.  
+##So, I downloaded another program (Switch freeware) and manually changed the WMA files to MP3, then downloaded them to the iPod.
+## The problem with this is that a) it takes a LOT of time if you have many files and b) audio quality is somewhat lost (if you're an audiophile, this will bother you - frankly, I can't tell the difference).  
+##Also, I don't like how when I first set up my iPod, it took me about four hours to get everything going - the new iTunes software has an exploited flaw which is that if you do not connect your iPod to your PC during installation, it will not configure the iPod, and when you later plug it into your computer the PC will recognize it as an external device rather than an actual iPod, and you will not be able to use the iTunes software until you access your device manager and change the iPod "hard drive" to a new letter.
+## If this sounds confusing, just make sure you have your iPod plugged in when you install the iTunes software! 
+## This seems obvious but the flaw lies herein: the instruction booklet tells users to charge their iPods 2 - 4 hours before initial use. 
+##In the meantime, users will obviously begin to install their software - and since the charger takes up the underbelly of the iPod and USB connection to the computer, it's impossible to hook it up to your PC during installation without unplugging the charge adapter and actually turning the iPod on - which we're not supposed to do for 2 - 4 hours!  
+##Confused yet? Don't be.
+## This is really the only downside to the iPod - setting it up and downloading music. 
+USING[+2]##The actual experience of USING the iPod is magnificent.
+##  THE PROS  The bad ends here, because as far as I'm concerned the rest of...well...everything concering the iPod is an enormous PLUS!
+design[+2]## The design, as mentioned above, is sleek, cool and trendy (and I think trendy = good, but it's always hard to tell these days). 
+battery[+2]## The battery life lastes 12 hours, and charges quickly. (As mentioned above, the initial charge is a minimum of only two hours - not too long at all!) Once you've downloaded your music, you can access the tracks by artist, genre, album, composer (this comes in handy when the actual composer is different from the artist - e.g. covers of songs), etc.
+## The list is endless.
+## The entire database is set up flawlessly and really works well.
+## I love scrolling through the menus - that may sound strange but that's how FUN using the iPod actually is!
+sound quality[+3]## The!  sound quality is great. 
+earphones[+1]##The included earphones are pretty good - my advice? 
+##Don't apply the black cushioned protectors. 
+##First of all, no one does this and it will make you stand out and look "uncool."
+## Just kidding.
+## But really, EVERYONE I've seen with an iPod leaves them off. 
+##But unlike most fashion statements (if this could indeed be seen as one?) this concept is a logical one - the black cushions often cover up the letters on the earbuds that designate whether they're for your left or right ear.
+## I had to constantly peel mine off to see which was which, so I finally just got rid of the cushions and don't even notice the difference.
+use[+2]##  The ease of use of the iPod is a major attribute.
+## As mentioned above, accessing songs is simultaneously easy and fun.
+hard drive[+1]## With the iPod, you can also store documents and contact files (from programs such as Microsoft Outlook) when it's connected to your PC as an external hard drive. 
+##This is good for the businessmen who listen to music on their commute and can rely on the iPod to even carry around some of their word documents.
+## I'm sure future generations of the iPod will be able to carry much more, probably even videos.  
+games[+1]##Also included in the "games" section is the great music trivia option - which tests your skill at being able to quickly place your own songs. 
+##The game plays a segment of a song, and gives you a multiple-choice list wherein you have a short period of time to choose the title of the song from a list of others. 
+##  What's great about this is that it's a game based on YOUR music. 
+##When I first saw "music trivia quiz" I thought it was some pre-programmed elitist thing - it's not.
+## It's a lot of fun and really tests your reflexes. 
+##It's a good way to pass the time.
+storage space[+2]##  20 GB OR 40 GB?  The pros of the 40 GB: Comes with a "dock station" and double storage space (10,000 songs).
+##  Cons of the 40 GB: Much more expensive just for some extra space and a docking station, both of which you don't really need.
+## Think about it for a minute - the 20 GB holds 5,000 songs: more than you're ever likely to need at any one time.
+## If you want to add more, just delete some that you haven't been listening to recently.
+## I mean, for music buffs and archivists - use your PC as the archive, not the iPod! 
+##It's just my personal advice but you're saving a lot of money and from personal experience the docking station is really sort of a rip-off - based on the sleek design of the iPod, it's very easy to simply lay it down without damaging it or anything.
+iPod[+2], capacity[+2], price[+2]##  Overall the iPod really is an almost flawless beast. The capacity in the 20 GB is more than I think most people would ever need and, for the price, I highly recommend it.
+## At $290 (the price I paid) it's quite a bargain.
+## My ONLY complaint thus far is the process of downloading tracks to the iPod itself - the iTunes software is really a hassle, above all else the whole concept of WMA and the faulty built-in converter
+##.  But the iPod itself is totally flawless as far as I'm concerned, and the best MP3 player on the market. 
+##Whether you're on the go or just want to lounge around the house listening to music, you could definitely do much, much worse than purchasing this durable and reliable product from Apple.
+##Would be FIVE STARS, except for MAJOR FLAW	
+## Let me say first, that I have always been a hater of all things Apple.  
+##However, after holding an ipod at circuit city, I knew I had to have one.  
+##When I finally got it, I was amazed by how asthetically pleasing everything was, including the packaging. 
+## The ipod itself is very pleasing to hold with its smooth surfaces.
+##  The only thing that protrudes slightly is the "hold" switch. 
+## For this reason, it is very easy to drop.  
+##One of the other reviewers said get the neoprene case from marware, which is great advice.
+##  I have almost dropped the ipod several times, just because it is so smooth.  
+Itunes[+2][u],Design[+2][u]##Everything else about the ipod is great, the click wheel is very easy to use and so is the software that comes with it.
+## To adjust the volume, you just sweep your finger lightly along the click  wheel. 
+## Organizing music is a breeze too.  
+## You can put songs in multiple categories, which is great.!
+Finding[+2][u]##Finding all the albums, songs etc is much easier than you would think it would be even if you have 20 gig (well 18 gig) worth of music.
+sounds[+3]##  It all sounds great too. 
+headphones[-3]## As with most headphones that come with any type of music player,I recommend throwing these into the nearest river, unless you like having hard, round pieces of plastic in your ears. 
+## I recommend Shures (shure.com). 
+## I have the e3c's, and man does everything on the ipod sound great.   
+store[+2]## You can even use the ipod to store files from your pc and export your outlook files to it.
+##  I use a great free program called ipod agent to do this. 
+## The outlook is a little clunky to use on the ipod, but it is functional. 
+##   I LOVE THIS IPOD!  So why, you ask, did I give it only one star?  
+BATTERY[-3]##Because Steve Jobs is a twisted individual and he made sure that he ruined this device by giving it an UNREPLACABLE 18 MONTH BATTERY. 
+## To see a great little short film about this, go to ipodsdirtysecret.com  
+##Basically, this is a disposable device, the idea being that when the battery goes out, you will buy the latest model of ipod.
+batteries[-3]##  This was obviously a conspiracy as it is FREAKIN' EASY to manufacture a device with replaceable batteries!!
+##    If you can get past this little flaw, give the ipod 5 stars, because everything else about it is pretty much perfect.  
+pay[-3]##However, in my mind, $299 is a lot to pay for a device that will only last 18 MONTHS. 
+## Hence, the one star rating...     
+##Good, But Not For Everyone
+## I was shopping for a MP3 player recently, and had the opportunity to play with my cousin's 20GB iPod at some length to see how I liked it.
+## I had initially been planning on buying this or another Apple product, but since decided to buy a player made by a different manufacturer.
+##  Overall, I think the iPod is a good player, although I would note some features that turned me off: 
+interface[-2]## LOOKS AND DURABILITY: I realize many people are fond of the minimalist white interface.  
+## I'm not one of them.
+##  While I like the minimialism of the player, I try to avoid plastic products made of white- they tend to yellow with age. 
+##While they have released those "tattoos" for the players, I think those just look cheap and gaudy, especially since they leave the corners of the iPod exposed.  
+scratches[-2]##The biggest red flag for me was the fact that although my cousin's player was relatively new, it was riddled with scratches.
+##  While he's not the most careful guy in the world, it was really beat up consider the minimal amount he uses the thing, and talking to other people who have iPods confirmed that the player scratches very easily- and from personal experience, they look terrible scratched up.  
+##THE CLICKWHEEL: Again, I realize that most people think this is the greatest thing since sliced bread. 
+## I disagree. 
+## I strongly suggest anyone considering an iPod test it out first to see how they like it. 
+## I thought the clickwheel sounded great, but after trying it found it awkward.  
+##As a student, I spend a significant amount of time on my laptop and am used to scrolling up and down on the touchpad, which made the Creative Zen Touch a more attractive product for me. 
+## Be sure you test this first to see if it does feel intuitive for you, rather than just going on the fact that it does sound pretty neat. 
+BATTERY[-3]## BATTERY: Compared to the other players on the market, the iPod has one of the worst batteries around.
+## The Sony Walkman and Creative Zen Touch get 30 and 24 hours per charge, respe
+## Since no company has yet to come out with an interchangeable battery for the jukebox-sized players (the Creative Labs Zen Micro is the only one I'm aware of that has this, and it's 5 GB), this can be an issue.  
+##IN SUMMARY: This is a good, basic player.  It's not for everyone, and if you're in the market for one I suggest that you try to put aside the huge popularity of the iPod and look harshly at the actual features that the other players on the market have, and see how they stack up. 
+## Apple is already being outpaced by Creative Labs and Sony on the battery front, and just about any non-Apple player allows you more compatibility with download services than Apple's iTunes-only program.
+##  But since a lot of these MP3 players are marketed on aesthetics, do go to your local store or borrow a friend's and see how the product actually feels and works.
+##  This may be the player for you, but it's not leaps and bounds ahead of any other player, and others are ahead of it in certain areas, so practice some caution when you buy.     
+##	Pure And Simple, Wonderful Stuff.
+iPod[+2]##	 If, like me you simply want an iPod to play your mp3's, buy this one. 
+##If you want colour screens, photos, videos etc, buy the latest (extremely expensive) model, I think the new 60GB has all the extras. 
+##This 20GB just plays the songs, most people won't even use the 20GB space, I've got about 1500 songs on mine that adds up to nearly 13GB.
+##  I would strongly recommend the iPod over rival mp3 players such as the Creative Zen and the creatively named iRiver. 
+##Most importantly because the iPods warranty is far superior to both these, the Creative Zens is only 90 days, way too short. 
+##The iRivers is also short, and lets face it, what is more likely to brake or go wrong, the Apple iPod or Creative Zen, iRiver. 
+##Both from unspecialist makes, and in Creatives case a company that deals mostly in computer parts, and has not invested the money that Apple has. 
+reliability[+2]##So reliability is the winner here for the iPod.
+##  As far as an actual player is concerned, the iPod is next to none.
+## The one advantage the iRiver has is it can play wma files aswell as mp3s, unlike the iPod. 
+##But all you need to do is convert the files (besides mp3s are larger and better quality files than wmas) using a wide range of convertors, my favourite is the dBPowerAmp Music Coverter which also allows you to burn directly from cd to hardrive in mp3 format unlike Media Player.
+## It's well worth it, the mp3s do in fact sound better.  
+looks[+2]##For looks, well iPod is head and shoulders better, both the iRiver and Creative Zen look positively ugly when next to a gleaming iPod. 
+package[+2]## The iPod package comes with everything you need, the AC adaptor, firewire cable (quicker than USB, but slower than USB 2 which it also gives), those snazzy and powerfull headphones, and of course the player. 
+## Quite simply, BUY THE IPOD, whatever size you wish. 
+##I would go along the lines of any more than 2 thousands songs, get a larger size such as the 40GB, just to be on the safe side.
+##Just don't drop it.
+## I had the 15G iPod of the previous incarnation. 
+## Actually I had two: the first one stopped working within a month so I took it back, and they exchanged it (which is evidently pretty extraordinary - guess I lucked out.  I didn't tell them I had dropped it once). 
+## Then I had the second one in my boyfriend's car, and his car got jacked.  
+##Fortunately his insurance covered it (also extraordinary), and as luck would have it, this new gen of iPods came out the same week he got the check.
+##  So I got a free 5G upgrade out of that misfortune.
+##  I also got to see just how utterly addicted I am to my iPod in the few weeks I had to go without one.
+##  The major change from the previous model, other than the extra 5G for the same price, is that this one is slightly smaller and lighter, and the already minimal buttons (menu, play/pause, forward and back) have now been assigned to the four quarters of the click wheel, so that even less brain power is required to search through your 10,000 stolen mp3s. 
+## Mac is really big on streamlining everything (maybe that's why you never get a decent manual with any of their products). 
+## I like the click wheel OK, but actually the one problem I've had with this, my third, iPod is that occassionally the wheel gets "stuck," meaning either it won't respond at all, or it "jumps" down playlists uncontrollably. 
+## When this happens I have to toggle the lock switch on and off to get it to work properly.
+##I guess that's a pretty minor deal, but it can be annoying. 
+## Needless to say, these are fragile machines.
+design[-2]## Maybe this new design is more durable than the last, but I kind of doubt it.  
+##I don't really intend to drop mine to find out. 
+## The thing is, naturally you're going to use your iPod at the gym or whatever, and it can be a bit of a liability because you always feel like you have to protect it.
+## Not that anybody would revert back to their old-skool walkman just because you can knock it around more.  
+##The thousands of songs at your fingertips thing, you just can't beat that with a stick.  
+##But seriously though, how bout we work on the durability thing for the next gen.
+scratch[-2]## We can start by losing the shiny miracle-material cover that you can literally scratch just by looking at it wrong, and thus eliminate the need for third-party "iSkin" protective covers for an extra thirty bucks.
+## The other thing is the earbuds.  
+earbuds[-2][p]##First of all, I've never been big on earbuds - they're just not that comfortable.
+##  These are nice ones, and you get great sound at first, but again, they break if you even think mean things about them. 
+## With both pairs I had ceramic rattling in my ears by month two. 
+## And I'm really not that rough with things! 
+iPod[+2]## These issues aside, the iPod is kind of like the cell phone in that once you have one, you can't be without one.
+##  Mac has at least cornered the mp3 player market across the board.
+##  PC users have a lot of choices, but based on what I've heard and read, the iPod really is the best all-around, athough being a Mac product, it has the usual streamlined and comparatively less customizable software.
+alternative[-1]##  And if you're a Mac user like me, they've naturally made sure you have no viable alternative.  
+iTunes[+1]##Also, you have to use it with iTunes - or they'll sue, dammit!  But iTunes is about as good as anything. 
+##  Buy the 20GB instead of the Mini	 
+##A lot of the reviews I've read talk about IPODS in general.
+## I'm writing about the 4G IPOD 20GB model.
+## I ordered the mini from amazon, and while waiting for it to arrive I wandered into the Apple store.  
+##I'm glad I did.
+##  After talking to the salesman, I instead bought the 4G, 20GB (that stands for 4th generation; it looks like a mini - same features), and didn't know that a lot of the ipods out there for sell, including on amazon, are still 3G.
+player[+2][p]## The player is great. 
+## I didn't think I would need more than the 5GB that the mini has, but... once I downloaded a few audio books on top of my CD's -- I'm GLAD I have the extra memory.
+battery [-1]## However, the battery life isn't as good as I would like. 
+##There is an attachment you can buy that allows you to use AA batteries in an emergency, but...I've never completely run out of juice; just dangerously low on long airline trips. 
+## For about $5! 6 dollars, you can get an "extended warranty" and apple will replace the battery within 2 years if it dies.
+##  Think about that if you are worried about battery life. 
+product[+2]## Overall, this product is AWESOME. 
+features[+2]## All the "cool" features of the mini, but with 20GB instead of 5.  
+##I love it.
+##I like it.	
+## Pros Holds a ton of music. 
+##No more Cds and your cd player getting broken when you step on it in your car or any other place 
+use[+2]## Really easy to use.
+click wheel[+2]## Has the click wheel and the ability to scan through thousnds of songs and organizes them great.
+helpline[+2]## Has a great helpline.
+USB[+2},charger[+1]## They fix the problem and help you with whatever your I-Pod needs Comes with two USB ports and a charger.
+I-Tunes[+1]## They are EXTREMELY convient and you don't have to buy them seperately Has I-Tunes, which provides qulity music at low prices.
+Breaks[-2]##  Cons Breaks easily. 
+Hard drive[-1]##Hard drive screws up occasionally
+## Warranty expires only after a year.
+## Is extremely senstive to bumps and knocks.  
+I-Pod[+2]##The I-Pod is the best thing I have ever used. 
+##I have a ton of cds and I make a mess trying to organize them into things.
+## The I-Pod certainly helps me with my music and I can take it anywhere with me.
+## I can take it to Work, School, and even listen to it at my computer. 
+##Also, a word of warning, hide the White Earbud headphones, because they are the most noticable earphones ever and your precious I-Pod could be stolen from you if you don't take steps to hide it from view of other people. 
+##I hope you enjoy your I-Pod!     
+##So far it has worked out great	 I
+## held out for the 4th generation 20GB iPod when I heard that it was coming equiped with the 'click wheel', that had previously only been available for the iPod 'mini'. 
+use[+2]##I found that to be the most impressive thing about the iPod 'mini' - basically for ease of use, and the feel it gives. 
+##It was worth the wait.
+##   The 'click wheel' is much easier to use, compared to the previous generation's models with the touch screen. 
+##It takes seconds to work the menus and go from song to song.  
+USB[+1],firewire[+1]## This unit comes with the USB/firewire cable as a standard item now. 
+##Does not come with the dock, remote control, or carrying case like the 3rd generation units - but you get $100 off the price, so you can still end up with the same accessories, and a new generation iPod for the same money.
+use[+2]##  I have transferred in about 2,400 tracks so far - very easy to use both the Ipod and iTunes. 
+##Both are EXTREMELY user friendly and take minutes to get used to.
+##   Backing up your iTunes library takes a short amount of time. 
+##Two DVDs to capture all 2,400 tracks. 
+##Burning CDs from iTunes is much easier than the Windows Media Player, which I was previously using.   
+##The first battery charge lasted only about six hours. 
+##That may be due to the fact that I used the menus a lot, and had it hooked up to the Griffin iTrip (The iTrip works great) for most of that time.
+## The second battery charge lasted over twelve hours.
+## I used it mainly on shuffle play and shut off the "click" sound to get this much life out of it.   
+sound quality[+2]##I was worried about what the sound quality would be like, but that seems to be just as good as the actual CD sound.
+## I bought the JBL Creature speakers for home use, and they work great with the iPod. 
+##Match them pretty well to boot.  
+## The only area I wish Apple had improved upon would be the screen.
+## It is sharper on the 'mini' units. 
+screen[-1]##This is only a problem at night, during the day the screen is very easy to see. 
+##The backlight helps out at night, but can be a drain on the battery. 
+##You can adjust the time the backlight stays on (or turn it off completely), so it's only a minor issue.  
+## The first time I took it in the car, and was able to chose from hundreds of CD titles, thousands of songs, to have all of that at my fingertips was a great experience.
+## Talk about convenience.
+## I would strongly recommend you get one !!     
+##I Love My iPod!
+## Although iPods have been around for a few years, they didn't really get hot until now. 
+##I ended up (surprisingly) getting one for Christmas. 
+features[+2]##I love the features on the iPod and the many things you can do with it. 
+##It DESERVES a perfect 5-stars.
+battery[-2]## The only problem is the battery life.
+## After about 3-4 months, you see your battery draining faster than it should. 
+##After a year, your battery is dead and you need to replace it with a new one. 
+battery[-2]##Apple's iPod battery replacement service costs $100! 
+##Amazing.
+## You pay $300 for the iPod itself, then $100 to get the battery fixed. 
+##If you look on Google or around the web's many search engines, you can find a site that will replace the battery at a cheaper price. 
+##Apple needs to step it up and get better, longer lasting batteries.     
+##Not perfect, but I'm still enamored...	 I've had an iRiver MP3 player for a year or so now, and it's really great for listening to the radio. 
+## It's small and lightweight, but it has very little storage space and the shape is clunky.
+## I set my sights on this super sexy iPod and didn't stop until I finally had one in my hands. 
+## I am so in love with this thing I can hardly stand it.   
+## It's got LOTS of pros, and a couple minor cons, which I will outline below.  
+##It's still an absolutely unbeatable value for the amazing technology you're getting, so don't let a few petty cons dissaude you from owning THE coolest thing on the planet right now for any music lover. 
+## The iPod is a little more weighty than I expected, but it's not unmanageable.  
+arm band[+2]##The arm band is fantastic and it doesn't budge even at the gym.  
+design[+2]##I love the slim design; the weight would only be an issue if it were bulky.  
+sound[+3]##The ear buds that come with it look cheap, but the sound quality is amazing. 
+## It sounds 10 times better if you use the little black foam cushions that slip over the buds.
+click wheel[+2]##  The click wheel is incredibly convenient, however it can be a little overly touchy at times, which will make you frustrated with your own fingers.  
+##A lot of this has to do with being so excited when you first get it that you get beside yourself and have to force yourself to slow down.  ;)  I love the shuffle function, which virtually eliminates the need to touch it at all.
+##  I use mine mostly at the gym, so this is fantastic for me.
+##  It charges quickly and holds a charge for a very long time.  
+##I love that it allows you to stop and turn it off in the middle of a song if need be, and when you power it back on it will continue right where you left off! 
+iTunes[+2]## I am a big fan of iTunes, simply because it is terribly fast and convenient - IF you are buying the songs from the iTunes site.  
+##However, I have found that converting my CD's and MP3's into the iTunes library fo!r upload takes a fairly annoying chunck of time.
+##  It's the biggest pain in the rear end of all the cons, without a doubt.
+##  Of course, once the songs are converted, you don't have to worry with them again.
+##  It's very fast and easy to create custom playlists for upload.   
+## The only other problem I have noticed is that on some uploads it will switch around CD song titles (all on the same artist, it just mixes up the titles). 
+## I have no clue why this happens, as they show up perfectly in my iTunes library and there was no interruption during the uploads. 
+## It's really no big deal to me, but is worth mentioning. 
+## All in all, the good far outweighs the bad. 
+## This is the first line of Apple products I have owned (we also have an iPod mini and are about to purchase a shuffle).
+##  I am so impressed with the iPod that our next purchase will likely be a Mini Mac. 
+Apple[+2]## Way to go Apple!  
+##You've earned a new fan.     
+##Product Of The Decade	
+## What was the biggest must-have item of 2004?
+## Yep, the iPod. 
+##Sales of Apple's mini-phenomenon currently stand at around 20 million worldwide, and this number is set to triple over the next couple of years. 
+##That's a lot of money Apple are making from a very powerful, influential and trendy product.
+## But is it worth all the hype? 
+##Well reviewing a product like this is definitely complicated, because do I rate my personal connotation on it? 
+##Or simply rate its performance in relation to other products? 
+##There's no two ways about it, I have been less than impressed with my own iPod 20 GB when it arrived two weeks ago.
+## However, having said that, this could just be because I haven't really had enough time to experience it in its entirety.  
+iPod[+2]##I rarely get drawn in by mass-commercialism, but something about the iPod made me say, in the words of Lou and Andy, "I WANT THAT ONE!" I was willing to shell out 
